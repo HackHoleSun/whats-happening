@@ -12,7 +12,7 @@ import java.time.temporal.ChronoUnit
 
 // Replace GITHUB_USERNAME with your actual GitHub username after pushing the repo
 private const val EVENTS_URL =
-    "https://raw.githubusercontent.com/HackHoleSun/whats-happening/main/scraper/events.json"
+    "https://raw.githubusercontent.com/HackHoleSun/whats-happening/master/scraper/events.json"
 private const val CACHE_FILE = "events_cache.json"
 private const val CACHE_TTL_HOURS = 24L
 
