@@ -29,7 +29,7 @@ import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.util.Locale
 
-private val dateFormatter = DateTimeFormatter.ofPattern("d. MMM yyyy.", Locale("sr"))
+private val dateFormatter = DateTimeFormatter.ofPattern("d. MMM yyyy.", Locale.forLanguageTag("sr"))
 
 @Composable
 fun EventCard(event: Event, onClick: () -> Unit, modifier: Modifier = Modifier) {
