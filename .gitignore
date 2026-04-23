@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Android
+*.iml
+.gradle/
+local.properties
+.idea/
+android/app/build/
+android/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS
+.DS_Store
