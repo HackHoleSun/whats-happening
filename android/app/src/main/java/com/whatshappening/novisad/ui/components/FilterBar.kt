@@ -18,7 +18,7 @@ import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Tab
-import androidx.compose.material3.TabRow
+import androidx.compose.material3.PrimaryTabRow
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.rememberDatePickerState
@@ -73,7 +73,7 @@ fun FilterBar(
                 .padding(horizontal = 16.dp, vertical = 8.dp),
         )
 
-        TabRow(selectedTabIndex = selectedTab.ordinal) {
+        PrimaryTabRow(selectedTabIndex = selectedTab.ordinal) {
             AppTab.entries.forEach { tab ->
                 Tab(
                     selected = selectedTab == tab,
@@ -114,7 +114,7 @@ fun FilterBar(
                 onClick = { if (selectedDate != null) onDateSelected(null) else showDatePicker = true },
                 label = {
                     Text(
-                        selectedDate?.format(DateTimeFormatter.ofPattern("d. MMM", Locale("sr")))
+                        selectedDate?.format(DateTimeFormatter.ofPattern("d. MMM", Locale.forLanguageTag("sr")))
                             ?: "Datum"
                     )
                 },
