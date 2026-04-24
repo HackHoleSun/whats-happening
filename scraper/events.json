@@ -1,150 +1,6 @@
 {
-  "scraped_at": "2026-04-23T20:00:36Z",
+  "scraped_at": "2026-04-24T08:11:30Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-cetvrtak-2",
-      "title": "Arena Cineplex – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-04-23",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-cetvrtak-2/"
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-cetvrtak",
-      "title": "Cineplexx Novi Sad – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-04-23",
-      "time": "15:15",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-cetvrtak/"
-    },
-    {
-      "id": "moja-anksioznost-i-ja",
-      "title": "Moja anksioznost i ja",
-      "category": "Radionica",
-      "date": "2026-04-23",
-      "time": "18:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/moja-anksioznost-i-ja/"
-    },
-    {
-      "id": "movie-talks-2",
-      "title": "Movie TALKS",
-      "category": "Predavanje",
-      "date": "2026-04-23",
-      "time": "18:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/movie-talks-2/"
-    },
-    {
-      "id": "krv-celik-i-pepeo-pax-romana-serpe-lonci-i-grobovi-seljaka",
-      "title": "Krv, čelik i pepeo Pax Romana, šerpe, lonci i grobovi seljaka",
-      "category": "Predavanje",
-      "date": "2026-04-23",
-      "time": "18:00",
-      "location": "Muzej Vojvodine",
-      "url": "https://www.mojnovisad.com/navigator/krv-celik-i-pepeo-pax-romana-serpe-lonci-i-grobovi-seljaka/"
-    },
-    {
-      "id": "zasto-magarci-stoje-na-promaji-2",
-      "title": "Zašto magarci stoje na promaji?",
-      "category": "Predstava",
-      "date": "2026-04-23",
-      "time": "19:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/zasto-magarci-stoje-na-promaji-2/"
-    },
-    {
-      "id": "sokratov-kafe-ziveti-u-skladu-sa-prirodom-pitanje-pojedinca-ili-zajednice",
-      "title": "Sokratov kafe: Živeti u skladu sa prirodom – pitanje pojedinca ili zajednice?",
-      "category": "Radionica",
-      "date": "2026-04-23",
-      "time": "19:00",
-      "location": "EU info point",
-      "url": "https://www.mojnovisad.com/navigator/sokratov-kafe-ziveti-u-skladu-sa-prirodom-pitanje-pojedinca-ili-zajednice/"
-    },
-    {
-      "id": "predavanje-moda-u-svetu-vidosave-kovacevic-draginje-maskareli-muzejske-savetnice",
-      "title": "Predavanje “Moda u svetu Vidosave Kovačević” Draginje Maskareli, muzejske savetnice",
-      "category": "Predavanje",
-      "date": "2026-04-23",
-      "time": "19:00",
-      "location": "Spomen-zbirka Pavla Beljanskog",
-      "url": "https://www.mojnovisad.com/navigator/predavanje-moda-u-svetu-vidosave-kovacevic-draginje-maskareli-muzejske-savetnice/"
-    },
-    {
-      "id": "to-smo-mi",
-      "title": "To smo mi",
-      "category": "Predstava",
-      "date": "2026-04-23",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/to-smo-mi/"
-    },
-    {
-      "id": "speed-dating-vece-upoznaj-nekoga-uzivo",
-      "title": "Speed Dating veče – upoznaj nekoga uživo",
-      "category": "Noćni provod",
-      "date": "2026-04-23",
-      "time": "19:30",
-      "location": "The End Cafe",
-      "url": "https://www.mojnovisad.com/navigator/speed-dating-vece-upoznaj-nekoga-uzivo/"
-    },
-    {
-      "id": "drugi-koncert-rnr-praksa-maktub-preko-noci-i-ozite",
-      "title": "Drugi koncert R’n’R Praksa: Maktub, Preko noći i Ozite",
-      "category": "Koncert",
-      "date": "2026-04-23",
-      "time": "20:00",
-      "location": "SKCNS Fabrika",
-      "url": "https://www.mojnovisad.com/navigator/drugi-koncert-rnr-praksa-maktub-preko-noci-i-ozite/"
-    },
-    {
-      "id": "majkl",
-      "title": "Majkl",
-      "category": "Film",
-      "date": "2026-04-23",
-      "time": "20:00",
-      "location": "KC \"Mladost\"",
-      "url": "https://www.mojnovisad.com/navigator/majkl/"
-    },
-    {
-      "id": "record-store-day",
-      "title": "Record Store Day",
-      "category": "Radionica",
-      "date": "2026-04-23",
-      "time": "20:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/record-store-day/"
-    },
-    {
-      "id": "stand-up-show-stariji-zlobnik-prve-klase-aleksandra-perisica",
-      "title": "Stand up show \"Stariji zlobnik prve klase\" Aleksandra Perišića",
-      "category": "Predstava",
-      "date": "2026-04-23",
-      "time": "21:00",
-      "location": "Klub Trema",
-      "url": "https://www.mojnovisad.com/navigator/stand-up-show-stariji-zlobnik-prve-klase-aleksandra-perisica/"
-    },
-    {
-      "id": "tijana-bogicevic",
-      "title": "Tijana Bogićević",
-      "category": "Koncert",
-      "date": "2026-04-23",
-      "time": "21:00",
-      "location": "Soha bivša Nacionalna Klasa by Vojvodina",
-      "url": "https://www.mojnovisad.com/navigator/tijana-bogicevic/"
-    },
-    {
-      "id": "besplatni-bioskop-klinika-za-dusu-4",
-      "title": "Besplatni Bioskop –– KLINIKA ZA DUŠU ––",
-      "category": "Film",
-      "date": "2026-04-23",
-      "time": "21:00",
-      "location": "Salon u Radničkoj",
-      "url": "https://www.mojnovisad.com/navigator/besplatni-bioskop-klinika-za-dusu-4/"
-    },
     {
       "id": "poetry-in-english-teaching",
       "title": "Poetry in English Teaching",
@@ -954,6 +810,15 @@
       "time": null,
       "location": "Muzička škola \"Isidor Bajić\"",
       "url": "https://www.mojnovisad.com/navigator/international-harp-competition-petar-konjovic/"
+    },
+    {
+      "id": "ovce-detektivi",
+      "title": "Ovce detektivi",
+      "category": "Film",
+      "date": "2026-05-07",
+      "time": "18:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/ovce-detektivi/"
     },
     {
       "id": "jovanca-na-putu-oko-sveta-4",
