@@ -1,69 +1,6 @@
 {
-  "scraped_at": "2026-04-27T08:33:24Z",
+  "scraped_at": "2026-04-28T08:31:33Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-3",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-04-27",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-3/"
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-ponedeljak-3",
-      "title": "Arena Cineplex – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-04-27",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-3/"
-    },
-    {
-      "id": "svetlost-kroz-pukotine-ciklus-filmova-o-suocavanju-sa-ratnom-prosloscu-90-tih",
-      "title": "SVETLOST KROZ PUKOTINE – Ciklus filmova o suočavanju sa ratnom prošlošću 90-tih",
-      "category": "Film",
-      "date": "2026-04-27",
-      "time": "19:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/svetlost-kroz-pukotine-ciklus-filmova-o-suocavanju-sa-ratnom-prosloscu-90-tih/"
-    },
-    {
-      "id": "tartif-komicno-u-klasicnom",
-      "title": "Tartif (Komično u klasičnom)",
-      "category": "Predstava",
-      "date": "2026-04-27",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/tartif-komicno-u-klasicnom/"
-    },
-    {
-      "id": "ljudi-2",
-      "title": "Ljudi",
-      "category": "Predstava",
-      "date": "2026-04-27",
-      "time": "20:00",
-      "location": "Akademija umetnosti Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/ljudi-2/"
-    },
-    {
-      "id": "humanitarna-predstava-generalna-proba-nusica-27-aprila-u-novom-sadu",
-      "title": "Humanitarna predstava „Generalna proba Nušića“ 27. aprila u Novom Sadu",
-      "category": "Predstava",
-      "date": "2026-04-27",
-      "time": "20:00",
-      "location": "Radnički dom \"Svetozar marković\"",
-      "url": "https://www.mojnovisad.com/navigator/humanitarna-predstava-generalna-proba-nusica-27-aprila-u-novom-sadu/"
-    },
-    {
-      "id": "radionice-3d-stampe",
-      "title": "Radionice 3D Štampe",
-      "category": "Radionica",
-      "date": "2026-04-27",
-      "time": "20:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/radionice-3d-stampe/"
-    },
     {
       "id": "media-info-dan-programa-%d0%bareativna-evropa",
       "title": "MEDIA info dan programa Кreativna Evropa",
@@ -137,6 +74,15 @@
       "url": "https://www.mojnovisad.com/navigator/balon/"
     },
     {
+      "id": "tribina-film-kao-iskustvo-suocavanja",
+      "title": "Tribina: Film kao iskustvo suočavanja",
+      "category": "Konferencija",
+      "date": "2026-04-28",
+      "time": "20:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/tribina-film-kao-iskustvo-suocavanja/"
+    },
+    {
       "id": "cineplexx-novi-sad-repertoar-za-sredu-3",
       "title": "Cineplexx Novi Sad – repertoar za sredu",
       "category": "Film",
@@ -180,6 +126,15 @@
       "time": "19:00",
       "location": "Svilara - kulturna stanica",
       "url": "https://www.mojnovisad.com/navigator/promocija-knjige-eseja-danila-vuksanovica-memento-urbi/"
+    },
+    {
+      "id": "%d0%bc%d0%b5%d0%bc%d0%be%d1%80%d0%b8%d1%98%d0%b0%d0%bb%d0%bd%d0%b0-%d0%b8%d0%b7%d0%bb%d0%be%d0%b6%d0%b1%d0%b0-%d1%98%d0%be%d0%b2%d0%b0%d0%bd%d0%b0-%d1%81%d0%be%d0%bb%d0%b4%d0%b0%d1%82%d0%be%d0%b2",
+      "title": "Меморијална изложба Јована Солдатовића",
+      "category": "Izložba",
+      "date": "2026-04-29",
+      "time": "19:00",
+      "location": "Beočin",
+      "url": "https://www.mojnovisad.com/navigator/%d0%bc%d0%b5%d0%bc%d0%be%d1%80%d0%b8%d1%98%d0%b0%d0%bb%d0%bd%d0%b0-%d0%b8%d0%b7%d0%bb%d0%be%d0%b6%d0%b1%d0%b0-%d1%98%d0%be%d0%b2%d0%b0%d0%bd%d0%b0-%d1%81%d0%be%d0%bb%d0%b4%d0%b0%d1%82%d0%be%d0%b2/"
     },
     {
       "id": "iskupljenje-3",
@@ -281,6 +236,15 @@
       "url": "https://www.mojnovisad.com/navigator/midnight-4/"
     },
     {
+      "id": "upoznavanje-za-mlade-od-25-do-33-godine",
+      "title": "Upoznavanje za mlade od 25 do 33 godine",
+      "category": "Noćni provod",
+      "date": "2026-04-30",
+      "time": "20:00",
+      "location": "The End Cafe",
+      "url": "https://www.mojnovisad.com/navigator/upoznavanje-za-mlade-od-25-do-33-godine/"
+    },
+    {
       "id": "vece-improvizacije-2",
       "title": "Veče improvizacije",
       "category": "Predstava",
@@ -324,6 +288,15 @@
       "time": "19:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/gala-koncert-madarske-baletske-akademije/"
+    },
+    {
+      "id": "goth-benefit-zurka",
+      "title": "Goth Benefit Žurka",
+      "category": "Noćni provod",
+      "date": "2026-05-03",
+      "time": "19:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/goth-benefit-zurka/"
     },
     {
       "id": "arsenik-i-stare-cipke",
