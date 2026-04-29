@@ -1,86 +1,14 @@
 {
-  "scraped_at": "2026-04-28T08:31:33Z",
+  "scraped_at": "2026-04-29T08:25:22Z",
   "events": [
     {
-      "id": "media-info-dan-programa-%d0%bareativna-evropa",
-      "title": "MEDIA info dan programa Кreativna Evropa",
-      "category": "Predavanje",
-      "date": "2026-04-28",
-      "time": "11:00",
-      "location": "Evropska kuća Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/media-info-dan-programa-%d0%bareativna-evropa/"
-    },
-    {
-      "id": "sloveni-u-panonskom-varvarikumu-arheoloska-kultura-limiganata-naroda-o-cijem-se-imenu-glasno-cuti",
-      "title": "Sloveni u panonskom Varvarikumu – arheološka kultura Limiganata, naroda o čijem se imenu glasno ćuti",
-      "category": "Predavanje",
-      "date": "2026-04-28",
-      "time": "12:00",
-      "location": "Muzej Vojvodine",
-      "url": "https://www.mojnovisad.com/navigator/sloveni-u-panonskom-varvarikumu-arheoloska-kultura-limiganata-naroda-o-cijem-se-imenu-glasno-cuti/"
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-utorak-4",
-      "title": "Cineplexx Novi Sad – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-04-28",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-4/"
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-utorak-3",
-      "title": "Arena Cineplex – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-04-28",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-3/"
-    },
-    {
-      "id": "nexxt",
-      "title": "Nexxt",
-      "category": "Predstava",
-      "date": "2026-04-28",
-      "time": "19:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/nexxt/"
-    },
-    {
-      "id": "superbet-fudbalski-kviz",
-      "title": "Superbet fudbalski kviz",
-      "category": "Noćni provod",
-      "date": "2026-04-28",
-      "time": "19:30",
-      "location": "Radio Cafe",
-      "url": "https://www.mojnovisad.com/navigator/superbet-fudbalski-kviz/"
-    },
-    {
-      "id": "basta-sljezove-boje",
-      "title": "Bašta Sljezove Boje",
-      "category": "Predstava",
-      "date": "2026-04-28",
-      "time": "20:00",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/basta-sljezove-boje/"
-    },
-    {
-      "id": "balon",
-      "title": "Balon",
-      "category": "Predstava",
-      "date": "2026-04-28",
-      "time": "20:00",
-      "location": "Radnički dom \"Svetozar Marković\"",
-      "url": "https://www.mojnovisad.com/navigator/balon/"
-    },
-    {
-      "id": "tribina-film-kao-iskustvo-suocavanja",
-      "title": "Tribina: Film kao iskustvo suočavanja",
-      "category": "Konferencija",
-      "date": "2026-04-28",
-      "time": "20:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/tribina-film-kao-iskustvo-suocavanja/"
+      "id": "e75-art-bus-stize-u-novi-sad",
+      "title": "E75 Art Bus stiže u Novi Sad",
+      "category": "Izložba",
+      "date": "2026-04-29",
+      "time": "14:00",
+      "location": "Savez udruženja likovnih umetnika Vojvodine",
+      "url": "https://www.mojnovisad.com/navigator/e75-art-bus-stize-u-novi-sad/"
     },
     {
       "id": "cineplexx-novi-sad-repertoar-za-sredu-3",
@@ -335,6 +263,24 @@
       "url": "https://www.mojnovisad.com/navigator/duka/"
     },
     {
+      "id": "slobodna-zona-hepiend",
+      "title": "Slobodna Zona – HEPIEND",
+      "category": "Film",
+      "date": "2026-05-05",
+      "time": "20:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/slobodna-zona-hepiend/"
+    },
+    {
+      "id": "drugih-lampa-sjaj",
+      "title": "Drugih lampa sjaj",
+      "category": "Predstava",
+      "date": "2026-05-05",
+      "time": "20:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/drugih-lampa-sjaj/"
+    },
+    {
       "id": "lutka-sa-kreveta-broj-21",
       "title": "Lutka sa kreveta broj 21",
       "category": "Predstava",
@@ -425,6 +371,15 @@
       "url": "https://www.mojnovisad.com/navigator/kanda-kodza-i-nebojsa/"
     },
     {
+      "id": "ksenija-i-lovac-3",
+      "title": "Ksenija i lovac",
+      "category": "Predstava",
+      "date": "2026-05-08",
+      "time": "11:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/ksenija-i-lovac-3/"
+    },
+    {
       "id": "zasto-magarci-stoje-na-promaji-3",
       "title": "Zašto magarci stoje na promaji?",
       "category": "Predstava",
@@ -432,6 +387,15 @@
       "time": "19:00",
       "location": "Novosadsko pozorište",
       "url": "https://www.mojnovisad.com/navigator/zasto-magarci-stoje-na-promaji-3/"
+    },
+    {
+      "id": "ne-zadirkuj-medveda",
+      "title": "Ne zadirkuj medveda",
+      "category": "Predstava",
+      "date": "2026-05-08",
+      "time": "19:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/ne-zadirkuj-medveda/"
     },
     {
       "id": "lutka",
@@ -497,6 +461,15 @@
       "url": "https://www.mojnovisad.com/navigator/edo-maajka/"
     },
     {
+      "id": "gnezdo",
+      "title": "Gnezdo",
+      "category": "Predstava",
+      "date": "2026-05-09",
+      "time": "11:00",
+      "location": "Novosadsko pozorište",
+      "url": "https://www.mojnovisad.com/navigator/gnezdo/"
+    },
+    {
       "id": "putovanje-dobrog-hansa-bema-kroz-evropu",
       "title": "Putovanje dobrog Hansa Bema kroz Evropu",
       "category": "Predstava",
@@ -504,6 +477,15 @@
       "time": "17:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/putovanje-dobrog-hansa-bema-kroz-evropu/"
+    },
+    {
+      "id": "hajduci",
+      "title": "Hajduci",
+      "category": "Predstava",
+      "date": "2026-05-09",
+      "time": "19:30",
+      "location": "Novosadsko pozorište",
+      "url": "https://www.mojnovisad.com/navigator/hajduci/"
     },
     {
       "id": "basta-sljezove-boje-2",
@@ -549,6 +531,15 @@
       "time": "10:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/cardak-ni-na-nebu-ni-na-zemlji-3/"
+    },
+    {
+      "id": "slatke-rijeci",
+      "title": "Slatke riječi",
+      "category": "Predstava",
+      "date": "2026-05-10",
+      "time": "11:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/slatke-rijeci/"
     },
     {
       "id": "cardak-ni-na-nebu-ni-na-zemlji-2",
@@ -605,6 +596,15 @@
       "url": "https://www.mojnovisad.com/navigator/strategija/"
     },
     {
+      "id": "alisa-u-kutiji-cuda",
+      "title": "Alisa u kutiji čuda",
+      "category": "Predstava",
+      "date": "2026-05-10",
+      "time": "19:00",
+      "location": "Novosadsko pozorište",
+      "url": "https://www.mojnovisad.com/navigator/alisa-u-kutiji-cuda/"
+    },
+    {
       "id": "rock-symphony",
       "title": "Rock Symphony",
       "category": "Koncert",
@@ -630,6 +630,24 @@
       "time": "21:00",
       "location": "Klub Trema",
       "url": "https://www.mojnovisad.com/navigator/stand-up-show-bosansko-vece-marka-puljiza-i-hazima-mujcinovica/"
+    },
+    {
+      "id": "klik",
+      "title": "Klik",
+      "category": "Predstava",
+      "date": "2026-05-11",
+      "time": "11:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/klik/"
+    },
+    {
+      "id": "sa-duazo",
+      "title": "Ša Duazo",
+      "category": "Predstava",
+      "date": "2026-05-11",
+      "time": "19:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/sa-duazo/"
     },
     {
       "id": "gospa-nola-3",
@@ -659,6 +677,24 @@
       "url": "https://www.mojnovisad.com/navigator/nezaboravak-potocnica-zmijske-oci-2/"
     },
     {
+      "id": "pinokio-novosadske-pozorisne-igre",
+      "title": "PINOKIO – Novosadske pozorišne igre",
+      "category": "Predstava",
+      "date": "2026-05-12",
+      "time": "11:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/pinokio-novosadske-pozorisne-igre/"
+    },
+    {
+      "id": "carobna-frula-3",
+      "title": "Čarobna frula",
+      "category": "Predstava",
+      "date": "2026-05-12",
+      "time": "17:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/carobna-frula-3/"
+    },
+    {
       "id": "iskupljenje-6",
       "title": "Iskupljenje",
       "category": "Predstava",
@@ -666,6 +702,15 @@
       "time": "19:30",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/iskupljenje-6/"
+    },
+    {
+      "id": "kako-zaraditi-milione-pre-nego-baka-umre",
+      "title": "Slobodna Zona – “Kako zaraditi milione pre nego baka umre”",
+      "category": "Film",
+      "date": "2026-05-12",
+      "time": "20:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/kako-zaraditi-milione-pre-nego-baka-umre/"
     },
     {
       "id": "gramatika-poremecaja-2",
@@ -749,6 +794,15 @@
       "url": "https://www.mojnovisad.com/navigator/boemska-tura-fruskom-gorom/"
     },
     {
+      "id": "kos-i-lisica-2",
+      "title": "Kos i lisica",
+      "category": "Predstava",
+      "date": "2026-05-16",
+      "time": "11:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/kos-i-lisica-2/"
+    },
+    {
       "id": "krznena-venera-2",
       "title": "Krznena Venera",
       "category": "Predstava",
@@ -774,6 +828,15 @@
       "time": "10:00",
       "location": "Begečka jama",
       "url": "https://www.mojnovisad.com/navigator/bns-akvatlon-triatlon-kluba-dynamic/"
+    },
+    {
+      "id": "pustinjski-snovi-2",
+      "title": "Pustinjski snovi",
+      "category": "Predstava",
+      "date": "2026-05-17",
+      "time": "11:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/pustinjski-snovi-2/"
     },
     {
       "id": "divlje-jagode-akusticni-koncert",
@@ -875,6 +938,15 @@
       "url": "https://www.mojnovisad.com/navigator/kultna-predstava-nasi-dani/"
     },
     {
+      "id": "autorizacija-3",
+      "title": "Autorizacija",
+      "category": "Predstava",
+      "date": "2026-05-19",
+      "time": "20:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/autorizacija-3/"
+    },
+    {
       "id": "novi-sad-vs-beograd-2",
       "title": "Novi Sad vs. Beograd",
       "category": "Predstava",
@@ -891,6 +963,15 @@
       "time": "20:30",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/roditelj-prvih-sest-godina-3/"
+    },
+    {
+      "id": "carobna-frula-4",
+      "title": "Čarobna frula",
+      "category": "Predstava",
+      "date": "2026-05-21",
+      "time": "18:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/carobna-frula-4/"
     },
     {
       "id": "bilo-jednom-u-novom-sadu-2",
@@ -947,6 +1028,15 @@
       "url": "https://www.mojnovisad.com/navigator/bila-jednom-jedna-zemlja/"
     },
     {
+      "id": "crvenkapa-2",
+      "title": "Crvenkapa",
+      "category": "Predstava",
+      "date": "2026-05-23",
+      "time": "11:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/crvenkapa-2/"
+    },
+    {
       "id": "kabare-pikolo-grande-utopija-2",
       "title": "Kabare Pikolo Grande – Utopija",
       "category": "Predstava",
@@ -972,6 +1062,15 @@
       "time": "19:30",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/gospoda-ministarka-3/"
+    },
+    {
+      "id": "bajka-o-vitezu-bez-konja",
+      "title": "Bajka o vitezu bez konja",
+      "category": "Predstava",
+      "date": "2026-05-24",
+      "time": "11:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/bajka-o-vitezu-bez-konja/"
     },
     {
       "id": "mrki-nisam-ti-ispricao",
@@ -1008,6 +1107,15 @@
       "time": "20:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-gospoda-ministarka/"
+    },
+    {
+      "id": "ivica-i-marica-2",
+      "title": "Ivica i Marica",
+      "category": "Predstava",
+      "date": "2026-05-28",
+      "time": "18:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/ivica-i-marica-2/"
     },
     {
       "id": "stand-up-show-gorana-vincica-vince-komedija-je-ozbiljna-stvar",
@@ -1055,6 +1163,15 @@
       "url": "https://www.mojnovisad.com/navigator/bilo-jednom-u-novom-sadu/"
     },
     {
+      "id": "zlocin-i-kazna-2",
+      "title": "Zločin i kazna",
+      "category": "Predstava",
+      "date": "2026-05-29",
+      "time": "20:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/zlocin-i-kazna-2/"
+    },
+    {
       "id": "19-novosadski-ikar",
       "title": "19. Novosadski Ikar",
       "category": "Festival",
@@ -1073,6 +1190,24 @@
       "url": "https://www.mojnovisad.com/navigator/globalni-photowalk-susret/"
     },
     {
+      "id": "kako-je-otkriveno-letenje",
+      "title": "Kako je otkriveno letenje",
+      "category": "Predstava",
+      "date": "2026-05-30",
+      "time": "11:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/kako-je-otkriveno-letenje/"
+    },
+    {
+      "id": "autorizacija-4",
+      "title": "Autorizacija",
+      "category": "Predstava",
+      "date": "2026-05-30",
+      "time": "20:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/autorizacija-4/"
+    },
+    {
       "id": "bajaga-i-instruktori",
       "title": "Bajaga i Instruktori",
       "category": "Koncert",
@@ -1080,6 +1215,15 @@
       "time": "21:00",
       "location": "SPENS - Sportski i poslovni centar Vojvodina",
       "url": "https://www.mojnovisad.com/navigator/bajaga-i-instruktori/"
+    },
+    {
+      "id": "kos-i-lisica-3",
+      "title": "Kos i lisica",
+      "category": "Predstava",
+      "date": "2026-05-31",
+      "time": "11:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/kos-i-lisica-3/"
     },
     {
       "id": "71-sterijino-pozorje-sine",
