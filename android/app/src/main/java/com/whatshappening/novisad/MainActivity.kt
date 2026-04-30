@@ -8,13 +8,13 @@ import com.whatshappening.novisad.ui.EventsScreen
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 
 class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContent {
-            WhatsHappeningTheme {
-                EventsScreen()
-            }
-        }
+  override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    enableEdgeToEdge()
+    setContent {
+      WhatsHappeningTheme {
+        EventsScreen()
+      }
     }
+  }
 }
