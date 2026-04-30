@@ -1,113 +1,32 @@
 {
-  "scraped_at": "2026-04-29T08:25:22Z",
+  "scraped_at": "2026-04-30T08:28:16Z",
   "events": [
     {
-      "id": "e75-art-bus-stize-u-novi-sad",
-      "title": "E75 Art Bus stiže u Novi Sad",
-      "category": "Izložba",
-      "date": "2026-04-29",
+      "id": "svet-digitalne-umetnosti-festival-u-gradu-atina-u-ohaju",
+      "title": "Svet digitalne umetnosti – Festival u gradu Atina u Ohaju",
+      "category": "Predavanje",
+      "date": "2026-04-30",
       "time": "14:00",
-      "location": "Savez udruženja likovnih umetnika Vojvodine",
-      "url": "https://www.mojnovisad.com/navigator/e75-art-bus-stize-u-novi-sad/"
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/svet-digitalne-umetnosti-festival-u-gradu-atina-u-ohaju/"
     },
     {
-      "id": "cineplexx-novi-sad-repertoar-za-sredu-3",
-      "title": "Cineplexx Novi Sad – repertoar za sredu",
+      "id": "cineplexx-novi-sad-repertoar-za-cetvrtak-2",
+      "title": "Cineplexx Novi Sad – repertoar za četvrtak",
       "category": "Film",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "time": "15:00",
       "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-sredu-3/"
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-cetvrtak-2/"
     },
     {
-      "id": "arena-cineplex-repertoar-za-sredu-3",
-      "title": "Arena Cineplex – repertoar za sredu",
+      "id": "arena-cineplex-repertoar-za-cetvrtak-3",
+      "title": "Arena Cineplex – repertoar za četvrtak",
       "category": "Film",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "time": "15:00",
       "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-3/"
-    },
-    {
-      "id": "generacije",
-      "title": "GENERACIJE",
-      "category": "Predstava",
-      "date": "2026-04-29",
-      "time": "19:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/generacije/"
-    },
-    {
-      "id": "zizela-3",
-      "title": "Žizela",
-      "category": "Predstava",
-      "date": "2026-04-29",
-      "time": "19:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/zizela-3/"
-    },
-    {
-      "id": "promocija-knjige-eseja-danila-vuksanovica-memento-urbi",
-      "title": "Promocija knjige eseja Danila Vuksanovića “Memento urbi”",
-      "category": "Knjiga",
-      "date": "2026-04-29",
-      "time": "19:00",
-      "location": "Svilara - kulturna stanica",
-      "url": "https://www.mojnovisad.com/navigator/promocija-knjige-eseja-danila-vuksanovica-memento-urbi/"
-    },
-    {
-      "id": "%d0%bc%d0%b5%d0%bc%d0%be%d1%80%d0%b8%d1%98%d0%b0%d0%bb%d0%bd%d0%b0-%d0%b8%d0%b7%d0%bb%d0%be%d0%b6%d0%b1%d0%b0-%d1%98%d0%be%d0%b2%d0%b0%d0%bd%d0%b0-%d1%81%d0%be%d0%bb%d0%b4%d0%b0%d1%82%d0%be%d0%b2",
-      "title": "Меморијална изложба Јована Солдатовића",
-      "category": "Izložba",
-      "date": "2026-04-29",
-      "time": "19:00",
-      "location": "Beočin",
-      "url": "https://www.mojnovisad.com/navigator/%d0%bc%d0%b5%d0%bc%d0%be%d1%80%d0%b8%d1%98%d0%b0%d0%bb%d0%bd%d0%b0-%d0%b8%d0%b7%d0%bb%d0%be%d0%b6%d0%b1%d0%b0-%d1%98%d0%be%d0%b2%d0%b0%d0%bd%d0%b0-%d1%81%d0%be%d0%bb%d0%b4%d0%b0%d1%82%d0%be%d0%b2/"
-    },
-    {
-      "id": "iskupljenje-3",
-      "title": "Iskupljenje",
-      "category": "Predstava",
-      "date": "2026-04-29",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/iskupljenje-3/"
-    },
-    {
-      "id": "open-mic-10-sezona-2",
-      "title": "OPEN MIC – 10. SEZONA",
-      "category": "Predstava",
-      "date": "2026-04-29",
-      "time": "19:30",
-      "location": "Kulturni centar LAB",
-      "url": "https://www.mojnovisad.com/navigator/open-mic-10-sezona-2/"
-    },
-    {
-      "id": "mjuzikl-san-letnje-noci",
-      "title": "Mjuzikl “San letnje noći”",
-      "category": "Predstava",
-      "date": "2026-04-29",
-      "time": "19:30",
-      "location": "SKCNS Fabrika",
-      "url": "https://www.mojnovisad.com/navigator/mjuzikl-san-letnje-noci/"
-    },
-    {
-      "id": "jerma-2",
-      "title": "Jerma",
-      "category": "Predstava",
-      "date": "2026-04-29",
-      "time": "20:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/jerma-2/"
-    },
-    {
-      "id": "ovo-nije-predstava",
-      "title": "Ovo nije predstava",
-      "category": "Predstava",
-      "date": "2026-04-29",
-      "time": "20:00",
-      "location": "Akademija umetnosti Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/ovo-nije-predstava/"
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-cetvrtak-3/"
     },
     {
       "id": "carobna-frula-2",
@@ -144,6 +63,15 @@
       "time": "19:00",
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-zasto-se-smeje/"
+    },
+    {
+      "id": "svet-vidosave-kovacevic",
+      "title": "Svet Vidosave Kovačević",
+      "category": "Predavanje",
+      "date": "2026-04-30",
+      "time": "19:00",
+      "location": "Spomen-zbirka Pavla Beljanskog",
+      "url": "https://www.mojnovisad.com/navigator/svet-vidosave-kovacevic/"
     },
     {
       "id": "iskupljenje-4",
@@ -209,6 +137,60 @@
       "url": "https://www.mojnovisad.com/navigator/vudu-popaj-u-novom-sadu/"
     },
     {
+      "id": "cineplexx-novi-sad-repertoar-za-subotu-4",
+      "title": "Cineplexx Novi Sad – repertoar za subotu",
+      "category": "Film",
+      "date": "2026-05-01",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-4/"
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-petak-2",
+      "title": "Arena Cineplex – repertoar za petak",
+      "category": "Film",
+      "date": "2026-05-01",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-petak-2/"
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-subotu-3",
+      "title": "Arena Cineplex – repertoar za subotu",
+      "category": "Film",
+      "date": "2026-05-02",
+      "time": "10:30",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-subotu-3/"
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-subotu-3",
+      "title": "Cineplexx Novi Sad – repertoar za subotu",
+      "category": "Film",
+      "date": "2026-05-02",
+      "time": "12:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-3/"
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-nedelju-3",
+      "title": "Arena Cineplex – repertoar za nedelju",
+      "category": "Film",
+      "date": "2026-05-03",
+      "time": "10:30",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-3/"
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-nedelju-3",
+      "title": "Cineplexx Novi Sad – repertoar za nedelju",
+      "category": "Film",
+      "date": "2026-05-03",
+      "time": "12:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-3/"
+    },
+    {
       "id": "gala-koncert-madarske-baletske-akademije",
       "title": "Gala koncert Mađarske baletske akademije",
       "category": "Predstava",
@@ -227,6 +209,15 @@
       "url": "https://www.mojnovisad.com/navigator/goth-benefit-zurka/"
     },
     {
+      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-4",
+      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
+      "category": "Film",
+      "date": "2026-05-04",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-4/"
+    },
+    {
       "id": "arsenik-i-stare-cipke",
       "title": "Arsenik i stare čipke",
       "category": "Predstava",
@@ -243,6 +234,15 @@
       "time": "21:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/totovi/"
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-utorak-5",
+      "title": "Cineplexx Novi Sad – repertoar za utorak",
+      "category": "Film",
+      "date": "2026-05-05",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-5/"
     },
     {
       "id": "balkanski-spijun-3",
@@ -281,6 +281,15 @@
       "url": "https://www.mojnovisad.com/navigator/drugih-lampa-sjaj/"
     },
     {
+      "id": "ritam-evrope",
+      "title": "Ritam Evrope!",
+      "category": "Festival",
+      "date": "2026-05-05",
+      "time": "20:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/ritam-evrope/"
+    },
+    {
       "id": "lutka-sa-kreveta-broj-21",
       "title": "Lutka sa kreveta broj 21",
       "category": "Predstava",
@@ -288,6 +297,15 @@
       "time": "21:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/lutka-sa-kreveta-broj-21/"
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-sredu-4",
+      "title": "Cineplexx Novi Sad – repertoar za sredu",
+      "category": "Film",
+      "date": "2026-05-06",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-sredu-4/"
     },
     {
       "id": "velika-cetvorka",
@@ -315,6 +333,15 @@
       "time": "18:00",
       "location": "KC \"Mladost\"",
       "url": "https://www.mojnovisad.com/navigator/ovce-detektivi/"
+    },
+    {
+      "id": "pete-novosadske-pozorisne-igre",
+      "title": "Pete “Novosadske pozorišne igre”",
+      "category": "Festival",
+      "date": "2026-05-07",
+      "time": "19:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/pete-novosadske-pozorisne-igre/"
     },
     {
       "id": "jovanca-na-putu-oko-sveta-4",
@@ -396,6 +423,15 @@
       "time": "19:00",
       "location": "Pozorište mladih",
       "url": "https://www.mojnovisad.com/navigator/ne-zadirkuj-medveda/"
+    },
+    {
+      "id": "otvaranje-izlozbe-planeta-autorke-teodore-nikolic",
+      "title": "Otvaranje izložbe “Planeta” autorke Teodore Nikolić",
+      "category": "Izložba",
+      "date": "2026-05-08",
+      "time": "19:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-planeta-autorke-teodore-nikolic/"
     },
     {
       "id": "lutka",
@@ -947,6 +983,15 @@
       "url": "https://www.mojnovisad.com/navigator/autorizacija-3/"
     },
     {
+      "id": "voljena",
+      "title": "Voljena",
+      "category": "Film",
+      "date": "2026-05-19",
+      "time": "20:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/voljena/"
+    },
+    {
       "id": "novi-sad-vs-beograd-2",
       "title": "Novi Sad vs. Beograd",
       "category": "Predstava",
@@ -1098,6 +1143,15 @@
       "time": "20:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-svecano-otvaranje/"
+    },
+    {
+      "id": "rjuici-sakamoto-koda",
+      "title": "Rjuiči Sakamoto: Koda",
+      "category": "Film",
+      "date": "2026-05-26",
+      "time": "20:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/rjuici-sakamoto-koda/"
     },
     {
       "id": "71-sterijino-pozorje-gospoda-ministarka",
