@@ -4,6 +4,7 @@ import android.content.Context
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
+import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.File
@@ -11,6 +12,7 @@ import java.time.Instant
 import java.time.temporal.ChronoUnit
 
 // Replace GITHUB_USERNAME with your actual GitHub username after pushing the repo
+private const val WORKER_URL = "https://whats-happening-details.zeljkovic18.workers.dev"
 private const val EVENTS_URL =
   "https://raw.githubusercontent.com/HackHoleSun/whats-happening/master/scraper/events.json"
 private const val CACHE_FILE = "events_cache.json"
@@ -55,6 +57,20 @@ class EventRepository(
       null
     }
   }
+
+  suspend fun getEventDetail(eventUrl: String): EventDetail =
+    withContext(Dispatchers.IO) {
+      val url =
+        WORKER_URL.toHttpUrl().newBuilder()
+          .addQueryParameter("url", eventUrl)
+          .build()
+      val request = Request.Builder().url(url).build()
+      val body =
+        client.newCall(request).execute().use { response ->
+          response.body?.string() ?: error("Empty response")
+        }
+      json.decodeFromString(body)
+    }
 
   private fun fetchAndCache(): EventsResponse {
     val request = Request.Builder().url(EVENTS_URL).build()
