@@ -1,141 +1,6 @@
 {
-  "scraped_at": "2026-04-30T08:28:16Z",
+  "scraped_at": "2026-05-01T08:19:05Z",
   "events": [
-    {
-      "id": "svet-digitalne-umetnosti-festival-u-gradu-atina-u-ohaju",
-      "title": "Svet digitalne umetnosti – Festival u gradu Atina u Ohaju",
-      "category": "Predavanje",
-      "date": "2026-04-30",
-      "time": "14:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/svet-digitalne-umetnosti-festival-u-gradu-atina-u-ohaju/"
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-cetvrtak-2",
-      "title": "Cineplexx Novi Sad – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-04-30",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-cetvrtak-2/"
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-cetvrtak-3",
-      "title": "Arena Cineplex – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-04-30",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-cetvrtak-3/"
-    },
-    {
-      "id": "carobna-frula-2",
-      "title": "Čarobna frula",
-      "category": "Predstava",
-      "date": "2026-04-30",
-      "time": "18:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/carobna-frula-2/"
-    },
-    {
-      "id": "zizela-4",
-      "title": "Žizela",
-      "category": "Predstava",
-      "date": "2026-04-30",
-      "time": "19:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/zizela-4/"
-    },
-    {
-      "id": "333-dana",
-      "title": "333 dana",
-      "category": "Predstava",
-      "date": "2026-04-30",
-      "time": "19:00",
-      "location": "Akademija umetnosti Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/333-dana/"
-    },
-    {
-      "id": "71-sterijino-pozorje-zasto-se-smeje",
-      "title": "71. Sterijino pozorje – Zašto se smeje?",
-      "category": "Predstava",
-      "date": "2026-04-30",
-      "time": "19:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-zasto-se-smeje/"
-    },
-    {
-      "id": "svet-vidosave-kovacevic",
-      "title": "Svet Vidosave Kovačević",
-      "category": "Predavanje",
-      "date": "2026-04-30",
-      "time": "19:00",
-      "location": "Spomen-zbirka Pavla Beljanskog",
-      "url": "https://www.mojnovisad.com/navigator/svet-vidosave-kovacevic/"
-    },
-    {
-      "id": "iskupljenje-4",
-      "title": "Iskupljenje",
-      "category": "Predstava",
-      "date": "2026-04-30",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/iskupljenje-4/"
-    },
-    {
-      "id": "midnight-4",
-      "title": "MIDNIGHT 4",
-      "category": "Koncert",
-      "date": "2026-04-30",
-      "time": "20:00",
-      "location": "Gradska koncertna dvorana",
-      "url": "https://www.mojnovisad.com/navigator/midnight-4/"
-    },
-    {
-      "id": "upoznavanje-za-mlade-od-25-do-33-godine",
-      "title": "Upoznavanje za mlade od 25 do 33 godine",
-      "category": "Noćni provod",
-      "date": "2026-04-30",
-      "time": "20:00",
-      "location": "The End Cafe",
-      "url": "https://www.mojnovisad.com/navigator/upoznavanje-za-mlade-od-25-do-33-godine/"
-    },
-    {
-      "id": "vece-improvizacije-2",
-      "title": "Veče improvizacije",
-      "category": "Predstava",
-      "date": "2026-04-30",
-      "time": "21:00",
-      "location": "Klub Trema",
-      "url": "https://www.mojnovisad.com/navigator/vece-improvizacije-2/"
-    },
-    {
-      "id": "besplatni-bioskop-klinika-za-dusu-5",
-      "title": "Besplatni Bioskop –– KLINIKA ZA DUŠU ––",
-      "category": "Film",
-      "date": "2026-04-30",
-      "time": "21:00",
-      "location": "Salon u Radničkoj",
-      "url": "https://www.mojnovisad.com/navigator/besplatni-bioskop-klinika-za-dusu-5/"
-    },
-    {
-      "id": "voodoo-popeye",
-      "title": "Voodoo Popeye",
-      "category": "Koncert",
-      "date": "2026-04-30",
-      "time": "21:00",
-      "location": "Gerila Bar",
-      "url": "https://www.mojnovisad.com/navigator/voodoo-popeye/"
-    },
-    {
-      "id": "vudu-popaj-u-novom-sadu",
-      "title": "VUDU POPAJ U NOVOM SADU",
-      "category": "Koncert",
-      "date": "2026-04-30",
-      "time": "21:00",
-      "location": "Gerila Bar",
-      "url": "https://www.mojnovisad.com/navigator/vudu-popaj-u-novom-sadu/"
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-subotu-4",
       "title": "Cineplexx Novi Sad – repertoar za subotu",
@@ -155,6 +20,15 @@
       "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-petak-2/"
     },
     {
+      "id": "jazz-koncert-kristof-erb-i-fred-lonberg-holm-ilia-belorukov-i-aleksandar-skoric-duo",
+      "title": "Jazz koncert: Kristof Erb i Fred Lonberg-Holm + Ilia Belorukov i Aleksandar Škorić duo",
+      "category": "Koncert",
+      "date": "2026-05-01",
+      "time": "21:01",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/jazz-koncert-kristof-erb-i-fred-lonberg-holm-ilia-belorukov-i-aleksandar-skoric-duo/"
+    },
+    {
       "id": "arena-cineplex-repertoar-za-subotu-3",
       "title": "Arena Cineplex – repertoar za subotu",
       "category": "Film",
@@ -171,6 +45,15 @@
       "time": "12:00",
       "location": "Cineplexx Promenada",
       "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-3/"
+    },
+    {
+      "id": "tri-kapljice-dad-joke-sputnik",
+      "title": "Tri kapljice | Dad Joke | Sputñik",
+      "category": "Koncert",
+      "date": "2026-05-02",
+      "time": "20:30",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/tri-kapljice-dad-joke-sputnik/"
     },
     {
       "id": "arena-cineplex-repertoar-za-nedelju-3",
@@ -207,6 +90,15 @@
       "time": "19:00",
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/goth-benefit-zurka/"
+    },
+    {
+      "id": "khirki-zyrion",
+      "title": "Khirki & Zyrion",
+      "category": "Koncert",
+      "date": "2026-05-03",
+      "time": "20:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/khirki-zyrion/"
     },
     {
       "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-4",
@@ -407,6 +299,24 @@
       "url": "https://www.mojnovisad.com/navigator/ksenija-i-lovac-3/"
     },
     {
+      "id": "stitch",
+      "title": "Stitch",
+      "category": "Predstava",
+      "date": "2026-05-08",
+      "time": "17:00",
+      "location": "SPENS - Sportski i poslovni centar Vojvodina",
+      "url": "https://www.mojnovisad.com/navigator/stitch/"
+    },
+    {
+      "id": "carstvo-i-drugarstvo-gabbys-dollhouse",
+      "title": "Carstvo i drugarstvo – Gabby’s dollhouse",
+      "category": "Predstava",
+      "date": "2026-05-08",
+      "time": "18:00",
+      "location": "SPENS - Sportski i poslovni centar Vojvodina",
+      "url": "https://www.mojnovisad.com/navigator/carstvo-i-drugarstvo-gabbys-dollhouse/"
+    },
+    {
       "id": "zasto-magarci-stoje-na-promaji-3",
       "title": "Zašto magarci stoje na promaji?",
       "category": "Predstava",
@@ -461,6 +371,15 @@
       "url": "https://www.mojnovisad.com/navigator/iron-maiden-burning-ambition/"
     },
     {
+      "id": "marko-dzomba-i-sylvia-kimiko-krutz",
+      "title": "Marko Džomba i Sylvia Kimiko Krutz",
+      "category": "Koncert",
+      "date": "2026-05-08",
+      "time": "20:00",
+      "location": "Gradska koncertna dvorana",
+      "url": "https://www.mojnovisad.com/navigator/marko-dzomba-i-sylvia-kimiko-krutz/"
+    },
+    {
       "id": "buc-kesidi",
       "title": "Buč Kesidi",
       "category": "Koncert",
@@ -489,7 +408,7 @@
     },
     {
       "id": "edo-maajka",
-      "title": "Edo Maajka",
+      "title": "Edo Maajka ODLOŽENO",
       "category": "Koncert",
       "date": "2026-05-08",
       "time": "22:00",
@@ -504,6 +423,15 @@
       "time": "11:00",
       "location": "Novosadsko pozorište",
       "url": "https://www.mojnovisad.com/navigator/gnezdo/"
+    },
+    {
+      "id": "prolecno-podrumarenje",
+      "title": "Prolećno Podrumarenje",
+      "category": "Predavanje",
+      "date": "2026-05-09",
+      "time": "11:00",
+      "location": "Sremski Karlovci",
+      "url": "https://www.mojnovisad.com/navigator/prolecno-podrumarenje/"
     },
     {
       "id": "putovanje-dobrog-hansa-bema-kroz-evropu",
@@ -749,6 +677,15 @@
       "url": "https://www.mojnovisad.com/navigator/kako-zaraditi-milione-pre-nego-baka-umre/"
     },
     {
+      "id": "drz-ne-daj-4",
+      "title": "Drž’ ne daj",
+      "category": "Predstava",
+      "date": "2026-05-12",
+      "time": "20:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/drz-ne-daj-4/"
+    },
+    {
       "id": "gramatika-poremecaja-2",
       "title": "Gramatika poremećaja",
       "category": "Predstava",
@@ -776,6 +713,33 @@
       "url": "https://www.mojnovisad.com/navigator/iskupljenje-5/"
     },
     {
+      "id": "sokin-i-bosina-2",
+      "title": "Sokin i Bosina",
+      "category": "Predstava",
+      "date": "2026-05-13",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/sokin-i-bosina-2/"
+    },
+    {
+      "id": "stand-up-komedija-marka-stepanovica-matorac-u-egzilu",
+      "title": "Stand up komedija Marka Stepanovića “Matorac u egzilu”",
+      "category": "Predstava",
+      "date": "2026-05-13",
+      "time": "20:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/stand-up-komedija-marka-stepanovica-matorac-u-egzilu/"
+    },
+    {
+      "id": "bez-filtera-moderna-monodrama",
+      "title": "Bez filtera – moderna monodrama",
+      "category": "Predstava",
+      "date": "2026-05-13",
+      "time": "20:00",
+      "location": "Nacionalna Klasa by Vojvodina",
+      "url": "https://www.mojnovisad.com/navigator/bez-filtera-moderna-monodrama/"
+    },
+    {
       "id": "ponovno-ujedinjenje-dve-koreje-3",
       "title": "Ponovno ujedinjenje dve Koreje",
       "category": "Predstava",
@@ -785,6 +749,24 @@
       "url": "https://www.mojnovisad.com/navigator/ponovno-ujedinjenje-dve-koreje-3/"
     },
     {
+      "id": "stand-up-komedija-spansko-selo-miguel-jaramillo",
+      "title": "Stand up komedija “Špansko selo” – Miguel Jaramillo",
+      "category": "Predstava",
+      "date": "2026-05-14",
+      "time": "20:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/stand-up-komedija-spansko-selo-miguel-jaramillo/"
+    },
+    {
+      "id": "bracni-prevrtljivci",
+      "title": "Bračni prevrtljivci",
+      "category": "Predstava",
+      "date": "2026-05-14",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/bracni-prevrtljivci/"
+    },
+    {
       "id": "misja-groznica-2",
       "title": "Mišja groznica",
       "category": "Predstava",
@@ -792,6 +774,15 @@
       "time": "21:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/misja-groznica-2/"
+    },
+    {
+      "id": "ivana-peters-moja-stvar",
+      "title": "Ivana Peters – Moja stvar",
+      "category": "Koncert",
+      "date": "2026-05-14",
+      "time": "21:00",
+      "location": "Nacionalna Klasa by Vojvodina",
+      "url": "https://www.mojnovisad.com/navigator/ivana-peters-moja-stvar/"
     },
     {
       "id": "decija-predstava-hrabri-krojac",
@@ -828,6 +819,15 @@
       "time": "09:00",
       "location": "Železnički park",
       "url": "https://www.mojnovisad.com/navigator/boemska-tura-fruskom-gorom/"
+    },
+    {
+      "id": "93-medunarodni-poljoprivredni-sajam",
+      "title": "93. Međunarodni poljoprivredni sajam",
+      "category": "Festival",
+      "date": "2026-05-16",
+      "time": "09:00",
+      "location": "Novosadski sajam",
+      "url": "https://www.mojnovisad.com/navigator/93-medunarodni-poljoprivredni-sajam/"
     },
     {
       "id": "kos-i-lisica-2",
@@ -891,6 +891,15 @@
       "time": "20:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/da-sam-ja-neko/"
+    },
+    {
+      "id": "stand-up-komedija-nese-bridzisa-playlista",
+      "title": "Stand up komedija Neše Bridžisa “Playlista”",
+      "category": "Predstava",
+      "date": "2026-05-17",
+      "time": "21:00",
+      "location": "Klub Trema",
+      "url": "https://www.mojnovisad.com/navigator/stand-up-komedija-nese-bridzisa-playlista/"
     },
     {
       "id": "1981",
@@ -992,6 +1001,15 @@
       "url": "https://www.mojnovisad.com/navigator/voljena/"
     },
     {
+      "id": "stand-up-za-stefana-smehom-dajemo-glas-stefanu",
+      "title": "Stand up za Stefana – Smehom dajemo glas Stefanu",
+      "category": "Predstava",
+      "date": "2026-05-19",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/stand-up-za-stefana-smehom-dajemo-glas-stefanu/"
+    },
+    {
       "id": "novi-sad-vs-beograd-2",
       "title": "Novi Sad vs. Beograd",
       "category": "Predstava",
@@ -1044,6 +1062,15 @@
       "time": "20:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/titan/"
+    },
+    {
+      "id": "nina-2",
+      "title": "Nina ?",
+      "category": "Predstava",
+      "date": "2026-05-21",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/nina-2/"
     },
     {
       "id": "1981-2",
@@ -1305,6 +1332,15 @@
       "time": "19:00",
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-bez-buke-od-dva-do-sest-centrala-za-humor/"
+    },
+    {
+      "id": "slobodna-zona-lajza-mineli",
+      "title": "Slobodna Zona – Lajza Mineli",
+      "category": "Film",
+      "date": "2026-06-02",
+      "time": "20:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/slobodna-zona-lajza-mineli/"
     },
     {
       "id": "deca-losih-muzicara-2",
