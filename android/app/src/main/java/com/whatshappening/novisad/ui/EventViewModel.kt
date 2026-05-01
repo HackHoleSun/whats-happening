@@ -11,6 +11,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import java.time.LocalDate
 
@@ -18,6 +19,14 @@ enum class Tab { TODAY, THIS_WEEK, ALL }
 
 data class UiState(
   val isLoading: Boolean = false,
+  val error: String? = null,
+)
+
+data class DetailUiState(
+  val event: Event,
+  val isLoading: Boolean = true,
+  val description: String? = null,
+  val imageUrl: String? = null,
   val error: String? = null,
 )
 
@@ -37,6 +46,7 @@ class EventViewModel(
   val selectedTab = MutableStateFlow(Tab.TODAY)
   val selectedDateRange = MutableStateFlow<DateRange?>(null)
   val uiState = MutableStateFlow(UiState())
+  val detailUiState = MutableStateFlow<DetailUiState?>(null)
 
   val categories: StateFlow<List<String>> =
     allEvents
@@ -72,6 +82,22 @@ class EventViewModel(
         uiState.value = UiState(error = e.message ?: "Greška pri učitavanju")
       }
     }
+  }
+
+  fun selectEvent(event: Event) {
+    detailUiState.value = DetailUiState(event = event)
+    viewModelScope.launch {
+      try {
+        val detail = repository.getEventDetail(event.url)
+        detailUiState.update { it?.copy(isLoading = false, description = detail.description.ifEmpty { null }, imageUrl = detail.imageUrl) }
+      } catch (e: Exception) {
+        detailUiState.update { it?.copy(isLoading = false, error = e.message ?: "Greška") }
+      }
+    }
+  }
+
+  fun clearSelectedEvent() {
+    detailUiState.value = null
   }
 
   fun resetFilters() {

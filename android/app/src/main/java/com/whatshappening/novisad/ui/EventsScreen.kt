@@ -2,6 +2,7 @@ package com.whatshappening.novisad.ui
 
 import android.content.Intent
 import android.net.Uri
+import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -31,6 +32,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.whatshappening.novisad.ui.components.EventCard
+import com.whatshappening.novisad.ui.components.EventDetailSheet
 import com.whatshappening.novisad.ui.components.FilterBar
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -43,7 +45,18 @@ fun EventsScreen(viewModel: EventViewModel = viewModel()) {
   val selectedTab by viewModel.selectedTab.collectAsState()
   val selectedCategory by viewModel.selectedCategory.collectAsState()
   val selectedDateRange by viewModel.selectedDateRange.collectAsState()
+  val detailUiState by viewModel.detailUiState.collectAsState()
   val context = LocalContext.current
+
+  detailUiState?.let { state ->
+    EventDetailSheet(
+      state = state,
+      onDismiss = { viewModel.clearSelectedEvent() },
+      onOpenInBrowser = {
+        context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(state.event.url)))
+      },
+    )
+  }
 
   Scaffold(
     topBar = {
@@ -129,11 +142,7 @@ fun EventsScreen(viewModel: EventViewModel = viewModel()) {
         items(filteredEvents, key = { it.id }) { event ->
           EventCard(
             event = event,
-            onClick = {
-              context.startActivity(
-                Intent(Intent.ACTION_VIEW, Uri.parse(event.url)),
-              )
-            },
+            onClick = { viewModel.selectEvent(event) },
           )
         }
       }
