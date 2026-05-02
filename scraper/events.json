@@ -1,33 +1,6 @@
 {
-  "scraped_at": "2026-05-01T08:19:05Z",
+  "scraped_at": "2026-05-02T07:50:33Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-subotu-4",
-      "title": "Cineplexx Novi Sad – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-05-01",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-4/"
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-petak-2",
-      "title": "Arena Cineplex – repertoar za petak",
-      "category": "Film",
-      "date": "2026-05-01",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-petak-2/"
-    },
-    {
-      "id": "jazz-koncert-kristof-erb-i-fred-lonberg-holm-ilia-belorukov-i-aleksandar-skoric-duo",
-      "title": "Jazz koncert: Kristof Erb i Fred Lonberg-Holm + Ilia Belorukov i Aleksandar Škorić duo",
-      "category": "Koncert",
-      "date": "2026-05-01",
-      "time": "21:01",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/jazz-koncert-kristof-erb-i-fred-lonberg-holm-ilia-belorukov-i-aleksandar-skoric-duo/"
-    },
     {
       "id": "arena-cineplex-repertoar-za-subotu-3",
       "title": "Arena Cineplex – repertoar za subotu",
