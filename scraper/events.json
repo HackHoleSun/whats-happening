@@ -1,33 +1,6 @@
 {
-  "scraped_at": "2026-05-02T07:50:33Z",
+  "scraped_at": "2026-05-03T08:06:06Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-subotu-3",
-      "title": "Arena Cineplex – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-05-02",
-      "time": "10:30",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-subotu-3/"
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-subotu-3",
-      "title": "Cineplexx Novi Sad – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-05-02",
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-3/"
-    },
-    {
-      "id": "tri-kapljice-dad-joke-sputnik",
-      "title": "Tri kapljice | Dad Joke | Sputñik",
-      "category": "Koncert",
-      "date": "2026-05-02",
-      "time": "20:30",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/tri-kapljice-dad-joke-sputnik/"
-    },
     {
       "id": "arena-cineplex-repertoar-za-nedelju-3",
       "title": "Arena Cineplex – repertoar za nedelju",
@@ -83,6 +56,33 @@
       "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-4/"
     },
     {
+      "id": "arena-cineplex-repertoar-za-ponedeljak-4",
+      "title": "Arena Cineplex – repertoar za ponedeljak",
+      "category": "Film",
+      "date": "2026-05-04",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-4/"
+    },
+    {
+      "id": "conversation-club-with-lana-3",
+      "title": "Conversation Club with Lana",
+      "category": "Radionica",
+      "date": "2026-05-04",
+      "time": "18:30",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/conversation-club-with-lana-3/"
+    },
+    {
+      "id": "otvaranje-izlozbe-dunavske-luke-istorija-arhitektura-ljudi",
+      "title": "Otvaranje izložbe “Dunavske luke: istorija, arhitektura, ljudi”",
+      "category": "Izložba",
+      "date": "2026-05-04",
+      "time": "19:00",
+      "location": "Galerija Prometej",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-dunavske-luke-istorija-arhitektura-ljudi/"
+    },
+    {
       "id": "arsenik-i-stare-cipke",
       "title": "Arsenik i stare čipke",
       "category": "Predstava",
@@ -108,6 +108,15 @@
       "time": "15:00",
       "location": "Cineplexx Promenada",
       "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-5/"
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-utorak-4",
+      "title": "Arena Cineplex – repertoar za utorak",
+      "category": "Film",
+      "date": "2026-05-05",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-4/"
     },
     {
       "id": "balkanski-spijun-3",
@@ -173,6 +182,24 @@
       "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-sredu-4/"
     },
     {
+      "id": "arena-cineplex-repertoar-za-sredu-4",
+      "title": "Arena Cineplex – repertoar za sredu",
+      "category": "Film",
+      "date": "2026-05-06",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-4/"
+    },
+    {
+      "id": "conversation-club-with-anna-4",
+      "title": "Conversation Club with Anna",
+      "category": "Radionica",
+      "date": "2026-05-06",
+      "time": "18:30",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/conversation-club-with-anna-4/"
+    },
+    {
       "id": "velika-cetvorka",
       "title": "Velika četvorka",
       "category": "Predstava",
@@ -180,6 +207,15 @@
       "time": "19:00",
       "location": "Novosadsko pozorište",
       "url": "https://www.mojnovisad.com/navigator/velika-cetvorka/"
+    },
+    {
+      "id": "bitange",
+      "title": "Bitange",
+      "category": "Koncert",
+      "date": "2026-05-06",
+      "time": "22:00",
+      "location": "Lazino Tele",
+      "url": "https://www.mojnovisad.com/navigator/bitange/"
     },
     {
       "id": "international-harp-competition-petar-konjovic",
@@ -290,6 +326,24 @@
       "url": "https://www.mojnovisad.com/navigator/carstvo-i-drugarstvo-gabbys-dollhouse/"
     },
     {
+      "id": "89-novosadski-nocni-bazar",
+      "title": "89. Novosadski noćni bazar",
+      "category": "Šoping vodič",
+      "date": "2026-05-08",
+      "time": "18:00",
+      "location": "Riblja pijaca",
+      "url": "https://www.mojnovisad.com/navigator/89-novosadski-nocni-bazar/"
+    },
+    {
+      "id": "otvaranje-izlozbe-koracanje-utabanim-stazama",
+      "title": "Otvaranje izložbe “Koračanje utabanim stazama”",
+      "category": "Izložba",
+      "date": "2026-05-08",
+      "time": "18:00",
+      "location": "Gradska biblioteka u Novom Sadu",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-koracanje-utabanim-stazama/"
+    },
+    {
       "id": "zasto-magarci-stoje-na-promaji-3",
       "title": "Zašto magarci stoje na promaji?",
       "category": "Predstava",
@@ -315,6 +369,15 @@
       "time": "19:00",
       "location": "Američki kutak Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-planeta-autorke-teodore-nikolic/"
+    },
+    {
+      "id": "otvaranje-izlozbe-dva-veka-cuvanja-bastine-matica-srpska-kao-zacetnik-muzejske-misli-kroz-fondove-muzeja-vojvodine",
+      "title": "Otvaranje izložbe “Dva veka čuvanja baštine – Matica srpska kao začetnik muzejske misli kroz fondove Muzeja Vojvodine”",
+      "category": "Izložba",
+      "date": "2026-05-08",
+      "time": "19:00",
+      "location": "Muzej Vojvodine",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-dva-veka-cuvanja-bastine-matica-srpska-kao-zacetnik-muzejske-misli-kroz-fondove-muzeja-vojvodine/"
     },
     {
       "id": "lutka",
@@ -1100,6 +1163,15 @@
       "url": "https://www.mojnovisad.com/navigator/madam-baterflaj-2/"
     },
     {
+      "id": "british-steel-tribina-posvecena-novom-talasu-britanskog-heavy-metala-new-wave-of-british-heavy-metal",
+      "title": "British Steel + Tribina posvećena novom talasu britanskog heavy metala (New Wave Of British Heavy Metal)",
+      "category": "Koncert",
+      "date": "2026-05-23",
+      "time": "19:00",
+      "location": "SKCNS Fabrika",
+      "url": "https://www.mojnovisad.com/navigator/british-steel-tribina-posvecena-novom-talasu-britanskog-heavy-metala-new-wave-of-british-heavy-metal/"
+    },
+    {
       "id": "gospoda-ministarka-3",
       "title": "Gospođa ministarka",
       "category": "Predstava",
@@ -1181,6 +1253,15 @@
       "url": "https://www.mojnovisad.com/navigator/stand-up-show-gorana-vincica-vince-komedija-je-ozbiljna-stvar/"
     },
     {
+      "id": "sheer-terror-pure-impact-i-wrishlas",
+      "title": "Sheer Terror, Pure Impact i Wrishlas",
+      "category": "Koncert",
+      "date": "2026-05-28",
+      "time": "20:00",
+      "location": "SKCNS Fabrika",
+      "url": "https://www.mojnovisad.com/navigator/sheer-terror-pure-impact-i-wrishlas/"
+    },
+    {
       "id": "71-sterijino-pozorje-profesionalac",
       "title": "71. Sterijino pozorje – Profesionalac",
       "category": "Predstava",
@@ -1197,6 +1278,15 @@
       "time": "11:00",
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-profesionala-repriza/"
+    },
+    {
+      "id": "book-clubbing-4-hamnet",
+      "title": "Book Clubbing #4 – Hamnet",
+      "category": "Knjiga",
+      "date": "2026-05-29",
+      "time": "18:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/book-clubbing-4-hamnet/"
     },
     {
       "id": "zaljubi-se-cica-u-princa",
