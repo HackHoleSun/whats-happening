@@ -1,51 +1,6 @@
 {
-  "scraped_at": "2026-05-03T08:06:06Z",
+  "scraped_at": "2026-05-04T08:35:22Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-nedelju-3",
-      "title": "Arena Cineplex – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-05-03",
-      "time": "10:30",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-3/"
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-nedelju-3",
-      "title": "Cineplexx Novi Sad – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-05-03",
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-3/"
-    },
-    {
-      "id": "gala-koncert-madarske-baletske-akademije",
-      "title": "Gala koncert Mađarske baletske akademije",
-      "category": "Predstava",
-      "date": "2026-05-03",
-      "time": "19:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/gala-koncert-madarske-baletske-akademije/"
-    },
-    {
-      "id": "goth-benefit-zurka",
-      "title": "Goth Benefit Žurka",
-      "category": "Noćni provod",
-      "date": "2026-05-03",
-      "time": "19:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/goth-benefit-zurka/"
-    },
-    {
-      "id": "khirki-zyrion",
-      "title": "Khirki & Zyrion",
-      "category": "Koncert",
-      "date": "2026-05-03",
-      "time": "20:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/khirki-zyrion/"
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-4",
       "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
@@ -243,6 +198,15 @@
       "time": "19:00",
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/pete-novosadske-pozorisne-igre/"
+    },
+    {
+      "id": "prerano-odrasla-deca",
+      "title": "Prerano odrasla deca",
+      "category": "Film",
+      "date": "2026-05-07",
+      "time": "19:00",
+      "location": "Kulturni centar Novog Sada",
+      "url": "https://www.mojnovisad.com/navigator/prerano-odrasla-deca/"
     },
     {
       "id": "jovanca-na-putu-oko-sveta-4",
@@ -884,6 +848,15 @@
       "url": "https://www.mojnovisad.com/navigator/krznena-venera-2/"
     },
     {
+      "id": "celo-telo-tu-me-boli",
+      "title": "Celo telo tu me boli",
+      "category": "Predstava",
+      "date": "2026-05-16",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/celo-telo-tu-me-boli/"
+    },
+    {
       "id": "futura-kultura-open-air-2026",
       "title": "FUTURA KULTURA Open Air 2026",
       "category": "Noćni provod",
@@ -936,6 +909,15 @@
       "time": "21:00",
       "location": "Klub Trema",
       "url": "https://www.mojnovisad.com/navigator/stand-up-komedija-nese-bridzisa-playlista/"
+    },
+    {
+      "id": "sijenke",
+      "title": "SIJENKE",
+      "category": "Koncert",
+      "date": "2026-05-17",
+      "time": "21:00",
+      "location": "Gerila Bar",
+      "url": "https://www.mojnovisad.com/navigator/sijenke/"
     },
     {
       "id": "1981",
@@ -1055,6 +1037,15 @@
       "url": "https://www.mojnovisad.com/navigator/novi-sad-vs-beograd-2/"
     },
     {
+      "id": "12-rodjendan-klabinga-vremensko-skloniste",
+      "title": "12. rodjendan Klabinga // Vremensko sklonište",
+      "category": "Knjiga",
+      "date": "2026-05-20",
+      "time": "18:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/12-rodjendan-klabinga-vremensko-skloniste/"
+    },
+    {
       "id": "roditelj-prvih-sest-godina-3",
       "title": "Roditelj: prvih šest godina",
       "category": "Predstava",
@@ -1127,6 +1118,15 @@
       "url": "https://www.mojnovisad.com/navigator/negde-izvan-planeta-premijera/"
     },
     {
+      "id": "stand-up-komedija-nebojse-grujica-kriza-srednjih-godina",
+      "title": "Stand up komedija Nebojše Grujića “Kriza srednjih godina”",
+      "category": "Predstava",
+      "date": "2026-05-22",
+      "time": "20:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/stand-up-komedija-nebojse-grujica-kriza-srednjih-godina/"
+    },
+    {
       "id": "bila-jednom-jedna-zemlja",
       "title": "Bila jednom jedna zemlja",
       "category": "Predstava",
@@ -1181,6 +1181,24 @@
       "url": "https://www.mojnovisad.com/navigator/gospoda-ministarka-3/"
     },
     {
+      "id": "privatna-proslava-2",
+      "title": "Privatna proslava",
+      "category": "Predstava",
+      "date": "2026-05-23",
+      "time": "19:30",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/privatna-proslava-2/"
+    },
+    {
+      "id": "kriza-voli-me-ne-voli-me",
+      "title": "Kriza ( voli me – ne voli me)",
+      "category": "Predstava",
+      "date": "2026-05-23",
+      "time": "20:00",
+      "location": "SPENS - Sportski i poslovni centar Vojvodina",
+      "url": "https://www.mojnovisad.com/navigator/kriza-voli-me-ne-voli-me/"
+    },
+    {
       "id": "bajka-o-vitezu-bez-konja",
       "title": "Bajka o vitezu bez konja",
       "category": "Predstava",
@@ -1197,6 +1215,33 @@
       "time": "20:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/mrki-nisam-ti-ispricao/"
+    },
+    {
+      "id": "petrijin-venac",
+      "title": "Petrijin venac",
+      "category": "Predstava",
+      "date": "2026-05-24",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/petrijin-venac/"
+    },
+    {
+      "id": "duo-show-mnogo-je-problema-srdan-dincic-i-nebojsa-potkrajac",
+      "title": "Duo Show “Mnogo je problema” – Srđan Dinčić i Nebojša Potkrajac",
+      "category": "Predstava",
+      "date": "2026-05-24",
+      "time": "20:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/duo-show-mnogo-je-problema-srdan-dincic-i-nebojsa-potkrajac/"
+    },
+    {
+      "id": "dzipsii",
+      "title": "Džipsii",
+      "category": "Koncert",
+      "date": "2026-05-24",
+      "time": "21:00",
+      "location": "Gerila Bar",
+      "url": "https://www.mojnovisad.com/navigator/dzipsii/"
     },
     {
       "id": "majka-hrabrost-i-njena-deca-2",
@@ -1316,6 +1361,15 @@
       "url": "https://www.mojnovisad.com/navigator/zlocin-i-kazna-2/"
     },
     {
+      "id": "pre-nego-sto-odes",
+      "title": "Pre nego što odeš",
+      "category": "Predstava",
+      "date": "2026-05-29",
+      "time": "20:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/pre-nego-sto-odes/"
+    },
+    {
       "id": "19-novosadski-ikar",
       "title": "19. Novosadski Ikar",
       "category": "Festival",
@@ -1431,6 +1485,15 @@
       "time": "19:30",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/medeja/"
+    },
+    {
+      "id": "music-reactions-outdoor-rave",
+      "title": "Music Reactions Outdoor Rave",
+      "category": "Noćni provod",
+      "date": "2026-06-12",
+      "time": "22:00",
+      "location": "Club Tunnel",
+      "url": "https://www.mojnovisad.com/navigator/music-reactions-outdoor-rave/"
     },
     {
       "id": "the-jungle-festival",
