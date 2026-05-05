@@ -1,60 +1,6 @@
 {
-  "scraped_at": "2026-05-04T08:35:22Z",
+  "scraped_at": "2026-05-05T08:17:30Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-4",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-05-04",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-4/"
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-ponedeljak-4",
-      "title": "Arena Cineplex – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-05-04",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-4/"
-    },
-    {
-      "id": "conversation-club-with-lana-3",
-      "title": "Conversation Club with Lana",
-      "category": "Radionica",
-      "date": "2026-05-04",
-      "time": "18:30",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/conversation-club-with-lana-3/"
-    },
-    {
-      "id": "otvaranje-izlozbe-dunavske-luke-istorija-arhitektura-ljudi",
-      "title": "Otvaranje izložbe “Dunavske luke: istorija, arhitektura, ljudi”",
-      "category": "Izložba",
-      "date": "2026-05-04",
-      "time": "19:00",
-      "location": "Galerija Prometej",
-      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-dunavske-luke-istorija-arhitektura-ljudi/"
-    },
-    {
-      "id": "arsenik-i-stare-cipke",
-      "title": "Arsenik i stare čipke",
-      "category": "Predstava",
-      "date": "2026-05-04",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/arsenik-i-stare-cipke/"
-    },
-    {
-      "id": "totovi",
-      "title": "Totovi",
-      "category": "Predstava",
-      "date": "2026-05-04",
-      "time": "21:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/totovi/"
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-utorak-5",
       "title": "Cineplexx Novi Sad – repertoar za utorak",
@@ -245,6 +191,15 @@
       "url": "https://www.mojnovisad.com/navigator/na-vukovom-tragu-4/"
     },
     {
+      "id": "commuter-deliblat",
+      "title": "Commuter + deliblat",
+      "category": "Koncert",
+      "date": "2026-05-07",
+      "time": "20:30",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/commuter-deliblat/"
+    },
+    {
       "id": "cubanero-salsa-festival",
       "title": "Cubanero Salsa Festival",
       "category": "Festival",
@@ -261,6 +216,15 @@
       "time": "21:00",
       "location": "The Pub",
       "url": "https://www.mojnovisad.com/navigator/kanda-kodza-i-nebojsa/"
+    },
+    {
+      "id": "besplatni-bioskop-kako-dobiti-izbore-4",
+      "title": "Besplatni Bioskop –– KAKO DOBITI IZBORE ––",
+      "category": "Film",
+      "date": "2026-05-07",
+      "time": "21:00",
+      "location": "Salon u Radničkoj",
+      "url": "https://www.mojnovisad.com/navigator/besplatni-bioskop-kako-dobiti-izbore-4/"
     },
     {
       "id": "ksenija-i-lovac-3",
@@ -380,6 +344,15 @@
       "url": "https://www.mojnovisad.com/navigator/marko-dzomba-i-sylvia-kimiko-krutz/"
     },
     {
+      "id": "ns-alt-boooom-festival",
+      "title": "NS ALT: BOOOOM Festival",
+      "category": "Koncert",
+      "date": "2026-05-08",
+      "time": "20:30",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/ns-alt-boooom-festival/"
+    },
+    {
       "id": "buc-kesidi",
       "title": "Buč Kesidi",
       "category": "Koncert",
@@ -441,6 +414,15 @@
       "time": "17:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/putovanje-dobrog-hansa-bema-kroz-evropu/"
+    },
+    {
+      "id": "srpska-umea-fest-14",
+      "title": "SRPSKA UMEA FEST 14",
+      "category": "Koncert",
+      "date": "2026-05-09",
+      "time": "18:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/srpska-umea-fest-14/"
     },
     {
       "id": "hajduci",
@@ -749,6 +731,24 @@
       "url": "https://www.mojnovisad.com/navigator/ponovno-ujedinjenje-dve-koreje-3/"
     },
     {
+      "id": "filokafe-strah-od-ljubavi-2",
+      "title": "Filokafe: Strah od ljubavi",
+      "category": "Radionica",
+      "date": "2026-05-14",
+      "time": "19:00",
+      "location": "Zenit",
+      "url": "https://www.mojnovisad.com/navigator/filokafe-strah-od-ljubavi-2/"
+    },
+    {
+      "id": "filokafe-strah-od-ljubavi",
+      "title": "Filokafe: Strah od ljubavi",
+      "category": "Radionica",
+      "date": "2026-05-14",
+      "time": "19:00",
+      "location": "Zenit",
+      "url": "https://www.mojnovisad.com/navigator/filokafe-strah-od-ljubavi/"
+    },
+    {
       "id": "stand-up-komedija-spansko-selo-miguel-jaramillo",
       "title": "Stand up komedija “Špansko selo” – Miguel Jaramillo",
       "category": "Predstava",
@@ -785,6 +785,15 @@
       "url": "https://www.mojnovisad.com/navigator/ivana-peters-moja-stvar/"
     },
     {
+      "id": "besplatni-bioskop-kako-dobiti-izbore-3",
+      "title": "Besplatni Bioskop –– KAKO DOBITI IZBORE ––",
+      "category": "Film",
+      "date": "2026-05-14",
+      "time": "21:00",
+      "location": "Salon u Radničkoj",
+      "url": "https://www.mojnovisad.com/navigator/besplatni-bioskop-kako-dobiti-izbore-3/"
+    },
+    {
       "id": "decija-predstava-hrabri-krojac",
       "title": "Dečija predstava “Hrabri krojač”",
       "category": "Predstava",
@@ -801,6 +810,15 @@
       "time": "21:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/zdravo-zivote-2/"
+    },
+    {
+      "id": "hydrogen-plis",
+      "title": "Hydrogen & pliš",
+      "category": "Koncert",
+      "date": "2026-05-15",
+      "time": "21:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/hydrogen-plis/"
     },
     {
       "id": "electro%d0%bf%d0%be%d0%bf",
@@ -1098,6 +1116,15 @@
       "time": "20:00",
       "location": "Naftna industrija Srbije",
       "url": "https://www.mojnovisad.com/navigator/nina-2/"
+    },
+    {
+      "id": "besplatni-bioskop-kako-dobiti-izbore-2",
+      "title": "Besplatni Bioskop –– KAKO DOBITI IZBORE ––",
+      "category": "Film",
+      "date": "2026-05-21",
+      "time": "21:00",
+      "location": "Salon u Radničkoj",
+      "url": "https://www.mojnovisad.com/navigator/besplatni-bioskop-kako-dobiti-izbore-2/"
     },
     {
       "id": "1981-2",
@@ -1458,6 +1485,15 @@
       "time": "20:00",
       "location": "KC \"Mladost\"",
       "url": "https://www.mojnovisad.com/navigator/slobodna-zona-lajza-mineli/"
+    },
+    {
+      "id": "besplatni-bioskop-kako-dobiti-izbore",
+      "title": "Besplatni Bioskop –– KAKO DOBITI IZBORE ––",
+      "category": "Film",
+      "date": "2026-06-04",
+      "time": "21:00",
+      "location": "Salon u Radničkoj",
+      "url": "https://www.mojnovisad.com/navigator/besplatni-bioskop-kako-dobiti-izbore/"
     },
     {
       "id": "deca-losih-muzicara-2",
