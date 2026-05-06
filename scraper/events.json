@@ -1,78 +1,6 @@
 {
-  "scraped_at": "2026-05-05T08:17:30Z",
+  "scraped_at": "2026-05-06T08:32:47Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-utorak-5",
-      "title": "Cineplexx Novi Sad – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-05-05",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-5/"
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-utorak-4",
-      "title": "Arena Cineplex – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-05-05",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-4/"
-    },
-    {
-      "id": "balkanski-spijun-3",
-      "title": "Balkanski špijun",
-      "category": "Predstava",
-      "date": "2026-05-05",
-      "time": "19:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/balkanski-spijun-3/"
-    },
-    {
-      "id": "duka",
-      "title": "Đuka",
-      "category": "Predstava",
-      "date": "2026-05-05",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/duka/"
-    },
-    {
-      "id": "slobodna-zona-hepiend",
-      "title": "Slobodna Zona – HEPIEND",
-      "category": "Film",
-      "date": "2026-05-05",
-      "time": "20:00",
-      "location": "KC \"Mladost\"",
-      "url": "https://www.mojnovisad.com/navigator/slobodna-zona-hepiend/"
-    },
-    {
-      "id": "drugih-lampa-sjaj",
-      "title": "Drugih lampa sjaj",
-      "category": "Predstava",
-      "date": "2026-05-05",
-      "time": "20:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/drugih-lampa-sjaj/"
-    },
-    {
-      "id": "ritam-evrope",
-      "title": "Ritam Evrope!",
-      "category": "Festival",
-      "date": "2026-05-05",
-      "time": "20:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/ritam-evrope/"
-    },
-    {
-      "id": "lutka-sa-kreveta-broj-21",
-      "title": "Lutka sa kreveta broj 21",
-      "category": "Predstava",
-      "date": "2026-05-05",
-      "time": "21:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/lutka-sa-kreveta-broj-21/"
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-sredu-4",
       "title": "Cineplexx Novi Sad – repertoar za sredu",
@@ -407,6 +335,15 @@
       "url": "https://www.mojnovisad.com/navigator/prolecno-podrumarenje/"
     },
     {
+      "id": "tajna-melodije-oda-radosti-za-decu-muzicko-kreativna-radionica",
+      "title": "„Tajna melodije – Oda radosti za decu“ – muzičko-kreativna radionica",
+      "category": "Radionica",
+      "date": "2026-05-09",
+      "time": "11:30",
+      "location": "Evropska kuća Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/tajna-melodije-oda-radosti-za-decu-muzicko-kreativna-radionica/"
+    },
+    {
       "id": "putovanje-dobrog-hansa-bema-kroz-evropu",
       "title": "Putovanje dobrog Hansa Bema kroz Evropu",
       "category": "Predstava",
@@ -522,6 +459,15 @@
       "time": "17:00",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/andraci-jepuri-i-ostala-najvaznija-cudovista-petrovgrada-i-srednjeg-banata/"
+    },
+    {
+      "id": "obelezavamo-svetski-dan-ptica-i-drveca",
+      "title": "Obeležavamo svetski dan ptica i drveća",
+      "category": "Koncert",
+      "date": "2026-05-10",
+      "time": "17:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/obelezavamo-svetski-dan-ptica-i-drveca/"
     },
     {
       "id": "nesto-zdravo-3",
@@ -900,6 +846,15 @@
       "time": "11:00",
       "location": "Pozorište mladih",
       "url": "https://www.mojnovisad.com/navigator/pustinjski-snovi-2/"
+    },
+    {
+      "id": "duhovna-skola-skola-zivota-2",
+      "title": "DUHOVNA ŠKOLA – ŠKOLA ŽIVOTA",
+      "category": "Predavanje",
+      "date": "2026-05-17",
+      "time": "15:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/duhovna-skola-skola-zivota-2/"
     },
     {
       "id": "divlje-jagode-akusticni-koncert",
