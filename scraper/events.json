@@ -1,51 +1,6 @@
 {
-  "scraped_at": "2026-05-06T08:32:47Z",
+  "scraped_at": "2026-05-07T08:40:25Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-sredu-4",
-      "title": "Cineplexx Novi Sad – repertoar za sredu",
-      "category": "Film",
-      "date": "2026-05-06",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-sredu-4/"
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-sredu-4",
-      "title": "Arena Cineplex – repertoar za sredu",
-      "category": "Film",
-      "date": "2026-05-06",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-4/"
-    },
-    {
-      "id": "conversation-club-with-anna-4",
-      "title": "Conversation Club with Anna",
-      "category": "Radionica",
-      "date": "2026-05-06",
-      "time": "18:30",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/conversation-club-with-anna-4/"
-    },
-    {
-      "id": "velika-cetvorka",
-      "title": "Velika četvorka",
-      "category": "Predstava",
-      "date": "2026-05-06",
-      "time": "19:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/velika-cetvorka/"
-    },
-    {
-      "id": "bitange",
-      "title": "Bitange",
-      "category": "Koncert",
-      "date": "2026-05-06",
-      "time": "22:00",
-      "location": "Lazino Tele",
-      "url": "https://www.mojnovisad.com/navigator/bitange/"
-    },
     {
       "id": "international-harp-competition-petar-konjovic",
       "title": "International Harp Competition \"Petar Konjović\"",
