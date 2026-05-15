@@ -1,195 +1,6 @@
 {
-  "scraped_at": "2026-05-14T08:43:04Z",
+  "scraped_at": "2026-05-15T08:54:07Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-cetvrtak-3",
-      "title": "Cineplexx Novi Sad – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-05-14",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-cetvrtak-3/"
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-cetvrtak-4",
-      "title": "Arena Cineplex – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-05-14",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-cetvrtak-4/"
-    },
-    {
-      "id": "svet-digitalne-umetnosti-video-festival-videoforme-2026",
-      "title": "Svet Digitalne Umetnosti – Video festival “Videoforme 2026”",
-      "category": "Predavanje",
-      "date": "2026-05-14",
-      "time": "16:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/svet-digitalne-umetnosti-video-festival-videoforme-2026/"
-    },
-    {
-      "id": "hajdi-i-mali-ris-sinh",
-      "title": "Hajdi i mali ris – sinh",
-      "category": "Film",
-      "date": "2026-05-14",
-      "time": "18:00",
-      "location": "KC \"Mladost\"",
-      "url": "https://www.mojnovisad.com/navigator/hajdi-i-mali-ris-sinh/"
-    },
-    {
-      "id": "movie-talks-3",
-      "title": "Movie TALKS",
-      "category": "Radionica",
-      "date": "2026-05-14",
-      "time": "18:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/movie-talks-3/"
-    },
-    {
-      "id": "promocija-knjige-dr-luka-cuk-zivotna-prica-branislava-dozeta",
-      "title": "Promocija knjige “Dr Luka Ćuk – životna priča” Branislava Dozeta",
-      "category": "Knjiga",
-      "date": "2026-05-14",
-      "time": "18:00",
-      "location": "Muzej Vojvodine",
-      "url": "https://www.mojnovisad.com/navigator/promocija-knjige-dr-luka-cuk-zivotna-prica-branislava-dozeta/"
-    },
-    {
-      "id": "filokafe-strah-od-ljubavi-2",
-      "title": "Filokafe: Strah od ljubavi",
-      "category": "Radionica",
-      "date": "2026-05-14",
-      "time": "19:00",
-      "location": "Zenit",
-      "url": "https://www.mojnovisad.com/navigator/filokafe-strah-od-ljubavi-2/"
-    },
-    {
-      "id": "filokafe-strah-od-ljubavi",
-      "title": "Filokafe: Strah od ljubavi",
-      "category": "Radionica",
-      "date": "2026-05-14",
-      "time": "19:00",
-      "location": "Zenit",
-      "url": "https://www.mojnovisad.com/navigator/filokafe-strah-od-ljubavi/"
-    },
-    {
-      "id": "sokratov-kafe-specijal-povodom-dana-evrope-ironija-algoritmi-i-odgovornost-ko-ti-kroji-misljenje-ti-ili-algorita",
-      "title": "Sokratov kafe – Specijal povodom Dana Evrope: ironija, algoritmi i odgovornost – “Ko ti kroji mišljenje, ti ili algorita",
-      "category": "Radionica",
-      "date": "2026-05-14",
-      "time": "19:00",
-      "location": "Evropska kuća Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/sokratov-kafe-specijal-povodom-dana-evrope-ironija-algoritmi-i-odgovornost-ko-ti-kroji-misljenje-ti-ili-algorita/"
-    },
-    {
-      "id": "psiholoska-radionica-za-mlade-misli-bez-pauze",
-      "title": "Psihološka radionica za mlade – „Misli bez pauze.“",
-      "category": "Radionica",
-      "date": "2026-05-14",
-      "time": "19:00",
-      "location": "Novosadski omladinski prostor (NOF)",
-      "url": "https://www.mojnovisad.com/navigator/psiholoska-radionica-za-mlade-misli-bez-pauze/"
-    },
-    {
-      "id": "promocija-knjige-ise-planica-planine-i-planinski-vrhovi-u-srbiji",
-      "title": "Promocija knjige Ise Planića “Planine i planinski vrhovi u Srbiji”",
-      "category": "Knjiga",
-      "date": "2026-05-14",
-      "time": "19:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/promocija-knjige-ise-planica-planine-i-planinski-vrhovi-u-srbiji/"
-    },
-    {
-      "id": "kako-postati-sakupljac-gljiva",
-      "title": "KAKO POSTATI SAKUPLJAČ GLJIVA?",
-      "category": "Predavanje",
-      "date": "2026-05-14",
-      "time": "19:00",
-      "location": "Trg Galerija",
-      "url": "https://www.mojnovisad.com/navigator/kako-postati-sakupljac-gljiva/"
-    },
-    {
-      "id": "stand-up-komedija-spansko-selo-miguel-jaramillo",
-      "title": "Stand up komedija “Špansko selo” – Miguel Jaramillo",
-      "category": "Predstava",
-      "date": "2026-05-14",
-      "time": "20:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/stand-up-komedija-spansko-selo-miguel-jaramillo/"
-    },
-    {
-      "id": "bracni-prevrtljivci",
-      "title": "Bračni prevrtljivci",
-      "category": "Predstava",
-      "date": "2026-05-14",
-      "time": "20:00",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/bracni-prevrtljivci/"
-    },
-    {
-      "id": "koncert-pijaniste-aleksandra-madzara",
-      "title": "Koncert pijaniste Aleksandra Madžara",
-      "category": "Koncert",
-      "date": "2026-05-14",
-      "time": "20:00",
-      "location": "Gradska koncertna dvorana",
-      "url": "https://www.mojnovisad.com/navigator/koncert-pijaniste-aleksandra-madzara/"
-    },
-    {
-      "id": "balon-2",
-      "title": "Balon",
-      "category": "Predstava",
-      "date": "2026-05-14",
-      "time": "20:00",
-      "location": "Akademija umetnosti Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/balon-2/"
-    },
-    {
-      "id": "2k-satie-revisited",
-      "title": "2K+ Satie Revisited",
-      "category": "Koncert",
-      "date": "2026-05-14",
-      "time": "20:00",
-      "location": "Muzej savremene umetnosti Vojvodine",
-      "url": "https://www.mojnovisad.com/navigator/2k-satie-revisited/"
-    },
-    {
-      "id": "monodrama-merlinka",
-      "title": "Monodrama „Merlinka“",
-      "category": "Predstava",
-      "date": "2026-05-14",
-      "time": "20:30",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/monodrama-merlinka/"
-    },
-    {
-      "id": "misja-groznica-2",
-      "title": "Mišja groznica",
-      "category": "Predstava",
-      "date": "2026-05-14",
-      "time": "21:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/misja-groznica-2/"
-    },
-    {
-      "id": "ivana-peters-moja-stvar",
-      "title": "Ivana Peters – Moja stvar",
-      "category": "Koncert",
-      "date": "2026-05-14",
-      "time": "21:00",
-      "location": "Nacionalna Klasa by Vojvodina",
-      "url": "https://www.mojnovisad.com/navigator/ivana-peters-moja-stvar/"
-    },
-    {
-      "id": "besplatni-bioskop-kako-dobiti-izbore-3",
-      "title": "Besplatni Bioskop –– KAKO DOBITI IZBORE ––",
-      "category": "Film",
-      "date": "2026-05-14",
-      "time": "21:00",
-      "location": "Salon u Radničkoj",
-      "url": "https://www.mojnovisad.com/navigator/besplatni-bioskop-kako-dobiti-izbore-3/"
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-petak-4",
       "title": "Cineplexx Novi Sad – repertoar za petak",
@@ -623,6 +434,15 @@
       "url": "https://www.mojnovisad.com/navigator/neodustajanje-3/"
     },
     {
+      "id": "otvaranje-izlozbe-anje-nikolic-bez-tela",
+      "title": "Otvaranje izložbe Anje Nikolić “Bez tela”",
+      "category": "Izložba",
+      "date": "2026-05-18",
+      "time": "19:00",
+      "location": "Mali likovni salon KCNS",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-anje-nikolic-bez-tela/"
+    },
+    {
       "id": "revizor-2",
       "title": "Revizor",
       "category": "Predstava",
@@ -630,6 +450,15 @@
       "time": "19:30",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/revizor-2/"
+    },
+    {
+      "id": "ozaloscena-porodica-pozorisna-predstava",
+      "title": "Ožalošćena Porodica – pozorišna predstava",
+      "category": "Predstava",
+      "date": "2026-05-18",
+      "time": "19:30",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/ozaloscena-porodica-pozorisna-predstava/"
     },
     {
       "id": "dzenan-loncarevic",
@@ -846,6 +675,15 @@
       "time": "19:00",
       "location": "Novosadski omladinski prostor (NOF)",
       "url": "https://www.mojnovisad.com/navigator/%d0%bf%d1%81%d0%b8%d1%85%d0%be%d0%bb%d0%be%d1%88%d0%ba%d0%b0-%d1%80%d0%b0%d0%b4%d0%b8%d0%be%d0%bd%d0%b8%d1%86%d0%b0-%d0%bd%d0%b5%d1%81%d0%b8%d0%b3%d1%83%d1%80%d0%bd%d0%b0-%d0%b1%d0%bb%d0%b8%d1%81/"
+    },
+    {
+      "id": "retrospektivna-izlozba-fotografija-ljubomira-kojica",
+      "title": "Retrospektivna izložba fotografija Ljubomira Kojića",
+      "category": "Izložba",
+      "date": "2026-05-21",
+      "time": "19:00",
+      "location": "Muzej Vojvodine",
+      "url": "https://www.mojnovisad.com/navigator/retrospektivna-izlozba-fotografija-ljubomira-kojica/"
     },
     {
       "id": "drz-ne-daj-3",
