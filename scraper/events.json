@@ -1,105 +1,6 @@
 {
-  "scraped_at": "2026-05-15T08:54:07Z",
+  "scraped_at": "2026-05-16T08:09:42Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-petak-4",
-      "title": "Cineplexx Novi Sad – repertoar za petak",
-      "category": "Film",
-      "date": "2026-05-15",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-petak-4/"
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-petak-4",
-      "title": "Arena Cineplex – repertoar za petak",
-      "category": "Film",
-      "date": "2026-05-15",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-petak-4/"
-    },
-    {
-      "id": "decija-predstava-hrabri-krojac",
-      "title": "Dečija predstava “Hrabri krojač” OTKAZANO",
-      "category": "Predstava",
-      "date": "2026-05-15",
-      "time": "19:00",
-      "location": "SPENS - Sportski i poslovni centar Vojvodina",
-      "url": "https://www.mojnovisad.com/navigator/decija-predstava-hrabri-krojac/"
-    },
-    {
-      "id": "pescana-pomeranja",
-      "title": "Peščana pomeranja",
-      "category": "Izložba",
-      "date": "2026-05-15",
-      "time": "19:00",
-      "location": "Muzej savremene umetnosti Vojvodine",
-      "url": "https://www.mojnovisad.com/navigator/pescana-pomeranja/"
-    },
-    {
-      "id": "razgovor-o-knjizi-pocetak-treceg-milenijuma-andreja-tisme",
-      "title": "Razgovor o knjizi “Početak trećeg milenijuma” Andreja Tišme",
-      "category": "Knjiga",
-      "date": "2026-05-15",
-      "time": "19:00",
-      "location": "Galerija Prometej",
-      "url": "https://www.mojnovisad.com/navigator/razgovor-o-knjizi-pocetak-treceg-milenijuma-andreja-tisme/"
-    },
-    {
-      "id": "razgovor-sa-umetnikom-dragomir-ugren",
-      "title": "Razgovor sa umetnikom – Dragomir Ugren",
-      "category": "Predavanje",
-      "date": "2026-05-15",
-      "time": "19:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/razgovor-sa-umetnikom-dragomir-ugren/"
-    },
-    {
-      "id": "zdravo-zivote-2",
-      "title": "Zdrav(o) život(e)!",
-      "category": "Predstava",
-      "date": "2026-05-15",
-      "time": "21:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/zdravo-zivote-2/"
-    },
-    {
-      "id": "hydrogen-plis",
-      "title": "Hydrogen & pliš",
-      "category": "Koncert",
-      "date": "2026-05-15",
-      "time": "21:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/hydrogen-plis/"
-    },
-    {
-      "id": "seine",
-      "title": "SEINE",
-      "category": "Koncert",
-      "date": "2026-05-15",
-      "time": "21:00",
-      "location": "Bulevar Books",
-      "url": "https://www.mojnovisad.com/navigator/seine/"
-    },
-    {
-      "id": "amy-lavere-i-will-sexton",
-      "title": "Amy LaVere i Will Sexton",
-      "category": "Koncert",
-      "date": "2026-05-15",
-      "time": "21:00",
-      "location": "Graffiti",
-      "url": "https://www.mojnovisad.com/navigator/amy-lavere-i-will-sexton/"
-    },
-    {
-      "id": "electro%d0%bf%d0%be%d0%bf",
-      "title": "ELECTROПОП",
-      "category": "Noćni provod",
-      "date": "2026-05-15",
-      "time": "22:00",
-      "location": "Borisov atelje",
-      "url": "https://www.mojnovisad.com/navigator/electro%d0%bf%d0%be%d0%bf/"
-    },
     {
       "id": "boemska-tura-fruskom-gorom",
       "title": "BOEMSKA TURA FRUŠKOM GOROM",
@@ -684,6 +585,15 @@
       "time": "19:00",
       "location": "Muzej Vojvodine",
       "url": "https://www.mojnovisad.com/navigator/retrospektivna-izlozba-fotografija-ljubomira-kojica/"
+    },
+    {
+      "id": "3d-mandalorac-i-grogu",
+      "title": "3D Mandalorac i Grogu",
+      "category": "Film",
+      "date": "2026-05-21",
+      "time": "19:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/3d-mandalorac-i-grogu/"
     },
     {
       "id": "drz-ne-daj-3",
