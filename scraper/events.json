@@ -1,159 +1,6 @@
 {
-  "scraped_at": "2026-05-16T08:09:42Z",
+  "scraped_at": "2026-05-17T08:25:55Z",
   "events": [
-    {
-      "id": "boemska-tura-fruskom-gorom",
-      "title": "BOEMSKA TURA FRUŠKOM GOROM",
-      "category": "Festival",
-      "date": "2026-05-16",
-      "time": "09:00",
-      "location": "Železnički park",
-      "url": "https://www.mojnovisad.com/navigator/boemska-tura-fruskom-gorom/"
-    },
-    {
-      "id": "93-medunarodni-poljoprivredni-sajam",
-      "title": "93. Međunarodni poljoprivredni sajam",
-      "category": "Festival",
-      "date": "2026-05-16",
-      "time": "09:00",
-      "location": "Novosadski sajam",
-      "url": "https://www.mojnovisad.com/navigator/93-medunarodni-poljoprivredni-sajam/"
-    },
-    {
-      "id": "medunarodni-dan-muzeja-otvaranje-izlozbe-decijih-radova-i-koncert-klavirskog-dua-mm",
-      "title": "Međunarodni dan muzeja: Otvaranje izložbe dečijih radova i koncert klavirskog dua M&M",
-      "category": "Festival",
-      "date": "2026-05-16",
-      "time": "10:00",
-      "location": "Spomen-zbirka Pavla Beljanskog",
-      "url": "https://www.mojnovisad.com/navigator/medunarodni-dan-muzeja-otvaranje-izlozbe-decijih-radova-i-koncert-klavirskog-dua-mm/"
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-subotu-5",
-      "title": "Arena Cineplex – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-05-16",
-      "time": "10:30",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-subotu-5/"
-    },
-    {
-      "id": "kos-i-lisica-2",
-      "title": "Kos i lisica",
-      "category": "Predstava",
-      "date": "2026-05-16",
-      "time": "11:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/kos-i-lisica-2/"
-    },
-    {
-      "id": "otvoreni-ateljei",
-      "title": "Otvoreni ateljei",
-      "category": "Izložba",
-      "date": "2026-05-16",
-      "time": "12:00",
-      "location": "Petrovaradin",
-      "url": "https://www.mojnovisad.com/navigator/otvoreni-ateljei/"
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-subotu-6",
-      "title": "Cineplexx Novi Sad – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-05-16",
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-6/"
-    },
-    {
-      "id": "challenge-rekonstrukcija",
-      "title": "Challenge Rekonstrukcija",
-      "category": "Festival",
-      "date": "2026-05-16",
-      "time": "13:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/challenge-rekonstrukcija/"
-    },
-    {
-      "id": "autorsko-vodenje-kroz-izlozbu-kaleidoskop",
-      "title": "Autorsko vođenje kroz izložbu “Kaleidoskop”",
-      "category": "Izložba",
-      "date": "2026-05-16",
-      "time": "13:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/autorsko-vodenje-kroz-izlozbu-kaleidoskop/"
-    },
-    {
-      "id": "rodendanska-zurka-k-pop-demon-hunters",
-      "title": "Rođendanska žurka – “K-POP DEMON HUNTERS”",
-      "category": "Predstava",
-      "date": "2026-05-16",
-      "time": "17:00",
-      "location": "SPENS - Sportski i poslovni centar Vojvodina",
-      "url": "https://www.mojnovisad.com/navigator/rodendanska-zurka-k-pop-demon-hunters/"
-    },
-    {
-      "id": "autorsko-vodenje-kroz-izlozbu-kaleidoskop-2",
-      "title": "Autorsko vođenje kroz izložbu “Kaleidoskop”",
-      "category": "Izložba",
-      "date": "2026-05-16",
-      "time": "17:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/autorsko-vodenje-kroz-izlozbu-kaleidoskop-2/"
-    },
-    {
-      "id": "krznena-venera-2",
-      "title": "Krznena Venera",
-      "category": "Predstava",
-      "date": "2026-05-16",
-      "time": "18:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/krznena-venera-2/"
-    },
-    {
-      "id": "dorde-obradovic-quintet",
-      "title": "Đorđe Obradović Quintet",
-      "category": "Koncert",
-      "date": "2026-05-16",
-      "time": "18:00",
-      "location": "Gorski smeško",
-      "url": "https://www.mojnovisad.com/navigator/dorde-obradovic-quintet/"
-    },
-    {
-      "id": "bici-bioskop-projekcija-filma-motherload",
-      "title": "Bici bioskop – projekcija filma Motherload",
-      "category": "Film",
-      "date": "2026-05-16",
-      "time": "19:00",
-      "location": "Omladinski klub - OPENS",
-      "url": "https://www.mojnovisad.com/navigator/bici-bioskop-projekcija-filma-motherload/"
-    },
-    {
-      "id": "celo-telo-tu-me-boli",
-      "title": "Celo telo tu me boli",
-      "category": "Predstava",
-      "date": "2026-05-16",
-      "time": "20:00",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/celo-telo-tu-me-boli/"
-    },
-    {
-      "id": "kul-t-kvirtura",
-      "title": "Kul.t: Kvirtura",
-      "category": "Noćni provod",
-      "date": "2026-05-16",
-      "time": "20:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/kul-t-kvirtura/"
-    },
-    {
-      "id": "futura-kultura-open-air-2026",
-      "title": "FUTURA KULTURA Open Air 2026",
-      "category": "Noćni provod",
-      "date": "2026-05-16",
-      "time": "22:00",
-      "location": "Borisov atelje",
-      "url": "https://www.mojnovisad.com/navigator/futura-kultura-open-air-2026/"
-    },
     {
       "id": "bns-akvatlon-triatlon-kluba-dynamic",
       "title": "BNS Akvatlon triatlon kluba Dynamic",
@@ -594,6 +441,15 @@
       "time": "19:00",
       "location": "KC \"Mladost\"",
       "url": "https://www.mojnovisad.com/navigator/3d-mandalorac-i-grogu/"
+    },
+    {
+      "id": "upoznavanje-za-razvedene-u-the-end-kaficu",
+      "title": "Upoznavanje za razvedene u The End kaficu",
+      "category": "Noćni provod",
+      "date": "2026-05-21",
+      "time": "19:30",
+      "location": "The End Cafe",
+      "url": "https://www.mojnovisad.com/navigator/upoznavanje-za-razvedene-u-the-end-kaficu/"
     },
     {
       "id": "drz-ne-daj-3",
