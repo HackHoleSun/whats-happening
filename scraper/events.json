@@ -1,114 +1,6 @@
 {
-  "scraped_at": "2026-05-19T09:54:25Z",
+  "scraped_at": "2026-05-20T09:41:30Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-utorak-6",
-      "title": "Arena Cineplex – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-05-19",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-6/"
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-utorak-7",
-      "title": "Cineplexx Novi Sad – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-05-19",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-7/"
-    },
-    {
-      "id": "hasanaginica",
-      "title": "Hasanaginica",
-      "category": "Predstava",
-      "date": "2026-05-19",
-      "time": "19:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/hasanaginica/"
-    },
-    {
-      "id": "madam-baterflaj-premijera",
-      "title": "Madam Baterflaj – Premijera",
-      "category": "Predstava",
-      "date": "2026-05-19",
-      "time": "19:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/madam-baterflaj-premijera/"
-    },
-    {
-      "id": "madam-baterflaj",
-      "title": "Madam Baterflaj",
-      "category": "Predstava",
-      "date": "2026-05-19",
-      "time": "19:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/madam-baterflaj/"
-    },
-    {
-      "id": "promocija-knjige-deep-cuts",
-      "title": "Promocija knjige “Deep Cuts”",
-      "category": "Knjiga",
-      "date": "2026-05-19",
-      "time": "19:00",
-      "location": "Bulevar Books",
-      "url": "https://www.mojnovisad.com/navigator/promocija-knjige-deep-cuts/"
-    },
-    {
-      "id": "jevandelje-po-f-m-dostojevskom-2",
-      "title": "Jevanđelje po F. M. Dostojevskom",
-      "category": "Predstava",
-      "date": "2026-05-19",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/jevandelje-po-f-m-dostojevskom-2/"
-    },
-    {
-      "id": "kultna-predstava-nasi-dani",
-      "title": "Kultna predstava “Naši dani”",
-      "category": "Predstava",
-      "date": "2026-05-19",
-      "time": "20:00",
-      "location": "Radnički dom \"Svetozar marković\"",
-      "url": "https://www.mojnovisad.com/navigator/kultna-predstava-nasi-dani/"
-    },
-    {
-      "id": "autorizacija-3",
-      "title": "Autorizacija",
-      "category": "Predstava",
-      "date": "2026-05-19",
-      "time": "20:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/autorizacija-3/"
-    },
-    {
-      "id": "voljena",
-      "title": "Voljena",
-      "category": "Film",
-      "date": "2026-05-19",
-      "time": "20:00",
-      "location": "KC \"Mladost\"",
-      "url": "https://www.mojnovisad.com/navigator/voljena/"
-    },
-    {
-      "id": "stand-up-za-stefana-smehom-dajemo-glas-stefanu",
-      "title": "Stand up za Stefana – Smehom dajemo glas Stefanu",
-      "category": "Predstava",
-      "date": "2026-05-19",
-      "time": "20:00",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/stand-up-za-stefana-smehom-dajemo-glas-stefanu/"
-    },
-    {
-      "id": "novi-sad-vs-beograd-2",
-      "title": "Novi Sad vs. Beograd",
-      "category": "Predstava",
-      "date": "2026-05-19",
-      "time": "20:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/novi-sad-vs-beograd-2/"
-    },
     {
       "id": "vizuelnost-i-dizajn",
       "title": "Vizuelnost i dizajn",
@@ -146,6 +38,24 @@
       "url": "https://www.mojnovisad.com/navigator/12-rodjendan-klabinga-vremensko-skloniste/"
     },
     {
+      "id": "conversation-club-with-anna-6",
+      "title": "Conversation Club with Anna",
+      "category": "Radionica",
+      "date": "2026-05-20",
+      "time": "18:30",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/conversation-club-with-anna-6/"
+    },
+    {
+      "id": "predavanje-dr-zorice-svircev-u-novosadskom-klubu",
+      "title": "Predavanje dr Zorice Svirčev u Novosadskom klubu",
+      "category": "Predavanje",
+      "date": "2026-05-20",
+      "time": "19:00",
+      "location": "Galerija Prometej",
+      "url": "https://www.mojnovisad.com/navigator/predavanje-dr-zorice-svircev-u-novosadskom-klubu/"
+    },
+    {
       "id": "blind-date",
       "title": "Blind date",
       "category": "Predstava",
@@ -173,6 +83,15 @@
       "url": "https://www.mojnovisad.com/navigator/roditelj-prvih-sest-godina-3/"
     },
     {
+      "id": "zavrsna-izlozba-ateljea-presto",
+      "title": "Završna izložba ateljea “Presto”",
+      "category": "Izložba",
+      "date": "2026-05-21",
+      "time": "17:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/zavrsna-izlozba-ateljea-presto/"
+    },
+    {
       "id": "carobna-frula-4",
       "title": "Čarobna frula",
       "category": "Predstava",
@@ -180,6 +99,15 @@
       "time": "18:00",
       "location": "Pozorište mladih",
       "url": "https://www.mojnovisad.com/navigator/carobna-frula-4/"
+    },
+    {
+      "id": "otvaranje-izlozbe-jane-stojakovic-deus-ex-machina",
+      "title": "Otvaranje izložbe Jane Stojaković „Deus Ex Machina“",
+      "category": "Izložba",
+      "date": "2026-05-21",
+      "time": "18:00",
+      "location": "SKCNS nova zgrada",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-jane-stojakovic-deus-ex-machina/"
     },
     {
       "id": "bilo-jednom-u-novom-sadu-2",
@@ -216,6 +144,15 @@
       "time": "19:00",
       "location": "KC \"Mladost\"",
       "url": "https://www.mojnovisad.com/navigator/3d-mandalorac-i-grogu/"
+    },
+    {
+      "id": "book-club-with-andrew",
+      "title": "Book Club with Andrew",
+      "category": "Knjiga",
+      "date": "2026-05-21",
+      "time": "19:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/book-club-with-andrew/"
     },
     {
       "id": "upoznavanje-za-razvedene-u-the-end-kaficu",
@@ -263,6 +200,15 @@
       "url": "https://www.mojnovisad.com/navigator/promocija-knjige-podzemni-razgovori-stevana-lenharta/"
     },
     {
+      "id": "humanitarni-koncert-za-brankicu",
+      "title": "Humanitarni koncert za Brankicu",
+      "category": "Koncert",
+      "date": "2026-05-21",
+      "time": "20:00",
+      "location": "Bulevar Books",
+      "url": "https://www.mojnovisad.com/navigator/humanitarni-koncert-za-brankicu/"
+    },
+    {
       "id": "besplatni-bioskop-kako-dobiti-izbore-2",
       "title": "Besplatni Bioskop –– KAKO DOBITI IZBORE ––",
       "category": "Film",
@@ -290,6 +236,15 @@
       "url": "https://www.mojnovisad.com/navigator/kanda-kodza-i-nebojsa-2/"
     },
     {
+      "id": "epidemik-pearl-jam-tribute",
+      "title": "Epidemik – Pearl Jam tribute",
+      "category": "Koncert",
+      "date": "2026-05-21",
+      "time": "21:30",
+      "location": "Lazino Tele",
+      "url": "https://www.mojnovisad.com/navigator/epidemik-pearl-jam-tribute/"
+    },
+    {
       "id": "1981-2",
       "title": "1981",
       "category": "Predstava",
@@ -297,6 +252,15 @@
       "time": "18:00",
       "location": "Novosadsko pozorište",
       "url": "https://www.mojnovisad.com/navigator/1981-2/"
+    },
+    {
+      "id": "psychology-in-english-2",
+      "title": "Psychology in English",
+      "category": "Radionica",
+      "date": "2026-05-22",
+      "time": "18:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/psychology-in-english-2/"
     },
     {
       "id": "prolece-koje-peva-ruski-kamerni-hor-naslede",
@@ -315,6 +279,24 @@
       "time": "19:00",
       "location": "Sremski Karlovci",
       "url": "https://www.mojnovisad.com/navigator/lagano-sa-kraljem-cacka-u-karlovcima/"
+    },
+    {
+      "id": "izlozba-slika-alene-gojak-karneval-radosti",
+      "title": "Izložba slika Alene Gojak “Karneval radosti”",
+      "category": "Izložba",
+      "date": "2026-05-22",
+      "time": "19:00",
+      "location": "Kulturni centar Novog Sada",
+      "url": "https://www.mojnovisad.com/navigator/izlozba-slika-alene-gojak-karneval-radosti/"
+    },
+    {
+      "id": "prateci-program-izlozbe-kaleidoskop",
+      "title": "Prateći program izložbe Kaleidoskop",
+      "category": "Izložba",
+      "date": "2026-05-22",
+      "time": "19:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/prateci-program-izlozbe-kaleidoskop/"
     },
     {
       "id": "negde-izvan-planeta-premijera",
@@ -342,6 +324,15 @@
       "time": "20:30",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/bila-jednom-jedna-zemlja/"
+    },
+    {
+      "id": "nemanja",
+      "title": "Nemanja",
+      "category": "Koncert",
+      "date": "2026-05-22",
+      "time": "21:00",
+      "location": "Bulevar Books",
+      "url": "https://www.mojnovisad.com/navigator/nemanja/"
     },
     {
       "id": "bjutifuj-fujcinela-bojs",
@@ -378,6 +369,15 @@
       "time": "16:00",
       "location": "Ribarac",
       "url": "https://www.mojnovisad.com/navigator/ukps-kraft-fest-festival-kucnog-pivarstva/"
+    },
+    {
+      "id": "kuhinja-solidarnosti-ns-6-rodendan",
+      "title": "Kuhinja solidarnosti NS: 6. rođendan",
+      "category": "Noćni provod",
+      "date": "2026-05-23",
+      "time": "18:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/kuhinja-solidarnosti-ns-6-rodendan/"
     },
     {
       "id": "kabare-pikolo-grande-utopija-2",
@@ -468,6 +468,15 @@
       "time": "11:00",
       "location": "Pozorište mladih",
       "url": "https://www.mojnovisad.com/navigator/bajka-o-vitezu-bez-konja/"
+    },
+    {
+      "id": "prateci-program-izlozbe-umetnicka-zbirka-matice-srpske",
+      "title": "Prateći program izložbe Umetnička zbirka Matice srpske",
+      "category": "Izložba",
+      "date": "2026-05-24",
+      "time": "13:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/prateci-program-izlozbe-umetnicka-zbirka-matice-srpske/"
     },
     {
       "id": "mrki-nisam-ti-ispricao",
@@ -594,6 +603,15 @@
       "time": "20:00",
       "location": "SKCNS Fabrika",
       "url": "https://www.mojnovisad.com/navigator/sheer-terror-pure-impact-i-wrishlas/"
+    },
+    {
+      "id": "nije-smesno-zarko",
+      "title": "Nije smešno Žarko",
+      "category": "Predstava",
+      "date": "2026-05-28",
+      "time": "20:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/nije-smesno-zarko/"
     },
     {
       "id": "71-sterijino-pozorje-profesionalac",
@@ -749,6 +767,15 @@
       "url": "https://www.mojnovisad.com/navigator/jugoslovenka/"
     },
     {
+      "id": "treci-koncert-rnr-prakse-grozota-trofobioz-i-metal-gate",
+      "title": "Treći koncert R’n’R Prakse: Grozota, Trofobioz i Metal Gate",
+      "category": "Koncert",
+      "date": "2026-05-30",
+      "time": "20:00",
+      "location": "SKCNS Fabrika",
+      "url": "https://www.mojnovisad.com/navigator/treci-koncert-rnr-prakse-grozota-trofobioz-i-metal-gate/"
+    },
+    {
       "id": "bajaga-i-instruktori",
       "title": "Bajaga i Instruktori",
       "category": "Koncert",
@@ -891,6 +918,24 @@
       "time": "19:30",
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/medeja/"
+    },
+    {
+      "id": "ljubinko-i-desanka",
+      "title": "Ljubinko i Desanka",
+      "category": "Predstava",
+      "date": "2026-06-11",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/ljubinko-i-desanka/"
+    },
+    {
+      "id": "boris-rezak-2",
+      "title": "Boris Režak",
+      "category": "Koncert",
+      "date": "2026-06-11",
+      "time": "21:00",
+      "location": "Nacionalna Klasa by Vojvodina",
+      "url": "https://www.mojnovisad.com/navigator/boris-rezak-2/"
     },
     {
       "id": "music-reactions-outdoor-rave",
