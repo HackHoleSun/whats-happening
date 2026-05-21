@@ -1,86 +1,23 @@
 {
-  "scraped_at": "2026-05-20T09:41:30Z",
+  "scraped_at": "2026-05-21T09:50:47Z",
   "events": [
     {
-      "id": "vizuelnost-i-dizajn",
-      "title": "Vizuelnost i dizajn",
-      "category": "Izložba",
-      "date": "2026-05-20",
-      "time": "10:00",
-      "location": "SKCNS Fabrika",
-      "url": "https://www.mojnovisad.com/navigator/vizuelnost-i-dizajn/"
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-sredu-6",
-      "title": "Arena Cineplex – repertoar za sredu",
+      "id": "cineplexx-novi-sad-repertoar-za-cetvrtak-4",
+      "title": "Cineplexx Novi Sad – repertoar za četvrtak",
       "category": "Film",
-      "date": "2026-05-20",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-6/"
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-sredu-6",
-      "title": "Cineplexx Novi Sad – repertoar za sredu",
-      "category": "Film",
-      "date": "2026-05-20",
+      "date": "2026-05-21",
       "time": "15:00",
       "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-sredu-6/"
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-cetvrtak-4/"
     },
     {
-      "id": "12-rodjendan-klabinga-vremensko-skloniste",
-      "title": "12. rodjendan Klabinga // Vremensko sklonište",
-      "category": "Knjiga",
-      "date": "2026-05-20",
-      "time": "18:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/12-rodjendan-klabinga-vremensko-skloniste/"
-    },
-    {
-      "id": "conversation-club-with-anna-6",
-      "title": "Conversation Club with Anna",
-      "category": "Radionica",
-      "date": "2026-05-20",
-      "time": "18:30",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/conversation-club-with-anna-6/"
-    },
-    {
-      "id": "predavanje-dr-zorice-svircev-u-novosadskom-klubu",
-      "title": "Predavanje dr Zorice Svirčev u Novosadskom klubu",
-      "category": "Predavanje",
-      "date": "2026-05-20",
-      "time": "19:00",
-      "location": "Galerija Prometej",
-      "url": "https://www.mojnovisad.com/navigator/predavanje-dr-zorice-svircev-u-novosadskom-klubu/"
-    },
-    {
-      "id": "blind-date",
-      "title": "Blind date",
-      "category": "Predstava",
-      "date": "2026-05-20",
-      "time": "20:00",
-      "location": "Nacionalna Klasa by Vojvodina",
-      "url": "https://www.mojnovisad.com/navigator/blind-date/"
-    },
-    {
-      "id": "novi-talas",
-      "title": "Novi talas",
+      "id": "cineplexx-novi-sad-repertoar-za-petak-6",
+      "title": "Cineplexx Novi Sad – repertoar za petak",
       "category": "Film",
-      "date": "2026-05-20",
-      "time": "20:00",
-      "location": "KC \"Mladost\"",
-      "url": "https://www.mojnovisad.com/navigator/novi-talas/"
-    },
-    {
-      "id": "roditelj-prvih-sest-godina-3",
-      "title": "Roditelj: prvih šest godina",
-      "category": "Predstava",
-      "date": "2026-05-20",
-      "time": "20:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/roditelj-prvih-sest-godina-3/"
+      "date": "2026-05-21",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-petak-6/"
     },
     {
       "id": "zavrsna-izlozba-ateljea-presto",
@@ -245,6 +182,15 @@
       "url": "https://www.mojnovisad.com/navigator/epidemik-pearl-jam-tribute/"
     },
     {
+      "id": "cineplexx-novi-sad-repertoar-za-petak-5",
+      "title": "Cineplexx Novi Sad – repertoar za petak",
+      "category": "Film",
+      "date": "2026-05-22",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-petak-5/"
+    },
+    {
       "id": "1981-2",
       "title": "1981",
       "category": "Predstava",
@@ -299,6 +245,15 @@
       "url": "https://www.mojnovisad.com/navigator/prateci-program-izlozbe-kaleidoskop/"
     },
     {
+      "id": "promocija-knjige-alojzije-stepinac-pastir-posrnulog-stada",
+      "title": "Promocija knjige „Alojzije Stepinac: pastir posrnulog stada”",
+      "category": "Knjiga",
+      "date": "2026-05-22",
+      "time": "19:00",
+      "location": "Galerija Prometej",
+      "url": "https://www.mojnovisad.com/navigator/promocija-knjige-alojzije-stepinac-pastir-posrnulog-stada/"
+    },
+    {
       "id": "negde-izvan-planeta-premijera",
       "title": "Negde izvan planeta – Premijera",
       "category": "Predstava",
@@ -351,6 +306,24 @@
       "time": "11:00",
       "location": "Pozorište mladih",
       "url": "https://www.mojnovisad.com/navigator/crvenkapa-2/"
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-subotu-7",
+      "title": "Cineplexx Novi Sad – repertoar za subotu",
+      "category": "Film",
+      "date": "2026-05-23",
+      "time": "11:30",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-7/"
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-nedelju-6",
+      "title": "Cineplexx Novi Sad – repertoar za nedelju",
+      "category": "Film",
+      "date": "2026-05-23",
+      "time": "11:30",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-6/"
     },
     {
       "id": "lutkarska-radio-predstava-hobi-trazi-more",
@@ -515,6 +488,15 @@
       "url": "https://www.mojnovisad.com/navigator/congulus-vremen/"
     },
     {
+      "id": "koncert-simfonijskog-orkestra-akademije-umetnosti-novi-sad",
+      "title": "Koncert Simfonijskog orkestra Akademije umetnosti Novi Sad",
+      "category": "Koncert",
+      "date": "2026-05-24",
+      "time": "20:00",
+      "location": "Sinagoga",
+      "url": "https://www.mojnovisad.com/navigator/koncert-simfonijskog-orkestra-akademije-umetnosti-novi-sad/"
+    },
+    {
       "id": "dzipsii",
       "title": "Džipsii",
       "category": "Koncert",
@@ -522,6 +504,24 @@
       "time": "21:00",
       "location": "Gerila Bar",
       "url": "https://www.mojnovisad.com/navigator/dzipsii/"
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-7",
+      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
+      "category": "Film",
+      "date": "2026-05-25",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-7/"
+    },
+    {
+      "id": "otvoreni-studio-evropa-mladi-rad-i-prilike",
+      "title": "Otvoreni Studio Evropa – Mladi, rad i prilike",
+      "category": "Radionica",
+      "date": "2026-05-25",
+      "time": "18:00",
+      "location": "Evropska kuća Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/otvoreni-studio-evropa-mladi-rad-i-prilike/"
     },
     {
       "id": "majka-hrabrost-i-njena-deca-2",
@@ -533,6 +533,15 @@
       "url": "https://www.mojnovisad.com/navigator/majka-hrabrost-i-njena-deca-2/"
     },
     {
+      "id": "cineplexx-novi-sad-repertoar-za-utorak-8",
+      "title": "Cineplexx Novi Sad – repertoar za utorak",
+      "category": "Film",
+      "date": "2026-05-26",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-8/"
+    },
+    {
       "id": "potpisivanje-knjige-sa-milicom-oliver",
       "title": "Potpisivanje knjige sa Milicom Oliver",
       "category": "Knjiga",
@@ -540,6 +549,15 @@
       "time": "17:00",
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/potpisivanje-knjige-sa-milicom-oliver/"
+    },
+    {
+      "id": "filmske-price-miroslav-lekic-reziser",
+      "title": "FILMSKE PRIČE | MIROSLAV LEKIĆ, REŽISER",
+      "category": "Film",
+      "date": "2026-05-26",
+      "time": "19:00",
+      "location": "Gradska biblioteka u Novom Sadu",
+      "url": "https://www.mojnovisad.com/navigator/filmske-price-miroslav-lekic-reziser/"
     },
     {
       "id": "71-sterijino-pozorje-svecano-otvaranje",
@@ -558,6 +576,15 @@
       "time": "20:00",
       "location": "KC \"Mladost\"",
       "url": "https://www.mojnovisad.com/navigator/rjuici-sakamoto-koda/"
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-sredu-7",
+      "title": "Cineplexx Novi Sad – repertoar za sredu",
+      "category": "Film",
+      "date": "2026-05-27",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-sredu-7/"
     },
     {
       "id": "open-mic-10-sezona-3",
@@ -687,7 +714,7 @@
     },
     {
       "id": "19-novosadski-ikar",
-      "title": "19. Novosadski Ikar",
+      "title": "19. Međunarodno maketarsko takmičenje NOVOSADSKI IKAR",
       "category": "Festival",
       "date": "2026-05-30",
       "time": "09:00",
