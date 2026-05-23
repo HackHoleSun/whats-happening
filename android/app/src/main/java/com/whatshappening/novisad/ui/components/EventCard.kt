@@ -15,6 +15,7 @@ import androidx.compose.material.icons.filled.AccessTime
 import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.LocationOn
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -28,6 +29,8 @@ import com.whatshappening.novisad.data.Event
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.util.Locale
+import androidx.compose.ui.tooling.preview.Preview
+import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 
 private val dateFormatter = DateTimeFormatter.ofPattern("d. MMM yyyy.", Locale.forLanguageTag("sr"))
 
@@ -40,6 +43,9 @@ fun EventCard(
   Card(
     onClick = onClick,
     modifier = modifier.fillMaxWidth(),
+    colors = CardDefaults.cardColors(
+      containerColor = MaterialTheme.colorScheme.surfaceContainerHigh,
+    ),
   ) {
     Column(modifier = Modifier.padding(16.dp)) {
       event.category?.let { category ->
@@ -60,6 +66,7 @@ fun EventCard(
         text = event.title,
         style = MaterialTheme.typography.titleMedium,
         fontWeight = FontWeight.SemiBold,
+        color = MaterialTheme.colorScheme.onSurface,
       )
       Spacer(Modifier.height(8.dp))
       Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -117,3 +124,46 @@ private fun formatDate(isoDate: String): String =
   runCatching {
     LocalDate.parse(isoDate).format(dateFormatter)
   }.getOrDefault(isoDate)
+
+// region Previews
+
+@Preview(showBackground = true, name = "Light")
+@Preview(showBackground = true, name = "Dark", uiMode = android.content.res.Configuration.UI_MODE_NIGHT_YES)
+@Composable
+private fun EventCardFullPreview() {
+  WhatsHappeningTheme() {
+    EventCard(
+      event = Event(
+        id = "1",
+        title = "Jazz večer u Kazamatu",
+        category = "Muzika",
+        date = "2026-05-24",
+        time = "20:00",
+        location = "Kazamat, Novi Sad",
+        url = "https://example.com",
+      ),
+      onClick = {},
+    )
+  }
+}
+
+@Preview(showBackground = true)
+@Composable
+private fun EventCardMinimalPreview() {
+  WhatsHappeningTheme() {
+    EventCard(
+      event = Event(
+        id = "2",
+        title = "Izložba savremene umetnosti bez kategorije i bez tačnog termina",
+        category = null,
+        date = "2026-05-25",
+        time = null,
+        location = "Muzej Vojvodine",
+        url = "https://example.com",
+      ),
+      onClick = {},
+    )
+  }
+}
+
+// endregion
