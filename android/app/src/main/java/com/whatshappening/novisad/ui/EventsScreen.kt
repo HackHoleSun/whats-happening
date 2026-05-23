@@ -30,10 +30,16 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.Image
+import androidx.compose.ui.res.painterResource
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.compose.ui.tooling.preview.Preview
+import com.whatshappening.novisad.R
+import com.whatshappening.novisad.data.Event
 import com.whatshappening.novisad.ui.components.EventCard
 import com.whatshappening.novisad.ui.components.EventDetailSheet
 import com.whatshappening.novisad.ui.components.FilterBar
+import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -61,7 +67,13 @@ fun EventsScreen(viewModel: EventViewModel = viewModel()) {
   Scaffold(
     topBar = {
       TopAppBar(
-        title = { Text("Šta se dešava u Novom Sadu") },
+        title = {
+          Image(
+            painter = painterResource(R.mipmap.ic_launcher),
+            contentDescription = "Šta se dešava u Novom Sadu",
+            modifier = Modifier.size(32.dp),
+          )
+        },
         actions = {
           IconButton(
             onClick = { viewModel.loadEvents(forceRefresh = true) },
@@ -149,3 +161,69 @@ fun EventsScreen(viewModel: EventViewModel = viewModel()) {
     }
   }
 }
+
+// region Previews
+// EventsScreen uses AndroidViewModel so we build a static replica for preview.
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Preview(showSystemUi = true, name = "Light")
+@Preview(showSystemUi = true, name = "Dark", uiMode = android.content.res.Configuration.UI_MODE_NIGHT_YES)
+@Composable
+private fun EventsScreenPreview() {
+  val sampleEvents = listOf(
+    Event("1", "Jazz večer u Kazamatu", "Muzika", "2026-05-24", "20:00", "Kazamat, Novi Sad", "https://example.com"),
+    Event("2", "Pozorišna predstava Hamleta", "Pozorište", "2026-05-25", "19:30", "Srpsko narodno pozorište", "https://example.com"),
+    Event("3", "Košarkaška utakmica Vojvodina – Crvena zvezda", "Sport", "2026-05-23", null, "Spens, Novi Sad", "https://example.com"),
+    Event("4", "Izložba savremene fotografije", null, "2026-05-26", "18:00", "Galerija Matice srpske", "https://example.com"),
+  )
+  WhatsHappeningTheme() {
+    Scaffold(
+      topBar = {
+        TopAppBar(
+          title = {
+          Image(
+            painter = painterResource(R.mipmap.ic_launcher),
+            contentDescription = "Šta se dešava u Novom Sadu",
+            modifier = Modifier.size(32.dp),
+          )
+        },
+          actions = {
+            IconButton(onClick = {}) {
+              Icon(Icons.Default.Refresh, contentDescription = "Osveži")
+            }
+          },
+        )
+      },
+    ) { innerPadding ->
+      Column(
+        modifier = Modifier
+          .fillMaxSize()
+          .padding(innerPadding),
+      ) {
+        FilterBar(
+          searchQuery = "",
+          onSearchQueryChange = {},
+          selectedTab = Tab.ALL,
+          onTabSelected = {},
+          categories = listOf("Muzika", "Pozorište", "Sport"),
+          selectedCategory = null,
+          onCategorySelected = {},
+          selectedDateRange = null,
+          onDateRangeSelected = {},
+          onResetFilters = {},
+        )
+        LazyColumn(
+          contentPadding = PaddingValues(16.dp),
+          verticalArrangement = Arrangement.spacedBy(12.dp),
+          modifier = Modifier.fillMaxSize(),
+        ) {
+          items(sampleEvents, key = { it.id }) { event ->
+            EventCard(event = event, onClick = {})
+          }
+        }
+      }
+    }
+  }
+}
+
+// endregion

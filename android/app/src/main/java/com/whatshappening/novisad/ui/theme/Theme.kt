@@ -1,58 +1,101 @@
 package com.whatshappening.novisad.ui.theme
 
-import android.app.Activity
-import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.dynamicDarkColorScheme
-import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.graphics.Color
 
-private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+// ── Catppuccin Latte ──────────────────────────────────────────────────────────
+private val LatteColorScheme = lightColorScheme(
+  primary             = LatteMauve,
+  onPrimary           = LatteBase,
+  primaryContainer    = LatteSurface0,
+  onPrimaryContainer  = LatteMauve,
+
+  secondary           = LatteSapphire,
+  onSecondary         = LatteBase,
+  secondaryContainer  = LatteLavender,
+  onSecondaryContainer = LatteBase,
+
+  tertiary            = LattePeach,
+  onTertiary          = LatteBase,
+  tertiaryContainer   = LatteMantle,
+  onTertiaryContainer = LattePeach,
+
+  error               = LatteRed,
+  onError             = LatteBase,
+  errorContainer      = LatteMantle,
+  onErrorContainer    = LatteRed,
+
+  background          = LatteBase,
+  onBackground        = LatteText,
+
+  surface             = LatteBase,
+  onSurface           = LatteText,
+  surfaceVariant      = LatteSurface0,
+  onSurfaceVariant    = LatteSubtext0,
+  surfaceTint         = LatteMauve,
+
+  outline             = LatteOverlay0,
+  outlineVariant      = LatteSurface2,
+  scrim               = Color.Black,
+
+  inverseSurface      = MochaSurface0,
+  inverseOnSurface    = MochaText,
+  inversePrimary      = MochaMauve,
 )
 
-private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
+// ── Catppuccin Mocha ──────────────────────────────────────────────────────────
+private val MochaColorScheme = darkColorScheme(
+  primary             = MochaPeach,
+  onPrimary           = MochaCrust,
+  primaryContainer    = MochaSurface0,
+  onPrimaryContainer  = MochaPeach,
 
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
+  secondary           = MochaBlue,
+  onSecondary         = MochaBase,
+  secondaryContainer  = MochaPeach,
+  onSecondaryContainer = MochaCrust,
+
+  tertiary            = MochaPeach,
+  onTertiary          = MochaCrust,
+  tertiaryContainer   = MochaSurface2,
+  onTertiaryContainer = MochaPeach,
+
+  error               = MochaRed,
+  onError             = MochaCrust,
+  errorContainer      = MochaSurface1,
+  onErrorContainer    = MochaRed,
+
+  background          = MochaBase,
+  onBackground        = MochaText,
+
+  surface             = MochaBase,
+  onSurface           = MochaText,
+  surfaceVariant      = MochaSurface1,
+  onSurfaceVariant    = MochaSubtext0,
+  surfaceTint         = MochaPeach,
+  surfaceContainerHigh = MochaSurface0,
+
+  outline             = MochaOverlay1,
+  outlineVariant      = MochaSurface2,
+  scrim               = Color.Black,
+
+  inverseSurface      = LatteSurface0,
+  inverseOnSurface    = LatteText,
+  inversePrimary      = LattePeach,
 )
 
 @Composable
 fun WhatsHappeningTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
-    content: @Composable () -> Unit
+  darkTheme: Boolean = isSystemInDarkTheme(),
+  content: @Composable () -> Unit,
 ) {
-    val colorScheme = when {
-        dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
-            val context = LocalContext.current
-            if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
-        }
-
-        darkTheme -> DarkColorScheme
-        else -> LightColorScheme
-    }
-
-    MaterialTheme(
-        colorScheme = colorScheme,
-        typography = Typography,
-        content = content
-    )
+  MaterialTheme(
+    colorScheme = if (darkTheme) MochaColorScheme else LatteColorScheme,
+    typography = Typography,
+    content = content,
+  )
 }

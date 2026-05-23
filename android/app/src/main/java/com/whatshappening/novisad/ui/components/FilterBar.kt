@@ -35,6 +35,8 @@ import java.time.LocalDate
 import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 import java.util.Locale
+import androidx.compose.ui.tooling.preview.Preview
+import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 import com.whatshappening.novisad.ui.DateRange as SelectedDateRange
 import com.whatshappening.novisad.ui.Tab as AppTab
 
@@ -167,6 +169,7 @@ fun FilterBar(
                 end = Instant.ofEpochMilli(end).atZone(ZoneId.systemDefault()).toLocalDate(),
               ),
             )
+            onTabSelected(AppTab.ALL)
           }
           showDatePicker = false
         }) { Text("OK") }
@@ -179,3 +182,48 @@ fun FilterBar(
     }
   }
 }
+
+// region Previews
+
+@Preview(showBackground = true)
+@Composable
+private fun FilterBarDefaultPreview() {
+  WhatsHappeningTheme() {
+    FilterBar(
+      searchQuery = "",
+      onSearchQueryChange = {},
+      selectedTab = AppTab.ALL,
+      onTabSelected = {},
+      categories = listOf("Muzika", "Sport", "Kultura", "Film", "Pozorište"),
+      selectedCategory = null,
+      onCategorySelected = {},
+      selectedDateRange = null,
+      onDateRangeSelected = {},
+      onResetFilters = {},
+    )
+  }
+}
+
+@Preview(showBackground = true)
+@Composable
+private fun FilterBarActiveFiltersPreview() {
+  WhatsHappeningTheme() {
+    FilterBar(
+      searchQuery = "jazz",
+      onSearchQueryChange = {},
+      selectedTab = AppTab.THIS_WEEK,
+      onTabSelected = {},
+      categories = listOf("Muzika", "Sport", "Kultura", "Film", "Pozorište"),
+      selectedCategory = "Muzika",
+      onCategorySelected = {},
+      selectedDateRange = SelectedDateRange(
+        start = LocalDate.of(2026, 5, 20),
+        end = LocalDate.of(2026, 5, 27),
+      ),
+      onDateRangeSelected = {},
+      onResetFilters = {},
+    )
+  }
+}
+
+// endregion

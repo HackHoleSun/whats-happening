@@ -34,7 +34,10 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
+import androidx.compose.ui.tooling.preview.Preview
+import com.whatshappening.novisad.data.Event
 import com.whatshappening.novisad.ui.DetailUiState
+import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.util.Locale
@@ -49,89 +52,162 @@ fun EventDetailSheet(
   onOpenInBrowser: () -> Unit,
 ) {
   ModalBottomSheet(onDismissRequest = onDismiss) {
+    EventDetailSheetContent(state = state, onOpenInBrowser = onOpenInBrowser)
+  }
+}
+
+@Composable
+private fun EventDetailSheetContent(
+  state: DetailUiState,
+  onOpenInBrowser: () -> Unit,
+) {
+  Column(
+    modifier =
+      Modifier
+        .fillMaxWidth()
+        .verticalScroll(rememberScrollState())
+        .padding(bottom = 32.dp),
+  ) {
+    state.imageUrl?.let { url ->
+      AsyncImage(
+        model = url,
+        contentDescription = null,
+        contentScale = ContentScale.Crop,
+        modifier =
+          Modifier
+            .fillMaxWidth()
+            .height(200.dp),
+      )
+    }
+
     Column(
-      modifier =
-        Modifier
-          .fillMaxWidth()
-          .verticalScroll(rememberScrollState())
-          .padding(bottom = 32.dp),
+      modifier = Modifier.padding(16.dp),
+      verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-      state.imageUrl?.let { url ->
-        AsyncImage(
-          model = url,
-          contentDescription = null,
-          contentScale = ContentScale.Crop,
-          modifier =
-            Modifier
-              .fillMaxWidth()
-              .height(200.dp),
-        )
+      state.event.category?.let { category ->
+        Surface(
+          color = MaterialTheme.colorScheme.secondaryContainer,
+          shape = RoundedCornerShape(4.dp),
+        ) {
+          Text(
+            text = category,
+            style = MaterialTheme.typography.labelSmall,
+            color = MaterialTheme.colorScheme.onSecondaryContainer,
+            modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp),
+          )
+        }
       }
 
-      Column(
-        modifier = Modifier.padding(16.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp),
-      ) {
-        state.event.category?.let { category ->
-          Surface(
-            color = MaterialTheme.colorScheme.secondaryContainer,
-            shape = RoundedCornerShape(4.dp),
-          ) {
-            Text(
-              text = category,
-              style = MaterialTheme.typography.labelSmall,
-              color = MaterialTheme.colorScheme.onSecondaryContainer,
-              modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp),
-            )
-          }
-        }
+      Text(
+        text = state.event.title,
+        style = MaterialTheme.typography.headlineSmall,
+        fontWeight = FontWeight.Bold,
+      )
 
-        Text(
-          text = state.event.title,
-          style = MaterialTheme.typography.headlineSmall,
-          fontWeight = FontWeight.Bold,
-        )
-
-        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-          Row(verticalAlignment = Alignment.CenterVertically) {
-            Icon(Icons.Default.DateRange, contentDescription = null, modifier = Modifier.size(14.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
-            Spacer(Modifier.width(4.dp))
-            Text(formatDate(state.event.date), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-          }
-          state.event.time?.let { time ->
-            Row(verticalAlignment = Alignment.CenterVertically) {
-              Icon(Icons.Default.AccessTime, contentDescription = null, modifier = Modifier.size(14.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
-              Spacer(Modifier.width(4.dp))
-              Text(time, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            }
-          }
-        }
-
+      Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-          Icon(Icons.Default.LocationOn, contentDescription = null, modifier = Modifier.size(14.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
+          Icon(Icons.Default.DateRange, contentDescription = null, modifier = Modifier.size(14.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
           Spacer(Modifier.width(4.dp))
-          Text(state.event.location, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+          Text(formatDate(state.event.date), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
-
-        HorizontalDivider(modifier = Modifier.padding(vertical = 4.dp))
-
-        when {
-          state.isLoading -> Box(modifier = Modifier.fillMaxWidth().padding(24.dp), contentAlignment = Alignment.Center) {
-            CircularProgressIndicator()
+        state.event.time?.let { time ->
+          Row(verticalAlignment = Alignment.CenterVertically) {
+            Icon(Icons.Default.AccessTime, contentDescription = null, modifier = Modifier.size(14.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
+            Spacer(Modifier.width(4.dp))
+            Text(time, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
           }
-          state.error != null -> Text(text = "Greška: ${state.error}", color = MaterialTheme.colorScheme.error)
-          state.description != null -> Text(text = state.description, style = MaterialTheme.typography.bodyMedium)
         }
+      }
 
-        Button(onClick = onOpenInBrowser, modifier = Modifier.fillMaxWidth()) {
-          Icon(Icons.Default.OpenInBrowser, contentDescription = null)
-          Spacer(Modifier.width(8.dp))
-          Text("Otvori u pretraživaču")
+      Row(verticalAlignment = Alignment.CenterVertically) {
+        Icon(Icons.Default.LocationOn, contentDescription = null, modifier = Modifier.size(14.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
+        Spacer(Modifier.width(4.dp))
+        Text(state.event.location, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+      }
+
+      HorizontalDivider(modifier = Modifier.padding(vertical = 4.dp))
+
+      when {
+        state.isLoading -> Box(modifier = Modifier.fillMaxWidth().padding(24.dp), contentAlignment = Alignment.Center) {
+          CircularProgressIndicator()
         }
+        state.error != null -> Text(text = "Greška: ${state.error}", color = MaterialTheme.colorScheme.error)
+        state.description != null -> Text(text = state.description, style = MaterialTheme.typography.bodyMedium)
+      }
+
+      Button(onClick = onOpenInBrowser, modifier = Modifier.fillMaxWidth()) {
+        Icon(Icons.Default.OpenInBrowser, contentDescription = null)
+        Spacer(Modifier.width(8.dp))
+        Text("Otvori u pretraživaču")
       }
     }
   }
 }
+
+// region Previews
+
+private val previewEvent = Event(
+  id = "1",
+  title = "Jazz večer u Kazamatu",
+  category = "Muzika",
+  date = "2026-05-24",
+  time = "20:00",
+  location = "Kazamat, Novi Sad",
+  url = "https://example.com",
+)
+
+@Preview(name = "Loading · Light")
+@Preview(name = "Loading · Dark", uiMode = android.content.res.Configuration.UI_MODE_NIGHT_YES)
+@Composable
+private fun EventDetailLoadingPreview() {
+  WhatsHappeningTheme() {
+    Surface {
+      EventDetailSheetContent(
+        state = DetailUiState(event = previewEvent, isLoading = true),
+        onOpenInBrowser = {},
+      )
+    }
+  }
+}
+
+@Preview(name = "Loaded · Light")
+@Preview(name = "Loaded · Dark", uiMode = android.content.res.Configuration.UI_MODE_NIGHT_YES)
+@Composable
+private fun EventDetailLoadedPreview() {
+  WhatsHappeningTheme() {
+    Surface {
+      EventDetailSheetContent(
+        state = DetailUiState(
+          event = previewEvent,
+          isLoading = false,
+          description = "Pridružite nam se na čarobnoj jazz večeri u srcu Novog Sada! Nastup poznatih lokalnih muzičara uz ukusna pića i prijatnu atmosferu. Ulaz slobodan za sve posetioce.",
+          imageUrl = null,
+        ),
+        onOpenInBrowser = {},
+      )
+    }
+  }
+}
+
+@Preview(name = "Error · Light")
+@Preview(name = "Error · Dark", uiMode = android.content.res.Configuration.UI_MODE_NIGHT_YES)
+@Composable
+private fun EventDetailErrorPreview() {
+  WhatsHappeningTheme() {
+    Surface {
+      EventDetailSheetContent(
+        state = DetailUiState(
+          event = previewEvent,
+          isLoading = false,
+          error = "Nije moguće učitati detalje događaja.",
+        ),
+        onOpenInBrowser = {},
+      )
+    }
+  }
+}
+
+// endregion
 
 private fun formatDate(isoDate: String): String =
   runCatching { LocalDate.parse(isoDate).format(dateFormatter) }.getOrDefault(isoDate)
