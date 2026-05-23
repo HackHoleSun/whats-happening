@@ -40,6 +40,10 @@ def parse_card(card, current_date: str | None) -> dict | None:
     cat_link = card.select_one('a[href*="/navigator-cat/"]')
     category = cat_link.get_text(strip=True) if cat_link else None
 
+    # Image
+    thumb = card.select_one(".single-card__thumb[data-lazybg]")
+    image_url = thumb["data-lazybg"] if thumb else None
+
     # Date / time / location from .single-card__info-details divs
     info_divs = card.select(".single-card__info-details div")
     event_date, event_time, location = current_date, None, None
@@ -64,6 +68,7 @@ def parse_card(card, current_date: str | None) -> dict | None:
         "time": event_time,
         "location": location,
         "url": href if href.startswith("http") else f"https://www.mojnovisad.com{href}",
+        "image_url": image_url,
     }
 
 
