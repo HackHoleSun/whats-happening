@@ -1,4 +1,5 @@
 import json
+import os
 import re
 from datetime import datetime, timezone, date
 from pathlib import Path
@@ -9,6 +10,51 @@ from bs4 import BeautifulSoup
 URL = "https://www.mojnovisad.com/desavanja"
 OUTPUT = Path(__file__).parent / "events.json"
 
+GMAPS_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
+
+
+# ── Geocoding ─────────────────────────────────────────────────────────────────
+
+def geocode(location: str, seen: dict) -> tuple[float | None, float | None]:
+    """
+    Return (lat, lng) for a venue name.
+
+    [seen] is an in-memory dict that deduplicates calls within a single scraper
+    run — if the same venue appears multiple times today (e.g. Arena Cineplex
+    has 5 screenings) we only hit the API once.
+
+    Returns (None, None) if the API key is not set or the lookup fails.
+    """
+    if not location or not GMAPS_KEY:
+        return None, None
+
+    if location in seen:
+        return seen[location]
+
+    try:
+        resp = httpx.get(
+            "https://maps.googleapis.com/maps/api/geocode/json",
+            params={"address": f"{location}, Novi Sad, Serbia", "key": GMAPS_KEY},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+
+        if data.get("results"):
+            loc = data["results"][0]["geometry"]["location"]
+            result = (loc["lat"], loc["lng"])
+        else:
+            result = (None, None)
+
+    except Exception as e:
+        print(f"  Geocode failed for '{location}': {e}")
+        result = (None, None)
+
+    seen[location] = result
+    return result
+
+
+# ── Scraping ──────────────────────────────────────────────────────────────────
 
 def parse_date(header_text: str) -> str | None:
     """Parse 'Danas 23.04.2026.' or 'Sutra 24.04.2026.' to ISO date."""
@@ -19,7 +65,7 @@ def parse_date(header_text: str) -> str | None:
     return None
 
 
-def parse_card(card, current_date: str | None) -> dict | None:
+def parse_card(card, current_date: str | None, seen: dict) -> dict | None:
     # URL + slug
     link = card.select_one('a[href*="/navigator/"]')
     if not link:
@@ -54,11 +100,14 @@ def parse_card(card, current_date: str | None) -> dict | None:
         src = img["src"]
         text = div.get_text(strip=True)
         if "calendar" in src:
-            event_date = current_date  # already set from section header; raw display text ignored
+            event_date = current_date
         elif "clock" in src:
             event_time = text or None
         elif "location" in src or "pin" in src:
             location = text or None
+
+    # Coordinates — resolved once per unique location name within this run
+    lat, lng = geocode(location, seen) if location else (None, None)
 
     return {
         "id": slug,
@@ -69,6 +118,8 @@ def parse_card(card, current_date: str | None) -> dict | None:
         "location": location,
         "url": href if href.startswith("http") else f"https://www.mojnovisad.com{href}",
         "image_url": image_url,
+        "lat": lat,
+        "lng": lng,
     }
 
 
@@ -78,14 +129,15 @@ def scrape() -> list[dict]:
     soup = BeautifulSoup(resp.text, "lxml")
 
     events = []
-    seen_ids = set()
+    seen_ids: set = set()
+    seen_locations: dict = {}  # deduplicates geocode calls within this run
 
     for wrapper in soup.select("div.date-wrapper"):
         header = wrapper.find("h5")
         current_date = parse_date(header.get_text(strip=True)) if header else None
 
         for card in wrapper.select("div.events-main__single-card"):
-            event = parse_card(card, current_date)
+            event = parse_card(card, current_date, seen_locations)
             if event and event["id"] not in seen_ids:
                 seen_ids.add(event["id"])
                 events.append(event)
@@ -93,13 +145,19 @@ def scrape() -> list[dict]:
     return events
 
 
+# ── Entry point ───────────────────────────────────────────────────────────────
+
 def main():
+    if not GMAPS_KEY:
+        print("Warning: GOOGLE_MAPS_API_KEY not set — events will have lat/lng = null")
+
     events = scrape()
+
     payload = {
         "scraped_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "events": events,
     }
-    OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2))
+    OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Scraped {len(events)} events → {OUTPUT}")
 
 

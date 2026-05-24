@@ -1,14 +1,20 @@
 package com.whatshappening.novisad
 
 import android.app.Application
+import android.content.Context
 import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.preferencesDataStoreFile
+import coil3.ImageLoader
+import coil3.SingletonImageLoader
+import coil3.network.okhttp.OkHttpNetworkFetcherFactory
+import coil3.request.crossfade
 import com.whatshappening.novisad.data.EventRepository
 import com.whatshappening.novisad.data.RemoteEventRepository
 import com.whatshappening.novisad.prefs.UserPreferences
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
+import okhttp3.OkHttpClient
 
 /**
  * Application class — single source of truth for app-wide singletons.
@@ -18,27 +24,16 @@ import kotlinx.coroutines.SupervisorJob
  *
  * Registered in AndroidManifest.xml via android:name=".App".
  */
-class App : Application() {
+class App : Application(), SingletonImageLoader.Factory {
 
     // ── Shared event repository ───────────────────────────────────────────────
 
-    /**
-     * Single repository instance. Every ViewModel obtains it via
-     * [ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY] so they all
-     * observe the same in-memory state (toggle save on Home → visible in Saved).
-     */
     val repository: EventRepository by lazy { RemoteEventRepository(this) }
 
     // ── User preferences DataStore ────────────────────────────────────────────
 
     private val appScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
 
-    /**
-     * Single DataStore instance for all user preferences (theme + accent).
-     * Using [PreferenceDataStoreFactory.create] instead of the file-level
-     * `preferencesDataStore` delegate avoids the static-initializer crash in
-     * Compose preview renderers.
-     */
     private val preferencesDataStore by lazy {
         PreferenceDataStoreFactory.create(
             scope = appScope,
@@ -47,4 +42,39 @@ class App : Application() {
     }
 
     val userPreferences: UserPreferences by lazy { UserPreferences(preferencesDataStore) }
+
+    // ── Coil image loader ─────────────────────────────────────────────────────
+
+    /**
+     * Explicit Coil singleton so the OkHttp network fetcher is always registered.
+     *
+     * The custom OkHttp client adds a [Referer] header for mojnovisad.com URLs —
+     * WordPress hotlink protection checks the Referer, so without this the
+     * scraped thumbnails would be blocked and the list cards would show only the
+     * gradient placeholder.
+     */
+    override fun newImageLoader(context: Context): ImageLoader =
+        ImageLoader.Builder(context)
+            .components {
+                add(OkHttpNetworkFetcherFactory(
+                    callFactory = {
+                        OkHttpClient.Builder()
+                            .addInterceptor { chain ->
+                                val request = chain.request()
+                                val modified = if (request.url.host.contains("mojnovisad.com")) {
+                                    request.newBuilder()
+                                        .header("Referer", "https://www.mojnovisad.com/")
+                                        .header("User-Agent", "Mozilla/5.0 (Android)")
+                                        .build()
+                                } else {
+                                    request
+                                }
+                                chain.proceed(modified)
+                            }
+                            .build()
+                    }
+                ))
+            }
+            .crossfade(true)
+            .build()
 }

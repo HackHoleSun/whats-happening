@@ -16,6 +16,7 @@ coil = "3.1.0"
 datastorePreferences = "1.1.1"
 mapsCompose = "6.1.0"
 playServicesMaps = "19.0.0"
+playServicesLocation = "21.3.0"
 navigationCompose = "2.8.7"
 
 [libraries]
@@ -44,6 +45,7 @@ androidx-compose-ui-text-google-fonts = { group = "androidx.compose.ui", name = 
 androidx-datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastorePreferences" }
 maps-compose = { group = "com.google.maps.android", name = "maps-compose", version.ref = "mapsCompose" }
 play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
 androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
 
 [plugins]
