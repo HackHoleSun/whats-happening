@@ -4,7 +4,7 @@ import android.app.Application
 import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.preferencesDataStoreFile
 import com.whatshappening.novisad.data.EventRepository
-import com.whatshappening.novisad.data.MockEventRepository
+import com.whatshappening.novisad.data.RemoteEventRepository
 import com.whatshappening.novisad.prefs.UserPreferences
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -27,7 +27,7 @@ class App : Application() {
      * [ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY] so they all
      * observe the same in-memory state (toggle save on Home → visible in Saved).
      */
-    val repository: EventRepository by lazy { MockEventRepository() }
+    val repository: EventRepository by lazy { RemoteEventRepository(this) }
 
     // ── User preferences DataStore ────────────────────────────────────────────
 

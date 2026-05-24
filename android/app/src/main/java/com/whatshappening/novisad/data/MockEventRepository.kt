@@ -176,4 +176,6 @@ class MockEventRepository : EventRepository {
     override suspend fun toggleSaved(id: String) {
         _savedIds.update { ids -> if (id in ids) ids - id else ids + id }
     }
+
+    override suspend fun fetchDetail(eventUrl: String): EventDetail? = null
 }

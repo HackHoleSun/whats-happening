@@ -30,6 +30,12 @@ interface EventRepository {
 
     /** Adds the ID if not saved, removes it if already saved. */
     suspend fun toggleSaved(id: String)
+
+    /**
+     * Fetches full detail (description, higher-res photo) for an event via the
+     * Cloudflare Worker.  Returns null if unavailable (no network, mock repo, etc.)
+     */
+    suspend fun fetchDetail(eventUrl: String): EventDetail?
 }
 
 // ── Network-backed implementation (existing scraper feed) ─────────────────────
