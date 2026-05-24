@@ -5,9 +5,9 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.whatshappening.novisad.App
 import com.whatshappening.novisad.data.Event
 import com.whatshappening.novisad.data.EventRepository
-import com.whatshappening.novisad.data.MockEventRepository
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map
@@ -32,12 +32,11 @@ class EventDetailViewModel(
     fun toggleSaved() = viewModelScope.launch { repo.toggleSaved(eventId) }
 
     companion object {
-        /**
-         * Default factory wired to [MockEventRepository].
-         * Replaced by proper DI in Chunk 10 (navigation).
-         */
         fun factory(eventId: String): ViewModelProvider.Factory = viewModelFactory {
-            initializer { EventDetailViewModel(MockEventRepository(), eventId) }
+            initializer {
+                val app = this[ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY] as App
+                EventDetailViewModel(app.repository, eventId)
+            }
         }
     }
 }

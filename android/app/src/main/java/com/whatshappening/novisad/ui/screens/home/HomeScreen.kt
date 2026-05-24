@@ -3,6 +3,7 @@
 package com.whatshappening.novisad.ui.screens.home
 
 import androidx.compose.animation.animateColorAsState
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -41,6 +42,9 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -72,6 +76,12 @@ import com.whatshappening.novisad.ui.components.EventCard
 import com.whatshappening.novisad.ui.components.FilterChipRemovable
 import com.whatshappening.novisad.ui.components.HeaderIconButton
 import com.whatshappening.novisad.ui.components.PillSegmentedControl
+import com.whatshappening.novisad.ui.screens.sheets.CategorySheet
+import com.whatshappening.novisad.ui.screens.sheets.DateSheet
+import com.whatshappening.novisad.ui.screens.sheets.FilterSheet
+import com.whatshappening.novisad.ui.states.EmptyFiltersState
+import com.whatshappening.novisad.ui.states.LoadingScreen
+import com.whatshappening.novisad.prefs.LocalUserPrefs
 import com.whatshappening.novisad.ui.theme.LocalCatppuccin
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 import com.whatshappening.novisad.util.formatDate
@@ -88,12 +98,23 @@ data class HomeState(
     val refreshing: Boolean,
     val today: LocalDate,
     val cityName: String = "Newhaven",
+    /** True only on the very first load before any events have arrived. */
+    val isLoading: Boolean = false,
 )
+
+// ── HomeSheet — enum for active bottom sheet ──────────────────────────────────
+
+enum class HomeSheet { Filter, Date, Category }
 
 // ── HomeRoute — stateful wrapper ──────────────────────────────────────────────
 
 /**
- * Connects [HomeViewModel] to the stateless [HomeScreen].
+ * Connects [HomeViewModel] to the stateless [HomeScreen] and manages the three
+ * bottom sheets: Filter, Date picker, and Category picker.
+ *
+ * The filter draft is hoisted here so it survives the Filter → Date → Filter
+ * round-trip (M3 only supports one ModalBottomSheet at a time).
+ *
  * Navigation callbacks are threaded in from the nav graph (Chunk 10).
  */
 @Composable
@@ -102,14 +123,28 @@ fun HomeRoute(
     onSearchClick: () -> Unit = {},
     onMapClick: () -> Unit = {},
     onSavedClick: () -> Unit = {},
-    onFiltersClick: () -> Unit = {},
-    onThemeToggle: () -> Unit = {},
     viewModel: HomeViewModel = viewModel(factory = HomeViewModel.Factory),
 ) {
-    val events   by viewModel.events.collectAsState()
-    val filter   by viewModel.filter.collectAsState()
-    val savedIds by viewModel.savedIds.collectAsState()
-    val refreshing by viewModel.refreshing.collectAsState()
+    val events      by viewModel.events.collectAsState()
+    val filter      by viewModel.filter.collectAsState()
+    val savedIds    by viewModel.savedIds.collectAsState()
+    val refreshing  by viewModel.refreshing.collectAsState()
+    val isLoading   by viewModel.initialLoading.collectAsState()
+
+    // Show skeleton until the first batch of events arrives
+    if (isLoading) {
+        LoadingScreen()
+        return
+    }
+
+    // Read theme-toggle action from the CompositionLocal provided by MainActivity
+    val userPrefs = LocalUserPrefs.current
+
+    // Sheet visibility state
+    var sheet by rememberSaveable { mutableStateOf<HomeSheet?>(null) }
+
+    // Filter draft hoisted here so it survives the Filter ↔ Date sheet round-trip
+    var filterDraft by remember { mutableStateOf(filter) }
 
     HomeScreen(
         state = HomeState(
@@ -123,8 +158,11 @@ fun HomeRoute(
         onSearchClick     = onSearchClick,
         onMapClick        = onMapClick,
         onSavedClick      = onSavedClick,
-        onFiltersClick    = onFiltersClick,
-        onThemeToggle     = onThemeToggle,
+        onFiltersClick    = {
+            filterDraft = filter  // sync draft to committed filter when opening
+            sheet = HomeSheet.Filter
+        },
+        onThemeToggle     = userPrefs.onToggleTheme,
         onRangeChange     = viewModel::setRange,
         onRemoveCategory  = { cat -> viewModel.setCategories(filter.categories - cat) },
         onClearDate       = { viewModel.setRange(DateRange.All) },
@@ -132,6 +170,48 @@ fun HomeRoute(
         onRefresh         = viewModel::refresh,
         onClearFilters    = viewModel::clearFilters,
     )
+
+    // ── Sheet rendering ───────────────────────────────────────────────────────
+
+    when (sheet) {
+        HomeSheet.Filter -> FilterSheet(
+            initial = filterDraft,
+            onApply = { newFilter ->
+                viewModel.applyFilter(newFilter)
+                sheet = null
+            },
+            onOpenDatePicker = {
+                // Dismiss FilterSheet and open DateSheet; draft stays in filterDraft
+                sheet = HomeSheet.Date
+            },
+            onDismiss = { sheet = null },
+        )
+
+        HomeSheet.Date -> DateSheet(
+            initialDate = filterDraft.selectedDate,
+            eventDates  = events.map { it.date }.toSet(),
+            onPick = { date ->
+                // Update draft with the picked date then return to FilterSheet
+                filterDraft = filterDraft.copy(
+                    range        = DateRange.Specific,
+                    selectedDate = date,
+                )
+                sheet = HomeSheet.Filter
+            },
+            onDismiss = { sheet = HomeSheet.Filter },
+        )
+
+        HomeSheet.Category -> CategorySheet(
+            initial = filterDraft.categories,
+            onApply = { cats ->
+                viewModel.setCategories(cats)
+                sheet = null
+            },
+            onDismiss = { sheet = null },
+        )
+
+        null -> { /* no sheet */ }
+    }
 }
 
 // ── HomeScreen — stateless ────────────────────────────────────────────────────
@@ -461,28 +541,6 @@ private fun CountAndRefreshRow(count: Int, onRefresh: () -> Unit) {
                 text  = "Refresh".uppercase(),
                 style = MaterialTheme.typography.labelMedium,
             )
-        }
-    }
-}
-
-// ── EmptyFiltersState ─────────────────────────────────────────────────────────
-
-@Composable
-private fun EmptyFiltersState(onClearFilters: () -> Unit) {
-    Column(
-        modifier            = Modifier
-            .fillMaxWidth()
-            .padding(vertical = 48.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(12.dp),
-    ) {
-        Text(
-            text  = "No events match your filters",
-            style = MaterialTheme.typography.titleMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
-        TextButton(onClick = onClearFilters) {
-            Text("Clear filters")
         }
     }
 }
