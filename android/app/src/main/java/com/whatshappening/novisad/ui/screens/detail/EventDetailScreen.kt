@@ -28,7 +28,7 @@ import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.outlined.CalendarMonth
 import androidx.compose.material.icons.outlined.FavoriteBorder
 import androidx.compose.material.icons.outlined.LocationOn
-import androidx.compose.material.icons.outlined.OpenInNew
+import androidx.compose.material.icons.automirrored.outlined.OpenInNew
 import androidx.compose.material.icons.outlined.Schedule
 import androidx.compose.material.icons.outlined.Share
 import androidx.compose.material3.Button
@@ -37,8 +37,13 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import android.content.Intent
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.platform.LocalContext
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
@@ -65,6 +70,40 @@ import com.whatshappening.novisad.util.formatDayOfWeek
 import com.whatshappening.novisad.util.formatDistance
 import com.whatshappening.novisad.util.formatTimeRange
 import java.time.format.DateTimeFormatter
+
+// ── EventDetailRoute — stateful wrapper ───────────────────────────────────────
+
+@Composable
+fun EventDetailRoute(
+    eventId: String,
+    onBack: () -> Unit,
+    viewModel: EventDetailViewModel = viewModel(
+        factory = EventDetailViewModel.factory(eventId),
+    ),
+) {
+    val event by viewModel.event.collectAsState()
+    val saved by viewModel.saved.collectAsState()
+    val context = LocalContext.current
+
+    event?.let { ev ->
+        EventDetailScreen(
+            event    = ev,
+            saved    = saved,
+            onBack   = onBack,
+            onToggleSave    = viewModel::toggleSaved,
+            onShare         = {
+                val intent = Intent(Intent.ACTION_SEND).apply {
+                    type = "text/plain"
+                    putExtra(Intent.EXTRA_SUBJECT, ev.title)
+                    putExtra(Intent.EXTRA_TEXT, "${ev.title} — ${ev.link.ensureScheme()}")
+                }
+                context.startActivity(Intent.createChooser(intent, null))
+            },
+            onOpenLink      = { openEventLink(context, it) },
+            onAddToCalendar = { addEventToCalendar(context, ev) },
+        )
+    }
+}
 
 // ── Main screen ───────────────────────────────────────────────────────────────
 
@@ -419,7 +458,7 @@ private fun BottomActionBar(
                 Text("Open event", style = MaterialTheme.typography.titleMedium)
                 Spacer(Modifier.width(8.dp))
                 Icon(
-                    imageVector        = Icons.Outlined.OpenInNew,
+                    imageVector        = Icons.AutoMirrored.Outlined.OpenInNew,
                     contentDescription = null,
                     modifier           = Modifier.size(16.dp),
                 )
