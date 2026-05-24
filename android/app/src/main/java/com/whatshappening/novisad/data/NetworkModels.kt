@@ -17,6 +17,8 @@ data class ScrapedEvent(
     val location: String,
     val url: String,
     @SerialName("image_url") val imageUrl: String? = null,
+    val lat: Double? = null,
+    val lng: Double? = null,
 )
 
 @Serializable

@@ -21,4 +21,6 @@ data class Event(
     val priceLabel: String,   // "Free", "€12 / €8 student", etc.
     val link: String,          // tap → open in browser
     val photoUrl: String? = null, // null falls back to gradient hero
+    val lat: Double? = null,
+    val lng: Double? = null,
 )

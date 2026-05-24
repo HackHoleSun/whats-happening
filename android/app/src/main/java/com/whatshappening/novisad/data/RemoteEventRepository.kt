@@ -87,6 +87,8 @@ private fun ScrapedEvent.toDomain(): Event? {
         priceLabel  = "",
         link        = url,
         photoUrl    = imageUrl,
+        lat         = lat,
+        lng         = lng,
     )
 }
 

@@ -1,5 +1,10 @@
 package com.whatshappening.novisad.ui.screens.map
 
+import android.Manifest
+import android.annotation.SuppressLint
+import android.content.pm.PackageManager
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts.RequestMultiplePermissions
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -9,11 +14,14 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.MyLocation
 import androidx.compose.material.icons.outlined.LocationOn
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -26,15 +34,18 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.model.CameraPosition
 import com.google.android.gms.maps.model.LatLng
@@ -57,7 +68,7 @@ import kotlin.math.cos
 
 // ── Default city center (Berlin as stand-in for the mock "Newhaven") ──────────
 
-private val DEFAULT_CITY_CENTER = LatLng(52.516, 13.405)
+private val DEFAULT_CITY_CENTER = LatLng(45.2671, 19.8335) // Novi Sad
 
 // ── MapScreen ─────────────────────────────────────────────────────────────────
 
@@ -77,6 +88,9 @@ fun MapScreen(
     events: List<Event>,
     savedIds: Set<String>,
     cityCenter: LatLng = DEFAULT_CITY_CENTER,
+    userLocation: LatLng? = null,
+    hasLocationPermission: Boolean = false,
+    onLocateMe: () -> Unit = {},
     onEventClick: (Event) -> Unit,
     onToggleSave: (String) -> Unit,
     onListClick: () -> Unit,
@@ -88,6 +102,16 @@ fun MapScreen(
         position = CameraPosition.fromLatLngZoom(cityCenter, 13f)
     }
     var focused by remember(events) { mutableStateOf(events.firstOrNull()) }
+
+    // Re-centre on the user's location the first time it becomes available
+    LaunchedEffect(userLocation) {
+        userLocation?.let {
+            cameraPositionState.animate(
+                update = CameraUpdateFactory.newLatLngZoom(it, 14f),
+                durationMs = 600,
+            )
+        }
+    }
 
     // Animate camera when focused event changes
     LaunchedEffect(focused?.id) {
@@ -111,12 +135,13 @@ fun MapScreen(
             properties = MapProperties(
                 mapStyleOptions = MapStyleOptions(if (isDark) MochaMapStyle else LatteMapStyle),
                 isBuildingEnabled = false,
+                isMyLocationEnabled = hasLocationPermission,
             ),
             uiSettings = MapUiSettings(
                 zoomControlsEnabled = false,
                 mapToolbarEnabled = false,
                 compassEnabled = false,
-                myLocationButtonEnabled = false,
+                myLocationButtonEnabled = false, // we show our own FAB
             ),
         ) {
             events.forEach { ev ->
@@ -140,13 +165,38 @@ fun MapScreen(
 
         // ── 2. Frosted top bar ────────────────────────────────────────────────
         MapTopBar(
-            cityName = "Newhaven",
+            cityName = "Novi Sad",
             nearbyCount = events.size,
             onListClick = onListClick,
             modifier = Modifier
                 .align(Alignment.TopCenter)
                 .statusBarsPadding(),
         )
+
+        // ── 2a. Locate-me FAB ─────────────────────────────────────────────────
+        Surface(
+            onClick = onLocateMe,
+            shape = CircleShape,
+            color = MaterialTheme.colorScheme.surface,
+            shadowElevation = 4.dp,
+            modifier = Modifier
+                .align(Alignment.TopEnd)
+                .statusBarsPadding()
+                .padding(top = 56.dp, end = 14.dp)
+                .size(42.dp),
+        ) {
+            Box(contentAlignment = Alignment.Center) {
+                Icon(
+                    imageVector        = Icons.Filled.MyLocation,
+                    contentDescription = "My location",
+                    tint               = if (userLocation != null)
+                        MaterialTheme.colorScheme.primary
+                    else
+                        MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier           = Modifier.size(20.dp),
+                )
+            }
+        }
 
         // ── 3. Focused event card ─────────────────────────────────────────────
         focused?.let { ev ->
@@ -178,19 +228,17 @@ fun MapScreen(
 // ── Event.toLatLng ────────────────────────────────────────────────────────────
 
 /**
- * Derives a deterministic [LatLng] for each event from its [Event.id] hash and
- * [Event.distanceKm]. Events without real coordinates are scattered around
- * [cityCenter] at their stated distance.
- *
- * Replace with real `latitude`/`longitude` fields on [Event] when coordinates
- * become available from the data layer.
+ * Returns the event's real [LatLng] when the scraper has provided coordinates,
+ * otherwise falls back to a deterministic scatter around [cityCenter] so the
+ * map is never empty while coordinates are being added to the data feed.
  */
 private fun Event.toLatLng(cityCenter: LatLng): LatLng {
-    // Use hashCode as a seed for a deterministic angle
+    if (lat != null && lng != null) return LatLng(lat, lng)
+    // Fallback: scatter by id hash at a fixed ~500m radius so pins don't stack
     val angle = (id.hashCode().and(0xFFFF) / 65535.0) * 2 * Math.PI
-    // 1 degree ≈ 111km; scale distance to degrees
-    val latOffset = (distanceKm / 111.0) * cos(angle)
-    val lngOffset = (distanceKm / (111.0 * cos(Math.toRadians(cityCenter.latitude)))) * sin(angle)
+    val radiusKm = 0.5
+    val latOffset = (radiusKm / 111.0) * cos(angle)
+    val lngOffset = (radiusKm / (111.0 * cos(Math.toRadians(cityCenter.latitude)))) * sin(angle)
     return LatLng(cityCenter.latitude + latOffset, cityCenter.longitude + lngOffset)
 }
 
@@ -285,15 +333,83 @@ fun MapRoute(
     val events   by viewModel.events.collectAsState()
     val savedIds by viewModel.savedIds.collectAsState()
 
+    val locationState = rememberUserLocation()
+
     MapScreen(
-        events       = events,
-        savedIds     = savedIds,
-        onEventClick = onEventClick,
-        onToggleSave = viewModel::toggleSaved,
-        onListClick  = onListClick,
-        onHomeClick  = onHomeClick,
-        onSavedClick = onSavedClick,
+        events               = events,
+        savedIds             = savedIds,
+        cityCenter           = locationState.location ?: DEFAULT_CITY_CENTER,
+        userLocation         = locationState.location,
+        hasLocationPermission = locationState.hasPermission,
+        onLocateMe           = locationState.requestLocation,
+        onEventClick         = onEventClick,
+        onToggleSave         = viewModel::toggleSaved,
+        onListClick          = onListClick,
+        onHomeClick          = onHomeClick,
+        onSavedClick         = onSavedClick,
     )
+}
+
+// ── Location helper ───────────────────────────────────────────────────────────
+
+private data class UserLocationState(
+    val location: LatLng?,
+    val hasPermission: Boolean,
+    val requestLocation: () -> Unit,
+)
+
+/**
+ * Manages location permission and the last-known device position.
+ *
+ * - If permission is already granted, fetches the location immediately.
+ * - Calling [UserLocationState.requestLocation] will ask for permission if needed,
+ *   then fetch the location and re-centre the camera.
+ */
+@SuppressLint("MissingPermission")
+@Composable
+private fun rememberUserLocation(): UserLocationState {
+    val context = LocalContext.current
+    val fusedClient = remember { LocationServices.getFusedLocationProviderClient(context) }
+
+    var location by remember { mutableStateOf<LatLng?>(null) }
+    var hasPermission by remember {
+        mutableStateOf(
+            ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION)
+                == PackageManager.PERMISSION_GRANTED ||
+            ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION)
+                == PackageManager.PERMISSION_GRANTED
+        )
+    }
+
+    fun fetchLocation() {
+        fusedClient.lastLocation.addOnSuccessListener { loc ->
+            if (loc != null) location = LatLng(loc.latitude, loc.longitude)
+        }
+    }
+
+    val permissionLauncher = rememberLauncherForActivityResult(RequestMultiplePermissions()) { results ->
+        val granted = results.values.any { it }
+        hasPermission = granted
+        if (granted) fetchLocation()
+    }
+
+    // Auto-fetch if permission was already granted before this screen opened
+    LaunchedEffect(Unit) {
+        if (hasPermission) fetchLocation()
+    }
+
+    val requestLocation = {
+        if (hasPermission) {
+            fetchLocation()
+        } else {
+            permissionLauncher.launch(arrayOf(
+                Manifest.permission.ACCESS_FINE_LOCATION,
+                Manifest.permission.ACCESS_COARSE_LOCATION,
+            ))
+        }
+    }
+
+    return UserLocationState(location, hasPermission, requestLocation)
 }
 
 // ── Previews ──────────────────────────────────────────────────────────────────
