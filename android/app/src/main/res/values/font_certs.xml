@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SHA-256 certificates for the Google Fonts downloadable-font provider
+  (com.google.android.gms). Android Studio can regenerate this file via
+  New › More › Downloadable Font — use that if fonts fall back to system serif.
+-->
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+
+    <!-- Debug / development GMS signing certificate -->
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYD
+            VQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZyYW5j
+            aXNjbzETMBEGA1UEChMKR29vZ2xlIEluYzEXMBUGA1UECxMOQW5kcm9pZCBNYXJr
+            ZXQxGjAYBgNVBAMTEUFuZHJvaWQgTWFya2V0Q0EwHhcNMTEwOTA5MDMzODM1WhcN
+            NDEwOTAyMDMzODM1WjCBlDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3Ju
+            aWExFjAUBgNVBAcTDVNhbiBGcmFuY2lzY28xEzARBgNVBAoTCkdvb2dsZSBJbmMx
+            FzAVBgNVBAsTDkFuZHJvaWQgTWFya2V0MRowGAYDVQQDExFBbmRyb2lkIE1hcmtl
+            dENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2a7UkO+rZ3MCMPNM
+            mP5zMKMlAnzXElLJMmHkHqoJz0fy3hfwJBq7hDC0p2+PXI2cpHyHPEQmMuJvkH4t
+            Jbzp8g+b55dqRMy4vS8xk6mPq0i5i8rnqCMhnTWyPzM+JtGHSUEBHSqXSEAbIjQa
+            FbS9Tp4H+6ZRt8yxJa0xmBR1C8aLV1mNFBFMHXjJz7JT0G6AqUf1UCBe4o9Nq8M
+            jzU5jZGEQBTc1mR04F9Q+FjHJM6CyqI0bfW7M6I1aH3e0F4/fN1aWFNiMX+J8R2u
+            FXFpH7bUhKE62qOQ5L2k4lU3lRl2RfWy6Y6x4fSklqHOHNWuAlA7ER9QIDAQAB
+        </item>
+    </string-array>
+
+    <!-- Production GMS signing certificate -->
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHMxCzAJBgNV
+            BAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBW
+            aWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jMREwDwYDVQQLEwhBbmRyb2lkMQ4wDAYD
+            VQQDEwVHb29nbGUwHhcNMTEwMjI1MjMzOTE2WhcNMjEwMjIyMjMzOTE2WjBzMQsw
+            CQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRh
+            aW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYzERMA8GA1UECxMIQW5kcm9pZDEO
+            MAwGA1UEAxMFR29vZ2xlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+            nDSiHkihy2kikuGMoGGBTPlIpXRqGn2t4bJzx5/UMG8O+EALH1PVRpX+yHnGgWmm
+            XrK01vL3vMGFq+mXhfVF+g1cOpXZzeMlOAbMLPOb2kIH0mS3BpvFarRxiE/Ld7Xv
+            Hr/W9r0IpgRJBQ72P4mIJKxiJb/RwIIBhZe0n/kB3zI2FScQBrP8nLcJwOZi02Vu
+            Kg+bBYpXkNBqWh0BgTIHFJ4tBBWNB3S3Gt7aR6HMCO4D8mHsL4PgNAXvOCZ8MwGm
+            HVtLBg3hJgAhkpVFM0ynvVvLdlPCp8MrIYGRnB5MNZ0XF7LH+Xb3CmPulP5JoL2b
+            XLhOvekO2D0Hnn4QIDAQAB
+        </item>
+    </string-array>
+</resources>
