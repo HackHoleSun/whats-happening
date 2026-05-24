@@ -44,6 +44,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.whatshappening.novisad.ui.states.Shimmer
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
@@ -81,17 +82,29 @@ fun EventDetailRoute(
         factory = EventDetailViewModel.factory(eventId),
     ),
 ) {
-    val event by viewModel.event.collectAsState()
-    val saved by viewModel.saved.collectAsState()
-    val context = LocalContext.current
+    val event       by viewModel.event.collectAsState()
+    val saved       by viewModel.saved.collectAsState()
+    val detailState by viewModel.detailState.collectAsState()
+    val context     = LocalContext.current
 
     event?.let { ev ->
+        val descriptionLoading = detailState is DetailLoadState.Loading
+        val description = when (val s = detailState) {
+            is DetailLoadState.Loaded      -> s.description
+            is DetailLoadState.Unavailable -> ev.description   // mock / offline fallback
+            is DetailLoadState.Loading     -> ""
+        }
+        val livePhotoUrl = (detailState as? DetailLoadState.Loaded)?.photoUrl ?: ev.photoUrl
+
         EventDetailScreen(
-            event    = ev,
-            saved    = saved,
-            onBack   = onBack,
-            onToggleSave    = viewModel::toggleSaved,
-            onShare         = {
+            event                = ev,
+            saved                = saved,
+            description          = description,
+            isDescriptionLoading = descriptionLoading,
+            livePhotoUrl         = livePhotoUrl,
+            onBack               = onBack,
+            onToggleSave         = viewModel::toggleSaved,
+            onShare              = {
                 val intent = Intent(Intent.ACTION_SEND).apply {
                     type = "text/plain"
                     putExtra(Intent.EXTRA_SUBJECT, ev.title)
@@ -111,6 +124,9 @@ fun EventDetailRoute(
 fun EventDetailScreen(
     event: Event,
     saved: Boolean,
+    description: String          = event.description,
+    isDescriptionLoading: Boolean = false,
+    livePhotoUrl: String?        = event.photoUrl,
     onBack: () -> Unit,
     onToggleSave: () -> Unit,
     onShare: () -> Unit,
@@ -131,7 +147,7 @@ fun EventDetailScreen(
         CategoryHero(
             category       = event.category,
             date           = event.date,
-            photoUrl       = event.photoUrl,
+            photoUrl       = livePhotoUrl,
             modifier       = Modifier
                 .fillMaxWidth()
                 .height(380.dp),
@@ -145,7 +161,7 @@ fun EventDetailScreen(
                 .fillMaxWidth()
                 .height(380.dp)
         ) {
-            if (event.photoUrl == null) {
+            if (livePhotoUrl == null) {
                 Text(
                     text  = "%02d".format(event.date.dayOfMonth),
                     style = TextStyle(
@@ -228,11 +244,19 @@ fun EventDetailScreen(
             Spacer(Modifier.height(24.dp))
             SectionLabel("About")
             Spacer(Modifier.height(8.dp))
-            Text(
-                text  = event.description,
-                style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
+            if (isDescriptionLoading) {
+                Shimmer(modifier = Modifier.fillMaxWidth(), height = 14.dp, radius = 4.dp)
+                Spacer(Modifier.height(6.dp))
+                Shimmer(modifier = Modifier.fillMaxWidth(), height = 14.dp, radius = 4.dp)
+                Spacer(Modifier.height(6.dp))
+                Shimmer(width = 200.dp, height = 14.dp, radius = 4.dp)
+            } else {
+                Text(
+                    text  = description,
+                    style = MaterialTheme.typography.bodyLarge,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
             Spacer(Modifier.height(22.dp))
             OrganizerAndPrice(event)
         }
