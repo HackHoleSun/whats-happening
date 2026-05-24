@@ -34,9 +34,9 @@ import androidx.compose.foundation.Image
 import androidx.compose.ui.res.painterResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.material3.Card
 import com.whatshappening.novisad.R
-import com.whatshappening.novisad.data.Event
-import com.whatshappening.novisad.ui.components.EventCard
+import com.whatshappening.novisad.data.ScrapedEvent
 import com.whatshappening.novisad.ui.components.EventDetailSheet
 import com.whatshappening.novisad.ui.components.FilterBar
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
@@ -151,11 +151,21 @@ fun EventsScreen(viewModel: EventViewModel = viewModel()) {
           }
         }
 
+        // TODO(chunk-04): Replace with new HomeScreen + EventCard(domain Event)
         items(filteredEvents, key = { it.id }) { event ->
-          EventCard(
-            event = event,
-            onClick = { viewModel.selectEvent(event) },
-          )
+          Card(
+            onClick   = { viewModel.selectEvent(event) },
+            modifier  = Modifier.fillMaxWidth(),
+          ) {
+            Column(Modifier.padding(16.dp)) {
+              Text(event.title, style = MaterialTheme.typography.titleMedium)
+              Text(
+                "${event.date} · ${event.location}",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+              )
+            }
+          }
         }
       }
     }
@@ -171,10 +181,10 @@ fun EventsScreen(viewModel: EventViewModel = viewModel()) {
 @Composable
 private fun EventsScreenPreview() {
   val sampleEvents = listOf(
-    Event("1", "Jazz večer u Kazamatu", "Muzika", "2026-05-24", "20:00", "Kazamat, Novi Sad", "https://example.com"),
-    Event("2", "Pozorišna predstava Hamleta", "Pozorište", "2026-05-25", "19:30", "Srpsko narodno pozorište", "https://example.com"),
-    Event("3", "Košarkaška utakmica Vojvodina – Crvena zvezda", "Sport", "2026-05-23", null, "Spens, Novi Sad", "https://example.com"),
-    Event("4", "Izložba savremene fotografije", null, "2026-05-26", "18:00", "Galerija Matice srpske", "https://example.com"),
+    ScrapedEvent("1", "Jazz večer u Kazamatu", "Muzika", "2026-05-24", "20:00", "Kazamat, Novi Sad", "https://example.com"),
+    ScrapedEvent("2", "Pozorišna predstava Hamleta", "Pozorište", "2026-05-25", "19:30", "Srpsko narodno pozorište", "https://example.com"),
+    ScrapedEvent("3", "Košarkaška utakmica Vojvodina – Crvena zvezda", "Sport", "2026-05-23", null, "Spens, Novi Sad", "https://example.com"),
+    ScrapedEvent("4", "Izložba savremene fotografije", null, "2026-05-26", "18:00", "Galerija Matice srpske", "https://example.com"),
   )
   WhatsHappeningTheme() {
     Scaffold(
@@ -217,8 +227,21 @@ private fun EventsScreenPreview() {
           verticalArrangement = Arrangement.spacedBy(12.dp),
           modifier = Modifier.fillMaxSize(),
         ) {
+          // TODO(chunk-04): Replace with new EventCard(domain Event)
           items(sampleEvents, key = { it.id }) { event ->
-            EventCard(event = event, onClick = {})
+            Card(
+              onClick  = {},
+              modifier = Modifier.fillMaxWidth(),
+            ) {
+              Column(Modifier.padding(16.dp)) {
+                Text(event.title, style = MaterialTheme.typography.titleMedium)
+                Text(
+                  "${event.date} · ${event.location}",
+                  style = MaterialTheme.typography.bodySmall,
+                  color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+              }
+            }
           }
         }
       }
