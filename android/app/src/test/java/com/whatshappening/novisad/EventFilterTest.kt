@@ -38,17 +38,28 @@ class EventFilterTest {
         assertTrue(result.none { it.date > weekEnd })
     }
 
-    // ── DateRange.Specific ────────────────────────────────────────────────────
+    // ── DateRange.Range ───────────────────────────────────────────────────────
 
     @Test
-    fun `specific date filter returns only events on that date`() {
+    fun `range filter with single day returns only events on that date`() {
         val target = MOCK_TODAY.plusDays(1) // 2026-05-25
         val result = MOCK_EVENTS.filtered(
-            EventFilter(range = DateRange.Specific, selectedDate = target)
+            EventFilter(range = DateRange.Range, dateFrom = target, dateTo = target)
         )
         assertTrue(result.all { it.date == target })
         assertEquals(1, result.size) // only e3 (Bauhaus)
         assertEquals("e3", result.first().id)
+    }
+
+    @Test
+    fun `range filter spanning multiple days returns all events in that window`() {
+        val from = MOCK_TODAY           // 2026-05-24
+        val to   = MOCK_TODAY.plusDays(2) // 2026-05-26
+        val result = MOCK_EVENTS.filtered(
+            EventFilter(range = DateRange.Range, dateFrom = from, dateTo = to)
+        )
+        assertTrue(result.all { it.date in from..to })
+        assertTrue(result.isNotEmpty())
     }
 
     // ── DateRange.All ─────────────────────────────────────────────────────────

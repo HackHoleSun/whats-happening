@@ -5,18 +5,20 @@ import java.time.LocalDate
 // ── DateRange ─────────────────────────────────────────────────────────────────
 
 enum class DateRange {
-    Today,    // events on today's date
-    Week,     // today through today + 6 days
-    All,      // no date constraint
-    Specific, // user picked a calendar date; selectedDate is non-null
+    Today,  // events on today's date
+    Week,   // today through today + 6 days
+    All,    // no date constraint
+    Range,  // user picked a date range; dateFrom/dateTo are non-null
 }
 
 // ── EventFilter ───────────────────────────────────────────────────────────────
 
 data class EventFilter(
     val range: DateRange = DateRange.All,
-    /** Non-null only when [range] == [DateRange.Specific]. */
-    val selectedDate: LocalDate? = null,
+    /** Non-null only when [range] == [DateRange.Range]. Inclusive start date. */
+    val dateFrom: LocalDate? = null,
+    /** Non-null only when [range] == [DateRange.Range]. Inclusive end date. */
+    val dateTo: LocalDate? = null,
     val categories: Set<EventCategory> = emptySet(),
     val searchQuery: String = "",
     /** 0–10 km radius cap. 10 means "no distance filter". */
@@ -39,10 +41,14 @@ fun List<Event>.apply(
 ): List<Event> {
     // 1 — date range
     val byRange: List<Event> = when (filter.range) {
-        DateRange.Today    -> filter { it.date == today }
-        DateRange.Week     -> filter { it.date in today..today.plusDays(6) }
-        DateRange.Specific -> filter { it.date == filter.selectedDate }
-        DateRange.All      -> this
+        DateRange.Today -> filter { it.date == today }
+        DateRange.Week  -> filter { it.date in today..today.plusDays(6) }
+        DateRange.Range -> {
+            val from = filter.dateFrom ?: return@apply emptyList()
+            val to   = filter.dateTo   ?: from
+            filter { it.date in from..to }
+        }
+        DateRange.All   -> this
     }
 
     // 2 — categories

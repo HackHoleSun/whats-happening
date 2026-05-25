@@ -52,15 +52,15 @@ class HomeViewModel(
     }
 
     fun setRange(range: DateRange) {
-        _filter.value = _filter.value.copy(range = range, selectedDate = null)
+        _filter.value = _filter.value.copy(range = range, dateFrom = null, dateTo = null)
     }
 
     fun setCategories(cats: Set<EventCategory>) {
         _filter.value = _filter.value.copy(categories = cats)
     }
 
-    fun setDate(date: LocalDate) {
-        _filter.value = _filter.value.copy(range = DateRange.Specific, selectedDate = date)
+    fun setDateRange(from: LocalDate, to: LocalDate) {
+        _filter.value = _filter.value.copy(range = DateRange.Range, dateFrom = from, dateTo = to)
     }
 
     fun applyFilter(filter: EventFilter) {
