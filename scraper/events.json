@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-24T22:21:13Z",
+  "scraped_at": "2026-05-24T23:32:05Z",
   "events": [
     {
       "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-7",
@@ -10,8 +10,8 @@
       "location": "Cineplexx Promenada",
       "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-7/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Snovi-300x235.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.245598,
+      "lng": 19.842786
     },
     {
       "id": "arena-cineplex-repertoar-za-ponedeljak-7",
@@ -22,8 +22,8 @@
       "location": "Arena Cineplex",
       "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-7/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/arena-cineplex-18-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2539853,
+      "lng": 19.8454491
     },
     {
       "id": "otvoreni-studio-evropa-mladi-rad-i-prilike",
@@ -58,8 +58,8 @@
       "location": "Novosadsko pozorište",
       "url": "https://www.mojnovisad.com/navigator/majka-hrabrost-i-njena-deca-2/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/majka-hrabrost-i-njena-deca-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2577191,
+      "lng": 19.8415872
     },
     {
       "id": "art-bioskop-ck13-filmski-ciklus-mama",
@@ -70,8 +70,8 @@
       "location": "Omladinski centar CK13 (Crna kuća)",
       "url": "https://www.mojnovisad.com/navigator/art-bioskop-ck13-filmski-ciklus-mama/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Art-bioskop-810x456-1-300x169.png",
-      "lat": null,
-      "lng": null
+      "lat": 45.258309,
+      "lng": 19.839698
     },
     {
       "id": "cineplexx-novi-sad-repertoar-za-utorak-8",
@@ -82,8 +82,8 @@
       "location": "Cineplexx Promenada",
       "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-8/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Snovi-1-300x235.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.245598,
+      "lng": 19.842786
     },
     {
       "id": "arena-cineplex-repertoar-za-utorak-7",
@@ -94,8 +94,8 @@
       "location": "Arena Cineplex",
       "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-7/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/arena-cineplex-18-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2539853,
+      "lng": 19.8454491
     },
     {
       "id": "potpisivanje-knjige-sa-milicom-oliver",
@@ -106,8 +106,8 @@
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/potpisivanje-knjige-sa-milicom-oliver/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/693357265_1583833080410955_4505907827705487346_n-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "filmske-price-miroslav-lekic-reziser",
@@ -118,8 +118,8 @@
       "location": "Gradska biblioteka u Novom Sadu",
       "url": "https://www.mojnovisad.com/navigator/filmske-price-miroslav-lekic-reziser/",
       "image_url": "https://placehold.co/1200x600?text=No+Image&font=roboto",
-      "lat": null,
-      "lng": null
+      "lat": 45.25689,
+      "lng": 19.8484335
     },
     {
       "id": "pozorisni-sitkom-utorak-19-30",
@@ -130,8 +130,8 @@
       "location": "Zenit",
       "url": "https://www.mojnovisad.com/navigator/pozorisni-sitkom-utorak-19-30/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/20260521_104259-300x150.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2569986,
+      "lng": 19.8426561
     },
     {
       "id": "71-sterijino-pozorje-svecano-otvaranje",
@@ -142,8 +142,8 @@
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-svecano-otvaranje/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/Gospa_Nola_2026_009-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2553613,
+      "lng": 19.8430384
     },
     {
       "id": "rjuici-sakamoto-koda",
@@ -166,8 +166,8 @@
       "location": "Cineplexx Promenada",
       "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-sredu-7/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Fitilj-1080x1920px-cnplxx-1-300x216.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.245598,
+      "lng": 19.842786
     },
     {
       "id": "arena-cineplex-repertoar-za-sredu-7",
@@ -178,8 +178,8 @@
       "location": "Arena Cineplex",
       "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-7/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/arena-cineplex-18-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2539853,
+      "lng": 19.8454491
     },
     {
       "id": "open-mic-10-sezona-3",
@@ -202,8 +202,8 @@
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-gospoda-ministarka/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/gospa_ministric_2026_015-300x187.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2553613,
+      "lng": 19.8430384
     },
     {
       "id": "ivica-i-marica-2",
@@ -214,8 +214,8 @@
       "location": "Pozorište mladih",
       "url": "https://www.mojnovisad.com/navigator/ivica-i-marica-2/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/ivica-i-marica-pozml-300x218.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2552685,
+      "lng": 19.8488543
     },
     {
       "id": "stand-up-show-gorana-vincica-vince-komedija-je-ozbiljna-stvar",
@@ -226,8 +226,8 @@
       "location": "Naftna industrija Srbije",
       "url": "https://www.mojnovisad.com/navigator/stand-up-show-gorana-vincica-vince-komedija-je-ozbiljna-stvar/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/58974-vinca-nis-820-300x204.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2419788,
+      "lng": 19.8412391
     },
     {
       "id": "sheer-terror-pure-impact-i-wrishlas",
@@ -238,8 +238,8 @@
       "location": "SKCNS Fabrika",
       "url": "https://www.mojnovisad.com/navigator/sheer-terror-pure-impact-i-wrishlas/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/682054221_1408485207975959_6909542418149393258_n-300x169.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2375526,
+      "lng": 19.8421486
     },
     {
       "id": "nije-smesno-zarko",
@@ -262,8 +262,8 @@
       "location": "Sinagoga",
       "url": "https://www.mojnovisad.com/navigator/koncert-kamernog-orkestra-muzikon/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/2-12-300x196.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2530606,
+      "lng": 19.840798
     },
     {
       "id": "billie-eilish-hit-me-hard-and-soft-the-tour-live-in-3d",
@@ -286,8 +286,8 @@
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-profesionalac/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/Profesionalac_2026_002-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "71-sterijino-pozorje-profesionala-repriza",
@@ -298,8 +298,8 @@
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-profesionala-repriza/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/Profesionalac_2026_002-1-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "book-clubbing-4-hamnet",
@@ -310,8 +310,8 @@
       "location": "Omladinski centar CK13 (Crna kuća)",
       "url": "https://www.mojnovisad.com/navigator/book-clubbing-4-hamnet/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/679389845_1267184552194776_9130926716697895460_n-300x238.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.258309,
+      "lng": 19.839698
     },
     {
       "id": "zaljubi-se-cica-u-princa",
@@ -322,8 +322,8 @@
       "location": "SPENS - Sportski i poslovni centar Vojvodina",
       "url": "https://www.mojnovisad.com/navigator/zaljubi-se-cica-u-princa/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/zaljubi_se_cica_820-300x204.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2471273,
+      "lng": 19.8454852
     },
     {
       "id": "bilo-jednom-u-novom-sadu",
@@ -334,8 +334,8 @@
       "location": "Novosadsko pozorište",
       "url": "https://www.mojnovisad.com/navigator/bilo-jednom-u-novom-sadu/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/bilo-jednom-u-ns2-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2577191,
+      "lng": 19.8415872
     },
     {
       "id": "zlocin-i-kazna-2",
@@ -346,8 +346,8 @@
       "location": "Pozorište mladih",
       "url": "https://www.mojnovisad.com/navigator/zlocin-i-kazna-2/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/zlocin-i-kazna-2-pozml-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2552685,
+      "lng": 19.8488543
     },
     {
       "id": "pre-nego-sto-odes",
@@ -370,8 +370,8 @@
       "location": "K9 Station",
       "url": "https://www.mojnovisad.com/navigator/10-years-of-2000late/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/2000late_820-300x165.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2658433,
+      "lng": 19.8327104
     },
     {
       "id": "19-novosadski-ikar",
@@ -394,8 +394,8 @@
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/globalni-photowalk-susret/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/542390414_122137429310858755_294641349357752431_n-300x169.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "kako-je-otkriveno-letenje",
@@ -406,8 +406,8 @@
       "location": "Pozorište mladih",
       "url": "https://www.mojnovisad.com/navigator/kako-je-otkriveno-letenje/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/kako-je-otkriveno-letenje-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2552685,
+      "lng": 19.8488543
     },
     {
       "id": "gin-i-cheese-fest",
@@ -418,8 +418,8 @@
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/gin-i-cheese-fest/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/gin-i-sir-820-300x213.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "bitislobodanfest-dobra-energija-menja-svet",
@@ -430,8 +430,8 @@
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/bitislobodanfest-dobra-energija-menja-svet/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/691620552_122100799407306690_5930117868254982506_n-216x300.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "autorizacija-4",
@@ -442,8 +442,8 @@
       "location": "Pozorište mladih",
       "url": "https://www.mojnovisad.com/navigator/autorizacija-4/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/Autorizacija_plakat-1-300x218.png",
-      "lat": null,
-      "lng": null
+      "lat": 45.2552685,
+      "lng": 19.8488543
     },
     {
       "id": "alter-echo-festival",
@@ -454,8 +454,8 @@
       "location": "Omladinski centar CK13 (Crna kuća)",
       "url": "https://www.mojnovisad.com/navigator/alter-echo-festival/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/672680472_1629393065507488_1288925396355578421_n-810x456-1-300x169.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.258309,
+      "lng": 19.839698
     },
     {
       "id": "sve-dok-govorimo-o-ljubavi-3",
@@ -466,8 +466,8 @@
       "location": "Akademija umetnosti Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/sve-dok-govorimo-o-ljubavi-3/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/o_ljubavi_820-300x191.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2586774,
+      "lng": 19.8437659
     },
     {
       "id": "jugoslovenka",
@@ -478,8 +478,8 @@
       "location": "Štrand",
       "url": "https://www.mojnovisad.com/navigator/jugoslovenka/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/jug-820-300x197.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2363112,
+      "lng": 19.8465411
     },
     {
       "id": "treci-koncert-rnr-prakse-grozota-trofobioz-i-metal-gate",
@@ -490,8 +490,8 @@
       "location": "SKCNS Fabrika",
       "url": "https://www.mojnovisad.com/navigator/treci-koncert-rnr-prakse-grozota-trofobioz-i-metal-gate/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/RNR-praksa-3-300x169.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2375526,
+      "lng": 19.8421486
     },
     {
       "id": "revija-novosadskih-horova",
@@ -502,8 +502,8 @@
       "location": "Novosadska sinagoga",
       "url": "https://www.mojnovisad.com/navigator/revija-novosadskih-horova/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Revijalni-koncert-novosadskih-horova-30.05.2026-199x300.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2530606,
+      "lng": 19.840798
     },
     {
       "id": "bajaga-i-instruktori",
@@ -514,8 +514,8 @@
       "location": "SPENS - Sportski i poslovni centar Vojvodina",
       "url": "https://www.mojnovisad.com/navigator/bajaga-i-instruktori/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/58975-bajaga-820-300x114.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2471273,
+      "lng": 19.8454852
     },
     {
       "id": "sunshine",
@@ -526,8 +526,8 @@
       "location": "The Pub",
       "url": "https://www.mojnovisad.com/navigator/sunshine/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/shine_820-300x185.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.255259,
+      "lng": 19.8490275
     },
     {
       "id": "kos-i-lisica-3",
@@ -538,8 +538,8 @@
       "location": "Pozorište mladih",
       "url": "https://www.mojnovisad.com/navigator/kos-i-lisica-3/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/kos-i-lisica-pozml-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2552685,
+      "lng": 19.8488543
     },
     {
       "id": "71-sterijino-pozorje-sine",
@@ -550,8 +550,8 @@
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-sine/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/Sine_2026_001-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2553613,
+      "lng": 19.8430384
     },
     {
       "id": "stand-up-show-andrije-dabanovica-nezavisan",
@@ -574,8 +574,8 @@
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-moje-pozoriste-bez-buke-od-dva-do-sest/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/moje_pozoriste_2026_003-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "71-sterijino-pozorje-bez-buke-od-dva-do-sest-centrala-za-humor",
@@ -586,8 +586,8 @@
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-bez-buke-od-dva-do-sest-centrala-za-humor/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/centrala_za_humor_2026_002-300x200.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "slobodna-zona-lajza-mineli",
@@ -610,8 +610,8 @@
       "location": "Naftna industrija Srbije",
       "url": "https://www.mojnovisad.com/navigator/sedam-sati-sunceve-svetlosti/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/sedam-sati-820-300x114.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2419788,
+      "lng": 19.8412391
     },
     {
       "id": "besplatni-bioskop-kako-dobiti-izbore",
@@ -646,8 +646,8 @@
       "location": "SKCNS Fabrika",
       "url": "https://www.mojnovisad.com/navigator/deca-losih-muzicara-2/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/58976-deca-losih-820-300x185.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2375526,
+      "lng": 19.8421486
     },
     {
       "id": "ivan-bessonovpiano-concert",
@@ -658,8 +658,8 @@
       "location": "Sinagoga",
       "url": "https://www.mojnovisad.com/navigator/ivan-bessonovpiano-concert/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/photo_2026-05-12_23-06-22-300x300.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2530606,
+      "lng": 19.840798
     },
     {
       "id": "stand-up-srdana-olmana-strucnjak",
@@ -670,8 +670,8 @@
       "location": "Naftna industrija Srbije",
       "url": "https://www.mojnovisad.com/navigator/stand-up-srdana-olmana-strucnjak/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/stucnjak-820--300x192.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2419788,
+      "lng": 19.8412391
     },
     {
       "id": "granfondo-novi-sad",
@@ -682,8 +682,8 @@
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/granfondo-novi-sad/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/624529215_1322730786559488_6271924434409783661_n-300x199.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "medeja",
@@ -694,8 +694,8 @@
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/medeja/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/1772197277plakat-300x196.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2553613,
+      "lng": 19.8430384
     },
     {
       "id": "ljubinko-i-desanka",
@@ -706,8 +706,8 @@
       "location": "Naftna industrija Srbije",
       "url": "https://www.mojnovisad.com/navigator/ljubinko-i-desanka/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/ljubinko_desanka_820-300x184.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2419788,
+      "lng": 19.8412391
     },
     {
       "id": "boris-rezak-2",
@@ -730,8 +730,8 @@
       "location": "Club Tunnel",
       "url": "https://www.mojnovisad.com/navigator/music-reactions-outdoor-rave/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/660354070_1390789069747637_801059724153077110_n-300x158.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2515421,
+      "lng": 19.8630972
     },
     {
       "id": "drz-ne-daj-5",
@@ -754,8 +754,8 @@
       "location": "Fruška gora",
       "url": "https://www.mojnovisad.com/navigator/the-jungle-festival/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/58977-baner-1-300x114.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.1720057,
+      "lng": 19.8282553
     },
     {
       "id": "17-nocni-maraton",
@@ -766,8 +766,8 @@
       "location": "Kej Žrtava Racije",
       "url": "https://www.mojnovisad.com/navigator/17-nocni-maraton/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/627978677_1485698093564069_7296520761835259257_n-300x112.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.2502707,
+      "lng": 19.8556968
     },
     {
       "id": "humanitarna-izlozba-u-beocinu",
@@ -778,8 +778,8 @@
       "location": "Beočin",
       "url": "https://www.mojnovisad.com/navigator/humanitarna-izlozba-u-beocinu/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/naslovna-16-300x225.jpg",
-      "lat": null,
-      "lng": null
+      "lat": 45.220138,
+      "lng": 19.8313212
     }
   ]
 }

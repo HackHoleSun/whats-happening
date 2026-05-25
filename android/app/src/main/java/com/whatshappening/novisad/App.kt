@@ -10,6 +10,7 @@ import coil3.network.okhttp.OkHttpNetworkFetcherFactory
 import coil3.request.crossfade
 import com.whatshappening.novisad.data.EventRepository
 import com.whatshappening.novisad.data.RemoteEventRepository
+import org.maplibre.android.MapLibre
 import com.whatshappening.novisad.prefs.UserPreferences
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -25,6 +26,11 @@ import okhttp3.OkHttpClient
  * Registered in AndroidManifest.xml via android:name=".App".
  */
 class App : Application(), SingletonImageLoader.Factory {
+
+    override fun onCreate() {
+        super.onCreate()
+        MapLibre.getInstance(this)
+    }
 
     // ── Shared event repository ───────────────────────────────────────────────
 
