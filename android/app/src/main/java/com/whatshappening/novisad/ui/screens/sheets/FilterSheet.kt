@@ -32,7 +32,6 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -59,7 +58,7 @@ import java.time.format.DateTimeFormatter
  * The main filter bottom sheet. Contains three sections:
  *  - WHEN: 2×2 grid of date-range option cards
  *  - CATEGORIES: FlowRow of category toggle chips
- *  - DISTANCE: Slider (mock — EventFilter does not currently model distanceKm)
+ *  - DISTANCE: Slider capped at 10 km (≥10 = no filter); wired to EventFilter.maxDistanceKm
  *
  * Draft state is held locally so tapping dismiss cancels without committing.
  * [onOpenDatePicker] is called when the user taps "Choose date"; the caller is
@@ -73,16 +72,14 @@ fun FilterSheet(
     onDismiss: () -> Unit,
 ) {
     var draft by remember(initial) { mutableStateOf(initial) }
-    // Mock distance slider value — not in domain model yet
-    var distanceKm by remember { mutableFloatStateOf(3f) }
 
     SheetScaffold(
         onDismiss = onDismiss,
-        title = "Filters",
+        title = "Filteri",
         titleTrailing = {
             TextButton(onClick = { draft = EventFilter() }) {
                 Text(
-                    text = "Clear all",
+                    text = "Obriši sve",
                     style = MaterialTheme.typography.labelMedium,
                     color = LocalCatppuccin.current.subtext1,
                 )
@@ -100,12 +97,12 @@ fun FilterSheet(
                     contentColor = MaterialTheme.colorScheme.onPrimary,
                 ),
             ) {
-                Text("Show events", style = MaterialTheme.typography.titleMedium)
+                Text("Prikaži događaje", style = MaterialTheme.typography.titleMedium)
             }
         },
     ) {
-        // ── WHEN ──────────────────────────────────────────────────────────────
-        SectionLabel("When")
+        // ── KADA ──────────────────────────────────────────────────────────────
+        SectionLabel("Kada")
         Spacer(Modifier.height(10.dp))
         WhenGrid(
             draft = draft,
@@ -115,14 +112,14 @@ fun FilterSheet(
 
         Spacer(Modifier.height(24.dp))
 
-        // ── CATEGORIES ────────────────────────────────────────────────────────
+        // ── KATEGORIJE ────────────────────────────────────────────────────────
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.Bottom,
         ) {
-            SectionLabel("Categories")
-            val countText = if (draft.categories.isEmpty()) "all" else "${draft.categories.size}"
+            SectionLabel("Kategorije")
+            val countText = if (draft.categories.isEmpty()) "sve" else "${draft.categories.size}"
             Text(
                 text = countText,
                 style = MaterialTheme.typography.bodySmall,
@@ -152,12 +149,12 @@ fun FilterSheet(
 
         Spacer(Modifier.height(24.dp))
 
-        // ── DISTANCE ──────────────────────────────────────────────────────────
-        SectionLabel("Distance")
+        // ── UDALJENOST ────────────────────────────────────────────────────────
+        SectionLabel("Udaljenost")
         Spacer(Modifier.height(10.dp))
         Slider(
-            value = distanceKm,
-            onValueChange = { distanceKm = it },
+            value = draft.maxDistanceKm,
+            onValueChange = { draft = draft.copy(maxDistanceKm = it) },
             valueRange = 0f..10f,
             modifier = Modifier.fillMaxWidth(),
             colors = SliderDefaults.colors(
@@ -175,8 +172,10 @@ fun FilterSheet(
                 style = MaterialTheme.typography.bodySmall,
                 color = LocalCatppuccin.current.subtext0,
             )
+            val distLabel = if (draft.maxDistanceKm >= 10f) "Sve"
+                            else "Do ${draft.maxDistanceKm.toInt()} km"
             Text(
-                "Within ${distanceKm.toInt()} km",
+                distLabel,
                 style = MaterialTheme.typography.bodySmall.copy(fontWeight = FontWeight.Bold),
                 color = LocalCatppuccin.current.text,
             )
@@ -208,26 +207,26 @@ private fun WhenGrid(
     val options = listOf(
         WhenOption(
             id = "today",
-            title = "Today",
+            title = "Danas",
             subtitle = today.format(mdFormatter),
         ),
         WhenOption(
             id = "week",
-            title = "This Week",
+            title = "Ova nedelja",
             subtitle = "${today.format(mdFormatter)} – ${weekEnd.format(mdFormatter)}",
         ),
         WhenOption(
             id = "all",
-            title = "Anytime",
-            subtitle = "No date filter",
+            title = "Bilo kada",
+            subtitle = "Bez filtera datuma",
         ),
         WhenOption(
             id = "date",
-            title = "Choose date",
+            title = "Odaberi datum",
             subtitle = if (draft.selectedDate != null)
                 draft.selectedDate.format(DateTimeFormatter.ofPattern("EEE, MMM d"))
             else
-                "Pick a day",
+                "Odaberi dan",
         ),
     )
 

@@ -97,7 +97,7 @@ data class HomeState(
     val savedIds: Set<String>,
     val refreshing: Boolean,
     val today: LocalDate,
-    val cityName: String = "Newhaven",
+    val cityName: String = "Novi Sad",
     /** True only on the very first load before any events have arrived. */
     val isLoading: Boolean = false,
 )
@@ -402,7 +402,7 @@ private fun HomeHeader(
         // ── 2. Range row — segmented control + filter button ──────────────────
         Spacer(Modifier.height(18.dp))
 
-        val rangeOptions = listOf("today" to "Today", "week" to "This Week", "all" to "All")
+        val rangeOptions = listOf("today" to "Danas", "week" to "Sedmica", "all" to "Sve")
         val selectedRangeId = when (state.filter.range) {
             DateRange.Today    -> "today"
             DateRange.Week     -> "week"
@@ -538,7 +538,7 @@ private fun CountAndRefreshRow(count: Int, onRefresh: () -> Unit) {
             )
             Spacer(Modifier.width(4.dp))
             Text(
-                text  = "Refresh".uppercase(),
+                text  = "Osveži".uppercase(),
                 style = MaterialTheme.typography.labelMedium,
             )
         }

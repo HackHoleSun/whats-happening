@@ -87,6 +87,9 @@ private const val STYLE_DARK  = "https://basemaps.cartocdn.com/gl/dark-matter-gl
 private const val SOURCE_ID = "events"
 private const val LAYER_ID  = "event-circles"
 
+private const val SOURCE_ID_LOCATION = "user-location"
+private const val LAYER_ID_LOCATION  = "location-dot"
+
 // ── Category colour map ───────────────────────────────────────────────────────
 
 /** Catppuccin hex colour for a category, light/dark-aware. */
@@ -152,14 +155,15 @@ fun MapScreen(
             },
         )
 
-        // ── 2. Sync pins whenever events / focused / style change ─────────────
+        // ── 2. Sync pins + location dot whenever state changes ───────────────
         SyncPins(
-            map      = mapRef,
-            style    = styleRef,
-            events   = events,
-            focusedId = focusedId,
-            isDark   = isDark,
-            cityCenter = cityCenter,
+            map          = mapRef,
+            style        = styleRef,
+            events       = events,
+            focusedId    = focusedId,
+            isDark       = isDark,
+            cityCenter   = cityCenter,
+            userLocation = userLocation,
         )
 
         // ── 3. Re-centre on user location once it arrives ─────────────────────
@@ -302,11 +306,52 @@ private fun SyncPins(
     focusedId: String?,
     isDark: Boolean,
     cityCenter: LatLng,
+    userLocation: LatLng?,
 ) {
-    LaunchedEffect(style, events, focusedId, isDark) {
+    val locationPos    = userLocation ?: cityCenter
+    val isRealLocation = userLocation != null
+
+    LaunchedEffect(style, events, focusedId, isDark, locationPos, isRealLocation) {
         val s = style ?: return@LaunchedEffect
 
-        // Build a FeatureCollection — one Point per event
+        // ── Location dot (added first so it renders below event pins) ─────────
+        // Colour stored as a GeoJSON property so it updates with each setGeoJson call.
+        val dotColor = when {
+            isRealLocation && isDark  -> "#89B4FA"  // Catppuccin Mocha Blue
+            isRealLocation            -> "#1E66F5"  // Catppuccin Latte Blue
+            else                      -> "#9399B2"  // Catppuccin Subtext — city center
+        }
+        val locProps = JsonObject().apply { addProperty("c", dotColor) }
+        val locFeature = Feature.fromGeometry(
+            Point.fromLngLat(locationPos.longitude, locationPos.latitude), locProps
+        )
+        val locCollection = FeatureCollection.fromFeatures(listOf(locFeature))
+
+        val existingLoc = s.getSourceAs<GeoJsonSource>(SOURCE_ID_LOCATION)
+        if (existingLoc == null) {
+            s.addSource(GeoJsonSource(SOURCE_ID_LOCATION, locCollection))
+            // Outer accuracy halo
+            s.addLayer(
+                CircleLayer("${LAYER_ID_LOCATION}-halo", SOURCE_ID_LOCATION).withProperties(
+                    PropertyFactory.circleRadius(20f),
+                    PropertyFactory.circleColor(Expression.toColor(Expression.get("c"))),
+                    PropertyFactory.circleOpacity(0.22f),
+                )
+            )
+            // Inner GPS dot
+            s.addLayer(
+                CircleLayer(LAYER_ID_LOCATION, SOURCE_ID_LOCATION).withProperties(
+                    PropertyFactory.circleRadius(8f),
+                    PropertyFactory.circleColor(Expression.toColor(Expression.get("c"))),
+                    PropertyFactory.circleStrokeWidth(2.5f),
+                    PropertyFactory.circleStrokeColor("#FFFFFF"),
+                )
+            )
+        } else {
+            existingLoc.setGeoJson(locCollection)
+        }
+
+        // ── Event pins (added after → renders on top of location dot) ─────────
         val features = events.map { ev ->
             val pos = ev.toMapLatLng(cityCenter)
             val props = JsonObject().apply {
@@ -418,7 +463,7 @@ private fun MapTopBar(
                             append("$cityName · ")
                         }
                         withStyle(SpanStyle(fontWeight = FontWeight.Medium, color = palette.subtext0)) {
-                            append("$nearbyCount nearby events")
+                            append("$nearbyCount događaja")
                         }
                     },
                     style = MaterialTheme.typography.bodyMedium,
@@ -440,7 +485,7 @@ private fun MapTopBar(
                 contentAlignment = Alignment.Center,
             ) {
                 Text(
-                    text  = "List",
+                    text  = "Lista",
                     style = MaterialTheme.typography.titleMedium,
                     color = palette.text,
                 )
@@ -515,7 +560,13 @@ private fun rememberUserLocation(): UserLocationState {
         if (granted) fetchLocation()
     }
 
-    LaunchedEffect(Unit) { if (hasPermission) fetchLocation() }
+    // On first composition: fetch if already granted, otherwise ask automatically.
+    LaunchedEffect(Unit) {
+        if (hasPermission) fetchLocation()
+        else permissionLauncher.launch(
+            arrayOf(Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION)
+        )
+    }
 
     val requestLocation: () -> Unit = {
         if (hasPermission) fetchLocation()

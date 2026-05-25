@@ -99,7 +99,7 @@ fun DateSheet(
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 Text(
-                    text = "Pick a date",
+                    text = "Odaberi datum",
                     style = MaterialTheme.typography.displaySmall,
                 )
                 Box(
@@ -163,12 +163,12 @@ fun DateSheet(
                         contentColor = LocalCatppuccin.current.text,
                     ),
                 ) {
-                    Text("Cancel", style = MaterialTheme.typography.titleMedium)
+                    Text("Otkaži", style = MaterialTheme.typography.titleMedium)
                 }
 
                 // Apply
                 val mdFormatter = DateTimeFormatter.ofPattern("MMM d")
-                val applyLabel = selectedDate?.let { "Apply ${it.format(mdFormatter)}" } ?: "Apply"
+                val applyLabel = selectedDate?.let { "Primeni ${it.format(mdFormatter)}" } ?: "Primeni"
                 Button(
                     onClick = { selectedDate?.let { onPick(it) } },
                     enabled = selectedDate != null,

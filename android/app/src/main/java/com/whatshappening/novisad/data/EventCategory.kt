@@ -12,15 +12,15 @@ enum class EventCategory(
     val displayName: String,
     val glyph: String,
 ) {
-    Music     ("music",     "Music",     "♫"),
-    Food      ("food",      "Food",      "◉"),
-    Art       ("art",       "Art",       "◆"),
-    Tech      ("tech",      "Tech",      "◬"),
-    Outdoor   ("outdoor",   "Outdoor",   "▲"),
-    Sports    ("sports",    "Sports",    "●"),
-    Film      ("film",      "Film",      "▶"),
-    Comedy    ("comedy",    "Comedy",    "☻"),
-    Community ("community", "Community", "✦");
+    Music     ("music",     "Muzika",      "♫"),
+    Food      ("food",      "Hrana",       "◉"),
+    Art       ("art",       "Umetnost",    "◆"),
+    Tech      ("tech",      "Tehnologija", "◬"),
+    Outdoor   ("outdoor",   "Priroda",     "▲"),
+    Sports    ("sports",    "Sport",       "●"),
+    Film      ("film",      "Film",        "▶"),
+    Comedy    ("comedy",    "Komedija",    "☻"),
+    Community ("community", "Zajednica",   "✦");
 
     /** Single accent colour for chips, badges, icon tints. */
     fun hue(palette: CatppuccinPalette): Color = when (this) {

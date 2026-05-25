@@ -19,9 +19,12 @@ data class EventFilter(
     val selectedDate: LocalDate? = null,
     val categories: Set<EventCategory> = emptySet(),
     val searchQuery: String = "",
+    /** 0–10 km radius cap. 10 means "no distance filter". */
+    val maxDistanceKm: Float = 10f,
 ) {
     val isActive: Boolean
-        get() = range != DateRange.All || categories.isNotEmpty() || searchQuery.isNotBlank()
+        get() = range != DateRange.All || categories.isNotEmpty() ||
+                searchQuery.isNotBlank() || maxDistanceKm < 10f
 }
 
 // ── Filter logic ──────────────────────────────────────────────────────────────
@@ -48,10 +51,14 @@ fun List<Event>.apply(
 
     // 3 — text search across title, location, category name
     val q = filter.searchQuery.trim().lowercase()
-    return if (q.isEmpty()) byCategory
+    val bySearch = if (q.isEmpty()) byCategory
     else byCategory.filter {
         it.title.lowercase().contains(q) ||
         it.location.lowercase().contains(q) ||
         it.category.displayName.lowercase().contains(q)
     }
+
+    // 4 — distance cap (skip when at max = "no filter")
+    return if (filter.maxDistanceKm >= 10f) bySearch
+    else bySearch.filter { it.distanceKm <= filter.maxDistanceKm }
 }

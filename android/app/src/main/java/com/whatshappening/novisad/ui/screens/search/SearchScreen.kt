@@ -203,7 +203,7 @@ private fun SearchTopBar(
                         Box {
                             if (query.isEmpty()) {
                                 Text(
-                                    text  = "Search events, venues, vibes…",
+                                    text  = "Pretraži događaje, mesta, žanrove…",
                                     style = MaterialTheme.typography.bodyMedium,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                                 )
@@ -252,7 +252,7 @@ private fun SearchSuggestions(
     ) {
         // ── Recent searches ───────────────────────────────────────────────────
         if (recent.isNotEmpty()) {
-            SectionLabel("Recent")
+            SectionLabel("Nedavno")
             Spacer(Modifier.height(10.dp))
             FlowRow(
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -266,7 +266,7 @@ private fun SearchSuggestions(
         }
 
         // ── Browse by vibe ────────────────────────────────────────────────────
-        SectionLabel("Browse by vibe")
+        SectionLabel("Istraži po kategoriji")
         Spacer(Modifier.height(10.dp))
 
         // 2-column grid using chunked rows
@@ -405,7 +405,7 @@ private fun NoResults(query: String) {
         Text(
             text = buildAnnotatedString {
                 withStyle(SpanStyle(color = palette.subtext0)) {
-                    append("No results for ")
+                    append("Nema rezultata za ")
                 }
                 withStyle(
                     SpanStyle(

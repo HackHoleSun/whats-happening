@@ -63,7 +63,7 @@ fun SavedEmptyState(modifier: Modifier = Modifier) {
         Spacer(Modifier.height(18.dp))
 
         Text(
-            text = "Nothing saved yet",
+            text = "Još ništa nije sačuvano",
             style = MaterialTheme.typography.headlineLarge.copy(
                 letterSpacing = (-0.6).sp,
             ),
@@ -73,7 +73,7 @@ fun SavedEmptyState(modifier: Modifier = Modifier) {
         Spacer(Modifier.height(6.dp))
 
         Text(
-            text = "Tap the heart on any event to keep it here for later.",
+            text = "Tapni srce na događaju da ga sačuvaš ovde.",
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center,

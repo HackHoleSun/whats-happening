@@ -235,6 +235,7 @@ fun EventDetailScreen(
                     lineHeight    = 34.sp,
                     letterSpacing = (-1.2).sp,
                 ),
+                color    = palette.text,
                 maxLines = 2,
             )
             Spacer(Modifier.height(22.dp))
@@ -242,7 +243,7 @@ fun EventDetailScreen(
             Spacer(Modifier.height(10.dp))
             LocationCard(event)
             Spacer(Modifier.height(24.dp))
-            SectionLabel("About")
+            SectionLabel("O događaju")
             Spacer(Modifier.height(8.dp))
             if (isDescriptionLoading) {
                 Shimmer(modifier = Modifier.fillMaxWidth(), height = 14.dp, radius = 4.dp)
@@ -283,6 +284,8 @@ private fun FloatingChip(
     tint: Color? = null,
 ) {
     val palette = LocalCatppuccin.current
+    val isDark  = isSystemInDarkTheme()
+    val chipBg  = if (isDark) palette.surface1 else Color.White.copy(alpha = 0.92f)
     Box(
         contentAlignment = Alignment.Center,
         modifier = Modifier
@@ -292,7 +295,7 @@ private fun FloatingChip(
                 shape      = CircleShape,
                 spotColor  = Color.Black.copy(alpha = 0.18f),
             )
-            .background(Color.White.copy(alpha = 0.92f), CircleShape)
+            .background(chipBg, CircleShape)
             .clickable(onClick = onClick),
     ) {
         Icon(
@@ -341,7 +344,7 @@ private fun MetaTilesRow(event: Event) {
         )
         MetaTile(
             icon     = Icons.Outlined.Schedule,
-            label    = "TIME",
+            label    = "VREME",
             value    = timeValue,
             modifier = Modifier.weight(1f),
         )
@@ -395,7 +398,7 @@ private fun LocationCard(event: Event) {
                     color = MaterialTheme.colorScheme.onSurface,
                 )
                 Text(
-                    text  = "${formatDistance(event.distanceKm)} away · Tap for directions",
+                    text  = "${formatDistance(event.distanceKm)} dalje · Tapni za navigaciju",
                     style = MaterialTheme.typography.bodySmall,
                     color = palette.subtext0,
                 )
@@ -420,7 +423,7 @@ private fun OrganizerAndPrice(event: Event) {
     Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
         // Organizer column
         Column(Modifier.weight(1f)) {
-            SectionLabel("Organizer")
+            SectionLabel("Organizator")
             Spacer(Modifier.height(4.dp))
             Text(
                 text  = event.organizer,
@@ -432,7 +435,7 @@ private fun OrganizerAndPrice(event: Event) {
         }
         // Price column
         Column(Modifier.weight(1f)) {
-            SectionLabel("Price")
+            SectionLabel("Cena")
             Spacer(Modifier.height(4.dp))
             Text(
                 text  = event.priceLabel,
@@ -479,7 +482,7 @@ private fun BottomActionBar(
                     ),
                 shape = RoundedCornerShape(16.dp),
             ) {
-                Text("Open event", style = MaterialTheme.typography.titleMedium)
+                Text("Otvori događaj", style = MaterialTheme.typography.titleMedium)
                 Spacer(Modifier.width(8.dp))
                 Icon(
                     imageVector        = Icons.AutoMirrored.Outlined.OpenInNew,
@@ -495,7 +498,7 @@ private fun BottomActionBar(
             ) {
                 Icon(
                     imageVector        = Icons.Outlined.CalendarMonth,
-                    contentDescription = "Add to calendar",
+                    contentDescription = "Dodaj u kalendar",
                     modifier           = Modifier.size(20.dp),
                 )
             }
