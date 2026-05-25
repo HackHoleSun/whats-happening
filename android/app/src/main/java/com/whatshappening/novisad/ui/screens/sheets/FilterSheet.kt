@@ -222,19 +222,22 @@ private fun WhenGrid(
         ),
         WhenOption(
             id = "date",
-            title = "Odaberi datum",
-            subtitle = if (draft.selectedDate != null)
-                draft.selectedDate.format(DateTimeFormatter.ofPattern("EEE, MMM d"))
-            else
-                "Odaberi dan",
+            title = "Opseg datuma",
+            subtitle = when {
+                draft.dateFrom != null && draft.dateTo != null && draft.dateTo != draft.dateFrom ->
+                    "${draft.dateFrom.format(DateTimeFormatter.ofPattern("MMM d"))} – ${draft.dateTo.format(DateTimeFormatter.ofPattern("MMM d"))}"
+                draft.dateFrom != null ->
+                    draft.dateFrom.format(DateTimeFormatter.ofPattern("EEE, MMM d"))
+                else -> "Odaberi opseg"
+            },
         ),
     )
 
     val selectedId = when (draft.range) {
-        DateRange.Today    -> "today"
-        DateRange.Week     -> "week"
-        DateRange.Specific -> "date"
-        DateRange.All      -> "all"
+        DateRange.Today -> "today"
+        DateRange.Week  -> "week"
+        DateRange.Range -> "date"
+        DateRange.All   -> "all"
     }
 
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -250,9 +253,9 @@ private fun WhenGrid(
                         selected = opt.id == selectedId,
                         onClick = {
                             when (opt.id) {
-                                "today" -> onDraftChange(draft.copy(range = DateRange.Today, selectedDate = null))
-                                "week"  -> onDraftChange(draft.copy(range = DateRange.Week, selectedDate = null))
-                                "all"   -> onDraftChange(draft.copy(range = DateRange.All, selectedDate = null))
+                                "today" -> onDraftChange(draft.copy(range = DateRange.Today, dateFrom = null, dateTo = null))
+                                "week"  -> onDraftChange(draft.copy(range = DateRange.Week, dateFrom = null, dateTo = null))
+                                "all"   -> onDraftChange(draft.copy(range = DateRange.All, dateFrom = null, dateTo = null))
                                 "date"  -> onOpenDatePicker()
                             }
                         },

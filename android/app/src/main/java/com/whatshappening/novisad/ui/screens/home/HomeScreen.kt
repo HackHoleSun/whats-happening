@@ -85,6 +85,7 @@ import com.whatshappening.novisad.prefs.LocalUserPrefs
 import com.whatshappening.novisad.ui.theme.LocalCatppuccin
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 import com.whatshappening.novisad.util.formatDate
+import com.whatshappening.novisad.util.formatShortDate
 import com.whatshappening.novisad.util.formatDayOfWeek
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
@@ -188,13 +189,15 @@ fun HomeRoute(
         )
 
         HomeSheet.Date -> DateSheet(
-            initialDate = filterDraft.selectedDate,
-            eventDates  = events.map { it.date }.toSet(),
-            onPick = { date ->
-                // Update draft with the picked date then return to FilterSheet
+            initialDateFrom = filterDraft.dateFrom,
+            initialDateTo   = filterDraft.dateTo,
+            eventDates      = events.map { it.date }.toSet(),
+            onPick = { from, to ->
+                // Update draft with the picked range then return to FilterSheet
                 filterDraft = filterDraft.copy(
-                    range        = DateRange.Specific,
-                    selectedDate = date,
+                    range    = DateRange.Range,
+                    dateFrom = from,
+                    dateTo   = to,
                 )
                 sheet = HomeSheet.Filter
             },
@@ -471,7 +474,7 @@ private fun HomeHeader(
 
         // ── 3. Active filter chips (shown only when relevant) ─────────────────
         val showChips = state.filter.categories.isNotEmpty() ||
-                (state.filter.range == DateRange.Specific && state.filter.selectedDate != null)
+                (state.filter.range == DateRange.Range && state.filter.dateFrom != null)
         if (showChips) {
             Spacer(Modifier.height(12.dp))
             FlowRow(
@@ -492,9 +495,15 @@ private fun HomeHeader(
                         },
                     )
                 }
-                if (state.filter.range == DateRange.Specific && state.filter.selectedDate != null) {
+                if (state.filter.range == DateRange.Range && state.filter.dateFrom != null) {
+                    val dateChipText = if (state.filter.dateTo != null &&
+                            state.filter.dateTo != state.filter.dateFrom) {
+                        "${formatShortDate(state.filter.dateFrom)} – ${formatShortDate(state.filter.dateTo)}"
+                    } else {
+                        formatDate(state.filter.dateFrom)
+                    }
                     FilterChipRemovable(
-                        text     = formatDate(state.filter.selectedDate),
+                        text     = dateChipText,
                         onRemove = onClearDate,
                         icon = {
                             Icon(

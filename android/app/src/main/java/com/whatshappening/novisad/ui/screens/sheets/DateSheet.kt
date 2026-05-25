@@ -60,25 +60,64 @@ import java.util.Locale
 // ── DateSheet ─────────────────────────────────────────────────────────────────
 
 /**
- * Custom calendar date-picker bottom sheet (Option B from the spec).
+ * Custom calendar date-range picker bottom sheet.
  *
- * Features:
- *  - Month navigation with prev/next chevrons
- *  - Day cells with: today border, selected fill, event-dot marker
- *  - Two-button footer: Cancel and "Apply <date>"
+ * Interaction:
+ *  - First tap sets the start date; second tap sets the end date (swaps if before start).
+ *  - Tapping when a full range is already chosen starts a fresh selection.
+ *  - Cells between start and end show a semi-transparent tint band.
+ *  - Applying with only a start date treats it as a single-day range.
  *
  * [eventDates] drives the event-dot markers on the calendar.
  */
 @Composable
 fun DateSheet(
-    initialDate: LocalDate?,
-    onPick: (LocalDate) -> Unit,
+    initialDateFrom: LocalDate?,
+    initialDateTo: LocalDate?,
+    onPick: (from: LocalDate, to: LocalDate) -> Unit,
     onDismiss: () -> Unit,
     eventDates: Set<LocalDate>,
 ) {
-    var selectedDate by remember { mutableStateOf(initialDate) }
-    var displayMonth by remember { mutableStateOf(YearMonth.from(initialDate ?: LocalDate.now())) }
+    var startDate   by remember { mutableStateOf(initialDateFrom) }
+    var endDate     by remember { mutableStateOf(initialDateTo) }
+    var displayMonth by remember {
+        mutableStateOf(YearMonth.from(initialDateFrom ?: LocalDate.now()))
+    }
     val today = LocalDate.now()
+    val mdFormatter = DateTimeFormatter.ofPattern("MMM d")
+
+    // Live status text shown below the title
+    val statusText = when {
+        startDate == null -> "Tapni dan za početak"
+        endDate == null   -> "Počinje ${startDate!!.format(mdFormatter)} · tapni kraj"
+        startDate == endDate -> startDate!!.format(DateTimeFormatter.ofPattern("EEE, MMM d"))
+        else -> "${startDate!!.format(mdFormatter)} – ${endDate!!.format(mdFormatter)}"
+    }
+
+    // Apply button label
+    val applyLabel = when {
+        startDate == null -> "Odaberi početak"
+        endDate == null   -> "Od ${startDate!!.format(mdFormatter)} – odaberi kraj"
+        startDate == endDate -> "Primeni ${startDate!!.format(DateTimeFormatter.ofPattern("EEE, MMM d"))}"
+        else -> "Primeni ${startDate!!.format(mdFormatter)} – ${endDate!!.format(mdFormatter)}"
+    }
+
+    fun handleDayClick(day: LocalDate) {
+        when {
+            // No selection, or range already complete → start fresh
+            startDate == null || (startDate != null && endDate != null) -> {
+                startDate = day
+                endDate   = null
+            }
+            // Start set, end not set → finalise range
+            day >= startDate!! -> endDate = day
+            else -> {
+                // Tapped before start → flip
+                endDate   = startDate
+                startDate = day
+            }
+        }
+    }
 
     ModalBottomSheet(
         onDismissRequest = onDismiss,
@@ -92,30 +131,53 @@ fun DateSheet(
                 .fillMaxWidth()
                 .padding(horizontal = 22.dp),
         ) {
-            // Title row: "Pick a date" + X close button
+            // Title row
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                Text(
-                    text = "Odaberi datum",
-                    style = MaterialTheme.typography.displaySmall,
-                )
-                Box(
-                    modifier = Modifier
-                        .size(36.dp)
-                        .clip(CircleShape)
-                        .background(LocalCatppuccin.current.mantle)
-                        .clickable(onClick = onDismiss),
-                    contentAlignment = Alignment.Center,
-                ) {
-                    Icon(
-                        imageVector = Icons.Outlined.Close,
-                        contentDescription = "Close",
-                        modifier = Modifier.size(18.dp),
-                        tint = LocalCatppuccin.current.text,
+                Column {
+                    Text(
+                        text = "Opseg datuma",
+                        style = MaterialTheme.typography.displaySmall,
                     )
+                    Text(
+                        text = statusText,
+                        style = MaterialTheme.typography.bodySmall,
+                        color = LocalCatppuccin.current.subtext0,
+                    )
+                }
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    if (startDate != null) {
+                        androidx.compose.material3.TextButton(
+                            onClick = { startDate = null; endDate = null },
+                        ) {
+                            Text(
+                                "Obriši",
+                                style = MaterialTheme.typography.labelMedium,
+                                color = LocalCatppuccin.current.subtext1,
+                            )
+                        }
+                    }
+                    Box(
+                        modifier = Modifier
+                            .size(36.dp)
+                            .clip(CircleShape)
+                            .background(LocalCatppuccin.current.mantle)
+                            .clickable(onClick = onDismiss),
+                        contentAlignment = Alignment.Center,
+                    ) {
+                        Icon(
+                            imageVector = Icons.Outlined.Close,
+                            contentDescription = "Close",
+                            modifier = Modifier.size(18.dp),
+                            tint = LocalCatppuccin.current.text,
+                        )
+                    }
                 }
             }
 
@@ -139,9 +201,10 @@ fun DateSheet(
             MonthGrid(
                 month = displayMonth,
                 today = today,
-                selectedDate = selectedDate,
+                rangeStart = startDate,
+                rangeEnd   = endDate,
                 eventDates = eventDates,
-                onDayClick = { selectedDate = it },
+                onDayClick = ::handleDayClick,
             )
 
             Spacer(Modifier.height(20.dp))
@@ -167,13 +230,13 @@ fun DateSheet(
                 }
 
                 // Apply
-                val mdFormatter = DateTimeFormatter.ofPattern("MMM d")
-                val applyLabel = selectedDate?.let { "Primeni ${it.format(mdFormatter)}" } ?: "Primeni"
                 Button(
-                    onClick = { selectedDate?.let { onPick(it) } },
-                    enabled = selectedDate != null,
+                    onClick = {
+                        startDate?.let { from -> onPick(from, endDate ?: from) }
+                    },
+                    enabled = startDate != null,
                     modifier = Modifier
-                        .weight(1.6f)
+                        .weight(2f)
                         .height(52.dp),
                     shape = RoundedCornerShape(16.dp),
                     colors = ButtonDefaults.buttonColors(
@@ -183,7 +246,7 @@ fun DateSheet(
                         disabledContentColor = LocalCatppuccin.current.subtext0,
                     ),
                 ) {
-                    Text(applyLabel, style = MaterialTheme.typography.titleMedium)
+                    Text(applyLabel, style = MaterialTheme.typography.titleMedium, maxLines = 1)
                 }
             }
 
@@ -279,7 +342,8 @@ private fun WeekdayHeader() {
 private fun MonthGrid(
     month: YearMonth,
     today: LocalDate,
-    selectedDate: LocalDate?,
+    rangeStart: LocalDate?,
+    rangeEnd: LocalDate?,
     eventDates: Set<LocalDate>,
     onDayClick: (LocalDate) -> Unit,
 ) {
@@ -305,10 +369,13 @@ private fun MonthGrid(
                         Box(modifier = Modifier.weight(1f).aspectRatio(1f))
                     } else {
                         val iso = month.atDay(day)
+                        val effectiveEnd = rangeEnd ?: rangeStart
                         DayCell(
                             day = day,
                             iso = iso,
-                            selected = iso == selectedDate,
+                            isEndpoint = iso == rangeStart || iso == rangeEnd,
+                            inRange = rangeStart != null && effectiveEnd != null &&
+                                    iso > rangeStart && iso < effectiveEnd,
                             isToday = iso == today,
                             hasEvent = iso in eventDates,
                             onClick = { onDayClick(iso) },
@@ -327,7 +394,8 @@ private fun MonthGrid(
 private fun DayCell(
     day: Int,
     iso: LocalDate,
-    selected: Boolean,
+    isEndpoint: Boolean,
+    inRange: Boolean,
     isToday: Boolean,
     hasEvent: Boolean,
     onClick: () -> Unit,
@@ -337,7 +405,13 @@ private fun DayCell(
     val primary = MaterialTheme.colorScheme.primary
     val isDark = isSystemInDarkTheme()
 
-    val borderModifier = if (isToday && !selected) {
+    val cellBg = when {
+        isEndpoint -> primary
+        inRange    -> primary.copy(alpha = if (isDark) 0.18f else 0.14f)
+        else       -> Color.Transparent
+    }
+
+    val borderModifier = if (isToday && !isEndpoint) {
         Modifier.border(1.5.dp, primary, RoundedCornerShape(12.dp))
     } else {
         Modifier
@@ -348,7 +422,7 @@ private fun DayCell(
             .aspectRatio(1f)
             .clip(RoundedCornerShape(12.dp))
             .then(borderModifier)
-            .background(if (selected) primary else Color.Transparent)
+            .background(cellBg)
             .clickable(onClick = onClick),
         contentAlignment = Alignment.Center,
     ) {
@@ -356,11 +430,11 @@ private fun DayCell(
             Text(
                 text = "$day",
                 color = when {
-                    selected -> if (isDark) palette.crust else palette.base
-                    isToday  -> primary
-                    else     -> palette.text
+                    isEndpoint -> if (isDark) palette.crust else palette.base
+                    isToday    -> primary
+                    else       -> palette.text
                 },
-                fontWeight = if (selected || isToday) FontWeight.Bold else FontWeight.Medium,
+                fontWeight = if (isEndpoint || isToday) FontWeight.Bold else FontWeight.Medium,
                 fontSize = 14.sp,
             )
             if (hasEvent) {
@@ -369,7 +443,7 @@ private fun DayCell(
                     modifier = Modifier
                         .size(4.dp)
                         .background(
-                            color = if (selected) {
+                            color = if (isEndpoint) {
                                 if (isDark) palette.crust else palette.base
                             } else {
                                 primary
@@ -401,8 +475,9 @@ private fun DateSheetDragHandle() {
 private fun DateSheetPreviewLight() {
     WhatsHappeningTheme {
         DateSheet(
-            initialDate = MOCK_TODAY,
-            onPick = {},
+            initialDateFrom = MOCK_TODAY,
+            initialDateTo   = MOCK_TODAY.plusDays(4),
+            onPick = { _, _ -> },
             onDismiss = {},
             eventDates = MOCK_EVENTS.map { it.date }.toSet(),
         )
@@ -418,8 +493,9 @@ private fun DateSheetPreviewLight() {
 private fun DateSheetPreviewDark() {
     WhatsHappeningTheme {
         DateSheet(
-            initialDate = null,
-            onPick = {},
+            initialDateFrom = null,
+            initialDateTo   = null,
+            onPick = { _, _ -> },
             onDismiss = {},
             eventDates = MOCK_EVENTS.map { it.date }.toSet(),
         )

@@ -19,6 +19,12 @@ fun formatDate(date: LocalDate, locale: Locale = Locale.getDefault()): String {
 }
 
 /**
+ * "May 24" — compact form used for date-range chips and labels.
+ */
+fun formatShortDate(date: LocalDate, locale: Locale = Locale.getDefault()): String =
+    date.format(DateTimeFormatter.ofPattern("MMM d", locale))
+
+/**
  * "Sunday"
  */
 fun formatDayOfWeek(date: LocalDate, locale: Locale = Locale.getDefault()): String =
