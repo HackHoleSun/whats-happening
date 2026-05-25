@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-25T00:07:40Z",
+  "scraped_at": "2026-05-25T10:17:24Z",
   "events": [
     {
       "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-7",
@@ -24,30 +24,6 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/arena-cineplex-18-300x200.jpg",
       "lat": 45.2539853,
       "lng": 19.8454491
-    },
-    {
-      "id": "otvoreni-studio-evropa-mladi-rad-i-prilike",
-      "title": "Otvoreni Studio Evropa – Mladi, rad i prilike",
-      "category": "Radionica",
-      "date": "2026-05-25",
-      "time": "18:00",
-      "location": "Evropska kuća Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/otvoreni-studio-evropa-mladi-rad-i-prilike/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Otvoreni-studio-Evropa-_-1200x700-1-300x175.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "otvoreni-studio-evropa-mladi-rad-i-prilike-2",
-      "title": "Otvoreni studio Evropa: mladi, rad i prilike",
-      "category": "Predavanje",
-      "date": "2026-05-25",
-      "time": "18:00",
-      "location": "Francuski institut u Srbiji – Ogranak u Novom Sadu",
-      "url": "https://www.mojnovisad.com/navigator/otvoreni-studio-evropa-mladi-rad-i-prilike-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Otvoreni-studio-Evropa-_-1200x700-2-300x175.jpg",
-      "lat": null,
-      "lng": null
     },
     {
       "id": "majka-hrabrost-i-njena-deca-2",
@@ -312,6 +288,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/679389845_1267184552194776_9130926716697895460_n-300x238.jpg",
       "lat": 45.258309,
       "lng": 19.839698
+    },
+    {
+      "id": "ulica-milenkova",
+      "title": "Ulica Milenkova",
+      "category": "Festival",
+      "date": "2026-05-29",
+      "time": "18:00",
+      "location": "Beočin",
+      "url": "https://www.mojnovisad.com/navigator/ulica-milenkova/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Улица-Миленкова-300x212.jpg",
+      "lat": 45.220138,
+      "lng": 19.8313212
     },
     {
       "id": "zaljubi-se-cica-u-princa",
