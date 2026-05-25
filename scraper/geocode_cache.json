@@ -1,0 +1,122 @@
+{
+  "arena-cineplex": {
+    "lat": 45.2539853,
+    "lng": 19.8454491
+  },
+  "novosadsko-pozoriste": {
+    "lat": 45.2577191,
+    "lng": 19.8415872
+  },
+  "novi-sad": {
+    "lat": 45.26553,
+    "lng": 19.8293059
+  },
+  "gradska-biblioteka-u-novom-sadu": {
+    "lat": 45.25689,
+    "lng": 19.8484335
+  },
+  "zenit": {
+    "lat": 45.2569986,
+    "lng": 19.8426561
+  },
+  "srpsko-narodno-pozoriste": {
+    "lat": 45.2553613,
+    "lng": 19.8430384
+  },
+  "pozoriste-mladih": {
+    "lat": 45.2552685,
+    "lng": 19.8488543
+  },
+  "naftna-industrija-srbije": {
+    "lat": 45.2419788,
+    "lng": 19.8412391
+  },
+  "skcns-fabrika": {
+    "lat": 45.2375526,
+    "lng": 19.8421486
+  },
+  "sinagoga": {
+    "lat": 45.2530606,
+    "lng": 19.840798
+  },
+  "k9-station": {
+    "lat": 45.2658433,
+    "lng": 19.8327104
+  },
+  "akademija-umetnosti-novi-sad": {
+    "lat": 45.2586774,
+    "lng": 19.8437659
+  },
+  "strand": {
+    "lat": 45.2363112,
+    "lng": 19.8465411
+  },
+  "novosadska-sinagoga": {
+    "lat": 45.2530606,
+    "lng": 19.840798
+  },
+  "the-pub": {
+    "lat": 45.255259,
+    "lng": 19.8490275
+  },
+  "club-tunnel": {
+    "lat": 45.2515421,
+    "lng": 19.8630972
+  },
+  "fruska-gora": {
+    "lat": 45.1720057,
+    "lng": 19.8282553
+  },
+  "kej-zrtava-racije": {
+    "lat": 45.2502707,
+    "lng": 19.8556968
+  },
+  "beocin": {
+    "lat": 45.220138,
+    "lng": 19.8313212
+  },
+  "cineplexx-promenada": {
+    "lat": 45.245598,
+    "lng": 19.842786
+  },
+  "evropska-kuca-novi-sad": {
+    "lat": null,
+    "lng": null
+  },
+  "francuski-institut-u-srbiji-ogranak-u-novom-sadu": {
+    "lat": null,
+    "lng": null
+  },
+  "omladinski-centar-ck13-crna-kuca": {
+    "lat": 45.258309,
+    "lng": 19.839698
+  },
+  "kc-mladost": {
+    "lat": null,
+    "lng": null
+  },
+  "kulturni-centar-lab": {
+    "lat": null,
+    "lng": null
+  },
+  "radnicki-dom-svetozar-markovic": {
+    "lat": null,
+    "lng": null
+  },
+  "spens-sportski-i-poslovni-centar-vojvodina": {
+    "lat": 45.2471273,
+    "lng": 19.8454852
+  },
+  "omladinski-klub-opens": {
+    "lat": null,
+    "lng": null
+  },
+  "salon-u-radnickoj": {
+    "lat": null,
+    "lng": null
+  },
+  "nacionalna-klasa-by-vojvodina": {
+    "lat": null,
+    "lng": null
+  }
+}

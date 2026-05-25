@@ -1,6 +1,6 @@
 import json
-import os
 import re
+import time
 from datetime import datetime, timezone, date
 from pathlib import Path
 
@@ -9,55 +9,76 @@ from bs4 import BeautifulSoup
 
 URL = "https://www.mojnovisad.com/desavanja"
 OUTPUT = Path(__file__).parent / "events.json"
+GEOCODE_CACHE = Path(__file__).parent / "geocode_cache.json"
 
-GMAPS_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
+
+# ── Geocoding (Nominatim) ─────────────────────────────────────────────────────
+
+SERBIAN_CHARS = str.maketrans("čćšžđČĆŠŽĐ", "ccszd" + "CCSZD")
+
+def slugify(name: str) -> str:
+    """Convert a venue name to a stable ASCII slug used as the cache key."""
+    name = name.translate(SERBIAN_CHARS)       # č→c, ć→c, š→s, ž→z, đ→d
+    name = name.lower()
+    name = re.sub(r"[\"'""„]", "", name)       # remove quotes
+    name = re.sub(r"[^\w\s-]", " ", name)      # replace non-word chars with space
+    name = re.sub(r"[\s_-]+", "-", name)       # collapse spaces/underscores/dashes
+    return name.strip("-")
+
+def load_cache() -> dict:
+    if GEOCODE_CACHE.exists():
+        return json.loads(GEOCODE_CACHE.read_text(encoding="utf-8"))
+    return {}
 
 
-# ── Geocoding ─────────────────────────────────────────────────────────────────
+def save_cache(cache: dict) -> None:
+    GEOCODE_CACHE.write_text(
+        json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
 
-def geocode(location: str, seen: dict) -> tuple[float | None, float | None]:
+
+def geocode(location: str, cache: dict) -> tuple[float | None, float | None]:
     """
     Return (lat, lng) for a venue name.
 
-    [seen] is an in-memory dict that deduplicates calls within a single scraper
-    run — if the same venue appears multiple times today (e.g. Arena Cineplex
-    has 5 screenings) we only hit the API once.
+    Checks the persistent cache first — if the venue was geocoded on any
+    previous run it's returned instantly with no API call.
 
-    Returns (None, None) if the API key is not set or the lookup fails.
+    New venues are looked up via Nominatim using the full name as-is.
+    If Nominatim can't find it, the result is stored as null in the cache
+    so it can be filled in manually.
     """
-    if not location or not GMAPS_KEY:
+    if not location:
         return None, None
 
-    if location in seen:
-        return seen[location]
+    key = slugify(location)
+
+    if key in cache:
+        entry = cache[key]
+        return entry["lat"], entry["lng"]
 
     try:
         resp = httpx.get(
-            "https://maps.googleapis.com/maps/api/geocode/json",
-            params={"address": f"{location}, Novi Sad, Serbia", "key": GMAPS_KEY},
+            "https://nominatim.openstreetmap.org/search",
+            params={"q": f"{location}, Novi Sad, Serbia", "format": "json", "limit": 1},
+            headers={"User-Agent": "whats-happening-scraper/1.0"},
             timeout=10,
         )
         resp.raise_for_status()
-        data = resp.json()
-
-        if data.get("results"):
-            loc = data["results"][0]["geometry"]["location"]
-            result = (loc["lat"], loc["lng"])
-        else:
-            result = (None, None)
-
+        results = resp.json()
+        result = (float(results[0]["lat"]), float(results[0]["lon"])) if results else (None, None)
     except Exception as e:
         print(f"  Geocode failed for '{location}': {e}")
         result = (None, None)
 
-    seen[location] = result
+    time.sleep(1)  # Nominatim rate limit: 1 req/s
+    cache[key] = {"lat": result[0], "lng": result[1]}
     return result
 
 
 # ── Scraping ──────────────────────────────────────────────────────────────────
 
 def parse_date(header_text: str) -> str | None:
-    """Parse 'Danas 23.04.2026.' or 'Sutra 24.04.2026.' to ISO date."""
     match = re.search(r"(\d{1,2})\.(\d{2})\.(\d{4})", header_text)
     if match:
         day, month, year = int(match.group(1)), int(match.group(2)), int(match.group(3))
@@ -65,8 +86,7 @@ def parse_date(header_text: str) -> str | None:
     return None
 
 
-def parse_card(card, current_date: str | None, seen: dict) -> dict | None:
-    # URL + slug
+def parse_card(card, current_date: str | None, cache: dict) -> dict | None:
     link = card.select_one('a[href*="/navigator/"]')
     if not link:
         return None
@@ -76,21 +96,17 @@ def parse_card(card, current_date: str | None, seen: dict) -> dict | None:
         return None
     slug = slug_match.group(1)
 
-    # Title
     title_tag = card.select_one("h6")
     if not title_tag:
         return None
     title = title_tag.get_text(strip=True)
 
-    # Category
     cat_link = card.select_one('a[href*="/navigator-cat/"]')
     category = cat_link.get_text(strip=True) if cat_link else None
 
-    # Image
     thumb = card.select_one(".single-card__thumb[data-lazybg]")
     image_url = thumb["data-lazybg"] if thumb else None
 
-    # Date / time / location from .single-card__info-details divs
     info_divs = card.select(".single-card__info-details div")
     event_date, event_time, location = current_date, None, None
     for div in info_divs:
@@ -106,8 +122,7 @@ def parse_card(card, current_date: str | None, seen: dict) -> dict | None:
         elif "location" in src or "pin" in src:
             location = text or None
 
-    # Coordinates — resolved once per unique location name within this run
-    lat, lng = geocode(location, seen) if location else (None, None)
+    lat, lng = geocode(location, cache) if location else (None, None)
 
     return {
         "id": slug,
@@ -123,21 +138,20 @@ def parse_card(card, current_date: str | None, seen: dict) -> dict | None:
     }
 
 
-def scrape() -> list[dict]:
+def scrape(cache: dict) -> list[dict]:
     resp = httpx.get(URL, follow_redirects=True, timeout=30)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "lxml")
 
     events = []
     seen_ids: set = set()
-    seen_locations: dict = {}  # deduplicates geocode calls within this run
 
     for wrapper in soup.select("div.date-wrapper"):
         header = wrapper.find("h5")
         current_date = parse_date(header.get_text(strip=True)) if header else None
 
         for card in wrapper.select("div.events-main__single-card"):
-            event = parse_card(card, current_date, seen_locations)
+            event = parse_card(card, current_date, cache)
             if event and event["id"] not in seen_ids:
                 seen_ids.add(event["id"])
                 events.append(event)
@@ -148,10 +162,17 @@ def scrape() -> list[dict]:
 # ── Entry point ───────────────────────────────────────────────────────────────
 
 def main():
-    if not GMAPS_KEY:
-        print("Warning: GOOGLE_MAPS_API_KEY not set — events will have lat/lng = null")
+    cache = load_cache()
+    cache_size_before = len(cache)
 
-    events = scrape()
+    events = scrape(cache)
+
+    new_lookups = len(cache) - cache_size_before
+    if new_lookups:
+        save_cache(cache)
+        print(f"Geocoded {new_lookups} new venue(s), cache now has {len(cache)} entries")
+    else:
+        print("All venues already cached, no Nominatim calls needed")
 
     payload = {
         "scraped_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
