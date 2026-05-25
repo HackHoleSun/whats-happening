@@ -59,18 +59,19 @@ fun CategorySheet(
     var draft by remember(initial) { mutableStateOf(initial) }
 
     val applyLabel = when {
-        draft.isEmpty()    -> "Show all categories"
-        draft.size == 1    -> "Apply 1 category"
-        else               -> "Apply ${draft.size} categories"
+        draft.isEmpty()        -> "Prikaži sve"
+        draft.size == 1        -> "Primeni 1 kategoriju"
+        draft.size in 2..4     -> "Primeni ${draft.size} kategorije"
+        else                   -> "Primeni ${draft.size} kategorija"
     }
 
     SheetScaffold(
         onDismiss = onDismiss,
-        title = "Categories",
+        title = "Kategorije",
         titleTrailing = {
             TextButton(onClick = { draft = emptySet() }) {
                 Text(
-                    text = "Reset",
+                    text = "Poništi",
                     style = MaterialTheme.typography.labelMedium,
                     color = LocalCatppuccin.current.subtext1,
                 )

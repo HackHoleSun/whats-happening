@@ -1,6 +1,7 @@
 package com.whatshappening.novisad.ui.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -34,8 +35,15 @@ fun CategoryPill(
     onContrastBg: Boolean = false,
 ) {
     val palette  = LocalCatppuccin.current
+    val isDark   = isSystemInDarkTheme()
     val hue      = category.hue(palette)
-    val bgColor  = if (onContrastBg) Color.White.copy(alpha = 0.92f) else palette.mantle
+    // On a hero gradient: white pill in light mode, dark pill in dark mode so the
+    // text stays legible and the pill doesn't glare against the mocha background.
+    val bgColor  = when {
+        onContrastBg && isDark -> Color.Black.copy(alpha = 0.50f)
+        onContrastBg           -> Color.White.copy(alpha = 0.92f)
+        else                   -> palette.mantle
+    }
 
     Row(
         modifier = Modifier

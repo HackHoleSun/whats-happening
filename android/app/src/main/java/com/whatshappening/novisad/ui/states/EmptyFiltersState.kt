@@ -73,7 +73,7 @@ fun EmptyFiltersState(
         Spacer(Modifier.height(18.dp))
 
         Text(
-            text = "Nothing matches those filters",
+            text = "Ništa ne odgovara filterima",
             style = MaterialTheme.typography.headlineLarge,
             textAlign = TextAlign.Center,
         )
@@ -81,7 +81,7 @@ fun EmptyFiltersState(
         Spacer(Modifier.height(8.dp))
 
         Text(
-            text = "Try widening the date range or picking a different category.",
+            text = "Proširi opseg datuma ili odaberi drugu kategoriju.",
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center,
@@ -94,7 +94,7 @@ fun EmptyFiltersState(
             shape = RoundedCornerShape(999.dp),
             contentPadding = PaddingValues(horizontal = 18.dp, vertical = 10.dp),
         ) {
-            Text("Clear filters", style = MaterialTheme.typography.titleMedium)
+            Text("Obriši filtere", style = MaterialTheme.typography.titleMedium)
         }
     }
 }

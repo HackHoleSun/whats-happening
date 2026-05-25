@@ -72,7 +72,7 @@ fun AppBottomNav(
             horizontalArrangement = Arrangement.spacedBy(4.dp),
         ) {
             NavItem(
-                label         = "Home",
+                label         = "Početna",
                 selectedIcon  = Icons.Filled.Home,
                 unselectedIcon = Icons.Outlined.Home,
                 selected      = current == BottomNavDestination.Home,
@@ -80,7 +80,7 @@ fun AppBottomNav(
                 modifier      = Modifier.weight(1f),
             )
             NavItem(
-                label         = "Map",
+                label         = "Mapa",
                 selectedIcon  = Icons.Filled.Map,
                 unselectedIcon = Icons.Outlined.Map,
                 selected      = current == BottomNavDestination.Map,
@@ -88,7 +88,7 @@ fun AppBottomNav(
                 modifier      = Modifier.weight(1f),
             )
             NavItem(
-                label         = "Saved",
+                label         = "Sačuvano",
                 selectedIcon  = Icons.Filled.Bookmark,
                 unselectedIcon = Icons.Outlined.BookmarkBorder,
                 selected      = current == BottomNavDestination.Saved,

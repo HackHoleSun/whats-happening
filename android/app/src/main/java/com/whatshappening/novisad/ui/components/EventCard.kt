@@ -139,6 +139,7 @@ fun EventCard(
             }
 
             // Save heart — top-end
+            val saveBg = if (darkTheme) palette.surface1 else Color.White.copy(alpha = 0.92f)
             Box(
                 modifier = Modifier
                     .align(Alignment.TopEnd)
@@ -146,7 +147,7 @@ fun EventCard(
                     .graphicsLayer { scaleX = saveScale; scaleY = saveScale }
                     .size(38.dp)
                     .clip(CircleShape)
-                    .background(Color.White.copy(alpha = 0.92f))
+                    .background(saveBg)
             ) {
                 IconButton(
                     onClick           = onToggleSave,
