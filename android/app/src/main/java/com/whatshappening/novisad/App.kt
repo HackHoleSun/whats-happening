@@ -12,6 +12,7 @@ import com.whatshappening.novisad.data.EventRepository
 import com.whatshappening.novisad.data.RemoteEventRepository
 import org.maplibre.android.MapLibre
 import com.whatshappening.novisad.prefs.UserPreferences
+import com.whatshappening.novisad.ui.screens.search.RecentSearchStore
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -48,6 +49,8 @@ class App : Application(), SingletonImageLoader.Factory {
     }
 
     val userPreferences: UserPreferences by lazy { UserPreferences(preferencesDataStore) }
+
+    val recentSearchStore: RecentSearchStore by lazy { RecentSearchStore(preferencesDataStore) }
 
     // ── Coil image loader ─────────────────────────────────────────────────────
 

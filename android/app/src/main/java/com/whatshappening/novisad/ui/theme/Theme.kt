@@ -1,7 +1,6 @@
 package com.whatshappening.novisad.ui.theme
 
 import android.app.Activity
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Typography
 import androidx.compose.runtime.Composable
@@ -13,7 +12,7 @@ import androidx.core.view.WindowInsetsControllerCompat
 
 @Composable
 fun WhatsHappeningTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
+    darkTheme: Boolean = false,
     accent: AccentChoice = AccentChoice.Mauve,
     content: @Composable () -> Unit,
 ) {

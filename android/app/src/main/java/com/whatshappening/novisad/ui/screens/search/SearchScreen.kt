@@ -234,8 +234,8 @@ private fun SearchTopBar(
 // ── Empty state — recent + browse by vibe ─────────────────────────────────────
 
 private val BROWSE_CATEGORIES = listOf(
-    EventCategory.Music, EventCategory.Food, EventCategory.Art,
-    EventCategory.Tech,  EventCategory.Outdoor, EventCategory.Sports,
+    EventCategory.Concert,  EventCategory.Performance, EventCategory.Film,
+    EventCategory.Festival, EventCategory.Sport,     EventCategory.Exhibition,
 )
 
 @Composable
@@ -423,7 +423,7 @@ private fun NoResults(query: String) {
 
 // ── Previews ──────────────────────────────────────────────────────────────────
 
-private val previewRecent  = listOf("Synthwave", "Market", "Open air", "Vinyl")
+private val previewRecent  = listOf("Synthwave", "Pozorište", "Festival piva", "Jazz")
 private val previewResults = MOCK_EVENTS.filter {
     it.title.contains("music", ignoreCase = true) ||
     it.category.displayName.contains("music", ignoreCase = true)

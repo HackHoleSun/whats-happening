@@ -15,7 +15,8 @@ data class Event(
     val startTime: LocalTime,
     val endTime: LocalTime,
     val location: String,
-    val distanceKm: Double,
+    /** Computed at runtime from GPS; null when the event has no coordinates. */
+    val distanceKm: Double? = null,
     val description: String,
     val organizer: String,
     val priceLabel: String,   // "Free", "€12 / €8 student", etc.

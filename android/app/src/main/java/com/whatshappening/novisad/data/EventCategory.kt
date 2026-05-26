@@ -4,55 +4,59 @@ import androidx.compose.ui.graphics.Color
 import com.whatshappening.novisad.ui.theme.CatppuccinPalette
 
 /**
- * The nine event categories, each tied to a Catppuccin hue and a single-char glyph
- * used as the hero placeholder marker.
+ * The ten event categories sourced directly from the scraper feed.
+ * [id] matches the raw Serbian string in the JSON so [fromId] needs no mapping table.
+ * [displayName] is the user-facing Serbian label shown in the UI.
  */
 enum class EventCategory(
     val id: String,
     val displayName: String,
     val glyph: String,
 ) {
-    Music     ("music",     "Muzika",      "♫"),
-    Food      ("food",      "Hrana",       "◉"),
-    Art       ("art",       "Umetnost",    "◆"),
-    Tech      ("tech",      "Tehnologija", "◬"),
-    Outdoor   ("outdoor",   "Priroda",     "▲"),
-    Sports    ("sports",    "Sport",       "●"),
-    Film      ("film",      "Film",        "▶"),
-    Comedy    ("comedy",    "Komedija",    "☻"),
-    Community ("community", "Zajednica",   "✦");
+    Festival    ("Festival",     "Festival",      "★"),
+    Film        ("Film",         "Film",          "▶"),
+    Exhibition  ("Izložba",      "Izložba",       "◆"),
+    Book        ("Knjiga",       "Knjiga",        "◉"),
+    Concert     ("Koncert",      "Koncert",       "♫"),
+    Nightlife   ("Noćni provod", "Noćni provod",  "☽"),
+    Lecture     ("Predavanje",   "Predavanje",    "◬"),
+    Performance ("Predstava",    "Predstava",     "☻"),
+    Workshop    ("Radionica",    "Radionica",     "✦"),
+    Sport       ("Sport",        "Sport",         "●");
 
     /** Single accent colour for chips, badges, icon tints. */
     fun hue(palette: CatppuccinPalette): Color = when (this) {
-        Music     -> palette.mauve
-        Food      -> palette.peach
-        Art       -> palette.pink
-        Tech      -> palette.blue
-        Outdoor   -> palette.green
-        Sports    -> palette.red
-        Film      -> palette.sapphire
-        Comedy    -> palette.yellow
-        Community -> palette.teal
+        Festival    -> palette.mauve
+        Film        -> palette.sapphire
+        Exhibition  -> palette.pink
+        Book        -> palette.lavender
+        Concert     -> palette.mauve
+        Nightlife   -> palette.overlay2
+        Lecture     -> palette.blue
+        Performance -> palette.teal
+        Workshop    -> palette.yellow
+        Sport       -> palette.red
     }
 
     /**
      * Multi-stop gradient colours for the hero placeholder.
-     * Music intentionally has three stops to match the artboard.
      */
     fun gradientStops(palette: CatppuccinPalette): List<Color> = when (this) {
-        Music     -> listOf(palette.pink, palette.mauve, palette.blue)
-        Food      -> listOf(palette.peach, palette.yellow)
-        Art       -> listOf(palette.pink, palette.rosewater)
-        Tech      -> listOf(palette.blue, palette.sky)
-        Outdoor   -> listOf(palette.green, palette.teal)
-        Sports    -> listOf(palette.red, palette.maroon)
-        Film      -> listOf(palette.sapphire, palette.blue)
-        Comedy    -> listOf(palette.yellow, palette.peach)
-        Community -> listOf(palette.teal, palette.green)
+        Festival    -> listOf(palette.pink, palette.mauve, palette.blue)
+        Film        -> listOf(palette.sapphire, palette.blue)
+        Exhibition  -> listOf(palette.pink, palette.rosewater)
+        Book        -> listOf(palette.lavender, palette.blue)
+        Concert     -> listOf(palette.mauve, palette.pink)
+        Nightlife   -> listOf(palette.mauve, palette.overlay2)
+        Lecture     -> listOf(palette.blue, palette.sky)
+        Performance -> listOf(palette.teal, palette.green)
+        Workshop    -> listOf(palette.yellow, palette.peach)
+        Sport       -> listOf(palette.red, palette.maroon)
     }
 
     companion object {
         /** Null-safe lookup by [id] string coming from the scraper feed. */
-        fun fromId(id: String?): EventCategory? = entries.firstOrNull { it.id == id }
+        fun fromId(id: String?): EventCategory? =
+            entries.firstOrNull { it.id == id?.trim() }
     }
 }

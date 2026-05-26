@@ -120,13 +120,13 @@ fun CategoryHero(
 
 // ── Previews ──────────────────────────────────────────────────────────────────
 
-@Preview(name = "Music · Light")
-@Preview(name = "Music · Dark", uiMode = android.content.res.Configuration.UI_MODE_NIGHT_YES)
+@Preview(name = "Concert · Light")
+@Preview(name = "Concert · Dark", uiMode = android.content.res.Configuration.UI_MODE_NIGHT_YES)
 @Composable
-private fun CategoryHeroMusicPreview() {
+private fun CategoryHeroConcertPreview() {
     WhatsHappeningTheme {
         CategoryHero(
-            category     = EventCategory.Music,
+            category     = EventCategory.Concert,
             date         = MOCK_EVENTS.first().date,
             modifier     = Modifier.fillMaxWidth().height(168.dp),
             cornerRadius = 22.dp,

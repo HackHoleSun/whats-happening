@@ -5,7 +5,6 @@ package com.whatshappening.novisad.ui.screens.sheets
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -49,6 +48,7 @@ import androidx.compose.ui.unit.sp
 import com.whatshappening.novisad.data.MOCK_EVENTS
 import com.whatshappening.novisad.data.MOCK_TODAY
 import com.whatshappening.novisad.ui.theme.LocalCatppuccin
+import com.whatshappening.novisad.ui.theme.MochaPalette
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 import java.time.DayOfWeek
 import java.time.LocalDate
@@ -403,7 +403,7 @@ private fun DayCell(
 ) {
     val palette = LocalCatppuccin.current
     val primary = MaterialTheme.colorScheme.primary
-    val isDark = isSystemInDarkTheme()
+    val isDark = LocalCatppuccin.current == MochaPalette
 
     val cellBg = when {
         isEndpoint -> primary

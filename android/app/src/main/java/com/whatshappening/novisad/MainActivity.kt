@@ -5,7 +5,6 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.SideEffect
@@ -45,16 +44,11 @@ private fun AppRoot() {
     val scope = rememberCoroutineScope()
 
     // Collect persisted preferences
-    val themeOverride by prefs.themeOverride.collectAsState(initial = ThemeOverride.System)
+    val themeOverride by prefs.themeOverride.collectAsState(initial = ThemeOverride.Light)
     val accent        by prefs.accent.collectAsState(initial = AccentChoice.Mauve)
 
     // Resolve effective dark-mode flag
-    val systemDark = isSystemInDarkTheme()
-    val darkTheme = when (themeOverride) {
-        ThemeOverride.System -> systemDark
-        ThemeOverride.Light  -> false
-        ThemeOverride.Dark   -> true
-    }
+    val darkTheme = themeOverride == ThemeOverride.Dark
 
     // Build the controller that all composables can access via LocalUserPrefs
     val controller = UserPreferencesController(

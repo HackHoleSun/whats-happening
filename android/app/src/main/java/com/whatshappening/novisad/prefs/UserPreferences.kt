@@ -12,22 +12,21 @@ import kotlinx.coroutines.flow.map
 
 // ── ThemeOverride ─────────────────────────────────────────────────────────────
 
-enum class ThemeOverride { System, Light, Dark }
+enum class ThemeOverride { Light, Dark }
 
 // ── UserPreferences ───────────────────────────────────────────────────────────
 
 /**
  * Persists the user's theme override and accent colour in DataStore.
  *
- * Theme cycle: System → Dark → Light → System
+ * Theme toggle: Light ↔ Dark
  */
 class UserPreferences(private val ds: DataStore<Preferences>) {
 
     val themeOverride: Flow<ThemeOverride> = ds.data.map { prefs ->
         when (prefs[KEY_THEME]) {
-            "light" -> ThemeOverride.Light
-            "dark"  -> ThemeOverride.Dark
-            else    -> ThemeOverride.System
+            "dark" -> ThemeOverride.Dark
+            else   -> ThemeOverride.Light
         }
     }
 
@@ -40,10 +39,8 @@ class UserPreferences(private val ds: DataStore<Preferences>) {
     suspend fun toggleThemeOverride() {
         ds.edit { prefs ->
             prefs[KEY_THEME] = when (prefs[KEY_THEME]) {
-                null, "system" -> "dark"
-                "dark"         -> "light"
-                "light"        -> "system"
-                else           -> "system"
+                "dark" -> "light"
+                else   -> "dark"
             }
         }
     }

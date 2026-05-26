@@ -4,7 +4,6 @@ import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -24,6 +23,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.whatshappening.novisad.ui.theme.LocalCatppuccin
+import com.whatshappening.novisad.ui.theme.MochaPalette
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 
 // ── PillSegmentedControl ──────────────────────────────────────────────────────
@@ -42,7 +42,7 @@ fun PillSegmentedControl(
     modifier: Modifier = Modifier,
 ) {
     val palette  = LocalCatppuccin.current
-    val darkTheme = isSystemInDarkTheme()
+    val darkTheme = LocalCatppuccin.current == MochaPalette
 
     val shadowAmbient = if (darkTheme) Color.White.copy(0.04f) else Color.Black.copy(0.04f)
     val shadowSpot    = if (darkTheme) Color.Black.copy(0.6f)  else Color.Black.copy(0.20f)

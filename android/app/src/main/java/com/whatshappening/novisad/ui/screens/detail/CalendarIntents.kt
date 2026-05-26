@@ -27,6 +27,28 @@ fun openEventLink(context: Context, link: String) {
 }
 
 /**
+ * Opens Google Maps (or any installed maps app) for navigation to the event venue.
+ *
+ * - When the event has [lat]/[lng], uses a precise geo URI so the maps app
+ *   drops a pin at the exact coordinates and pre-fills the venue name as label.
+ * - When coordinates are absent, falls back to a name search URI so Google Maps
+ *   searches for the venue name in Novi Sad.
+ */
+fun openMapsNavigation(context: Context, event: Event) {
+    val uri: Uri = if (event.lat != null && event.lng != null) {
+        // geo:lat,lng?q=lat,lng(Label) — precise pin with venue name label
+        val label = Uri.encode(event.location)
+        Uri.parse("geo:${event.lat},${event.lng}?q=${event.lat},${event.lng}($label)")
+    } else {
+        // geo:0,0?q=search+query — name-based search in Google Maps
+        val query = Uri.encode("${event.location}, Novi Sad")
+        Uri.parse("geo:0,0?q=$query")
+    }
+    val intent = Intent(Intent.ACTION_VIEW, uri)
+    context.startActivity(intent)
+}
+
+/**
  * Fires an ACTION_INSERT calendar intent pre-populated with the event's
  * title, location, description, and start/end epoch times.
  *

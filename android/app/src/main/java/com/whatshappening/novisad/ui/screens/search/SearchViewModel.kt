@@ -55,7 +55,7 @@ class SearchViewModel(
                 val app = this[ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY] as App
                 SearchViewModel(
                     repo              = app.repository,
-                    recentSearchStore = MockRecentSearchStore(),
+                    recentSearchStore = app.recentSearchStore,
                 )
             }
         }

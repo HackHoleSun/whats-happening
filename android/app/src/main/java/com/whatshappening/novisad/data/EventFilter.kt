@@ -65,6 +65,7 @@ fun List<Event>.apply(
     }
 
     // 4 — distance cap (skip when at max = "no filter")
+    // Events with no coordinates (distanceKm == null) are always included in the list.
     return if (filter.maxDistanceKm >= 10f) bySearch
-    else bySearch.filter { it.distanceKm <= filter.maxDistanceKm }
+    else bySearch.filter { it.distanceKm == null || it.distanceKm <= filter.maxDistanceKm }
 }

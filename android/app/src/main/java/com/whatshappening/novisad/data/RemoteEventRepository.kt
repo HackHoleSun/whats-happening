@@ -81,7 +81,7 @@ private fun ScrapedEvent.toDomain(): Event? {
         startTime   = startTime,
         endTime     = startTime.plusHours(2),
         location    = location,
-        distanceKm  = 0.0,
+        // distanceKm left null — computed at runtime by HomeViewModel once GPS is available
         description = "",        // populated on detail-screen open via Cloudflare Worker
         organizer   = location,
         priceLabel  = "",
@@ -92,16 +92,5 @@ private fun ScrapedEvent.toDomain(): Event? {
     )
 }
 
-private fun mapCategory(raw: String?): EventCategory = when (raw?.trim()) {
-    "Film"          -> EventCategory.Film
-    "Izložba"       -> EventCategory.Art
-    "Koncert"       -> EventCategory.Music
-    "Noćni provod"  -> EventCategory.Music
-    "Festival"      -> EventCategory.Music
-    "Predstava"     -> EventCategory.Community
-    "Radionica"     -> EventCategory.Community
-    "Predavanje"    -> EventCategory.Community
-    "Knjiga"        -> EventCategory.Community
-    "Sport"         -> EventCategory.Sports
-    else            -> EventCategory.Community
-}
+private fun mapCategory(raw: String?): EventCategory =
+    EventCategory.fromId(raw) ?: EventCategory.Performance

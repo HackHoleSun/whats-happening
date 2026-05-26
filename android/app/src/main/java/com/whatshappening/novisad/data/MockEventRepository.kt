@@ -19,7 +19,7 @@ val MOCK_EVENTS: List<Event> = listOf(
     Event(
         id          = "e1",
         title       = "Synthwave Saturday",
-        category    = EventCategory.Music,
+        category    = EventCategory.Concert,
         date        = LocalDate.of(2026, 5, 24),
         startTime   = LocalTime.of(22, 0),
         endTime     = LocalTime.of(4, 0),
@@ -33,7 +33,7 @@ val MOCK_EVENTS: List<Event> = listOf(
     Event(
         id          = "e2",
         title       = "Sunday Späti Market",
-        category    = EventCategory.Food,
+        category    = EventCategory.Festival,
         date        = LocalDate.of(2026, 5, 24),
         startTime   = LocalTime.of(10, 0),
         endTime     = LocalTime.of(16, 0),
@@ -47,7 +47,7 @@ val MOCK_EVENTS: List<Event> = listOf(
     Event(
         id          = "e3",
         title       = "Bauhaus, Reimagined",
-        category    = EventCategory.Art,
+        category    = EventCategory.Exhibition,
         date        = LocalDate.of(2026, 5, 25),
         startTime   = LocalTime.of(11, 0),
         endTime     = LocalTime.of(20, 0),
@@ -61,7 +61,7 @@ val MOCK_EVENTS: List<Event> = listOf(
     Event(
         id          = "e4",
         title       = "Sunset Cyclists",
-        category    = EventCategory.Outdoor,
+        category    = EventCategory.Sport,
         date        = LocalDate.of(2026, 5, 26),
         startTime   = LocalTime.of(19, 30),
         endTime     = LocalTime.of(21, 30),
@@ -75,7 +75,7 @@ val MOCK_EVENTS: List<Event> = listOf(
     Event(
         id          = "e5",
         title       = "Code & Coffee #042",
-        category    = EventCategory.Tech,
+        category    = EventCategory.Lecture,
         date        = LocalDate.of(2026, 5, 27),
         startTime   = LocalTime.of(18, 30),
         endTime     = LocalTime.of(22, 0),
@@ -89,7 +89,7 @@ val MOCK_EVENTS: List<Event> = listOf(
     Event(
         id          = "e6",
         title       = "Open Mic: New Comics",
-        category    = EventCategory.Comedy,
+        category    = EventCategory.Performance,
         date        = LocalDate.of(2026, 5, 28),
         startTime   = LocalTime.of(20, 0),
         endTime     = LocalTime.of(23, 0),
@@ -103,7 +103,7 @@ val MOCK_EVENTS: List<Event> = listOf(
     Event(
         id          = "e7",
         title       = "Half-Marathon: Riverline",
-        category    = EventCategory.Sports,
+        category    = EventCategory.Sport,
         date        = LocalDate.of(2026, 5, 30),
         startTime   = LocalTime.of(8, 0),
         endTime     = LocalTime.of(12, 0),
@@ -131,7 +131,7 @@ val MOCK_EVENTS: List<Event> = listOf(
     Event(
         id          = "e9",
         title       = "Vinyl Swap Society",
-        category    = EventCategory.Music,
+        category    = EventCategory.Concert,
         date        = LocalDate.of(2026, 6, 1),
         startTime   = LocalTime.of(14, 0),
         endTime     = LocalTime.of(18, 0),
@@ -145,7 +145,7 @@ val MOCK_EVENTS: List<Event> = listOf(
     Event(
         id          = "e10",
         title       = "Pottery Throw-Down",
-        category    = EventCategory.Community,
+        category    = EventCategory.Workshop,
         date        = LocalDate.of(2026, 6, 2),
         startTime   = LocalTime.of(17, 0),
         endTime     = LocalTime.of(20, 0),
