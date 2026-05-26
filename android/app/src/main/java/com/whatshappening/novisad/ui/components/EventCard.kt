@@ -6,7 +6,6 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsPressedAsState
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -46,6 +45,7 @@ import androidx.compose.ui.unit.dp
 import com.whatshappening.novisad.data.Event
 import com.whatshappening.novisad.data.MOCK_EVENTS
 import com.whatshappening.novisad.ui.theme.LocalCatppuccin
+import com.whatshappening.novisad.ui.theme.MochaPalette
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 import com.whatshappening.novisad.util.formatDate
 import com.whatshappening.novisad.util.formatDistance
@@ -72,7 +72,7 @@ fun EventCard(
     density: CardDensity = CardDensity.Comfy,
 ) {
     val palette   = LocalCatppuccin.current
-    val darkTheme = isSystemInDarkTheme()
+    val darkTheme = LocalCatppuccin.current == MochaPalette
     val accent    = MaterialTheme.colorScheme.primary
 
     // Shadow colours that follow the theme (matches prototype spec)
@@ -238,13 +238,15 @@ fun EventCard(
                     overflow = TextOverflow.Ellipsis,
                     modifier = Modifier.weight(1f),
                 )
-                Dot(palette.surface2)
-                Text(
-                    text       = formatDistance(event.distanceKm),
-                    style      = MaterialTheme.typography.bodyMedium,
-                    fontWeight = FontWeight.SemiBold,
-                    color      = accent,
-                )
+                if (event.distanceKm != null) {
+                    Dot(palette.surface2)
+                    Text(
+                        text       = formatDistance(event.distanceKm),
+                        style      = MaterialTheme.typography.bodyMedium,
+                        fontWeight = FontWeight.SemiBold,
+                        color      = accent,
+                    )
+                }
             }
         }
     }

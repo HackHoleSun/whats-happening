@@ -9,9 +9,6 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 
-/** Searches shown in the empty state when the user has never searched. */
-private val SEED_RECENT = listOf("Synthwave", "Market", "Open air", "Vinyl")
-
 // ── Interface ─────────────────────────────────────────────────────────────────
 
 /**
@@ -28,15 +25,14 @@ interface RecentSearchRepository {
 
 /**
  * Stores up to 8 search terms in DataStore, newest-first, deduplicated on add.
- * Falls back to [SEED_RECENT] when the store is empty.
+ * Returns an empty list on a fresh install — no fake seed data.
  */
 class RecentSearchStore(private val ds: DataStore<Preferences>) : RecentSearchRepository {
 
     private val key = stringPreferencesKey("recent_searches")
 
     override val recent: Flow<List<String>> = ds.data.map { prefs ->
-        val stored = prefs[key]?.split("\n").orEmpty().filter(String::isNotBlank)
-        stored.ifEmpty { SEED_RECENT }
+        prefs[key]?.split("\n").orEmpty().filter(String::isNotBlank)
     }
 
     override suspend fun add(term: String) {
@@ -52,10 +48,10 @@ class RecentSearchStore(private val ds: DataStore<Preferences>) : RecentSearchRe
 
 /**
  * In-memory implementation for Compose previews.
- * Pre-seeded with [SEED_RECENT].
+ * Starts empty, just like a fresh install.
  */
 class MockRecentSearchStore : RecentSearchRepository {
-    private val _recent = MutableStateFlow(SEED_RECENT)
+    private val _recent = MutableStateFlow(emptyList<String>())
     override val recent: Flow<List<String>> = _recent
 
     override suspend fun add(term: String) {

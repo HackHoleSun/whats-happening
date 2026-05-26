@@ -1,7 +1,6 @@
 package com.whatshappening.novisad.ui.components
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
@@ -18,6 +17,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.whatshappening.novisad.ui.theme.LocalCatppuccin
+import com.whatshappening.novisad.ui.theme.MochaPalette
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 
 // ── HeaderIconButton ──────────────────────────────────────────────────────────
@@ -38,7 +38,7 @@ fun HeaderIconButton(
     content: @Composable () -> Unit,
 ) {
     val palette   = LocalCatppuccin.current
-    val darkTheme = isSystemInDarkTheme()
+    val darkTheme = LocalCatppuccin.current == MochaPalette
 
     val bgColor       = if (floating) Color.White.copy(alpha = 0.92f) else palette.mantle
     val shadowAmbient = if (darkTheme) Color.White.copy(0.04f) else Color.Black.copy(0.04f)

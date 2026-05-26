@@ -75,18 +75,20 @@ class EventFilterTest {
     @Test
     fun `category filter returns only matching categories`() {
         val result = MOCK_EVENTS.filtered(
-            EventFilter(categories = setOf(EventCategory.Music))
+            EventFilter(categories = setOf(EventCategory.Concert))
         )
-        assertTrue(result.all { it.category == EventCategory.Music })
+        assertTrue(result.all { it.category == EventCategory.Concert })
         assertEquals(2, result.size) // e1 + e9
     }
 
     @Test
     fun `multi-category filter returns union of categories`() {
         val result = MOCK_EVENTS.filtered(
-            EventFilter(categories = setOf(EventCategory.Music, EventCategory.Tech))
+            EventFilter(categories = setOf(EventCategory.Concert, EventCategory.Lecture))
         )
-        assertTrue(result.all { it.category == EventCategory.Music || it.category == EventCategory.Tech })
+        assertTrue(result.all {
+            it.category == EventCategory.Concert || it.category == EventCategory.Lecture
+        })
         assertEquals(3, result.size) // e1, e5, e9
     }
 
@@ -108,7 +110,7 @@ class EventFilterTest {
 
     @Test
     fun `search query matches category display name`() {
-        val result = MOCK_EVENTS.filtered(EventFilter(searchQuery = "comedy"))
+        val result = MOCK_EVENTS.filtered(EventFilter(searchQuery = "predstava"))
         assertEquals(1, result.size)
         assertEquals("e6", result.first().id)
     }
@@ -123,14 +125,14 @@ class EventFilterTest {
 
     @Test
     fun `category and date range combine as AND`() {
-        // Music events in the current week
+        // Koncert events in the current week
         val result = MOCK_EVENTS.filtered(
             EventFilter(
                 range      = DateRange.Week,
-                categories = setOf(EventCategory.Music),
+                categories = setOf(EventCategory.Concert),
             )
         )
-        // e1 (Music, 24 May) is in the week; e9 (Music, 1 Jun) is outside
+        // e1 (Koncert, 24 May) is in the week; e9 (Koncert, 1 Jun) is outside
         assertEquals(1, result.size)
         assertEquals("e1", result.first().id)
     }
@@ -149,7 +151,7 @@ class EventFilterTest {
 
     @Test
     fun `filter with non-empty category set is active`() {
-        assertTrue(EventFilter(categories = setOf(EventCategory.Art)).isActive)
+        assertTrue(EventFilter(categories = setOf(EventCategory.Exhibition)).isActive)
     }
 
     @Test

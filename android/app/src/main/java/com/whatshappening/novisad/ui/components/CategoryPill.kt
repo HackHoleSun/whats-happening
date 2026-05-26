@@ -1,7 +1,6 @@
 package com.whatshappening.novisad.ui.components
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -21,6 +20,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.whatshappening.novisad.data.EventCategory
 import com.whatshappening.novisad.ui.theme.LocalCatppuccin
+import com.whatshappening.novisad.ui.theme.MochaPalette
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 
 /**
@@ -35,7 +35,7 @@ fun CategoryPill(
     onContrastBg: Boolean = false,
 ) {
     val palette  = LocalCatppuccin.current
-    val isDark   = isSystemInDarkTheme()
+    val isDark   = LocalCatppuccin.current == MochaPalette
     val hue      = category.hue(palette)
     // On a hero gradient: white pill in light mode, dark pill in dark mode so the
     // text stays legible and the pill doesn't glare against the mocha background.
@@ -80,7 +80,7 @@ private fun CategoryPillOnHeroPreview() {
                 .background(LocalCatppuccin.current.mauve)
                 .padding(16.dp)
         ) {
-            CategoryPill(category = EventCategory.Music, onContrastBg = true)
+            CategoryPill(category = EventCategory.Concert, onContrastBg = true)
         }
     }
 }
@@ -95,7 +95,7 @@ private fun CategoryPillOnSurfacePreview() {
                 .background(LocalCatppuccin.current.base)
                 .padding(16.dp)
         ) {
-            CategoryPill(category = EventCategory.Music, onContrastBg = false)
+            CategoryPill(category = EventCategory.Concert, onContrastBg = false)
         }
     }
 }

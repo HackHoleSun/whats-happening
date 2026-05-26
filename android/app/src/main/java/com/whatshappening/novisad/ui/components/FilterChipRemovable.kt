@@ -1,7 +1,6 @@
 package com.whatshappening.novisad.ui.components
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -23,6 +22,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.whatshappening.novisad.ui.theme.LocalCatppuccin
+import com.whatshappening.novisad.ui.theme.MochaPalette
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 
 // ── FilterChipRemovable ───────────────────────────────────────────────────────
@@ -42,7 +42,7 @@ fun FilterChipRemovable(
     icon: (@Composable () -> Unit)? = null,
 ) {
     val palette  = LocalCatppuccin.current
-    val darkTheme = isSystemInDarkTheme()
+    val darkTheme = LocalCatppuccin.current == MochaPalette
     val closeButtonBg = if (darkTheme) palette.surface2 else palette.surface1
 
     Row(

@@ -28,9 +28,29 @@ class HomeViewModel(
     private val _filter = MutableStateFlow(EventFilter())
     val filter: StateFlow<EventFilter> = _filter
 
+    /** Nullable lat/lng pair updated whenever the composable receives a GPS fix. */
+    private val _userLocation = MutableStateFlow<Pair<Double, Double>?>(null)
+
     val events: StateFlow<List<Event>> =
-        combine(repo.observeEvents(), _filter) { all, f -> all.apply(f) }
-            .stateIn(viewModelScope, SharingStarted.Lazily, emptyList())
+        combine(repo.observeEvents(), _filter, _userLocation) { all, f, loc ->
+            val withDistances = if (loc != null) {
+                all.map { event ->
+                    if (event.lat != null && event.lng != null) {
+                        val result = FloatArray(1)
+                        android.location.Location.distanceBetween(
+                            loc.first, loc.second, event.lat, event.lng, result
+                        )
+                        event.copy(distanceKm = result[0] / 1000.0)
+                    } else {
+                        event
+                    }
+                }
+            } else all
+            // Distance filter is meaningless without a real GPS fix — disable it
+            val effectiveFilter = if (loc == null) f.copy(maxDistanceKm = 10f) else f
+            withDistances.apply(effectiveFilter)
+        }
+        .stateIn(viewModelScope, SharingStarted.Lazily, emptyList())
 
     val savedIds: StateFlow<Set<String>> =
         repo.observeSavedIds()
@@ -69,6 +89,10 @@ class HomeViewModel(
 
     fun clearFilters() {
         _filter.value = EventFilter()
+    }
+
+    fun updateUserLocation(lat: Double, lng: Double) {
+        _userLocation.value = Pair(lat, lng)
     }
 
     fun toggleSaved(id: String) = viewModelScope.launch {

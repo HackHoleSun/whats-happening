@@ -7,7 +7,6 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -83,12 +82,15 @@ import com.whatshappening.novisad.ui.states.EmptyFiltersState
 import com.whatshappening.novisad.ui.states.LoadingScreen
 import com.whatshappening.novisad.prefs.LocalUserPrefs
 import com.whatshappening.novisad.ui.theme.LocalCatppuccin
+import com.whatshappening.novisad.ui.theme.MochaPalette
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
+import com.whatshappening.novisad.ui.util.rememberUserLocation
 import com.whatshappening.novisad.util.formatDate
 import com.whatshappening.novisad.util.formatShortDate
 import com.whatshappening.novisad.util.formatDayOfWeek
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
+import androidx.compose.runtime.LaunchedEffect
 
 // ── HomeState ─────────────────────────────────────────────────────────────────
 
@@ -131,6 +133,12 @@ fun HomeRoute(
     val savedIds    by viewModel.savedIds.collectAsState()
     val refreshing  by viewModel.refreshing.collectAsState()
     val isLoading   by viewModel.initialLoading.collectAsState()
+
+    // Feed GPS location into the ViewModel so distance-based filtering works
+    val locationState = rememberUserLocation()
+    LaunchedEffect(locationState.location) {
+        locationState.location?.let { viewModel.updateUserLocation(it.latitude, it.longitude) }
+    }
 
     // Show skeleton until the first batch of events arrives
     if (isLoading) {
@@ -186,6 +194,7 @@ fun HomeRoute(
                 sheet = HomeSheet.Date
             },
             onDismiss = { sheet = null },
+            onRequestLocation = locationState.requestLocation,
         )
 
         HomeSheet.Date -> DateSheet(
@@ -318,7 +327,7 @@ private fun HomeHeader(
 ) {
     val palette   = LocalCatppuccin.current
     val accent    = MaterialTheme.colorScheme.primary
-    val isDark    = isSystemInDarkTheme()
+    val isDark    = LocalCatppuccin.current == MochaPalette
 
     Column(
         modifier = Modifier
@@ -566,11 +575,11 @@ private val defaultState = HomeState(
 
 private val activeFilterState = HomeState(
     events   = MOCK_EVENTS.filter {
-        it.category == EventCategory.Music || it.category == EventCategory.Food
+        it.category == EventCategory.Concert || it.category == EventCategory.Festival
     },
     filter   = EventFilter(
         range      = DateRange.Week,
-        categories = setOf(EventCategory.Music, EventCategory.Food),
+        categories = setOf(EventCategory.Concert, EventCategory.Festival),
     ),
     savedIds   = setOf("e1"),
     refreshing = false,
@@ -581,7 +590,7 @@ private val emptyFilterState = HomeState(
     events     = emptyList(),
     filter     = EventFilter(
         range      = DateRange.Today,
-        categories = setOf(EventCategory.Sports),
+        categories = setOf(EventCategory.Sport),
     ),
     savedIds   = emptySet(),
     refreshing = false,

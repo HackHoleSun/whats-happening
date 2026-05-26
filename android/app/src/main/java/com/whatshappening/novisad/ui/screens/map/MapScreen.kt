@@ -1,13 +1,8 @@
 package com.whatshappening.novisad.ui.screens.map
 
-import android.Manifest
 import android.annotation.SuppressLint
-import android.content.pm.PackageManager
-import androidx.activity.compose.rememberLauncherForActivityResult
-import androidx.activity.result.contract.ActivityResultContracts.RequestMultiplePermissions
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -45,12 +40,11 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
-import androidx.core.content.ContextCompat
+import com.whatshappening.novisad.ui.util.rememberUserLocation
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.google.android.gms.location.LocationServices
 import com.google.gson.JsonObject
 import com.whatshappening.novisad.data.Event
 import com.whatshappening.novisad.data.EventCategory
@@ -59,6 +53,7 @@ import com.whatshappening.novisad.ui.components.AppBottomNav
 import com.whatshappening.novisad.ui.components.BottomNavDestination
 import com.whatshappening.novisad.ui.components.EventRow
 import com.whatshappening.novisad.ui.theme.LocalCatppuccin
+import com.whatshappening.novisad.ui.theme.MochaPalette
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 import org.maplibre.android.camera.CameraPosition
 import org.maplibre.android.camera.CameraUpdateFactory
@@ -73,8 +68,6 @@ import org.maplibre.android.style.sources.GeoJsonSource
 import org.maplibre.geojson.Feature
 import org.maplibre.geojson.FeatureCollection
 import org.maplibre.geojson.Point
-import kotlin.math.cos
-import kotlin.math.sin
 
 // ── Constants ─────────────────────────────────────────────────────────────────
 
@@ -94,15 +87,16 @@ private const val LAYER_ID_LOCATION  = "location-dot"
 
 /** Catppuccin hex colour for a category, light/dark-aware. */
 private fun EventCategory.hexColor(dark: Boolean): String = when (this) {
-    EventCategory.Music     -> if (dark) "#CBA6F7" else "#8839EF"
-    EventCategory.Food      -> if (dark) "#FAB387" else "#FE640B"
-    EventCategory.Art       -> if (dark) "#F5C2E7" else "#EA76CB"
-    EventCategory.Tech      -> if (dark) "#89B4FA" else "#1E66F5"
-    EventCategory.Outdoor   -> if (dark) "#A6E3A1" else "#40A02B"
-    EventCategory.Sports    -> if (dark) "#F38BA8" else "#D20F39"
-    EventCategory.Film      -> if (dark) "#74C7EC" else "#209FB5"
-    EventCategory.Comedy    -> if (dark) "#F9E2AF" else "#DF8E1D"
-    EventCategory.Community -> if (dark) "#94E2D5" else "#179299"
+    EventCategory.Festival    -> if (dark) "#CBA6F7" else "#8839EF"
+    EventCategory.Film        -> if (dark) "#74C7EC" else "#209FB5"
+    EventCategory.Exhibition     -> if (dark) "#F5C2E7" else "#EA76CB"
+    EventCategory.Book      -> if (dark) "#B4BEFE" else "#7287FD"
+    EventCategory.Concert     -> if (dark) "#CBA6F7" else "#8839EF"
+    EventCategory.Nightlife -> if (dark) "#9399B2" else "#7C7F93"
+    EventCategory.Lecture  -> if (dark) "#89B4FA" else "#1E66F5"
+    EventCategory.Performance   -> if (dark) "#94E2D5" else "#179299"
+    EventCategory.Workshop   -> if (dark) "#F9E2AF" else "#DF8E1D"
+    EventCategory.Sport       -> if (dark) "#F38BA8" else "#D20F39"
 }
 
 // ── MapScreen ─────────────────────────────────────────────────────────────────
@@ -121,10 +115,13 @@ fun MapScreen(
     onHomeClick: () -> Unit,
     onSavedClick: () -> Unit,
 ) {
-    val isDark = isSystemInDarkTheme()
+    val palette = LocalCatppuccin.current
+    val isDark  = palette == MochaPalette
 
-    var focusedId by remember(events) { mutableStateOf(events.firstOrNull()?.id) }
-    val focused = events.firstOrNull { it.id == focusedId }
+    // Only events with real coordinates can be focused via a map pin tap.
+    val locatedEvents = remember(events) { events.filter { it.lat != null && it.lng != null } }
+    var focusedId by remember(locatedEvents) { mutableStateOf(locatedEvents.firstOrNull()?.id) }
+    val focused = locatedEvents.firstOrNull { it.id == focusedId }
 
     // Async map references — set when style finishes loading
     var mapRef   by remember { mutableStateOf<MapLibreMap?>(null) }
@@ -159,7 +156,7 @@ fun MapScreen(
         SyncPins(
             map          = mapRef,
             style        = styleRef,
-            events       = events,
+            events       = locatedEvents,   // only events with real coordinates
             focusedId    = focusedId,
             isDark       = isDark,
             cityCenter   = cityCenter,
@@ -176,10 +173,12 @@ fun MapScreen(
         // ── 4. Fly to focused event ───────────────────────────────────────────
         LaunchedEffect(focusedId) {
             focused?.let { ev ->
-                mapRef?.animateCamera(
-                    CameraUpdateFactory.newLatLngZoom(ev.toMapLatLng(cityCenter), 15.0),
-                    600,
-                )
+                if (ev.lat != null && ev.lng != null) {
+                    mapRef?.animateCamera(
+                        CameraUpdateFactory.newLatLngZoom(LatLng(ev.lat, ev.lng), 15.0),
+                        600,
+                    )
+                }
             }
         }
 
@@ -193,7 +192,32 @@ fun MapScreen(
                 .statusBarsPadding(),
         )
 
-        // ── 6. Locate-me FAB ──────────────────────────────────────────────────
+        // ── 6. Unlocated events chip ──────────────────────────────────────────
+        val unlocatedCount = events.size - locatedEvents.size
+        if (unlocatedCount > 0) {
+            val label = if (unlocatedCount == 1) "1 događaj bez lokacije"
+                        else "$unlocatedCount događaja bez lokacije"
+            Surface(
+                onClick        = onListClick,
+                shape          = RoundedCornerShape(22.dp),
+                color          = palette.base.copy(alpha = 0.92f),
+                tonalElevation = 2.dp,
+                border         = BorderStroke(1.dp, palette.surface1),
+                modifier       = Modifier
+                    .align(Alignment.TopCenter)
+                    .statusBarsPadding()
+                    .padding(top = 68.dp),
+            ) {
+                Text(
+                    text     = label,
+                    style    = MaterialTheme.typography.bodySmall,
+                    color    = palette.subtext0,
+                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
+                )
+            }
+        }
+
+        // ── 8. Locate-me FAB ──────────────────────────────────────────────────
         Surface(
             onClick        = onLocateMe,
             shape          = CircleShape,
@@ -218,7 +242,7 @@ fun MapScreen(
             }
         }
 
-        // ── 7. Focused event card ─────────────────────────────────────────────
+        // ── 9. Focused event card ─────────────────────────────────────────────
         focused?.let { ev ->
             Box(
                 modifier = Modifier
@@ -234,7 +258,7 @@ fun MapScreen(
             }
         }
 
-        // ── 8. Bottom nav ─────────────────────────────────────────────────────
+        // ── 10. Bottom nav ────────────────────────────────────────────────────
         AppBottomNav(
             current      = BottomNavDestination.Map,
             onHomeClick  = onHomeClick,
@@ -352,8 +376,9 @@ private fun SyncPins(
         }
 
         // ── Event pins (added after → renders on top of location dot) ─────────
+        // events here are pre-filtered to only those with real coordinates.
         val features = events.map { ev ->
-            val pos = ev.toMapLatLng(cityCenter)
+            val pos = LatLng(ev.lat!!, ev.lng!!)
             val props = JsonObject().apply {
                 addProperty("id",      ev.id)
                 addProperty("color",   ev.category.hexColor(isDark))
@@ -405,21 +430,6 @@ private fun SyncPins(
             existing.setGeoJson(collection)
         }
     }
-}
-
-// ── Event.toMapLatLng ─────────────────────────────────────────────────────────
-
-/**
- * Returns the event's real [LatLng] when the scraper provided coordinates,
- * or a deterministic 500m scatter around [cityCenter] so the map is never empty.
- */
-private fun Event.toMapLatLng(cityCenter: LatLng): LatLng {
-    if (lat != null && lng != null) return LatLng(lat, lng)
-    val angle     = (id.hashCode().and(0xFFFF) / 65535.0) * 2 * Math.PI
-    val radiusKm  = 0.5
-    val latOffset = (radiusKm / 111.0) * cos(angle)
-    val lngOffset = (radiusKm / (111.0 * cos(Math.toRadians(cityCenter.latitude)))) * sin(angle)
-    return LatLng(cityCenter.latitude + latOffset, cityCenter.longitude + lngOffset)
 }
 
 // ── MapTopBar ─────────────────────────────────────────────────────────────────
@@ -509,6 +519,10 @@ fun MapRoute(
 
     val locationState = rememberUserLocation()
 
+    // Request location permission as soon as the user opens the map —
+    // the context (map view) makes it obvious why we need it.
+    LaunchedEffect(Unit) { locationState.requestLocation() }
+
     MapScreen(
         events               = events,
         savedIds             = savedIds,
@@ -522,60 +536,6 @@ fun MapRoute(
         onHomeClick          = onHomeClick,
         onSavedClick         = onSavedClick,
     )
-}
-
-// ── Location helper ───────────────────────────────────────────────────────────
-
-private data class UserLocationState(
-    val location: LatLng?,
-    val hasPermission: Boolean,
-    val requestLocation: () -> Unit,
-)
-
-@SuppressLint("MissingPermission")
-@Composable
-private fun rememberUserLocation(): UserLocationState {
-    val context     = LocalContext.current
-    val fusedClient = remember { LocationServices.getFusedLocationProviderClient(context) }
-
-    var location     by remember { mutableStateOf<LatLng?>(null) }
-    var hasPermission by remember {
-        mutableStateOf(
-            ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION)
-                    == PackageManager.PERMISSION_GRANTED ||
-            ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION)
-                    == PackageManager.PERMISSION_GRANTED
-        )
-    }
-
-    fun fetchLocation() {
-        fusedClient.lastLocation.addOnSuccessListener { loc ->
-            if (loc != null) location = LatLng(loc.latitude, loc.longitude)
-        }
-    }
-
-    val permissionLauncher = rememberLauncherForActivityResult(RequestMultiplePermissions()) { results ->
-        val granted = results.values.any { it }
-        hasPermission = granted
-        if (granted) fetchLocation()
-    }
-
-    // On first composition: fetch if already granted, otherwise ask automatically.
-    LaunchedEffect(Unit) {
-        if (hasPermission) fetchLocation()
-        else permissionLauncher.launch(
-            arrayOf(Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION)
-        )
-    }
-
-    val requestLocation: () -> Unit = {
-        if (hasPermission) fetchLocation()
-        else permissionLauncher.launch(
-            arrayOf(Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION)
-        )
-    }
-
-    return UserLocationState(location, hasPermission, requestLocation)
 }
 
 // ── Previews ──────────────────────────────────────────────────────────────────

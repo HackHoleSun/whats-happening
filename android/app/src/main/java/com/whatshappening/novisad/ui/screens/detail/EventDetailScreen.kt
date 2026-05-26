@@ -3,7 +3,6 @@ package com.whatshappening.novisad.ui.screens.detail
 import android.content.res.Configuration
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -38,6 +37,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import android.content.Intent
+import android.net.Uri
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -66,6 +66,7 @@ import com.whatshappening.novisad.ui.components.MetaTile
 import com.whatshappening.novisad.ui.components.SectionLabel
 import com.whatshappening.novisad.ui.theme.Bricolage
 import com.whatshappening.novisad.ui.theme.LocalCatppuccin
+import com.whatshappening.novisad.ui.theme.MochaPalette
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 import com.whatshappening.novisad.util.formatDayOfWeek
 import com.whatshappening.novisad.util.formatDistance
@@ -114,6 +115,7 @@ fun EventDetailRoute(
             },
             onOpenLink      = { openEventLink(context, it) },
             onAddToCalendar = { addEventToCalendar(context, ev) },
+            onNavigate      = { openMapsNavigation(context, ev) },
         )
     }
 }
@@ -132,6 +134,7 @@ fun EventDetailScreen(
     onShare: () -> Unit,
     onOpenLink: (String) -> Unit,
     onAddToCalendar: () -> Unit,
+    onNavigate: () -> Unit = {},
 ) {
     val palette = LocalCatppuccin.current
     // Fall back to system sans-serif so the huge numeral renders without crashing
@@ -241,7 +244,7 @@ fun EventDetailScreen(
             Spacer(Modifier.height(22.dp))
             MetaTilesRow(event)
             Spacer(Modifier.height(10.dp))
-            LocationCard(event)
+            LocationCard(event, onNavigate = onNavigate)
             Spacer(Modifier.height(24.dp))
             SectionLabel("O događaju")
             Spacer(Modifier.height(8.dp))
@@ -284,7 +287,7 @@ private fun FloatingChip(
     tint: Color? = null,
 ) {
     val palette = LocalCatppuccin.current
-    val isDark  = isSystemInDarkTheme()
+    val isDark  = LocalCatppuccin.current == MochaPalette
     val chipBg  = if (isDark) palette.surface1 else Color.White.copy(alpha = 0.92f)
     Box(
         contentAlignment = Alignment.Center,
@@ -355,17 +358,17 @@ private fun MetaTilesRow(event: Event) {
  * Tappable location card: pin icon + venue name + distance + chevron.
  */
 @Composable
-private fun LocationCard(event: Event) {
+private fun LocationCard(event: Event, onNavigate: () -> Unit = {}) {
     val palette      = LocalCatppuccin.current
     val primary      = MaterialTheme.colorScheme.primary
-    val iconBgAlpha  = if (isSystemInDarkTheme()) 0.28f else 0.18f
+    val iconBgAlpha  = if (LocalCatppuccin.current == MochaPalette) 0.28f else 0.18f
 
     Surface(
         shape = RoundedCornerShape(18.dp),
         color = palette.mantle,
         modifier = Modifier
             .fillMaxWidth()
-            .clickable { /* TODO: launch Maps intent */ },
+            .clickable { onNavigate() },
     ) {
         Row(
             modifier              = Modifier.padding(14.dp),
@@ -398,7 +401,8 @@ private fun LocationCard(event: Event) {
                     color = MaterialTheme.colorScheme.onSurface,
                 )
                 Text(
-                    text  = "${formatDistance(event.distanceKm)} dalje · Tapni za navigaciju",
+                    text  = if (event.distanceKm != null) "${formatDistance(event.distanceKm)} dalje · Tapni za navigaciju"
+                            else "Tapni za navigaciju",
                     style = MaterialTheme.typography.bodySmall,
                     color = palette.subtext0,
                 )
@@ -433,17 +437,19 @@ private fun OrganizerAndPrice(event: Event) {
                 color = MaterialTheme.colorScheme.onSurface,
             )
         }
-        // Price column
-        Column(Modifier.weight(1f)) {
-            SectionLabel("Cena")
-            Spacer(Modifier.height(4.dp))
-            Text(
-                text  = event.priceLabel,
-                style = MaterialTheme.typography.titleMedium.copy(
-                    fontWeight = FontWeight.SemiBold,
-                ),
-                color = MaterialTheme.colorScheme.onSurface,
-            )
+        // Price column — hidden when no price is available
+        if (event.priceLabel.isNotBlank()) {
+            Column(Modifier.weight(1f)) {
+                SectionLabel("Cena")
+                Spacer(Modifier.height(4.dp))
+                Text(
+                    text  = event.priceLabel,
+                    style = MaterialTheme.typography.titleMedium.copy(
+                        fontWeight = FontWeight.SemiBold,
+                    ),
+                    color = MaterialTheme.colorScheme.onSurface,
+                )
+            }
         }
     }
 }

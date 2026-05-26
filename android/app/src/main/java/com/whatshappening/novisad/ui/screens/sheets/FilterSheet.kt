@@ -4,7 +4,6 @@ package com.whatshappening.novisad.ui.screens.sheets
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -48,6 +47,7 @@ import com.whatshappening.novisad.data.EventCategory
 import com.whatshappening.novisad.data.EventFilter
 import com.whatshappening.novisad.ui.components.SectionLabel
 import com.whatshappening.novisad.ui.theme.LocalCatppuccin
+import com.whatshappening.novisad.ui.theme.MochaPalette
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
@@ -70,6 +70,8 @@ fun FilterSheet(
     onApply: (EventFilter) -> Unit,
     onOpenDatePicker: () -> Unit,
     onDismiss: () -> Unit,
+    /** Called the first time the user touches the distance slider — triggers the location permission request. */
+    onRequestLocation: () -> Unit = {},
 ) {
     var draft by remember(initial) { mutableStateOf(initial) }
 
@@ -154,7 +156,10 @@ fun FilterSheet(
         Spacer(Modifier.height(10.dp))
         Slider(
             value = draft.maxDistanceKm,
-            onValueChange = { draft = draft.copy(maxDistanceKm = it) },
+            onValueChange = {
+                draft = draft.copy(maxDistanceKm = it)
+                onRequestLocation() // ensure we have location when the user adjusts distance
+            },
             valueRange = 0f..10f,
             modifier = Modifier.fillMaxWidth(),
             colors = SliderDefaults.colors(
@@ -317,7 +322,7 @@ private fun CategoryToggleChip(
     onClick: () -> Unit,
 ) {
     val palette = LocalCatppuccin.current
-    val isDark = isSystemInDarkTheme()
+    val isDark = LocalCatppuccin.current == MochaPalette
     val bg = if (selected) category.hue(palette) else palette.mantle
     val fg = if (selected) {
         if (isDark) palette.crust else palette.base
@@ -396,7 +401,7 @@ private fun FilterSheetPreviewDark() {
         FilterSheet(
             initial = EventFilter(
                 range = DateRange.Week,
-                categories = setOf(EventCategory.Music, EventCategory.Tech),
+                categories = setOf(EventCategory.Concert, EventCategory.Lecture),
             ),
             onApply = {},
             onOpenDatePicker = {},
