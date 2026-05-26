@@ -1,54 +1,6 @@
 {
-  "scraped_at": "2026-05-25T10:17:24Z",
+  "scraped_at": "2026-05-26T00:30:51Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-7",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-05-25",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-7/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Snovi-300x235.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-ponedeljak-7",
-      "title": "Arena Cineplex – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-05-25",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-7/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/arena-cineplex-18-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "majka-hrabrost-i-njena-deca-2",
-      "title": "Majka Hrabrost i njena deca",
-      "category": "Predstava",
-      "date": "2026-05-25",
-      "time": "19:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/majka-hrabrost-i-njena-deca-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/majka-hrabrost-i-njena-deca-300x200.jpg",
-      "lat": 45.2577191,
-      "lng": 19.8415872
-    },
-    {
-      "id": "art-bioskop-ck13-filmski-ciklus-mama",
-      "title": "Art bioskop CK13: Filmski ciklus “Mama”",
-      "category": "Film",
-      "date": "2026-05-25",
-      "time": "20:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/art-bioskop-ck13-filmski-ciklus-mama/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Art-bioskop-810x456-1-300x169.png",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-utorak-8",
       "title": "Cineplexx Novi Sad – repertoar za utorak",
