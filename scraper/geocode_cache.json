@@ -118,5 +118,17 @@
   "nacionalna-klasa-by-vojvodina": {
     "lat": null,
     "lng": null
+  },
+  "novosadski-omladinski-prostor-nof": {
+    "lat": null,
+    "lng": null
+  },
+  "trg-galerija": {
+    "lat": 45.252656,
+    "lng": 19.8449091
+  },
+  "tc-sad-novi-bazaar": {
+    "lat": null,
+    "lng": null
   }
 }
