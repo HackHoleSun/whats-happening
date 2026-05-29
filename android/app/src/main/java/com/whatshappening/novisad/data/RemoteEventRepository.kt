@@ -30,15 +30,18 @@ class RemoteEventRepository(
 
     private val network  = NetworkEventRepository(context)
 
-    private val _events   = MutableStateFlow<List<Event>>(emptyList())
-    private val _savedIds = MutableStateFlow<Set<String>>(emptySet())
+    private val _events        = MutableStateFlow<List<Event>>(emptyList())
+    private val _savedIds      = MutableStateFlow<Set<String>>(emptySet())
+    private val _loadAttempted = MutableStateFlow(false)
 
     init {
         scope.launch {
             try {
                 _events.value = network.getEvents().mapNotNull { it.toDomain() }
             } catch (_: Exception) {
-                /* stay empty — UI will show loading/error state */
+                /* stay empty — UI will show empty state */
+            } finally {
+                _loadAttempted.value = true
             }
         }
     }
@@ -46,6 +49,8 @@ class RemoteEventRepository(
     // ── EventRepository ───────────────────────────────────────────────────────
 
     override fun observeEvents(): Flow<List<Event>> = _events.asStateFlow()
+
+    override fun observeLoadAttempted(): Flow<Boolean> = _loadAttempted.asStateFlow()
 
     override suspend fun refresh() {
         withContext(Dispatchers.IO) {

@@ -169,6 +169,8 @@ class MockEventRepository : EventRepository {
 
     override fun observeEvents(): Flow<List<Event>> = flowOf(MOCK_EVENTS)
 
+    override fun observeLoadAttempted(): Flow<Boolean> = flowOf(true)
+
     override suspend fun refresh() { /* no-op: mock data never changes */ }
 
     override fun observeSavedIds(): Flow<Set<String>> = _savedIds.asStateFlow()

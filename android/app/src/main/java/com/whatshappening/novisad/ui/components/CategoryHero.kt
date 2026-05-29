@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -84,16 +85,17 @@ fun CategoryHero(
         }
 
         // Radial highlight overlay for depth
+        val radialOverlay = remember {
+            Brush.radialGradient(
+                colors = listOf(Color.White.copy(alpha = 0.18f), Color.Transparent),
+                center = Offset(80f, 120f),
+                radius = 400f,
+            )
+        }
         Box(
             Modifier
                 .fillMaxSize()
-                .background(
-                    Brush.radialGradient(
-                        colors = listOf(Color.White.copy(alpha = 0.18f), Color.Transparent),
-                        center = Offset(80f, 120f),
-                        radius = 400f,
-                    )
-                )
+                .background(radialOverlay)
         )
 
         // Giant faded date numeral — hidden when a photo is present

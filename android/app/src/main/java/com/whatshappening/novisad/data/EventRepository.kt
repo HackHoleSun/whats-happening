@@ -22,6 +22,9 @@ interface EventRepository {
     /** Emits the current list and re-emits when data changes. */
     fun observeEvents(): Flow<List<Event>>
 
+    /** Emits true once the initial load attempt has completed (success or failure). */
+    fun observeLoadAttempted(): Flow<Boolean>
+
     /** Force-fetch fresh data from the network. */
     suspend fun refresh()
 
