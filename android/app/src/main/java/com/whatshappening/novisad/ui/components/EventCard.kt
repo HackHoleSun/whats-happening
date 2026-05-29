@@ -158,23 +158,25 @@ fun EventCard(
                 verticalAlignment    = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(10.dp),
             ) {
-                Row(
-                    verticalAlignment    = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(5.dp),
-                ) {
-                    Icon(
-                        Icons.Outlined.CalendarMonth,
-                        contentDescription = null,
-                        modifier           = Modifier.size(14.dp),
-                        tint               = palette.subtext0,
-                    )
-                    Text(
-                        text  = formatDate(event.date),
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = palette.subtext1,
-                    )
+                if (event.date != null) {
+                    Row(
+                        verticalAlignment    = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(5.dp),
+                    ) {
+                        Icon(
+                            Icons.Outlined.CalendarMonth,
+                            contentDescription = null,
+                            modifier           = Modifier.size(14.dp),
+                            tint               = palette.subtext0,
+                        )
+                        Text(
+                            text  = formatDate(event.date),
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = palette.subtext1,
+                        )
+                    }
+                    Dot(palette.surface2)
                 }
-                Dot(palette.surface2)
                 Row(
                     verticalAlignment    = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(5.dp),

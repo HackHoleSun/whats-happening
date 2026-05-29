@@ -12,7 +12,7 @@ data class ScrapedEvent(
     val id: String,
     val title: String,
     val category: String? = null,
-    val date: String,
+    val date: String? = null,
     val time: String? = null,
     val location: String,
     val url: String,

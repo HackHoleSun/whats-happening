@@ -42,11 +42,11 @@ fun List<Event>.apply(
     // 1 — date range
     val byRange: List<Event> = when (filter.range) {
         DateRange.Today -> filter { it.date == today }
-        DateRange.Week  -> filter { it.date in today..today.plusDays(6) }
+        DateRange.Week  -> filter { it.date != null && it.date in today..today.plusDays(6) }
         DateRange.Range -> {
             val from = filter.dateFrom ?: return@apply emptyList()
             val to   = filter.dateTo   ?: from
-            filter { it.date in from..to }
+            filter { it.date != null && it.date in from..to }
         }
         DateRange.All   -> this
     }
