@@ -44,7 +44,7 @@ interface EventRepository {
 // ── Network-backed implementation (existing scraper feed) ─────────────────────
 
 private const val WORKER_URL   = "https://whats-happening-details.zeljkovic18.workers.dev"
-private const val EVENTS_URL   = "https://raw.githubusercontent.com/HackHoleSun/whats-happening/master/scraper/events.json"
+private const val EVENTS_URL   = "https://raw.githubusercontent.com/HackHoleSun/whats-happening/refs/heads/master/scraper/events.json"
 private const val CACHE_FILE   = "events_cache.json"
 private const val CACHE_TTL_HOURS = 24L
 
