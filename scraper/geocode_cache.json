@@ -130,5 +130,13 @@
   "tc-sad-novi-bazaar": {
     "lat": null,
     "lng": null
+  },
+  "galerija-prometej": {
+    "lat": null,
+    "lng": null
+  },
+  "muzej-vojvodine": {
+    "lat": 45.2564709,
+    "lng": 19.8514492
   }
 }
