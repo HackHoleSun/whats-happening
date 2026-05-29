@@ -65,7 +65,7 @@ class EventViewModel(
             events
                 .filter { matchesTab(it, tab) }
                 .filter { category == null || it.category == category }
-                .filter { range == null || (it.date >= range.start.toString() && it.date <= range.end.toString()) }
+                .filter { range == null || (it.date != null && it.date >= range.start.toString() && it.date <= range.end.toString()) }
                 .filter { query.isBlank() || it.title.contains(query, ignoreCase = true) }
         }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 
