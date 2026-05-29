@@ -1,6 +1,5 @@
 package com.whatshappening.novisad.ui.components
 
-import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
@@ -34,7 +33,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
@@ -72,21 +70,8 @@ fun EventCard(
     density: CardDensity = CardDensity.Comfy,
 ) {
     val palette   = LocalCatppuccin.current
-    val darkTheme = LocalCatppuccin.current == MochaPalette
+    val darkTheme = palette == MochaPalette
     val accent    = MaterialTheme.colorScheme.primary
-
-    // Shadow colours that follow the theme (matches prototype spec)
-    val shadowAmbient = if (darkTheme) Color.White.copy(0.04f) else palette.text.copy(0.04f)
-    val shadowSpot    = if (darkTheme) Color.Black.copy(0.6f)  else palette.text.copy(0.35f)
-
-    // Card press interaction → animate shadow elevation
-    val interactionSource = remember { MutableInteractionSource() }
-    val isPressed         by interactionSource.collectIsPressedAsState()
-    val shadowElevation   by animateDpAsState(
-        targetValue    = if (isPressed) 16.dp else 8.dp,
-        animationSpec  = tween(180),
-        label          = "cardShadow",
-    )
 
     // Save button press → scale-down feedback
     val saveInteraction = remember { MutableInteractionSource() }
@@ -105,20 +90,11 @@ fun EventCard(
         MaterialTheme.typography.headlineMedium
 
     Card(
-        onClick           = onClick,
-        modifier          = modifier
-            .fillMaxWidth()
-            .shadow(
-                elevation     = shadowElevation,
-                shape         = MaterialTheme.shapes.large,
-                clip          = false,
-                ambientColor  = shadowAmbient,
-                spotColor     = shadowSpot,
-            ),
-        shape             = MaterialTheme.shapes.large,
-        colors            = CardDefaults.cardColors(containerColor = palette.mantle),
-        elevation         = CardDefaults.cardElevation(defaultElevation = 0.dp),
-        interactionSource = interactionSource,
+        onClick   = onClick,
+        modifier  = modifier.fillMaxWidth(),
+        shape     = MaterialTheme.shapes.large,
+        colors    = CardDefaults.cardColors(containerColor = palette.mantle),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
     ) {
         // ── Hero ──────────────────────────────────────────────────────────────
         Box {

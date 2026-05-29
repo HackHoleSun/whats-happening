@@ -64,9 +64,8 @@ class HomeViewModel(
     val initialLoading: StateFlow<Boolean> = _initialLoading
 
     init {
-        // Flip loading off as soon as any events come through the repository
         viewModelScope.launch {
-            repo.observeEvents().first { it.isNotEmpty() }
+            repo.observeLoadAttempted().first { it }
             _initialLoading.value = false
         }
     }
