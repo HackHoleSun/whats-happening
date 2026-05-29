@@ -200,7 +200,7 @@ fun HomeRoute(
         HomeSheet.Date -> DateSheet(
             initialDateFrom = filterDraft.dateFrom,
             initialDateTo   = filterDraft.dateTo,
-            eventDates      = events.map { it.date }.toSet(),
+            eventDates      = events.mapNotNull { it.date }.toSet(),
             onPick = { from, to ->
                 // Update draft with the picked range then return to FilterSheet
                 filterDraft = filterDraft.copy(

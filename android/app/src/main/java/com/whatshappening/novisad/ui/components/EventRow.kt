@@ -117,12 +117,14 @@ fun EventRow(
                     verticalAlignment    = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(6.dp),
                 ) {
-                    Text(
-                        text  = formatDate(event.date),
-                        style = MaterialTheme.typography.bodySmall,
-                        color = palette.subtext0,
-                    )
-                    Dot(palette.surface2)
+                    if (event.date != null) {
+                        Text(
+                            text  = formatDate(event.date),
+                            style = MaterialTheme.typography.bodySmall,
+                            color = palette.subtext0,
+                        )
+                        Dot(palette.surface2)
+                    }
                     Text(
                         text  = formatTime(event.startTime),
                         style = MaterialTheme.typography.bodySmall,

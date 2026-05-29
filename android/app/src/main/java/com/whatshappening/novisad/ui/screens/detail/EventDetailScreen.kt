@@ -164,7 +164,7 @@ fun EventDetailScreen(
                 .fillMaxWidth()
                 .height(380.dp)
         ) {
-            if (livePhotoUrl == null) {
+            if (livePhotoUrl == null && event.date != null) {
                 Text(
                     text  = "%02d".format(event.date.dayOfMonth),
                     style = TextStyle(
@@ -334,17 +334,17 @@ private fun DragHandle() {
  */
 @Composable
 private fun MetaTilesRow(event: Event) {
-    val dateLabel  = formatDayOfWeek(event.date).uppercase()
-    val dateValue  = event.date.format(DateTimeFormatter.ofPattern("d LLLL"))
-    val timeValue  = formatTimeRange(event.startTime, event.endTime)
+    val timeValue = formatTimeRange(event.startTime, event.endTime)
 
     Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-        MetaTile(
-            icon     = Icons.Outlined.CalendarMonth,
-            label    = dateLabel,
-            value    = dateValue,
-            modifier = Modifier.weight(1f),
-        )
+        if (event.date != null) {
+            MetaTile(
+                icon     = Icons.Outlined.CalendarMonth,
+                label    = formatDayOfWeek(event.date).uppercase(),
+                value    = event.date.format(DateTimeFormatter.ofPattern("d LLLL")),
+                modifier = Modifier.weight(1f),
+            )
+        }
         MetaTile(
             icon     = Icons.Outlined.Schedule,
             label    = "VREME",

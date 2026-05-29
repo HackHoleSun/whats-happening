@@ -75,7 +75,7 @@ class RemoteEventRepository(
 private val timeFormatter = DateTimeFormatter.ofPattern("H:mm")
 
 private fun ScrapedEvent.toDomain(): Event? {
-    val date      = runCatching { LocalDate.parse(this.date) }.getOrNull() ?: return null
+    val date      = this.date?.let { runCatching { LocalDate.parse(it) }.getOrNull() }
     val startTime = runCatching { LocalTime.parse(this.time ?: "0:00", timeFormatter) }
                         .getOrDefault(LocalTime.MIDNIGHT)
     return Event(

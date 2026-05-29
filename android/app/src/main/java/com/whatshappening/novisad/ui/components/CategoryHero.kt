@@ -51,7 +51,7 @@ import java.time.LocalDate
 @Composable
 fun CategoryHero(
     category: EventCategory,
-    date: LocalDate,
+    date: LocalDate?,
     modifier: Modifier = Modifier,
     photoUrl: String? = null,
     cornerRadius: Dp = 0.dp,
@@ -99,7 +99,7 @@ fun CategoryHero(
         )
 
         // Giant faded date numeral — hidden when a photo is present
-        if (showDateNumeral && photoUrl == null) {
+        if (showDateNumeral && photoUrl == null && date != null) {
             Text(
                 text  = "%02d".format(date.dayOfMonth),
                 style = TextStyle(

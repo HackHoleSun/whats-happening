@@ -479,7 +479,7 @@ private fun DateSheetPreviewLight() {
             initialDateTo   = MOCK_TODAY.plusDays(4),
             onPick = { _, _ -> },
             onDismiss = {},
-            eventDates = MOCK_EVENTS.map { it.date }.toSet(),
+            eventDates = MOCK_EVENTS.mapNotNull { it.date }.toSet(),
         )
     }
 }
@@ -497,7 +497,7 @@ private fun DateSheetPreviewDark() {
             initialDateTo   = null,
             onPick = { _, _ -> },
             onDismiss = {},
-            eventDates = MOCK_EVENTS.map { it.date }.toSet(),
+            eventDates = MOCK_EVENTS.mapNotNull { it.date }.toSet(),
         )
     }
 }

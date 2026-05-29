@@ -56,16 +56,17 @@ fun openMapsNavigation(context: Context, event: Event) {
  * is intentional for late-night events and the OS lets the user adjust).
  */
 fun addEventToCalendar(context: Context, event: Event) {
+    val date = event.date ?: return
     val zone = ZoneId.systemDefault()
 
-    val startMs = LocalDateTime.of(event.date, event.startTime)
+    val startMs = LocalDateTime.of(date, event.startTime)
         .atZone(zone)
         .toInstant()
         .toEpochMilli()
 
     // End time may be on the next day (e.g. a midnight-to-4am club night).
     // We keep the same date for simplicity; the user can adjust in the calendar UI.
-    val endMs = LocalDateTime.of(event.date, event.endTime)
+    val endMs = LocalDateTime.of(date, event.endTime)
         .atZone(zone)
         .toInstant()
         .toEpochMilli()

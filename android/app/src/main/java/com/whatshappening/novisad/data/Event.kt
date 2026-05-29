@@ -11,7 +11,7 @@ data class Event(
     val id: String,
     val title: String,
     val category: EventCategory,
-    val date: LocalDate,
+    val date: LocalDate? = null,
     val startTime: LocalTime,
     val endTime: LocalTime,
     val location: String,
