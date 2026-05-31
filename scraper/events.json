@@ -1,198 +1,6 @@
 {
-  "scraped_at": "2026-05-30T08:32:44Z",
+  "scraped_at": "2026-05-31T08:51:37Z",
   "events": [
-    {
-      "id": "19-novosadski-ikar",
-      "title": "19. Međunarodno maketarsko takmičenje NOVOSADSKI IKAR",
-      "category": "Festival",
-      "date": null,
-      "time": "09:00",
-      "location": "Omladinski klub - OPENS",
-      "url": "https://www.mojnovisad.com/navigator/19-novosadski-ikar/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/643417794_1275870831307426_8724498209539777019_n-300x203.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "globalni-photowalk-susret",
-      "title": "GLOBALNI PHOTOWALK SUSRET",
-      "category": "Radionica",
-      "date": null,
-      "time": "09:30",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/globalni-photowalk-susret/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/542390414_122137429310858755_294641349357752431_n-300x169.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "kako-je-otkriveno-letenje",
-      "title": "Kako je otkriveno letenje",
-      "category": "Predstava",
-      "date": null,
-      "time": "11:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/kako-je-otkriveno-letenje/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/kako-je-otkriveno-letenje-300x200.jpg",
-      "lat": 45.2552685,
-      "lng": 19.8488543
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-subotu-7",
-      "title": "Arena Cineplex – repertoar za subotu",
-      "category": "Film",
-      "date": null,
-      "time": "11:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-subotu-7/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/arena-cineplex-20-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-subotu-8",
-      "title": "Cineplexx Novi Sad – repertoar za subotu",
-      "category": "Film",
-      "date": null,
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-8/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Billie-Eilish-1080x1920px-cnplxx-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "gin-i-cheese-fest",
-      "title": "Gin i Cheese fest",
-      "category": "Festival",
-      "date": null,
-      "time": "16:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/gin-i-cheese-fest/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/gin-i-sir-820-300x213.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "bitislobodanfest-dobra-energija-menja-svet",
-      "title": "BitiSlobodanFest – Dobra energija menja svet!",
-      "category": "Festival",
-      "date": null,
-      "time": "16:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/bitislobodanfest-dobra-energija-menja-svet/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/691620552_122100799407306690_5930117868254982506_n-216x300.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "vece-snaga-glume-u-cast-nebojse-glogovca-u-novom-sadu",
-      "title": "Veče „Snaga glume – u čast Nebojše Glogovca“ u Novom Sadu",
-      "category": "Predavanje",
-      "date": null,
-      "time": "19:00",
-      "location": "SKCNS nova zgrada",
-      "url": "https://www.mojnovisad.com/navigator/vece-snaga-glume-u-cast-nebojse-glogovca-u-novom-sadu/",
-      "image_url": "https://placehold.co/1200x600?text=No+Image&font=roboto",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "autorizacija-4",
-      "title": "Autorizacija",
-      "category": "Predstava",
-      "date": null,
-      "time": "20:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/autorizacija-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/Autorizacija_plakat-1-300x218.png",
-      "lat": 45.2552685,
-      "lng": 19.8488543
-    },
-    {
-      "id": "alter-echo-festival",
-      "title": "Alter Echo Festival",
-      "category": "Koncert",
-      "date": null,
-      "time": "20:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/alter-echo-festival/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/672680472_1629393065507488_1288925396355578421_n-810x456-1-300x169.jpg",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
-    {
-      "id": "sve-dok-govorimo-o-ljubavi-3",
-      "title": "Sve dok govorimo o ljubavi",
-      "category": "Predstava",
-      "date": null,
-      "time": "20:00",
-      "location": "Akademija umetnosti Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/sve-dok-govorimo-o-ljubavi-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/o_ljubavi_820-300x191.jpg",
-      "lat": 45.2586774,
-      "lng": 19.8437659
-    },
-    {
-      "id": "jugoslovenka",
-      "title": "Jugoslovenka",
-      "category": "Noćni provod",
-      "date": null,
-      "time": "20:00",
-      "location": "Štrand",
-      "url": "https://www.mojnovisad.com/navigator/jugoslovenka/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/jug-820-300x197.jpg",
-      "lat": 45.2363112,
-      "lng": 19.8465411
-    },
-    {
-      "id": "treci-koncert-rnr-prakse-grozota-trofobioz-i-metal-gate",
-      "title": "Treći koncert R’n’R Prakse: Grozota, Trofobioz i Metal Gate",
-      "category": "Koncert",
-      "date": null,
-      "time": "20:00",
-      "location": "SKCNS Fabrika",
-      "url": "https://www.mojnovisad.com/navigator/treci-koncert-rnr-prakse-grozota-trofobioz-i-metal-gate/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/RNR-praksa-3-300x169.jpg",
-      "lat": 45.2375526,
-      "lng": 19.8421486
-    },
-    {
-      "id": "revija-novosadskih-horova",
-      "title": "Revija novosadskih horova",
-      "category": "Koncert",
-      "date": null,
-      "time": "20:00",
-      "location": "Novosadska sinagoga",
-      "url": "https://www.mojnovisad.com/navigator/revija-novosadskih-horova/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Revijalni-koncert-novosadskih-horova-30.05.2026-199x300.jpg",
-      "lat": 45.2530606,
-      "lng": 19.840798
-    },
-    {
-      "id": "bajaga-i-instruktori",
-      "title": "Bajaga i Instruktori",
-      "category": "Koncert",
-      "date": null,
-      "time": "21:00",
-      "location": "SPENS - Sportski i poslovni centar Vojvodina",
-      "url": "https://www.mojnovisad.com/navigator/bajaga-i-instruktori/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/58975-bajaga-820-300x114.jpg",
-      "lat": 45.2471273,
-      "lng": 19.8454852
-    },
-    {
-      "id": "sunshine",
-      "title": "Sunshine",
-      "category": "Koncert",
-      "date": null,
-      "time": "21:00",
-      "location": "The Pub",
-      "url": "https://www.mojnovisad.com/navigator/sunshine/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/shine_820-300x185.jpg",
-      "lat": 45.255259,
-      "lng": 19.8490275
-    },
     {
       "id": "9-sajam-automobilcica-i-6-novosadska-auto-klasik-smotra",
       "title": "9. SAJAM AUTOMOBILČIĆA I 6. NOVOSADSKA AUTO KLASIK SMOTRA",
@@ -542,6 +350,18 @@
       "lng": 19.8430384
     },
     {
+      "id": "posle-milijon-godina-4",
+      "title": "Posle milijon godina",
+      "category": "Predstava",
+      "date": null,
+      "time": "19:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/posle-milijon-godina-4/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Posle-milijon-godina-snp-300x200.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
       "id": "deca-losih-muzicara-2",
       "title": "Deca loših muzičara",
       "category": "Koncert",
@@ -562,6 +382,42 @@
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/vragolanka-2/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/vragolanka-snp-300x200.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "arsenik-i-stare-cipke-2",
+      "title": "Arsenik i stare čipke",
+      "category": "Predstava",
+      "date": null,
+      "time": "19:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/arsenik-i-stare-cipke-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Arsenik-i-stare-cipke-300x200.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "novi-sad-vs-beograd-3",
+      "title": "Novi Sad vs. Beograd",
+      "category": "Predstava",
+      "date": null,
+      "time": "20:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/novi-sad-vs-beograd-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/novi-sad-vs-beograd-300x200.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "koncert-sonjinog-ansambla-narodnih-igara-i-pesama",
+      "title": "Koncert Sonjinog ansambla narodnih igara i pesama",
+      "category": "Koncert",
+      "date": null,
+      "time": "19:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/koncert-sonjinog-ansambla-narodnih-igara-i-pesama/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/1780046439plakat-212x300.jpg",
       "lat": 45.2553613,
       "lng": 19.8430384
     },
@@ -614,6 +470,18 @@
       "lng": 19.8415872
     },
     {
+      "id": "od-malih-snova-do-velikog-plesa-ponedeljak-08-jun-2026-u-2000-scena",
+      "title": "Od malih snova do velikog plesa",
+      "category": "Koncert",
+      "date": null,
+      "time": "20:00",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/od-malih-snova-do-velikog-plesa-ponedeljak-08-jun-2026-u-2000-scena/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/1779954165plakat-211x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
       "id": "medeja",
       "title": "Medeja",
       "category": "Predstava",
@@ -622,6 +490,18 @@
       "location": "Srpsko narodno pozorište",
       "url": "https://www.mojnovisad.com/navigator/medeja/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/1772197277plakat-300x196.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "sovinisticka-farsa",
+      "title": "Šovinistička farsa",
+      "category": "Predstava",
+      "date": null,
+      "time": "20:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/sovinisticka-farsa/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/plakat-FARSA-web-200x300.jpg",
       "lat": 45.2553613,
       "lng": 19.8430384
     },
@@ -660,6 +540,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/660354070_1390789069747637_801059724153077110_n-300x158.jpg",
       "lat": 45.2515421,
       "lng": 19.8630972
+    },
+    {
+      "id": "posle-milijon-godina-5",
+      "title": "Posle milijon godina",
+      "category": "Predstava",
+      "date": null,
+      "time": "19:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/posle-milijon-godina-5/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Posle-milijon-godina-snp-300x200.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
     },
     {
       "id": "drz-ne-daj-5",
