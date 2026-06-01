@@ -1,90 +1,6 @@
 {
-  "scraped_at": "2026-05-31T08:51:37Z",
+  "scraped_at": "2026-06-01T11:43:16Z",
   "events": [
-    {
-      "id": "9-sajam-automobilcica-i-6-novosadska-auto-klasik-smotra",
-      "title": "9. SAJAM AUTOMOBILČIĆA I 6. NOVOSADSKA AUTO KLASIK SMOTRA",
-      "category": "Izložba",
-      "date": null,
-      "time": "10:30",
-      "location": "SPENS – Sportski i poslovni centar Vojvodina",
-      "url": "https://www.mojnovisad.com/navigator/9-sajam-automobilcica-i-6-novosadska-auto-klasik-smotra/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/9_sajam_autica_2026_IG-02-240x300.jpg",
-      "lat": 45.2471273,
-      "lng": 19.8454852
-    },
-    {
-      "id": "kos-i-lisica-3",
-      "title": "Kos i lisica",
-      "category": "Predstava",
-      "date": null,
-      "time": "11:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/kos-i-lisica-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/kos-i-lisica-pozml-300x200.jpg",
-      "lat": 45.2552685,
-      "lng": 19.8488543
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-nedelju-7",
-      "title": "Arena Cineplex – repertoar za nedelju",
-      "category": "Film",
-      "date": null,
-      "time": "11:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-7/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/arena-cineplex-21-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-nedelju-7",
-      "title": "Cineplexx Novi Sad – repertoar za nedelju",
-      "category": "Film",
-      "date": null,
-      "time": "12:30",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-7/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/1080X1920_BACKROOMS_cxx_D_SRB-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "12-svirki-za-12-zivota-4-humanitarna-svirka-za-petra-alvirovica",
-      "title": "12 SVIRKI ZA 12 ŽIVOTA: 4. HUMANITARNA SVIRKA ZA PETRA ALVIROVIĆA",
-      "category": "Koncert",
-      "date": null,
-      "time": "17:30",
-      "location": "Štrand",
-      "url": "https://www.mojnovisad.com/navigator/12-svirki-za-12-zivota-4-humanitarna-svirka-za-petra-alvirovica/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/poster-2-300x183.jpeg",
-      "lat": 45.2363112,
-      "lng": 19.8465411
-    },
-    {
-      "id": "71-sterijino-pozorje-sine",
-      "title": "71. Sterijino pozorje – Šine",
-      "category": "Predstava",
-      "date": null,
-      "time": "18:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/71-sterijino-pozorje-sine/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/Sine_2026_001-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "stand-up-show-andrije-dabanovica-nezavisan",
-      "title": "Stand up show Andrije Dabanovića “Nezavisan”",
-      "category": "Predstava",
-      "date": null,
-      "time": "20:00",
-      "location": "Radnički dom \"Svetozar marković\"",
-      "url": "https://www.mojnovisad.com/navigator/stand-up-show-andrije-dabanovica-nezavisan/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/nezavisan-820-1-300x184.jpg",
-      "lat": null,
-      "lng": null
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-8",
       "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
@@ -142,6 +58,30 @@
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/tribina-ulica-pap-pavla-i-identitet-novog-novog-sada/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/0-300x300.jpeg",
+      "lat": 45.26553,
+      "lng": 19.8293059
+    },
+    {
+      "id": "otvaranje-izlozbe-16000-kilometra",
+      "title": "Otvaranje izložbe “16000 kilometra”",
+      "category": "Izložba",
+      "date": null,
+      "time": "20:00",
+      "location": "Svilara - kulturna stanica",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-16000-kilometra/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/1000102720-169x300.jpg",
+      "lat": 45.2625631,
+      "lng": 19.8496524
+    },
+    {
+      "id": "69-junski-programi-zmajevih-decjih-igara-2",
+      "title": "69. Junski programi zmajevih dečjih igara",
+      "category": "Festival",
+      "date": null,
+      "time": "09:30",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/69-junski-programi-zmajevih-decjih-igara-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Plakat-Junski-programi_2026_50x70-214x300.jpg",
       "lat": 45.26553,
       "lng": 19.8293059
     },
@@ -350,6 +290,18 @@
       "lng": 19.8430384
     },
     {
+      "id": "%d0%bf%d1%81%d0%b8%d1%85%d0%be%d0%bb%d0%be%d1%88%d0%ba%d0%be-%d0%be%d0%ba%d1%83%d0%bf%d1%99%d0%b0%d1%9a%d0%b5-%d0%b8%d0%b7%d0%b3%d1%83%d0%b1%d1%99%d0%b5%d0%bd-%d1%84%d0%be%d0%ba%d1%83%d1%81",
+      "title": "Психолошко окупљање – ,,Изгубљен фокус”",
+      "category": "Radionica",
+      "date": null,
+      "time": "19:00",
+      "location": "Novosadski omladinski prostor (NOF)",
+      "url": "https://www.mojnovisad.com/navigator/%d0%bf%d1%81%d0%b8%d1%85%d0%be%d0%bb%d0%be%d1%88%d0%ba%d0%be-%d0%be%d0%ba%d1%83%d0%bf%d1%99%d0%b0%d1%9a%d0%b5-%d0%b8%d0%b7%d0%b3%d1%83%d0%b1%d1%99%d0%b5%d0%bd-%d1%84%d0%be%d0%ba%d1%83%d1%81/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Radionica-Jun_02-239x300.png",
+      "lat": null,
+      "lng": null
+    },
+    {
       "id": "posle-milijon-godina-4",
       "title": "Posle milijon godina",
       "category": "Predstava",
@@ -506,6 +458,42 @@
       "lng": 19.8430384
     },
     {
+      "id": "arte-dance-putovanje-kroz-vreme",
+      "title": "“Arte dance” – putovanje kroz vreme",
+      "category": "Koncert",
+      "date": null,
+      "time": "18:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/arte-dance-putovanje-kroz-vreme/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1779351894plakat-212x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "contra-mundum-53-infant-glavni-program",
+      "title": "Contra Mundum (53. INFANT – Glavni program)",
+      "category": "Predstava",
+      "date": null,
+      "time": "19:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/contra-mundum-53-infant-glavni-program/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/contra-mundum-6-photo-by-Dusko-Miljanic-300x240.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "bogojavljenje-53-infant-glavni-program",
+      "title": "Bogojavljenje (53. INFANT – Glavni program)",
+      "category": "Predstava",
+      "date": null,
+      "time": "19:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/bogojavljenje-53-infant-glavni-program/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1761646355plakat-214x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
       "id": "ljubinko-i-desanka",
       "title": "Ljubinko i Desanka",
       "category": "Predstava",
@@ -518,6 +506,18 @@
       "lng": 19.8412391
     },
     {
+      "id": "romansa-53-infant-glavni-program",
+      "title": "Romansa (53. INFANT – Glavni program)",
+      "category": "Predstava",
+      "date": null,
+      "time": "20:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/romansa-53-infant-glavni-program/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/romantika_ea_horvathjudit_net-1121-300x179.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
       "id": "boris-rezak-2",
       "title": "Boris Režak",
       "category": "Koncert",
@@ -528,6 +528,30 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/rezak-820-300x189.jpg",
       "lat": null,
       "lng": null
+    },
+    {
+      "id": "negde-izvan-planeta-53-infant-glavni-program",
+      "title": "Negde izvan planeta (53. INFANT – Glavni program)",
+      "category": "Predstava",
+      "date": null,
+      "time": "19:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/negde-izvan-planeta-53-infant-glavni-program/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Negde-izvan-planeta-Linea-Recta-3-300x240.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "idiot-skidanje-sa-krsta-53-infant-glavni-program",
+      "title": "Idiot: skidanje sa krsta (53. INFANT – Glavni program)",
+      "category": "Predstava",
+      "date": null,
+      "time": "20:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/idiot-skidanje-sa-krsta-53-infant-glavni-program/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/image6-1536x1024-1-300x200.jpeg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
     },
     {
       "id": "music-reactions-outdoor-rave",
@@ -554,6 +578,102 @@
       "lng": 19.8430384
     },
     {
+      "id": "cvrcak-i-mrav",
+      "title": "Cvrčak i mrav",
+      "category": "Predstava",
+      "date": null,
+      "time": "10:00",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/cvrcak-i-mrav/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/CVRCAK-I-MRAV-SNP-jun-2025-18-300x169.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "cvrcak-i-mrav-2",
+      "title": "Cvrčak i mrav",
+      "category": "Predstava",
+      "date": null,
+      "time": "11:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/cvrcak-i-mrav-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/CVRCAK-I-MRAV-SNP-jun-2025-58-300x169.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "adi-sose",
+      "title": "Adi Šoše",
+      "category": "Koncert",
+      "date": null,
+      "time": "20:00",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/adi-sose/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1737975422foto-224x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "godisnja-predstava-baletskog-studija-ludens-more-ljubavi",
+      "title": "Godišnja predstava baletskog studija Ludens “More ljubavi”",
+      "category": "Koncert",
+      "date": null,
+      "time": "19:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/godisnja-predstava-baletskog-studija-ludens-more-ljubavi/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1776417491plakat-215x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "pokondirena-tikva-premijera",
+      "title": "Pokondirena tikva – Premijera",
+      "category": "Predstava",
+      "date": null,
+      "time": "20:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/pokondirena-tikva-premijera/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1778668236snp-talija-196x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "podigni-glavu",
+      "title": "Podigni glavu",
+      "category": "Predstava",
+      "date": null,
+      "time": "14:00",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/podigni-glavu/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1777890206plakat-210x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "podigni-glavu-2",
+      "title": "Podigni glavu",
+      "category": "Predstava",
+      "date": null,
+      "time": "17:00",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/podigni-glavu-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1777890206plakat-210x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "podigni-glavu-3",
+      "title": "Podigni glavu",
+      "category": "Predstava",
+      "date": null,
+      "time": "19:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/podigni-glavu-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1777890206plakat-210x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
       "id": "drz-ne-daj-5",
       "title": "Drž’ ne daj",
       "category": "Predstava",
@@ -564,6 +684,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/DRZ-NE-DAJ-820x312-1-300x114.jpg",
       "lat": null,
       "lng": null
+    },
+    {
+      "id": "pokondirena-tikva",
+      "title": "Pokondirena tikva",
+      "category": "Predstava",
+      "date": null,
+      "time": "20:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/pokondirena-tikva/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1778668236snp-talija-196x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
     },
     {
       "id": "the-jungle-festival",
