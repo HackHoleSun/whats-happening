@@ -4,6 +4,7 @@ import time
 from datetime import datetime, timezone, date
 from pathlib import Path
 
+import cloudscraper
 import httpx
 from bs4 import BeautifulSoup
 
@@ -145,7 +146,8 @@ HEADERS = {
 
 
 def scrape(cache: dict) -> list[dict]:
-    resp = httpx.get(URL, headers=HEADERS, follow_redirects=True, timeout=30)
+    session = cloudscraper.create_scraper()
+    resp = session.get(URL, headers=HEADERS, timeout=30)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "lxml")
 
