@@ -150,5 +150,21 @@
   "svilara-kulturna-stanica": {
     "lat": 45.2625631,
     "lng": 19.8496524
+  },
+  "klub-advokata-vojvodine": {
+    "lat": null,
+    "lng": null
+  },
+  "radio-cafe": {
+    "lat": 45.2576943,
+    "lng": 19.8431025
+  },
+  "galerija-matice-srpske": {
+    "lat": 45.2525077,
+    "lng": 19.8457366
+  },
+  "borisov-atelje": {
+    "lat": null,
+    "lng": null
   }
 }
