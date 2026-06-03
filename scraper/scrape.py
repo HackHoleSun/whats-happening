@@ -138,8 +138,14 @@ def parse_card(card, current_date: str | None, cache: dict) -> dict | None:
     }
 
 
+HEADERS = {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0",
+}
+
+
 def scrape(cache: dict) -> list[dict]:
-    resp = httpx.get(URL, follow_redirects=True, timeout=30)
+    resp = httpx.get(URL, headers=HEADERS, follow_redirects=True, timeout=30)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "lxml")
 
