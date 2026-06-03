@@ -4,9 +4,9 @@ import time
 from datetime import datetime, timezone, date
 from pathlib import Path
 
-import cloudscraper
 import httpx
 from bs4 import BeautifulSoup
+from curl_cffi import requests as cf_requests
 
 URL = "https://www.mojnovisad.com/desavanja"
 OUTPUT = Path(__file__).parent / "events.json"
@@ -146,8 +146,7 @@ HEADERS = {
 
 
 def scrape(cache: dict) -> list[dict]:
-    session = cloudscraper.create_scraper()
-    resp = session.get(URL, headers=HEADERS, timeout=30)
+    resp = cf_requests.get(URL, headers=HEADERS, impersonate="chrome", timeout=30)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "lxml")
 
