@@ -149,10 +149,16 @@ def scrape(cache: dict) -> list[dict]:
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "lxml")
 
+    wrappers = soup.select("div.date-wrapper")
+    if not wrappers:
+        # Likely blocked by bot protection — print a snippet to help diagnose
+        print(f"[WARN] No date-wrapper elements found. Response snippet:\n{resp.text[:500]}")
+        raise RuntimeError("No events found — page structure may have changed or request was blocked")
+
     events = []
     seen_ids: set = set()
 
-    for wrapper in soup.select("div.date-wrapper"):
+    for wrapper in wrappers:
         header = wrapper.select_one("div.date-separator h2, div.date-separator h3")
         current_date = parse_date(header.get_text(strip=True)) if header else None
 
