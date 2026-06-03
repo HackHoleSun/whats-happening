@@ -153,7 +153,7 @@ def scrape(cache: dict) -> list[dict]:
     seen_ids: set = set()
 
     for wrapper in soup.select("div.date-wrapper"):
-        header = wrapper.find("h5")
+        header = wrapper.select_one("div.date-separator h2, div.date-separator h3")
         current_date = parse_date(header.get_text(strip=True)) if header else None
 
         for card in wrapper.select("div.events-main__single-card"):
