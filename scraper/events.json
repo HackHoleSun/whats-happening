@@ -1,114 +1,6 @@
 {
-  "scraped_at": "2026-06-03T19:17:11Z",
+  "scraped_at": "2026-06-04T10:01:46Z",
   "events": [
-    {
-      "id": "mali-princ-zdi",
-      "title": "Mali princ – ZDI",
-      "category": "Predstava",
-      "date": "2026-06-03",
-      "time": "12:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/mali-princ-zdi/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1780055125Plakat_Junski_programi_2026_1080x1920_2-169x300.jpg",
-      "lat": 45.2552685,
-      "lng": 19.8488543
-    },
-    {
-      "id": "necu-da-odrastem-zdi",
-      "title": "Neću da odrastem – ZDI",
-      "category": "Predstava",
-      "date": "2026-06-03",
-      "time": "14:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/necu-da-odrastem-zdi/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1780055125Plakat_Junski_programi_2026_1080x1920_2-169x300.jpg",
-      "lat": 45.2552685,
-      "lng": 19.8488543
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-sreda",
-      "title": "Cineplexx Novi Sad – repertoar za sredu",
-      "category": "Film",
-      "date": "2026-06-03",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-sreda/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/All-You-Need-is-Kill-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-sredu-8",
-      "title": "Arena Cineplex – repertoar za sredu",
-      "category": "Film",
-      "date": "2026-06-03",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-8/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/arena-cineplex-19-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "jezeva-kucica-zdi",
-      "title": "Ježeva kućica – ZDI",
-      "category": "Predstava",
-      "date": "2026-06-03",
-      "time": "16:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/jezeva-kucica-zdi/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1780055125Plakat_Junski_programi_2026_1080x1920_2-169x300.jpg",
-      "lat": 45.2552685,
-      "lng": 19.8488543
-    },
-    {
-      "id": "conversation-club-with-anna-7",
-      "title": "Conversation Club with Anna",
-      "category": "Radionica",
-      "date": "2026-06-03",
-      "time": "18:30",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/conversation-club-with-anna-7/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/unnamed-5-1-240x300.jpg",
-      "lat": 45.2531419,
-      "lng": 19.855133
-    },
-    {
-      "id": "ivica-i-marica-3",
-      "title": "Koncert kamernog ansambla “Chamber Souls”",
-      "category": "Koncert",
-      "date": "2026-06-03",
-      "time": "20:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/ivica-i-marica-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Clanovi-kamernog-trija-Chamber-Souls-300x200.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "chamber-soul",
-      "title": "Chamber Soul",
-      "category": "Koncert",
-      "date": "2026-06-03",
-      "time": "20:00",
-      "location": "Klub advokata Vojvodine",
-      "url": "https://www.mojnovisad.com/navigator/chamber-soul/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1000003864-138x300.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "c-a-r-fliesgewasser",
-      "title": "C.A.R. + Fließgewässer",
-      "category": "Koncert",
-      "date": "2026-06-03",
-      "time": "20:30",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/c-a-r-fliesgewasser/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/car-240x300.jpg",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-cetvrtak-5",
       "title": "Cineplexx Novi Sad – repertoar za četvrtak",
@@ -362,6 +254,18 @@
       "lng": 19.8421486
     },
     {
+      "id": "arena-cineplex-repertoar-za-subotu-8",
+      "title": "Arena Cineplex – repertoar za subotu",
+      "category": "Film",
+      "date": "2026-06-06",
+      "time": "10:30",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-subotu-8/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
       "id": "ksenija-i-lovac-4",
       "title": "Ksenija i lovac",
       "category": "Predstava",
@@ -492,6 +396,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Култура-на-рецепт-1-300x117.jpg",
       "lat": 45.2525077,
       "lng": 19.8457366
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-nedelju-8",
+      "title": "Arena Cineplex – repertoar za nedelju",
+      "category": "Film",
+      "date": "2026-06-07",
+      "time": "10:30",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-8/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
     },
     {
       "id": "crvenkapa-3",
@@ -626,6 +542,18 @@
       "lng": 19.842786
     },
     {
+      "id": "arena-cineplex-repertoar-za-ponedeljak-9",
+      "title": "Arena Cineplex – repertoar za ponedeljak",
+      "category": "Film",
+      "date": "2026-06-08",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-9/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
       "id": "gospoda-ajnstajn-predstava-u-okviru-53-infant-festivala",
       "title": "Gospođa Ajnštajn – predstava u okviru 53. Infant festivala",
       "category": "Predstava",
@@ -662,6 +590,18 @@
       "lng": 19.842786
     },
     {
+      "id": "arena-cineplex-repertoar-za-utorak-9",
+      "title": "Arena Cineplex – repertoar za utorak",
+      "category": "Film",
+      "date": "2026-06-09",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-9/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
       "id": "medeja",
       "title": "Medeja",
       "category": "Predstava",
@@ -687,7 +627,7 @@
     },
     {
       "id": "cineplexx-novi-sad-repertoar-za-sreda-2",
-      "title": "Cineplexx Novi Sad – repertoar za sreda",
+      "title": "Cineplexx Novi Sad – repertoar za sredu",
       "category": "Film",
       "date": "2026-06-10",
       "time": "15:00",
@@ -696,6 +636,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Broken-English-1080-x-1920-169x300.jpg",
       "lat": 45.245598,
       "lng": 19.842786
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-sredu-9",
+      "title": "Arena Cineplex – repertoar za sredu",
+      "category": "Film",
+      "date": "2026-06-10",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-9/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
     },
     {
       "id": "arte-dance-putovanje-kroz-vreme",
@@ -960,6 +912,54 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1777890206plakat-210x300.jpg",
       "lat": 45.2553613,
       "lng": 19.8430384
+    },
+    {
+      "id": "podigni-glavu-2",
+      "title": "Podigni glavu",
+      "category": "Predstava",
+      "date": "2026-06-16",
+      "time": "17:00",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/podigni-glavu-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1777890206plakat-210x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "bolero-i-karmen",
+      "title": "Bolero i Karmen",
+      "category": "Predstava",
+      "date": "2026-06-16",
+      "time": "19:00",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/bolero-i-karmen/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1717323048-carmen-bolero-213x300.jpeg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "podigni-glavu-3",
+      "title": "Podigni glavu",
+      "category": "Predstava",
+      "date": "2026-06-16",
+      "time": "19:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/podigni-glavu-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1777890206plakat-210x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "drz-ne-daj-5",
+      "title": "Drž’ ne daj",
+      "category": "Predstava",
+      "date": "2026-06-16",
+      "time": "20:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/drz-ne-daj-5/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/DRZ-NE-DAJ-820x312-1-300x114.jpg",
+      "lat": null,
+      "lng": null
     }
   ]
 }
