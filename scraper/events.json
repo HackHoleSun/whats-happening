@@ -1,114 +1,6 @@
 {
-  "scraped_at": "2026-06-05T09:59:31Z",
+  "scraped_at": "2026-06-06T08:38:51Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-petak-7",
-      "title": "Cineplexx Novi Sad – repertoar za petak",
-      "category": "Film",
-      "date": "2026-06-05",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-petak-7/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/TADC_Poster-2x3_EN_4-7JUN-200x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-petak-7",
-      "title": "Arena Cineplex – repertoar za petak",
-      "category": "Film",
-      "date": "2026-06-05",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-petak-7/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "neodustajanje-4",
-      "title": "Neodustajanje",
-      "category": "Predstava",
-      "date": "2026-06-05",
-      "time": "18:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/neodustajanje-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/neodustajanje-snp-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "globalna-edukacija-putem-filma-kultura-secanja-i-moralna-hrabrost",
-      "title": "Globalna edukacija putem filma: Kultura sećanja i moralna hrabrost",
-      "category": "Film",
-      "date": "2026-06-05",
-      "time": "18:30",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/globalna-edukacija-putem-filma-kultura-secanja-i-moralna-hrabrost/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-1-300x175.png",
-      "lat": 45.2531419,
-      "lng": 19.855133
-    },
-    {
-      "id": "vragolanka",
-      "title": "Vragolanka",
-      "category": "Predstava",
-      "date": "2026-06-05",
-      "time": "19:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/vragolanka/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/vragolanka-snp-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "%d0%bf%d1%81%d0%b8%d1%85%d0%be%d0%bb%d0%be%d1%88%d0%ba%d0%be-%d0%be%d0%ba%d1%83%d0%bf%d1%99%d0%b0%d1%9a%d0%b5-%d0%b8%d0%b7%d0%b3%d1%83%d0%b1%d1%99%d0%b5%d0%bd-%d1%84%d0%be%d0%ba%d1%83%d1%81",
-      "title": "Психолошко окупљање – ,,Изгубљен фокус”",
-      "category": "Radionica",
-      "date": "2026-06-05",
-      "time": "19:00",
-      "location": "Novosadski omladinski prostor (NOF)",
-      "url": "https://www.mojnovisad.com/navigator/%d0%bf%d1%81%d0%b8%d1%85%d0%be%d0%bb%d0%be%d1%88%d0%ba%d0%be-%d0%be%d0%ba%d1%83%d0%bf%d1%99%d0%b0%d1%9a%d0%b5-%d0%b8%d0%b7%d0%b3%d1%83%d0%b1%d1%99%d0%b5%d0%bd-%d1%84%d0%be%d0%ba%d1%83%d1%81/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Radionica-Jun_02-239x300.png",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "posle-milijon-godina-4",
-      "title": "Posle milijon godina",
-      "category": "Predstava",
-      "date": "2026-06-05",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/posle-milijon-godina-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Posle-milijon-godina-snp-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "reperi-mladi-vs-ajkula-i-da-nlo",
-      "title": "Reperi Mladi vs. Ajkula i Da NLO",
-      "category": "Koncert",
-      "date": "2026-06-05",
-      "time": "20:00",
-      "location": "Radio Cafe",
-      "url": "https://www.mojnovisad.com/navigator/reperi-mladi-vs-ajkula-i-da-nlo/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1-1-300x225.jpg",
-      "lat": 45.2576943,
-      "lng": 19.8431025
-    },
-    {
-      "id": "deca-losih-muzicara-2",
-      "title": "Deca loših muzičara",
-      "category": "Koncert",
-      "date": "2026-06-05",
-      "time": "21:00",
-      "location": "SKCNS Fabrika",
-      "url": "https://www.mojnovisad.com/navigator/deca-losih-muzicara-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/58976-deca-losih-820-300x185.jpg",
-      "lat": 45.2375526,
-      "lng": 19.8421486
-    },
     {
       "id": "arena-cineplex-repertoar-za-subotu-8",
       "title": "Arena Cineplex – repertoar za subotu",
@@ -482,6 +374,18 @@
       "lng": null
     },
     {
+      "id": "promocija-knjige-brend-ti-autor-dejan-pataki",
+      "title": "Promocija knjige: BREND TI, autor Dejan Pataki",
+      "category": "Knjiga",
+      "date": "2026-06-09",
+      "time": "19:00",
+      "location": "Club Reset",
+      "url": "https://www.mojnovisad.com/navigator/promocija-knjige-brend-ti-autor-dejan-pataki/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Promocija-knjige-BREND-TI-Autor-Dejan-Pataki-300x169.png",
+      "lat": 45.2088329,
+      "lng": 19.844756
+    },
+    {
       "id": "medeja",
       "title": "Medeja",
       "category": "Predstava",
@@ -622,6 +526,30 @@
       "location": "Nacionalna Klasa by Vojvodina",
       "url": "https://www.mojnovisad.com/navigator/boris-rezak-2/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/rezak-820-300x189.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "nema-ponosa-u-genocidu",
+      "title": "Nema ponosa u genocidu",
+      "category": "Film",
+      "date": "2026-06-11",
+      "time": "21:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/nema-ponosa-u-genocidu/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/NoPrideInGenocide-2026-sajt-1-300x288.png",
+      "lat": 45.258309,
+      "lng": 19.839698
+    },
+    {
+      "id": "pinokio",
+      "title": "Pinokio",
+      "category": "Film",
+      "date": "2026-06-12",
+      "time": "18:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/pinokio/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/12.06.-Pinokio-300x169.jpg",
       "lat": null,
       "lng": null
     },
@@ -960,6 +888,78 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/figarova-zenidba-snp-300x200.jpg",
       "lat": 45.2553613,
       "lng": 19.8430384
+    },
+    {
+      "id": "tri-zime",
+      "title": "Tri zime",
+      "category": "Predstava",
+      "date": "2026-06-23",
+      "time": "19:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/tri-zime/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1695808853plakat-230x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "koncert-grupe-kalem",
+      "title": "Koncert grupe Kalem",
+      "category": "Koncert",
+      "date": "2026-06-23",
+      "time": "20:00",
+      "location": "Club Reset",
+      "url": "https://www.mojnovisad.com/navigator/koncert-grupe-kalem/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/kalem-820-300x114.jpg",
+      "lat": 45.2088329,
+      "lng": 19.844756
+    },
+    {
+      "id": "podcast-uzivo-jesam-li-ovo-reko-ili-pomislio",
+      "title": "Podcast uživo „Jesam li ovo rek’o ili pomislio“",
+      "category": "Predstava",
+      "date": "2026-06-23",
+      "time": "20:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/podcast-uzivo-jesam-li-ovo-reko-ili-pomislio/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/jorip-820-1-300x114.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "ljudi-odozgo",
+      "title": "Ljudi odozgo",
+      "category": "Predstava",
+      "date": "2026-06-24",
+      "time": "20:00",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/ljudi-odozgo/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Body-17-300x210.png",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "ton-zlocina",
+      "title": "Ton zločina",
+      "category": "Film",
+      "date": "2026-06-25",
+      "time": "20:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/ton-zlocina/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Tuner-4x5-1-240x300.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "17-nocni-maraton",
+      "title": "17. Noćni maraton",
+      "category": "Sport",
+      "date": "2026-06-27",
+      "time": "20:00",
+      "location": "Kej Žrtava Racije",
+      "url": "https://www.mojnovisad.com/navigator/17-nocni-maraton/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/627978677_1485698093564069_7296520761835259257_n-300x112.jpg",
+      "lat": 45.2502707,
+      "lng": 19.8556968
     }
   ]
 }

@@ -166,5 +166,9 @@
   "borisov-atelje": {
     "lat": null,
     "lng": null
+  },
+  "club-reset": {
+    "lat": 45.2088329,
+    "lng": 19.844756
   }
 }
