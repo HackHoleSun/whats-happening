@@ -1,138 +1,6 @@
 {
-  "scraped_at": "2026-06-06T08:38:51Z",
+  "scraped_at": "2026-06-07T09:20:11Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-subotu-8",
-      "title": "Arena Cineplex – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-06-06",
-      "time": "10:30",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-subotu-8/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "ksenija-i-lovac-4",
-      "title": "Ksenija i lovac",
-      "category": "Predstava",
-      "date": "2026-06-06",
-      "time": "11:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/ksenija-i-lovac-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/ksenija-i-lovac-2-pozml-300x200.jpg",
-      "lat": 45.2552685,
-      "lng": 19.8488543
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-subotu-9",
-      "title": "Cineplexx Novi Sad – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-06-06",
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-9/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Gospodari-svemira_1080x1150_SRB-282x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "autorska-vodenja-kroz-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-2",
-      "title": "Autorska vođenja kroz izložbu “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
-      "category": "Izložba",
-      "date": "2026-06-06",
-      "time": "13:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/autorska-vodenja-kroz-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Poster_online_SR-212x300.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "prvi-novosadski-sportsko-porodicni-susreti",
-      "title": "Prvi Novosadski sportsko-porodični susreti",
-      "category": "Sport",
-      "date": "2026-06-06",
-      "time": "17:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/prvi-novosadski-sportsko-porodicni-susreti/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/NSPS-2026-240x300.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "autorska-vodenja-kroz-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije",
-      "title": "Autorska vođenja kroz izložbu “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
-      "category": "Izložba",
-      "date": "2026-06-06",
-      "time": "17:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/autorska-vodenja-kroz-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Poster_online_SR-212x300.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "vragolanka-2",
-      "title": "Vragolanka",
-      "category": "Predstava",
-      "date": "2026-06-06",
-      "time": "19:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/vragolanka-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/vragolanka-snp-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "arsenik-i-stare-cipke-2",
-      "title": "Arsenik i stare čipke",
-      "category": "Predstava",
-      "date": "2026-06-06",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/arsenik-i-stare-cipke-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Arsenik-i-stare-cipke-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "solidarna-zurka-za-danicu-negotinac",
-      "title": "Solidarna žurka za Danicu Negotinac",
-      "category": "Noćni provod",
-      "date": "2026-06-06",
-      "time": "20:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/solidarna-zurka-za-danicu-negotinac/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/2-2-e1779959194602-240x300.jpg",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
-    {
-      "id": "divorced-dad-rock",
-      "title": "Divorced Dad Rock",
-      "category": "Noćni provod",
-      "date": "2026-06-06",
-      "time": "20:00",
-      "location": "Štrand",
-      "url": "https://www.mojnovisad.com/navigator/divorced-dad-rock/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1000118533-240x300.jpg",
-      "lat": 45.2363112,
-      "lng": 19.8465411
-    },
-    {
-      "id": "novi-sad-vs-beograd-3",
-      "title": "Novi Sad vs. Beograd",
-      "category": "Predstava",
-      "date": "2026-06-06",
-      "time": "20:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/novi-sad-vs-beograd-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/novi-sad-vs-beograd-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
     {
       "id": "kultura-za-zdravlje-kultura-na-recept-2",
       "title": "Kultura za zdravlje – Kultura na recept",
@@ -782,6 +650,18 @@
       "lng": 19.8430384
     },
     {
+      "id": "dan-razotkrivanja",
+      "title": "Dan razotkrivanja",
+      "category": "Film",
+      "date": "2026-06-17",
+      "time": "20:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/dan-razotkrivanja/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Disclosure-Day-main-za-web-209x300.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
       "id": "pokondirena-tikva",
       "title": "Pokondirena tikva",
       "category": "Predstava",
@@ -960,6 +840,30 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/627978677_1485698093564069_7296520761835259257_n-300x112.jpg",
       "lat": 45.2502707,
       "lng": 19.8556968
+    },
+    {
+      "id": "stand-up-duo-show-srdana-dincica-i-nebojse-potkrajca-mnogo-je-problema",
+      "title": "Stand up duo show Srđana Dinčića i Nebojše Potkrajca “Mnogo je problema”",
+      "category": "Predstava",
+      "date": "2026-06-28",
+      "time": "20:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/stand-up-duo-show-srdana-dincica-i-nebojse-potkrajca-mnogo-je-problema/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/mnogo_je_problema_820-300x114.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "humanitarna-izlozba-u-beocinu",
+      "title": "Humanitarna izložba u Beočinu",
+      "category": "Izložba",
+      "date": "2026-12-05",
+      "time": "08:00",
+      "location": "Beočin",
+      "url": "https://www.mojnovisad.com/navigator/humanitarna-izlozba-u-beocinu/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/naslovna-16-300x225.jpg",
+      "lat": 45.220138,
+      "lng": 19.8313212
     }
   ]
 }
