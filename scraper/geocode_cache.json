@@ -170,5 +170,13 @@
   "club-reset": {
     "lat": 45.2088329,
     "lng": 19.844756
+  },
+  "bulevar-books": {
+    "lat": 45.25322,
+    "lng": 19.8454445
+  },
+  "kineska-cetvrt-kreativni-distrikt": {
+    "lat": null,
+    "lng": null
   }
 }
