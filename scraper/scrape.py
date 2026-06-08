@@ -146,14 +146,22 @@ HEADERS = {
 
 
 def scrape(cache: dict) -> list[dict]:
-    resp = cf_requests.get(URL, headers=HEADERS, impersonate="chrome", timeout=30)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "lxml")
+    attempts = 3
+    for attempt in range(1, attempts + 1):
+        resp = cf_requests.get(URL, headers=HEADERS, impersonate="chrome", timeout=30)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "lxml")
 
-    wrappers = soup.select("div.date-wrapper")
-    if not wrappers:
-        # Likely blocked by bot protection — print a snippet to help diagnose
-        print(f"[WARN] No date-wrapper elements found. Response snippet:\n{resp.text[:500]}")
+        wrappers = soup.select("div.date-wrapper")
+        if wrappers:
+            break
+
+        # Likely blocked by bot protection — Cloudflare's challenge is intermittent,
+        # so a short wait and retry usually gets through.
+        print(f"[WARN] Attempt {attempt}/{attempts}: no date-wrapper elements found. Response snippet:\n{resp.text[:500]}")
+        if attempt < attempts:
+            time.sleep(20)
+    else:
         raise RuntimeError("No events found — page structure may have changed or request was blocked")
 
     events = []
