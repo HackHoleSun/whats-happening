@@ -1,138 +1,6 @@
 {
-  "scraped_at": "2026-06-07T09:20:11Z",
+  "scraped_at": "2026-06-08T13:14:52Z",
   "events": [
-    {
-      "id": "kultura-za-zdravlje-kultura-na-recept-2",
-      "title": "Kultura za zdravlje – Kultura na recept",
-      "category": "Radionica",
-      "date": "2026-06-07",
-      "time": "10:30",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/kultura-za-zdravlje-kultura-na-recept-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Култура-на-рецепт-1-300x117.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-nedelju-8",
-      "title": "Arena Cineplex – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-06-07",
-      "time": "10:30",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-8/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "crvenkapa-3",
-      "title": "Crvenkapa",
-      "category": "Predstava",
-      "date": "2026-06-07",
-      "time": "11:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/crvenkapa-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/crvenkapa-2-pozml-300x200.jpg",
-      "lat": 45.2552685,
-      "lng": 19.8488543
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-nedelju-8",
-      "title": "Cineplexx Novi Sad – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-06-07",
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-8/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1080X1920_BACKROOMS_cxx_D_SRB-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "autorska-vodenja-kroz-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-3",
-      "title": "Autorska vođenja kroz izložbu “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
-      "category": "Izložba",
-      "date": "2026-06-07",
-      "time": "13:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/autorska-vodenja-kroz-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Poster_online_SR-212x300.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "kultura-za-zdravlje-kultura-na-recept-3",
-      "title": "Kultura za zdravlje – Kultura na recept",
-      "category": "Radionica",
-      "date": "2026-06-07",
-      "time": "15:30",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/kultura-za-zdravlje-kultura-na-recept-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Култура-на-рецепт-1-300x117.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "autorska-vodenja-kroz-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-4",
-      "title": "Autorska vođenja kroz izložbu “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
-      "category": "Izložba",
-      "date": "2026-06-07",
-      "time": "17:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/autorska-vodenja-kroz-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Poster_online_SR-212x300.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "koncert-sonjinog-ansambla-narodnih-igara-i-pesama",
-      "title": "Koncert Sonjinog ansambla narodnih igara i pesama",
-      "category": "Koncert",
-      "date": "2026-06-07",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/koncert-sonjinog-ansambla-narodnih-igara-i-pesama/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/1780046439plakat-212x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "ivan-bessonovpiano-concert",
-      "title": "Ivan Bessonov(Piano Concert)",
-      "category": "Koncert",
-      "date": "2026-06-07",
-      "time": "20:00",
-      "location": "Sinagoga",
-      "url": "https://www.mojnovisad.com/navigator/ivan-bessonovpiano-concert/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/photo_2026-05-12_23-06-22-300x300.jpg",
-      "lat": 45.2530606,
-      "lng": 19.840798
-    },
-    {
-      "id": "stand-up-srdana-olmana-strucnjak",
-      "title": "Stand up Srđana Olmana “Stručnjak”",
-      "category": "Predstava",
-      "date": "2026-06-07",
-      "time": "20:00",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/stand-up-srdana-olmana-strucnjak/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/stucnjak-820--300x192.jpg",
-      "lat": 45.2419788,
-      "lng": 19.8412391
-    },
-    {
-      "id": "granfondo-novi-sad",
-      "title": "Granfondo Novi Sad",
-      "category": "Sport",
-      "date": "2026-06-07",
-      "time": "23:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/granfondo-novi-sad/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/624529215_1322730786559488_6271924434409783661_n-300x199.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
     {
       "id": "besplatna-psiholoska-radionica-izadi-iz-usamljenosti",
       "title": "Besplatna psihološka radionica – Izađi iz usamljenosti",
@@ -168,30 +36,6 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-300x200.jpg",
       "lat": 45.2539853,
       "lng": 19.8454491
-    },
-    {
-      "id": "besplatno-psiholosko-okupljanje-izadi-iz-usamljenosti",
-      "title": "Besplatno psihološko okupljanje – Izađi iz usamljenosti",
-      "category": "Radionica",
-      "date": "2026-06-08",
-      "time": "19:00",
-      "location": "Novosadski omladinski prostor (NOF)",
-      "url": "https://www.mojnovisad.com/navigator/besplatno-psiholosko-okupljanje-izadi-iz-usamljenosti/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/NOF-Radionica-2026-JUN-2_01-1-239x300.png",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "gospoda-ajnstajn-predstava-u-okviru-53-infant-festivala",
-      "title": "Gospođa Ajnštajn – predstava u okviru 53. Infant festivala",
-      "category": "Predstava",
-      "date": "2026-06-08",
-      "time": "19:30",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/gospoda-ajnstajn-predstava-u-okviru-53-infant-festivala/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/thumb_66025_2000_2000_0_0_auto-300x223.jpeg",
-      "lat": 45.2577191,
-      "lng": 19.8415872
     },
     {
       "id": "od-malih-snova-do-velikog-plesa-ponedeljak-08-jun-2026-u-2000-scena",
@@ -254,28 +98,40 @@
       "lng": 19.844756
     },
     {
-      "id": "medeja",
-      "title": "Medeja",
-      "category": "Predstava",
+      "id": "tribina-zbora-mz-sonja-marinkovic-skola-pod-pritiskom",
+      "title": "Tribina Zbora MZ “Sonja Marinković”: “Škola pod pritiskom”",
+      "category": "Konferencija",
       "date": "2026-06-09",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/medeja/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/1772197277plakat-300x196.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
+      "time": "19:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/tribina-zbora-mz-sonja-marinkovic-skola-pod-pritiskom/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Screenshot-2026-06-08-102823-228x300.png",
+      "lat": 45.258309,
+      "lng": 19.839698
     },
     {
-      "id": "sovinisticka-farsa",
-      "title": "Šovinistička farsa",
-      "category": "Predstava",
+      "id": "sofa-2026-darko-tusevljakovic",
+      "title": "Sofa 2026 – Darko Tuševljaković",
+      "category": "Festival",
+      "date": "2026-06-09",
+      "time": "19:00",
+      "location": "Bulevar Books",
+      "url": "https://www.mojnovisad.com/navigator/sofa-2026-darko-tusevljakovic/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/dt-300x200.jpg",
+      "lat": 45.25322,
+      "lng": 19.8454445
+    },
+    {
+      "id": "sofa-2026-damir-karakas",
+      "title": "Sofa 2026 – Damir Karakaš",
+      "category": "Festival",
       "date": "2026-06-09",
       "time": "20:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/sovinisticka-farsa/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/plakat-FARSA-web-200x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
+      "location": "Bulevar Books",
+      "url": "https://www.mojnovisad.com/navigator/sofa-2026-damir-karakas/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/dk-300x200.jpg",
+      "lat": 45.25322,
+      "lng": 19.8454445
     },
     {
       "id": "cineplexx-novi-sad-repertoar-za-sreda-2",
@@ -326,28 +182,28 @@
       "lng": 19.8426561
     },
     {
-      "id": "contra-mundum-53-infant-glavni-program",
-      "title": "Contra Mundum (53. INFANT – Glavni program)",
-      "category": "Predstava",
+      "id": "sofa-2026-jurij-zidcenko",
+      "title": "Sofa 2026 – Jurij Židčenko",
+      "category": "Festival",
       "date": "2026-06-10",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/contra-mundum-53-infant-glavni-program/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/contra-mundum-6-photo-by-Dusko-Miljanic-300x240.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
+      "time": "19:00",
+      "location": "Bulevar Books",
+      "url": "https://www.mojnovisad.com/navigator/sofa-2026-jurij-zidcenko/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/jz-300x200.jpg",
+      "lat": 45.25322,
+      "lng": 19.8454445
     },
     {
-      "id": "bogojavljenje-53-infant-glavni-program",
-      "title": "Bogojavljenje (53. INFANT – Glavni program)",
-      "category": "Predstava",
-      "date": "2026-06-11",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/bogojavljenje-53-infant-glavni-program/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1761646355plakat-214x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
+      "id": "heihaizi-clavv-tethyal",
+      "title": "HEIHAIZI, CLAVV, TETHYAL",
+      "category": "Koncert",
+      "date": "2026-06-10",
+      "time": "20:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/heihaizi-clavv-tethyal/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/716510808_1447222794116874_2726440190894343703_n-212x300.jpg",
+      "lat": 45.258309,
+      "lng": 19.839698
     },
     {
       "id": "ljubinko-i-desanka",
@@ -372,18 +228,6 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/zona_820_marina-300x114.jpg",
       "lat": 45.26553,
       "lng": 19.8293059
-    },
-    {
-      "id": "romansa-53-infant-glavni-program",
-      "title": "Romansa (53. INFANT – Glavni program)",
-      "category": "Predstava",
-      "date": "2026-06-11",
-      "time": "20:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/romansa-53-infant-glavni-program/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/romantika_ea_horvathjudit_net-1121-300x179.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
     },
     {
       "id": "boris-rezak-2",
@@ -422,30 +266,6 @@
       "lng": null
     },
     {
-      "id": "negde-izvan-planeta-53-infant-glavni-program",
-      "title": "Negde izvan planeta (53. INFANT – Glavni program)",
-      "category": "Predstava",
-      "date": "2026-06-12",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/negde-izvan-planeta-53-infant-glavni-program/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Negde-izvan-planeta-Linea-Recta-3-300x240.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "idiot-skidanje-sa-krsta-53-infant-glavni-program",
-      "title": "Idiot: skidanje sa krsta (53. INFANT – Glavni program)",
-      "category": "Predstava",
-      "date": "2026-06-12",
-      "time": "20:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/idiot-skidanje-sa-krsta-53-infant-glavni-program/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/image6-1536x1024-1-300x200.jpeg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
       "id": "when-we-were-young",
       "title": "When We Were Young!",
       "category": "Noćni provod",
@@ -468,6 +288,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/660354070_1390789069747637_801059724153077110_n-300x158.jpg",
       "lat": 45.2515421,
       "lng": 19.8630972
+    },
+    {
+      "id": "urbani-buvljak-2",
+      "title": "Urbani buvljak",
+      "category": "Festival",
+      "date": "2026-06-13",
+      "time": "11:00",
+      "location": "Kineska četvrt - Kreativni distrikt",
+      "url": "https://www.mojnovisad.com/navigator/urbani-buvljak-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Untitled-750-x-500-px-300x200.png",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "humanitarni-koncert-za-nurdor",
@@ -540,6 +372,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/CVRCAK-I-MRAV-SNP-jun-2025-58-300x169.jpg",
       "lat": 45.2553613,
       "lng": 19.8430384
+    },
+    {
+      "id": "o-dis-kontinuitetu-odakle-smo-posle-kuda-idemo",
+      "title": "O dis/kontinuitetu: Odakle smo pošle, kuda idemo?",
+      "category": "Film",
+      "date": "2026-06-14",
+      "time": "18:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/o-dis-kontinuitetu-odakle-smo-posle-kuda-idemo/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Sajt-objava-960x540@2x-810x456-1-300x169.png",
+      "lat": 45.258309,
+      "lng": 19.839698
     },
     {
       "id": "adi-sose",
@@ -722,6 +566,18 @@
       "lng": 19.8430384
     },
     {
+      "id": "3d-prica-o-igrackama-5-sin",
+      "title": "3D Priča o igračkama 5 – sin",
+      "category": "Film",
+      "date": "2026-06-19",
+      "time": "18:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/3d-prica-o-igrackama-5-sin/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/19.06.-3D-Prica-o-igrackama-5-240x300.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
       "id": "predstava-hamleta-u-selu-mrdusa-donja",
       "title": "Predstava Hamleta u selu Mrduša Donja",
       "category": "Predavanje",
@@ -850,6 +706,18 @@
       "location": "Radnički dom \"Svetozar marković\"",
       "url": "https://www.mojnovisad.com/navigator/stand-up-duo-show-srdana-dincica-i-nebojse-potkrajca-mnogo-je-problema/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/mnogo_je_problema_820-300x114.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "3d-malci-i-monstrumi-sinh",
+      "title": "3D Malci i monstrumi – sinh",
+      "category": "Film",
+      "date": "2026-07-02",
+      "time": "19:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/3d-malci-i-monstrumi-sinh/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Minions-3-tizer-1x1-1-300x300.jpg",
       "lat": null,
       "lng": null
     },
