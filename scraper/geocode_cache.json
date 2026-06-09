@@ -178,5 +178,13 @@
   "kineska-cetvrt-kreativni-distrikt": {
     "lat": null,
     "lng": null
+  },
+  "gradska-koncertna-dvorana": {
+    "lat": null,
+    "lng": null
+  },
+  "novosadski-sajam": {
+    "lat": 45.2546092,
+    "lng": 19.8206778
   }
 }
