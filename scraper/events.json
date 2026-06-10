@@ -1,114 +1,6 @@
 {
-  "scraped_at": "2026-06-09T13:50:10Z",
+  "scraped_at": "2026-06-10T10:09:51Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-9",
-      "title": "Cineplexx Novi Sad – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-06-09",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-9/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Billie-Eilish-1080x1920px-cnplxx-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-utorak-9",
-      "title": "Arena Cineplex – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-06-09",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-9/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "info-sesija-tvoj-prvi-online-posao",
-      "title": "Info sesija – Tvoj prvi online posao?",
-      "category": "Radionica",
-      "date": "2026-06-09",
-      "time": "16:00",
-      "location": "Novosadski omladinski prostor (NOF)",
-      "url": "https://www.mojnovisad.com/navigator/info-sesija-tvoj-prvi-online-posao/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Karijerni-centar-Tvoj-prvi-online-posao-v2-239x300.png",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "book-club-with-andrew-3",
-      "title": "Book Club with Andrew",
-      "category": "Knjiga",
-      "date": "2026-06-09",
-      "time": "18:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/book-club-with-andrew-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-240x300.png",
-      "lat": 45.2531419,
-      "lng": 19.855133
-    },
-    {
-      "id": "sofa-2026-darko-tusevljakovic",
-      "title": "Sofa 2026 – Darko Tuševljaković",
-      "category": "Festival",
-      "date": "2026-06-09",
-      "time": "19:00",
-      "location": "Bulevar Books",
-      "url": "https://www.mojnovisad.com/navigator/sofa-2026-darko-tusevljakovic/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/dt-300x200.jpg",
-      "lat": 45.25322,
-      "lng": 19.8454445
-    },
-    {
-      "id": "tribina-zbora-mz-sonja-marinkovic-skola-pod-pritiskom",
-      "title": "Tribina Zbora MZ “Sonja Marinković”: “Škola pod pritiskom”",
-      "category": "Konferencija",
-      "date": "2026-06-09",
-      "time": "19:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/tribina-zbora-mz-sonja-marinkovic-skola-pod-pritiskom/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Screenshot-2026-06-08-102823-228x300.png",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
-    {
-      "id": "promocija-knjige-brend-ti-autor-dejan-pataki",
-      "title": "Promocija knjige: BREND TI, autor Dejan Pataki",
-      "category": "Knjiga",
-      "date": "2026-06-09",
-      "time": "19:00",
-      "location": "Club Reset",
-      "url": "https://www.mojnovisad.com/navigator/promocija-knjige-brend-ti-autor-dejan-pataki/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Promocija-knjige-BREND-TI-Autor-Dejan-Pataki-300x169.png",
-      "lat": 45.2088329,
-      "lng": 19.844756
-    },
-    {
-      "id": "koncert-klasicne-gitare-u-izvodenju-ilije-zeca",
-      "title": "Koncert klasične gitare u izvođenju Ilije Zeca",
-      "category": "Koncert",
-      "date": "2026-06-09",
-      "time": "19:00",
-      "location": "Muzej Vojvodine",
-      "url": "https://www.mojnovisad.com/navigator/koncert-klasicne-gitare-u-izvodenju-ilije-zeca/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-5-187x300.jpg",
-      "lat": 45.2564709,
-      "lng": 19.8514492
-    },
-    {
-      "id": "sofa-2026-damir-karakas",
-      "title": "Sofa 2026 – Damir Karakaš",
-      "category": "Festival",
-      "date": "2026-06-09",
-      "time": "20:30",
-      "location": "Bulevar Books",
-      "url": "https://www.mojnovisad.com/navigator/sofa-2026-damir-karakas/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/dk-300x200.jpg",
-      "lat": 45.25322,
-      "lng": 19.8454445
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-sreda-2",
       "title": "Cineplexx Novi Sad – repertoar za sredu",
@@ -264,6 +156,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/NoPrideInGenocide-2026-sajt-1-300x288.png",
       "lat": 45.258309,
       "lng": 19.839698
+    },
+    {
+      "id": "besplatni-bioskop-smrt-ega",
+      "title": "Besplatni Bioskop –– SMRT EGA ––",
+      "category": "Film",
+      "date": "2026-06-11",
+      "time": "21:00",
+      "location": "Salon u Radničkoj",
+      "url": "https://www.mojnovisad.com/navigator/besplatni-bioskop-smrt-ega/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/word-300x169.webp",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "boris-rezak-2",
