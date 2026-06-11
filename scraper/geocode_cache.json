@@ -186,5 +186,13 @@
   "novosadski-sajam": {
     "lat": 45.2546092,
     "lng": 19.8206778
+  },
+  "spomen-zbirka-pavla-beljanskog": {
+    "lat": null,
+    "lng": null
+  },
+  "trg-slobode": {
+    "lat": 45.2552731,
+    "lng": 19.8448453
   }
 }
