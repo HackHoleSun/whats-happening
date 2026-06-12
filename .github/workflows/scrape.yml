@@ -32,4 +32,11 @@ jobs:
           git diff --quiet --cached || git commit -m "chore: update events.json [$(date -u +%Y-%m-%d)]"
 
       - name: Push changes
-        run: git push
+        run: |
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push rejected, rebasing onto latest master (attempt $i)..."
+            git fetch origin master
+            git rebase origin/master
+          done
+          exit 1
