@@ -59,6 +59,7 @@ import com.whatshappening.novisad.ui.components.HeaderIconButton
 import com.whatshappening.novisad.ui.components.SectionLabel
 import com.whatshappening.novisad.ui.theme.LocalCatppuccin
 import com.whatshappening.novisad.ui.theme.WhatsHappeningTheme
+import com.whatshappening.novisad.util.serbianCount
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -159,7 +160,7 @@ private fun SearchTopBar(
         // Back button
         HeaderIconButton(
             onClick            = onBack,
-            contentDescription = "Back",
+            contentDescription = "Nazad",
         ) {
             Icon(
                 imageVector        = Icons.AutoMirrored.Filled.ArrowBack,
@@ -221,7 +222,7 @@ private fun SearchTopBar(
                     ) {
                         Icon(
                             imageVector        = Icons.Outlined.Close,
-                            contentDescription = "Clear",
+                            contentDescription = "Obriši",
                             modifier           = Modifier.size(16.dp),
                         )
                     }
@@ -377,7 +378,7 @@ private fun SearchResultsList(
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         item {
-            SectionLabel("${results.size} result${if (results.size == 1) "" else "s"}")
+            SectionLabel(serbianCount(results.size, "rezultat", "rezultata"))
         }
         items(results, key = { it.id }) { ev ->
             EventRow(
