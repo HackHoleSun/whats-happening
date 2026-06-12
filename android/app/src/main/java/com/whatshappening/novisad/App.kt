@@ -33,9 +33,39 @@ class App : Application(), SingletonImageLoader.Factory {
         MapLibre.getInstance(this)
     }
 
+    // ── Shared OkHttp client ──────────────────────────────────────────────────
+
+    /**
+     * Single client (one connection pool / dispatcher) shared by the event
+     * repository and the Coil image loader.
+     *
+     * The interceptor adds a [Referer] header for mojnovisad.com URLs —
+     * WordPress hotlink protection checks the Referer, so without this the
+     * scraped thumbnails would be blocked and the list cards would show only
+     * the gradient placeholder.
+     */
+    val httpClient: OkHttpClient by lazy {
+        OkHttpClient.Builder()
+            .addInterceptor { chain ->
+                val request = chain.request()
+                val modified = if (request.url.host.contains("mojnovisad.com")) {
+                    request.newBuilder()
+                        .header("Referer", "https://www.mojnovisad.com/")
+                        .header("User-Agent", "Mozilla/5.0 (Android)")
+                        .build()
+                } else {
+                    request
+                }
+                chain.proceed(modified)
+            }
+            .build()
+    }
+
     // ── Shared event repository ───────────────────────────────────────────────
 
-    val repository: EventRepository by lazy { RemoteEventRepository(this) }
+    val repository: EventRepository by lazy {
+        RemoteEventRepository(this, httpClient, preferencesDataStore)
+    }
 
     // ── User preferences DataStore ────────────────────────────────────────────
 
@@ -56,33 +86,12 @@ class App : Application(), SingletonImageLoader.Factory {
 
     /**
      * Explicit Coil singleton so the OkHttp network fetcher is always registered.
-     *
-     * The custom OkHttp client adds a [Referer] header for mojnovisad.com URLs —
-     * WordPress hotlink protection checks the Referer, so without this the
-     * scraped thumbnails would be blocked and the list cards would show only the
-     * gradient placeholder.
+     * Reuses [httpClient] so images share the app-wide connection pool.
      */
     override fun newImageLoader(context: Context): ImageLoader =
         ImageLoader.Builder(context)
             .components {
-                add(OkHttpNetworkFetcherFactory(
-                    callFactory = {
-                        OkHttpClient.Builder()
-                            .addInterceptor { chain ->
-                                val request = chain.request()
-                                val modified = if (request.url.host.contains("mojnovisad.com")) {
-                                    request.newBuilder()
-                                        .header("Referer", "https://www.mojnovisad.com/")
-                                        .header("User-Agent", "Mozilla/5.0 (Android)")
-                                        .build()
-                                } else {
-                                    request
-                                }
-                                chain.proceed(modified)
-                            }
-                            .build()
-                    }
-                ))
+                add(OkHttpNetworkFetcherFactory(callFactory = { httpClient }))
             }
             .crossfade(true)
             .build()

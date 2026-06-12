@@ -50,11 +50,12 @@ private const val CACHE_TTL_HOURS = 24L
 
 /**
  * Fetches events from the GitHub-hosted scraper JSON and the Cloudflare Worker
- * for detail pages. This is the legacy API; new screens use [EventRepository]
- * with [MockEventRepository] until the full migration is complete.
+ * for detail pages. Used internally by [RemoteEventRepository].
  */
-class NetworkEventRepository(private val context: Context) {
-    private val client = OkHttpClient()
+class NetworkEventRepository(
+    private val context: Context,
+    private val client: OkHttpClient = OkHttpClient(),
+) {
     private val json   = Json { ignoreUnknownKeys = true }
     private val cacheFile get() = File(context.filesDir, CACHE_FILE)
 
@@ -69,17 +70,23 @@ class NetworkEventRepository(private val context: Context) {
             }
         }
 
+    /** Always hits the network; throws on failure so the UI can show feedback. */
     suspend fun refreshEvents(): List<ScrapedEvent> =
         withContext(Dispatchers.IO) {
-            try {
-                fetchAndCache().events
-            } catch (e: Exception) {
-                readCache(requireFresh = false)?.events ?: throw e
-            }
+            fetchAndCache().events
         }
+
+    // Details are immutable once published — keep the last 32 in memory so
+    // reopening an event doesn't re-hit the worker.
+    private val detailCache = object : LinkedHashMap<String, EventDetail>(16, 0.75f, true) {
+        override fun removeEldestEntry(eldest: MutableMap.MutableEntry<String, EventDetail>) =
+            size > 32
+    }
 
     suspend fun getEventDetail(eventUrl: String): EventDetail =
         withContext(Dispatchers.IO) {
+            synchronized(detailCache) { detailCache[eventUrl] }?.let { return@withContext it }
+
             val url = WORKER_URL.toHttpUrl().newBuilder()
                 .addQueryParameter("url", eventUrl)
                 .build()
@@ -87,7 +94,9 @@ class NetworkEventRepository(private val context: Context) {
             val body = client.newCall(request).execute().use { response ->
                 response.body?.string() ?: error("Empty response")
             }
-            json.decodeFromString(body)
+            json.decodeFromString<EventDetail>(body).also { detail ->
+                synchronized(detailCache) { detailCache[eventUrl] = detail }
+            }
         }
 
     private fun readCache(requireFresh: Boolean): ScrapedEventsResponse? {
