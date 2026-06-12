@@ -1,15 +1,20 @@
 package com.whatshappening.novisad.data
 
 import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.stringSetPreferencesKey
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import okhttp3.OkHttpClient
 import java.time.LocalDate
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter
@@ -18,20 +23,22 @@ import java.time.format.DateTimeFormatter
  * Production [EventRepository] backed by the GitHub-hosted scraper feed.
  *
  * Delegates fetching + 24h file-caching to [NetworkEventRepository], then maps
- * [ScrapedEvent] → domain [Event].  Saved-event state is held in-memory.
+ * [ScrapedEvent] → domain [Event].  Saved-event state persists in [dataStore]
+ * so hearts survive process death.
  *
  * A [CoroutineScope] is created internally so this class is self-contained; the
  * [App] singleton keeps it alive for the process lifetime.
  */
 class RemoteEventRepository(
     context: Context,
+    httpClient: OkHttpClient,
+    private val dataStore: DataStore<Preferences>,
     private val scope: CoroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.IO),
 ) : EventRepository {
 
-    private val network  = NetworkEventRepository(context)
+    private val network  = NetworkEventRepository(context, httpClient)
 
     private val _events        = MutableStateFlow<List<Event>>(emptyList())
-    private val _savedIds      = MutableStateFlow<Set<String>>(emptySet())
     private val _loadAttempted = MutableStateFlow(false)
 
     init {
@@ -52,22 +59,32 @@ class RemoteEventRepository(
 
     override fun observeLoadAttempted(): Flow<Boolean> = _loadAttempted.asStateFlow()
 
+    /**
+     * Throws when the fetch fails so callers can surface the failure; the
+     * previously loaded events stay in [_events] either way.
+     */
     override suspend fun refresh() {
         withContext(Dispatchers.IO) {
-            try {
-                _events.value = network.refreshEvents().mapNotNull { it.toDomain() }
-            } catch (_: Exception) { /* keep stale data */ }
+            _events.value = network.refreshEvents().mapNotNull { it.toDomain() }
         }
     }
 
-    override fun observeSavedIds(): Flow<Set<String>> = _savedIds.asStateFlow()
+    override fun observeSavedIds(): Flow<Set<String>> =
+        dataStore.data.map { prefs -> prefs[KEY_SAVED_IDS] ?: emptySet() }
 
     override suspend fun toggleSaved(id: String) {
-        _savedIds.update { ids -> if (id in ids) ids - id else ids + id }
+        dataStore.edit { prefs ->
+            val ids = prefs[KEY_SAVED_IDS] ?: emptySet()
+            prefs[KEY_SAVED_IDS] = if (id in ids) ids - id else ids + id
+        }
     }
 
     override suspend fun fetchDetail(eventUrl: String): EventDetail? =
         runCatching { network.getEventDetail(eventUrl) }.getOrNull()
+
+    private companion object {
+        val KEY_SAVED_IDS = stringSetPreferencesKey("saved_event_ids")
+    }
 }
 
 // ── ScrapedEvent → Event mapping ──────────────────────────────────────────────
