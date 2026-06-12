@@ -194,5 +194,17 @@
   "trg-slobode": {
     "lat": 45.2552731,
     "lng": 19.8448453
+  },
+  "edseg-kulturna-stanica": {
+    "lat": 45.2480976,
+    "lng": 19.8302016
+  },
+  "mali-likovni-salon-kcns": {
+    "lat": null,
+    "lng": null
+  },
+  "selfnest-prostor": {
+    "lat": null,
+    "lng": null
   }
 }
