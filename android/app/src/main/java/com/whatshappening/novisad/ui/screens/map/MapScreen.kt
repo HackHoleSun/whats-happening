@@ -135,11 +135,9 @@ fun MapScreen(
 
         // ── 1. MapLibre map view ──────────────────────────────────────────────
         MapLibreView(
-            modifier = Modifier.fillMaxSize(),
-            isDark   = isDark,
-            onReady  = { map, style ->
-                mapRef   = map
-                styleRef = style
+            modifier   = Modifier.fillMaxSize(),
+            onMapReady = { map ->
+                mapRef = map
                 // Pin-click: query the circle layer at the tapped point
                 map.addOnMapClickListener { latlng ->
                     val screen = map.projection.toScreenLocation(latlng)
@@ -151,6 +149,17 @@ fun MapScreen(
                 }
             },
         )
+
+        // ── 1b. Load (and re-load on theme toggle) the matching basemap style ─
+        // Keyed on isDark so toggling the theme swaps the style; SyncPins then
+        // re-adds sources/layers because the fresh style starts empty.
+        LaunchedEffect(mapRef, isDark) {
+            val map = mapRef ?: return@LaunchedEffect
+            styleRef = null  // the old style dies the moment a new one starts loading
+            map.setStyle(if (isDark) STYLE_DARK else STYLE_LIGHT) { style ->
+                styleRef = style
+            }
+        }
 
         // ── 2. Sync pins + location dot whenever state changes ───────────────
         SyncPins(
@@ -232,7 +241,7 @@ fun MapScreen(
             Box(contentAlignment = Alignment.Center) {
                 Icon(
                     imageVector        = Icons.Filled.MyLocation,
-                    contentDescription = "My location",
+                    contentDescription = "Moja lokacija",
                     tint               = if (userLocation != null)
                         MaterialTheme.colorScheme.primary
                     else
@@ -274,29 +283,25 @@ fun MapScreen(
 @Composable
 private fun MapLibreView(
     modifier: Modifier = Modifier,
-    isDark: Boolean,
-    onReady: (MapLibreMap, Style) -> Unit,
+    onMapReady: (MapLibreMap) -> Unit,
 ) {
     val context   = LocalContext.current
     val lifecycle = LocalLifecycleOwner.current.lifecycle
 
     // rememberUpdatedState so the callback always sees the latest lambda
-    val currentOnReady by rememberUpdatedState(onReady)
+    val currentOnMapReady by rememberUpdatedState(onMapReady)
 
     val mapView = remember {
         MapView(context).apply {
             getMapAsync { map ->
-                val styleUrl = if (isDark) STYLE_DARK else STYLE_LIGHT
-                map.setStyle(styleUrl) { style ->
-                    map.uiSettings.isCompassEnabled    = false
-                    map.uiSettings.isLogoEnabled       = false
-                    map.uiSettings.isAttributionEnabled = true   // keep for tile licensing
-                    map.cameraPosition = CameraPosition.Builder()
-                        .target(DEFAULT_CITY_CENTER)
-                        .zoom(13.0)
-                        .build()
-                    currentOnReady(map, style)
-                }
+                map.uiSettings.isCompassEnabled    = false
+                map.uiSettings.isLogoEnabled       = false
+                map.uiSettings.isAttributionEnabled = true   // keep for tile licensing
+                map.cameraPosition = CameraPosition.Builder()
+                    .target(DEFAULT_CITY_CENTER)
+                    .zoom(13.0)
+                    .build()
+                currentOnMapReady(map)
             }
         }
     }
