@@ -36,6 +36,8 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.pulltorefresh.PullToRefreshBox
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -88,6 +90,7 @@ import com.whatshappening.novisad.ui.util.rememberUserLocation
 import com.whatshappening.novisad.util.formatDate
 import com.whatshappening.novisad.util.formatShortDate
 import com.whatshappening.novisad.util.formatDayOfWeek
+import com.whatshappening.novisad.util.serbianCount
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import androidx.compose.runtime.LaunchedEffect
@@ -128,11 +131,21 @@ fun HomeRoute(
     onSavedClick: () -> Unit = {},
     viewModel: HomeViewModel = viewModel(factory = HomeViewModel.Factory),
 ) {
-    val events      by viewModel.events.collectAsState()
-    val filter      by viewModel.filter.collectAsState()
-    val savedIds    by viewModel.savedIds.collectAsState()
-    val refreshing  by viewModel.refreshing.collectAsState()
-    val isLoading   by viewModel.initialLoading.collectAsState()
+    val events       by viewModel.events.collectAsState()
+    val filter       by viewModel.filter.collectAsState()
+    val savedIds     by viewModel.savedIds.collectAsState()
+    val refreshing   by viewModel.refreshing.collectAsState()
+    val isLoading    by viewModel.initialLoading.collectAsState()
+    val refreshError by viewModel.refreshError.collectAsState()
+
+    // Surface failed refreshes as a snackbar, then clear the one-shot message
+    val snackbarHostState = remember { SnackbarHostState() }
+    LaunchedEffect(refreshError) {
+        refreshError?.let { message ->
+            snackbarHostState.showSnackbar(message)
+            viewModel.clearRefreshError()
+        }
+    }
 
     // Feed GPS location into the ViewModel so distance-based filtering works
     val locationState = rememberUserLocation()
@@ -178,6 +191,7 @@ fun HomeRoute(
         onToggleSave      = viewModel::toggleSaved,
         onRefresh         = viewModel::refresh,
         onClearFilters    = viewModel::clearFilters,
+        snackbarHostState = snackbarHostState,
     )
 
     // ── Sheet rendering ───────────────────────────────────────────────────────
@@ -243,6 +257,7 @@ fun HomeScreen(
     onToggleSave: (String) -> Unit,
     onRefresh: () -> Unit,
     onClearFilters: () -> Unit,
+    snackbarHostState: SnackbarHostState = remember { SnackbarHostState() },
 ) {
     val listState = rememberLazyListState()
 
@@ -302,6 +317,13 @@ fun HomeScreen(
                 }
             }
         }
+
+        SnackbarHost(
+            hostState = snackbarHostState,
+            modifier  = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = 96.dp),
+        )
 
         AppBottomNav(
             current      = BottomNavDestination.Home,
@@ -392,7 +414,7 @@ private fun HomeHeader(
                 horizontalArrangement = Arrangement.spacedBy(4.dp),
                 verticalAlignment     = Alignment.CenterVertically,
             ) {
-                HeaderIconButton(onClick = onSearchClick, contentDescription = "Search") {
+                HeaderIconButton(onClick = onSearchClick, contentDescription = "Pretraga") {
                     Icon(
                         Icons.Outlined.Search,
                         contentDescription = null,
@@ -400,7 +422,7 @@ private fun HomeHeader(
                         tint               = palette.text,
                     )
                 }
-                HeaderIconButton(onClick = onThemeToggle, contentDescription = "Toggle theme") {
+                HeaderIconButton(onClick = onThemeToggle, contentDescription = "Promeni temu") {
                     Icon(
                         imageVector        = if (isDark) Icons.Outlined.LightMode else Icons.Outlined.DarkMode,
                         contentDescription = null,
@@ -463,7 +485,7 @@ private fun HomeHeader(
                 ) {
                     Icon(
                         Icons.Outlined.Tune,
-                        contentDescription = "Filters",
+                        contentDescription = "Filteri",
                         modifier           = Modifier.size(22.dp),
                         tint               = filterTint,
                     )
@@ -541,7 +563,7 @@ private fun CountAndRefreshRow(count: Int, onRefresh: () -> Unit) {
         verticalAlignment     = Alignment.CenterVertically,
     ) {
         Text(
-            text  = "$count events".uppercase(),
+            text  = serbianCount(count, "događaj", "događaja").uppercase(),
             style = MaterialTheme.typography.labelMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
