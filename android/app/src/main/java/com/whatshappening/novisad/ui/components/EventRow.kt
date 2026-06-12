@@ -133,14 +133,14 @@ fun EventRow(
                 }
             }
 
-            // ── Save button ────────────────────────────────────────────────────
+            // ── Save button — 48dp for the a11y minimum touch target ──────────
             IconButton(
                 onClick  = onToggleSave,
-                modifier = Modifier.size(36.dp),
+                modifier = Modifier.size(48.dp),
             ) {
                 Icon(
                     imageVector        = if (saved) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
-                    contentDescription = if (saved) "Remove from saved" else "Save event",
+                    contentDescription = if (saved) "Ukloni iz sačuvanih" else "Sačuvaj događaj",
                     tint               = if (saved) palette.red else palette.subtext0,
                     modifier           = Modifier.size(18.dp),
                 )

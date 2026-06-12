@@ -114,28 +114,34 @@ fun EventCard(
                 CategoryPill(category = event.category, onContrastBg = true)
             }
 
-            // Save heart — top-end
+            // Save heart — top-end. The visible circle stays 38dp but the
+            // button is 48dp so the touch target meets the a11y minimum.
             val saveBg = if (darkTheme) palette.surface1 else Color.White.copy(alpha = 0.92f)
             Box(
                 modifier = Modifier
                     .align(Alignment.TopEnd)
-                    .padding(10.dp)
+                    .padding(5.dp)
                     .graphicsLayer { scaleX = saveScale; scaleY = saveScale }
-                    .size(38.dp)
-                    .clip(CircleShape)
-                    .background(saveBg)
             ) {
                 IconButton(
                     onClick           = onToggleSave,
                     interactionSource = saveInteraction,
-                    modifier          = Modifier.size(38.dp),
+                    modifier          = Modifier.size(48.dp),
                 ) {
-                    Icon(
-                        imageVector        = if (saved) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
-                        contentDescription = if (saved) "Remove from saved" else "Save event",
-                        tint               = if (saved) palette.red else palette.subtext0,
-                        modifier           = Modifier.size(18.dp),
-                    )
+                    Box(
+                        modifier = Modifier
+                            .size(38.dp)
+                            .clip(CircleShape)
+                            .background(saveBg),
+                        contentAlignment = Alignment.Center,
+                    ) {
+                        Icon(
+                            imageVector        = if (saved) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
+                            contentDescription = if (saved) "Ukloni iz sačuvanih" else "Sačuvaj događaj",
+                            tint               = if (saved) palette.red else palette.subtext0,
+                            modifier           = Modifier.size(18.dp),
+                        )
+                    }
                 }
             }
         }
