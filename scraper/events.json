@@ -1,138 +1,6 @@
 {
-  "scraped_at": "2026-06-13T09:22:22Z",
+  "scraped_at": "2026-06-14T09:41:40Z",
   "events": [
-    {
-      "id": "berza-vinila-kompakt-diskova-kaseta-stripova-i-knjiga-2",
-      "title": "Berza vinila, kompakt diskova, kaseta, stripova i knjiga",
-      "category": "Šoping vodič",
-      "date": "2026-06-13",
-      "time": "10:00",
-      "location": "SKCNS Fabrika",
-      "url": "https://www.mojnovisad.com/navigator/berza-vinila-kompakt-diskova-kaseta-stripova-i-knjiga-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/659801549_1386586260165854_6672137469488117918_n-300x200.jpg",
-      "lat": 45.2375526,
-      "lng": 19.8421486
-    },
-    {
-      "id": "urbani-buvljak-2",
-      "title": "Urbani buvljak",
-      "category": "Festival",
-      "date": "2026-06-13",
-      "time": "11:00",
-      "location": "Kineska četvrt - Kreativni distrikt",
-      "url": "https://www.mojnovisad.com/navigator/urbani-buvljak-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Untitled-750-x-500-px-300x200.png",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "prometejeva-cajanka-marija-trandafil-zena-koja-je-zaduzila-novi-sad",
-      "title": "Prometejeva čajanka: Marija Trandafil – žena koja je zadužila Novi Sad",
-      "category": "Predavanje",
-      "date": "2026-06-13",
-      "time": "11:00",
-      "location": "Galerija Prometej",
-      "url": "https://www.mojnovisad.com/navigator/prometejeva-cajanka-marija-trandafil-zena-koja-je-zaduzila-novi-sad/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/718597274_1612532460880145_7526722718408339690_n-300x169.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-subotu-10",
-      "title": "Cineplexx Novi Sad – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-06-13",
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-10/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/TGWLPTT_Banners-9x16_EN_11JUN-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-subotu-9",
-      "title": "Arena Cineplex – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-06-13",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-subotu-9/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-1-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "humanitarni-koncert-za-nurdor",
-      "title": "Humanitarni koncert za NURDOR",
-      "category": "Koncert",
-      "date": "2026-06-13",
-      "time": "18:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/humanitarni-koncert-za-nurdor/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/712469537_1632347321907120_9140903760581247609_n-300x157.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "gaudium-ns-31-godina-dan-aerobne-gimnastike",
-      "title": "Gaudium NS+ 31 godina – Dan aerobne gimnastike",
-      "category": "Koncert",
-      "date": "2026-06-13",
-      "time": "18:00",
-      "location": "SPENS – Sportski i poslovni centar Vojvodina",
-      "url": "https://www.mojnovisad.com/navigator/gaudium-ns-31-godina-dan-aerobne-gimnastike/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/gaudium_820-300x114.jpg",
-      "lat": 45.2471273,
-      "lng": 19.8454852
-    },
-    {
-      "id": "prezentacija-street-art-radova-u-jedrenjaku",
-      "title": "Prezentacija Street art radova u Jedrenjaku",
-      "category": "Izložba",
-      "date": "2026-06-13",
-      "time": "18:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/prezentacija-street-art-radova-u-jedrenjaku/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/radionica_2-240x300.png",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "posle-milijon-godina-5",
-      "title": "Posle milijon godina",
-      "category": "Predstava",
-      "date": "2026-06-13",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/posle-milijon-godina-5/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/Posle-milijon-godina-snp-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "aj-karmela",
-      "title": "Aj, Karmela",
-      "category": "Predstava",
-      "date": "2026-06-13",
-      "time": "20:30",
-      "location": "Akademija umetnosti Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/aj-karmela/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/karmela_820-300x114.jpg",
-      "lat": 45.2586774,
-      "lng": 19.8437659
-    },
-    {
-      "id": "karma-party-open-air",
-      "title": "Karma party – Open Air",
-      "category": "Noćni provod",
-      "date": "2026-06-13",
-      "time": "22:00",
-      "location": "Borisov atelje",
-      "url": "https://www.mojnovisad.com/navigator/karma-party-open-air/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/karma-13-820-300x114.jpg",
-      "lat": null,
-      "lng": null
-    },
     {
       "id": "cvrcak-i-mrav",
       "title": "Cvrčak i mrav",
@@ -242,6 +110,18 @@
       "lng": 19.8430384
     },
     {
+      "id": "koncert-folk-grupe-istok-u-tsoy-centru",
+      "title": "Koncert folk grupe Istók u “Tsoy-centru”",
+      "category": "Koncert",
+      "date": "2026-06-14",
+      "time": "20:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/koncert-folk-grupe-istok-u-tsoy-centru/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/IMG_3603-212x300.jpeg",
+      "lat": 45.26553,
+      "lng": 19.8293059
+    },
+    {
       "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-11",
       "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
       "category": "Film",
@@ -300,6 +180,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/0-1-300x200.jpeg",
       "lat": 45.25322,
       "lng": 19.8454445
+    },
+    {
+      "id": "otvaranje-izlozbe-snezane-pecujlije-unutrasnje-ka-spoljasnjem",
+      "title": "Otvaranje izložbe Snežane Pečujlije “Unutrašnje ka spoljašnjem”",
+      "category": "Izložba",
+      "date": "2026-06-15",
+      "time": "19:00",
+      "location": "Galerija Prometej",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-snezane-pecujlije-unutrasnje-ka-spoljasnjem/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/4-1-300x169.jpg",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "godisnja-predstava-baletskog-studija-ludens-more-ljubavi",
@@ -386,6 +278,18 @@
       "lng": 19.8430384
     },
     {
+      "id": "vece-soneta-ranka-pavlovica",
+      "title": "Veče soneta Ranka Pavlovića",
+      "category": "Knjiga",
+      "date": "2026-06-16",
+      "time": "19:00",
+      "location": "Galerija Prometej",
+      "url": "https://www.mojnovisad.com/navigator/vece-soneta-ranka-pavlovica/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/5-300x172.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
       "id": "podigni-glavu-3",
       "title": "Podigni glavu",
       "category": "Predstava",
@@ -420,6 +324,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Disclosure-Day-1080x1920px-cnplxx-1-169x300.jpg",
       "lat": 45.245598,
       "lng": 19.842786
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-sredu-10",
+      "title": "Arena Cineplex – repertoar za sredu",
+      "category": "Film",
+      "date": "2026-06-17",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-10/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-1-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
     },
     {
       "id": "from-pamphlets-to-podcasts-voices-of-freedom-2",
