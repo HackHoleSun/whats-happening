@@ -1,126 +1,6 @@
 {
-  "scraped_at": "2026-06-14T09:41:40Z",
+  "scraped_at": "2026-06-15T12:24:22Z",
   "events": [
-    {
-      "id": "cvrcak-i-mrav",
-      "title": "Cvrčak i mrav",
-      "category": "Predstava",
-      "date": "2026-06-14",
-      "time": "10:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/cvrcak-i-mrav/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/CVRCAK-I-MRAV-SNP-jun-2025-18-300x169.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "piknik-sa-m-kutkom",
-      "title": "Piknik sa M Kutkom",
-      "category": "Koncert",
-      "date": "2026-06-14",
-      "time": "11:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/piknik-sa-m-kutkom/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/721626055_1637454141715449_6576659890662137035_n-300x111.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "cvrcak-i-mrav-2",
-      "title": "Cvrčak i mrav",
-      "category": "Predstava",
-      "date": "2026-06-14",
-      "time": "11:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/cvrcak-i-mrav-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/CVRCAK-I-MRAV-SNP-jun-2025-58-300x169.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-nedelju-9",
-      "title": "Cineplexx Novi Sad – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-06-14",
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-9/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1080x1920_PINNOCHIO_CXX_SRB-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-nedelju-9",
-      "title": "Arena Cineplex – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-06-14",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-9/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-1-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "o-dis-kontinuitetu-odakle-smo-posle-kuda-idemo",
-      "title": "O dis/kontinuitetu: Odakle smo pošle, kuda idemo?",
-      "category": "Film",
-      "date": "2026-06-14",
-      "time": "18:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/o-dis-kontinuitetu-odakle-smo-posle-kuda-idemo/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Sajt-objava-960x540@2x-810x456-1-300x169.png",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
-    {
-      "id": "koncert-kaleidoskop-zvuka-u-okviru-ciklusa-koncerata-kamerne-muzike-ars-initio",
-      "title": "Koncert “Kaleidoskop zvuka” u okviru ciklusa koncerata kamerne muzike “Ars Initio””",
-      "category": "Koncert",
-      "date": "2026-06-14",
-      "time": "18:00",
-      "location": "Eđšeg - kulturna stanica",
-      "url": "https://www.mojnovisad.com/navigator/koncert-kaleidoskop-zvuka-u-okviru-ciklusa-koncerata-kamerne-muzike-ars-initio/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1000041566-185x300.png",
-      "lat": 45.2480976,
-      "lng": 19.8302016
-    },
-    {
-      "id": "koncert-linije-klasike-senke-romantizma-u-okviru-ciklusa-koncerata-kamerne-muzike-ars-initio",
-      "title": "Koncert “Linije klasike, senke romantizma” u okviru ciklusa koncerata kamerne muzike “Ars Initio”",
-      "category": "Koncert",
-      "date": "2026-06-14",
-      "time": "19:30",
-      "location": "Eđšeg - kulturna stanica",
-      "url": "https://www.mojnovisad.com/navigator/koncert-linije-klasike-senke-romantizma-u-okviru-ciklusa-koncerata-kamerne-muzike-ars-initio/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1000039239-300x296.jpg",
-      "lat": 45.2480976,
-      "lng": 19.8302016
-    },
-    {
-      "id": "adi-sose",
-      "title": "Adi Šoše",
-      "category": "Koncert",
-      "date": "2026-06-14",
-      "time": "20:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/adi-sose/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1737975422foto-224x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "koncert-folk-grupe-istok-u-tsoy-centru",
-      "title": "Koncert folk grupe Istók u “Tsoy-centru”",
-      "category": "Koncert",
-      "date": "2026-06-14",
-      "time": "20:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/koncert-folk-grupe-istok-u-tsoy-centru/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/IMG_3603-212x300.jpeg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-11",
       "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
@@ -540,6 +420,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-9-300x300.jpg",
       "lat": 45.2531419,
       "lng": 19.855133
+    },
+    {
+      "id": "koncert-folk-grupe-istok-u-tsoy-centru",
+      "title": "Koncert folk grupe Istók u “Tsoy-centru”",
+      "category": "Koncert",
+      "date": "2026-06-19",
+      "time": "20:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/koncert-folk-grupe-istok-u-tsoy-centru/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/ChatGPT-Image-14-июн.-2026-г.-15_05_51-212x300.png",
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "predstava-hamleta-u-selu-mrdusa-donja",
