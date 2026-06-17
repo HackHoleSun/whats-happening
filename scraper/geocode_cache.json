@@ -206,5 +206,13 @@
   "selfnest-prostor": {
     "lat": null,
     "lng": null
+  },
+  "riblja-pijaca": {
+    "lat": 45.2574643,
+    "lng": 19.8510831
+  },
+  "kulturni-centar-novog-sada": {
+    "lat": 45.2564185,
+    "lng": 19.8450848
   }
 }
