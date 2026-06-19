@@ -214,5 +214,9 @@
   "kulturni-centar-novog-sada": {
     "lat": 45.2564185,
     "lng": 19.8450848
+  },
+  "matica-srpska": {
+    "lat": 45.2595333,
+    "lng": 19.8455843
   }
 }

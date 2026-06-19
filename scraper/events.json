@@ -1,186 +1,6 @@
 {
-  "scraped_at": "2026-06-18T10:26:32Z",
+  "scraped_at": "2026-06-19T10:43:36Z",
   "events": [
-    {
-      "id": "od-govora-mrznje-do-kulture-dijaloga-panel-diskusija-i-otvaranje-izlozbe-the-tolerance-project",
-      "title": "Od govora mržnje do kulture dijaloga: panel diskusija i otvaranje izložbe „The Tolerance Project“",
-      "category": "Izložba",
-      "date": "2026-06-18",
-      "time": "11:00",
-      "location": "Eđšeg – kulturna stanica",
-      "url": "https://www.mojnovisad.com/navigator/od-govora-mrznje-do-kulture-dijaloga-panel-diskusija-i-otvaranje-izlozbe-the-tolerance-project/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Tolerance-najava_STORY-169x300.jpg",
-      "lat": 45.2480976,
-      "lng": 19.8302016
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-cetvrtak-7",
-      "title": "Cineplexx Novi Sad – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-06-18",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-cetvrtak-7/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Prica-o-igrackama-5-1080-x-1920-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-cetvrtak-8",
-      "title": "Arena Cineplex – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-06-18",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-cetvrtak-8/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-1-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "izlozba-fotografija-meksicko-americke-umetnice-marijane-jampolski",
-      "title": "Izložba fotografija meksičko-američke umetnice Marijane Jampolski",
-      "category": "Izložba",
-      "date": "2026-06-18",
-      "time": "18:00",
-      "location": "SKCNS nova zgrada",
-      "url": "https://www.mojnovisad.com/navigator/izlozba-fotografija-meksicko-americke-umetnice-marijane-jampolski/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Vizual-Marijana-Jampolski-300x300.png",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "prokrastinacija",
-      "title": "Prokrastinacija",
-      "category": "Radionica",
-      "date": "2026-06-18",
-      "time": "18:52",
-      "location": "Selfnest prostor",
-      "url": "https://www.mojnovisad.com/navigator/prokrastinacija/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Prokrastinacija-radionica-240x300.png",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "maja-volk-kako-se-voli-zivot-i-kako-se-cuva-zdravlje",
-      "title": "MAJA VOLK – KAKO SE VOLI ŽIVOT I KAKO SE ČUVA ZDRAVLJE",
-      "category": "Knjiga",
-      "date": "2026-06-18",
-      "time": "19:00",
-      "location": "SPENS - Sportski i poslovni centar Vojvodina",
-      "url": "https://www.mojnovisad.com/navigator/maja-volk-kako-se-voli-zivot-i-kako-se-cuva-zdravlje/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/VRELO-znak-300x193.jpg",
-      "lat": 45.2471273,
-      "lng": 19.8454852
-    },
-    {
-      "id": "figarova-zenidba-2",
-      "title": "Figarova ženidba",
-      "category": "Predstava",
-      "date": "2026-06-18",
-      "time": "19:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/figarova-zenidba-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/figarova-zenidba-snp-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "godisnji-koncert-play-dance-academy",
-      "title": "Godišnji koncert Play Dance Academy",
-      "category": "Koncert",
-      "date": "2026-06-18",
-      "time": "19:00",
-      "location": "Gradska koncertna dvorana",
-      "url": "https://www.mojnovisad.com/navigator/godisnji-koncert-play-dance-academy/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/play-820-300x114.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "22-medunarodni-festival-vina-interfest",
-      "title": "22. Međunarodni festival vina Interfest",
-      "category": "Festival",
-      "date": "2026-06-18",
-      "time": "19:00",
-      "location": "Trg slobode",
-      "url": "https://www.mojnovisad.com/navigator/22-medunarodni-festival-vina-interfest/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1-4-300x162.jpg",
-      "lat": 45.2552731,
-      "lng": 19.8448453
-    },
-    {
-      "id": "a-taste-of-the-states-the-bad-week",
-      "title": "A Taste Of The States – The Bad Week",
-      "category": "Koncert",
-      "date": "2026-06-18",
-      "time": "19:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/a-taste-of-the-states-the-bad-week/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-8-300x300.jpg",
-      "lat": 45.2531419,
-      "lng": 19.855133
-    },
-    {
-      "id": "podoh-u-madrid-a-zavrsih-u-istocnom-raterfordu-svetska-fudbalska-prvenstva-od-1982-do-2026-godine",
-      "title": "Pođoh u Madrid, a završih u Istočnom Raterfordu – svetska fudbalska prvenstva od 1982. do 2026. godine",
-      "category": "Predavanje",
-      "date": "2026-06-18",
-      "time": "19:00",
-      "location": "Muzej Vojvodine",
-      "url": "https://www.mojnovisad.com/navigator/podoh-u-madrid-a-zavrsih-u-istocnom-raterfordu-svetska-fudbalska-prvenstva-od-1982-do-2026-godine/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/62705-muzej-voj-300x199.jpg",
-      "lat": 45.2564709,
-      "lng": 19.8514492
-    },
-    {
-      "id": "donatorsko-vece-pisci-za-istinu-o-kosarama",
-      "title": "Donatorsko veče “Pisci za istinu o Košarama”",
-      "category": "Predavanje",
-      "date": "2026-06-18",
-      "time": "19:00",
-      "location": "Galerija Prometej",
-      "url": "https://www.mojnovisad.com/navigator/donatorsko-vece-pisci-za-istinu-o-kosarama/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/4-5-300x162.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "godisnji-letnji-koncert",
-      "title": "Godišnji letnji koncert",
-      "category": "Koncert",
-      "date": "2026-06-18",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/godisnji-letnji-koncert/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1778658523plakat-200x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "antiratni-film-povratak-ratnika",
-      "title": "Antiratni film: “Povratak ratnika”",
-      "category": "Film",
-      "date": "2026-06-18",
-      "time": "20:30",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/antiratni-film-povratak-ratnika/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/antiratni-film_coming-home_fb-300x169.jpg",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
-    {
-      "id": "besplatni-bioskop-smrt-ega-2",
-      "title": "Besplatni Bioskop –– SMRT EGA ––",
-      "category": "Film",
-      "date": "2026-06-18",
-      "time": "21:00",
-      "location": "Salon u Radničkoj",
-      "url": "https://www.mojnovisad.com/navigator/besplatni-bioskop-smrt-ega-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/The-Hollywood-Insider-Kill-The-Jockey-300x175.jpeg",
-      "lat": null,
-      "lng": null
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-petak-9",
       "title": "Cineplexx Novi Sad – repertoar za petak",
@@ -312,6 +132,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/723137397_1641535987979993_3225989121723774364_n-300x169.jpg",
       "lat": null,
       "lng": null
+    },
+    {
+      "id": "koncert-klavirskog-dua-godevac-simonovic",
+      "title": "Koncert klavirskog dua Gođevac-Simonović",
+      "category": "Koncert",
+      "date": "2026-06-19",
+      "time": "19:00",
+      "location": "Matica srpska",
+      "url": "https://www.mojnovisad.com/navigator/koncert-klavirskog-dua-godevac-simonovic/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/IMG-4b92ba5a67e6ac8d933c3f547388903f-V-300x212.jpg",
+      "lat": 45.2595333,
+      "lng": 19.8455843
     },
     {
       "id": "koncert-folk-grupe-istok-u-tsoy-centru",
@@ -530,6 +362,18 @@
       "lng": 19.8430384
     },
     {
+      "id": "kultura-secanja-i-urbani-identiteti-slucaj-ulice-pavla-papa",
+      "title": "Kultura sećanja i urbani identiteti: slučaj ulice Pavla Papa",
+      "category": "Predavanje",
+      "date": "2026-06-21",
+      "time": "19:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/kultura-secanja-i-urbani-identiteti-slucaj-ulice-pavla-papa/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-11-300x300.jpg",
+      "lat": 45.26553,
+      "lng": 19.8293059
+    },
+    {
       "id": "vece-spanskog-kratkog-filma-spanska-kratka-tura-na-otvorenom",
       "title": "Veče španskog kratkog filma: “Španska kratka tura na otvorenom”",
       "category": "Film",
@@ -588,6 +432,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Disclosure-Day-1080x1920px-cnplxx-2-169x300.jpg",
       "lat": 45.245598,
       "lng": 19.842786
+    },
+    {
+      "id": "career-quest-otkljucaj-svoju-buducnost",
+      "title": "Career Quest: Otključaj svoju budućnost",
+      "category": "Predavanje",
+      "date": "2026-06-23",
+      "time": "18:00",
+      "location": "Novosadski omladinski prostor (NOF)",
+      "url": "https://www.mojnovisad.com/navigator/career-quest-otkljucaj-svoju-buducnost/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Karijerni-centra-Interview-Cheat-Code-240x300.png",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "figarova-zenidba",
