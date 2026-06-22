@@ -218,5 +218,9 @@
   "matica-srpska": {
     "lat": 45.2595333,
     "lng": 19.8455843
+  },
+  "rebelrelic-club": {
+    "lat": null,
+    "lng": null
   }
 }

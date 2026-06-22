@@ -1,102 +1,6 @@
 {
-  "scraped_at": "2026-06-21T09:55:51Z",
+  "scraped_at": "2026-06-22T12:11:53Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-nedelju-10",
-      "title": "Cineplexx Novi Sad – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-06-21",
-      "time": "11:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-10/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1080X1920_BACKROOMS_cxx_D_SRB-1-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-3",
-      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
-      "category": "Izložba",
-      "date": "2026-06-21",
-      "time": "13:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Vodjenja-kroz-izlozbu-300x200.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-nedelju-10",
-      "title": "Arena Cineplex – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-06-21",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-10/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-1-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-4",
-      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
-      "category": "Izložba",
-      "date": "2026-06-21",
-      "time": "17:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Свечано-отварање-изложбе-Уметност-у-служби-вере-сјај-и-слава-Карловачке-митрополије-4-300x200.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "book-swap-open-mic",
-      "title": "BOOK SWAP & OPEN MIC",
-      "category": "Knjiga",
-      "date": "2026-06-21",
-      "time": "18:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/book-swap-open-mic/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-2-1-300x169.png",
-      "lat": 45.2531419,
-      "lng": 19.855133
-    },
-    {
-      "id": "o-letu-i-pticama",
-      "title": "O letu i pticama",
-      "category": "Koncert",
-      "date": "2026-06-21",
-      "time": "19:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/o-letu-i-pticama/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1778672452plakat-200x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "kultura-secanja-i-urbani-identiteti-slucaj-ulice-pavla-papa",
-      "title": "Kultura sećanja i urbani identiteti: slučaj ulice Pavla Papa",
-      "category": "Predavanje",
-      "date": "2026-06-21",
-      "time": "19:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/kultura-secanja-i-urbani-identiteti-slucaj-ulice-pavla-papa/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-11-300x300.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "vece-spanskog-kratkog-filma-spanska-kratka-tura-na-otvorenom",
-      "title": "Veče španskog kratkog filma: “Španska kratka tura na otvorenom”",
-      "category": "Film",
-      "date": "2026-06-21",
-      "time": "21:00",
-      "location": "Omladinski klub - OPENS",
-      "url": "https://www.mojnovisad.com/navigator/vece-spanskog-kratkog-filma-spanska-kratka-tura-na-otvorenom/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/spanska-tura-15-ig-post-240x300.png",
-      "lat": null,
-      "lng": null
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-12",
       "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
@@ -358,6 +262,18 @@
       "location": "KC \"Mladost\"",
       "url": "https://www.mojnovisad.com/navigator/3d-malci-i-monstrumi-sinh/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Minions-3-tizer-1x1-1-300x300.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "vojvodjanski-blues-band",
+      "title": "Vojvodjanski Blues Band",
+      "category": "Koncert",
+      "date": "2026-07-02",
+      "time": "21:00",
+      "location": "Rebelrelic Club",
+      "url": "https://www.mojnovisad.com/navigator/vojvodjanski-blues-band/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/moj-novi-sad-com-300x198.jpg",
       "lat": null,
       "lng": null
     },
