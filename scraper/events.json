@@ -1,42 +1,6 @@
 {
-  "scraped_at": "2026-06-22T12:11:53Z",
+  "scraped_at": "2026-06-23T09:49:57Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-12",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-06-22",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-12/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Gospodari-svemira_1080x1150_SRB-2-282x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-ponedeljak-11",
-      "title": "Arena Cineplex – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-06-22",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-11/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-1-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "koraci-ka-ravnotezi",
-      "title": "Koraci ka ravnoteži",
-      "category": "Radionica",
-      "date": "2026-06-22",
-      "time": "18:00",
-      "location": "Fruška gora",
-      "url": "https://www.mojnovisad.com/navigator/koraci-ka-ravnotezi/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/woman-865021_1920-1-300x200.jpg",
-      "lat": 45.1720057,
-      "lng": 19.8282553
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-utorak-11",
       "title": "Cineplexx Novi Sad – repertoar za utorak",
@@ -62,6 +26,18 @@
       "lng": null
     },
     {
+      "id": "book-club-with-andrew-4",
+      "title": "Book Club with Andrew",
+      "category": "Knjiga",
+      "date": "2026-06-23",
+      "time": "18:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/book-club-with-andrew-4/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-5-240x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
       "id": "figarova-zenidba",
       "title": "Figarova ženidba",
       "category": "Predstava",
@@ -72,6 +48,30 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/figarova-zenidba-snp-300x200.jpg",
       "lat": 45.2553613,
       "lng": 19.8430384
+    },
+    {
+      "id": "predstavljanje-knjige-vidovdanska-citanka-dejana-tomica",
+      "title": "Predstavljanje knjige “Vidovdanska čitanka” Dejana Tomića",
+      "category": "Knjiga",
+      "date": "2026-06-23",
+      "time": "19:00",
+      "location": "Gradska biblioteka u Novom Sadu",
+      "url": "https://www.mojnovisad.com/navigator/predstavljanje-knjige-vidovdanska-citanka-dejana-tomica/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/728528204_1566281108438671_1626108706025472048_n-300x169.jpg",
+      "lat": 45.25689,
+      "lng": 19.8484335
+    },
+    {
+      "id": "eskapizam-izlozba-studenata-trece-godine-slikarstva",
+      "title": "ESKAPIZAM: Izložba studenata treće godine slikarstva",
+      "category": "Izložba",
+      "date": "2026-06-23",
+      "time": "19:00",
+      "location": "Savez udruženja likovnih umetnika Vojvodine",
+      "url": "https://www.mojnovisad.com/navigator/eskapizam-izlozba-studenata-trece-godine-slikarstva/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/725592856_1480498130779640_6096857730813221301_n-300x169.jpg",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "tri-zime",
@@ -134,6 +134,42 @@
       "lng": 19.8282553
     },
     {
+      "id": "from-pamphlets-to-podcasts-voices-of-freedom-3",
+      "title": "From Pamphlets to Podcasts: Voices of Freedom",
+      "category": "Predavanje",
+      "date": "2026-06-24",
+      "time": "18:30",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/from-pamphlets-to-podcasts-voices-of-freedom-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-1-3-240x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "tajne-legata-veljka-petrovica",
+      "title": "Tajne Legata Veljka Petrovića",
+      "category": "Predavanje",
+      "date": "2026-06-24",
+      "time": "19:00",
+      "location": "Muzej Vojvodine",
+      "url": "https://www.mojnovisad.com/navigator/tajne-legata-veljka-petrovica/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-5-3-240x300.jpg",
+      "lat": 45.2564709,
+      "lng": 19.8514492
+    },
+    {
+      "id": "koncert-studenata-violine-akademije-umetnosti",
+      "title": "Koncert studenata violine Akademije umetnosti",
+      "category": "Koncert",
+      "date": "2026-06-24",
+      "time": "19:00",
+      "location": "Kulturni centar Vojvodine „Miloš Crnjanski”",
+      "url": "https://www.mojnovisad.com/navigator/koncert-studenata-violine-akademije-umetnosti/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/725989107_1496928972479552_7590308074304480994_n-300x200.jpg",
+      "lat": 45.255355,
+      "lng": 19.8530307
+    },
+    {
       "id": "ljudi-odozgo",
       "title": "Ljudi odozgo",
       "category": "Predstava",
@@ -170,6 +206,30 @@
       "lng": 19.839698
     },
     {
+      "id": "svet-digitalne-umetnosti-video-radovi-mihaja-grekua",
+      "title": "Svet Digitalne Umetnosti – Video radovi Mihaja Grekua",
+      "category": "Predavanje",
+      "date": "2026-06-25",
+      "time": "16:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/svet-digitalne-umetnosti-video-radovi-mihaja-grekua/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-3-1-300x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "projekcija-dokumentarno-edukativnog-filma-ratnici-na-granici-carstva",
+      "title": "Projekcija dokumentarno-edukativnog filma “Ratnici na granici carstva”",
+      "category": "Film",
+      "date": "2026-06-25",
+      "time": "19:00",
+      "location": "Muzej Vojvodine",
+      "url": "https://www.mojnovisad.com/navigator/projekcija-dokumentarno-edukativnog-filma-ratnici-na-granici-carstva/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-6-1-240x300.jpg",
+      "lat": 45.2564709,
+      "lng": 19.8514492
+    },
+    {
       "id": "ton-zlocina",
       "title": "Ton zločina",
       "category": "Film",
@@ -194,6 +254,42 @@
       "lng": null
     },
     {
+      "id": "psychology-in-english-3",
+      "title": "Psychology in English",
+      "category": "Radionica",
+      "date": "2026-06-26",
+      "time": "18:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/psychology-in-english-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-4-1-300x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "electropop",
+      "title": "Electropop",
+      "category": "Noćni provod",
+      "date": "2026-06-26",
+      "time": "21:00",
+      "location": "Borisov atelje",
+      "url": "https://www.mojnovisad.com/navigator/electropop/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/elpop_820-300x114.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "detox-pop-up",
+      "title": "Detox pop-up",
+      "category": "Šoping vodič",
+      "date": "2026-06-27",
+      "time": "15:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/detox-pop-up/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1-8-300x262.jpg",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
       "id": "17-nocni-maraton",
       "title": "17. Noćni maraton",
       "category": "Sport",
@@ -204,6 +300,30 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/627978677_1485698093564069_7296520761835259257_n-300x112.jpg",
       "lat": 45.2502707,
       "lng": 19.8556968
+    },
+    {
+      "id": "poetarium",
+      "title": "Poetarium",
+      "category": "Knjiga",
+      "date": "2026-06-27",
+      "time": "20:00",
+      "location": "Ordinacija Art Cafe",
+      "url": "https://www.mojnovisad.com/navigator/poetarium/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/726440490_1024344450247272_8805934884166402277_n-300x169.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "milonga-querida-dj-margot",
+      "title": "Milonga Querida – DJ Margot",
+      "category": "Noćni provod",
+      "date": "2026-06-28",
+      "time": "15:00",
+      "location": "Gerila Bar",
+      "url": "https://www.mojnovisad.com/navigator/milonga-querida-dj-margot/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/724472814_976909471907594_6407365204651310191_n-300x169.jpg",
+      "lat": 45.2570291,
+      "lng": 19.843874
     },
     {
       "id": "filosetnje-filozofske-setnje",
@@ -278,6 +398,18 @@
       "lng": null
     },
     {
+      "id": "casovi-orijentalnog-plesa",
+      "title": "Časovi orijentalnog plesa",
+      "category": "Sport",
+      "date": "2026-07-03",
+      "time": "19:00",
+      "location": "Plesna škola Azar",
+      "url": "https://www.mojnovisad.com/navigator/casovi-orijentalnog-plesa/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/IMG_4802-226x300.jpeg",
+      "lat": null,
+      "lng": null
+    },
+    {
       "id": "novosadski-jazz-festival",
       "title": "Novosadski jazz festival",
       "category": "Festival",
@@ -336,6 +468,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/biohazard-820-300x114.jpg",
       "lat": 45.2375526,
       "lng": 19.8421486
+    },
+    {
+      "id": "stand-up-nebojse-grujica-kriza-srednjih-godina",
+      "title": "Stand up Nebojše Grujića “Kriza srednjih godina”",
+      "category": "Predstava",
+      "date": "2026-07-29",
+      "time": "21:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/stand-up-nebojse-grujica-kriza-srednjih-godina/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/kriza-820-1-300x114.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
     },
     {
       "id": "music-reactions-outdoor-rave-august",

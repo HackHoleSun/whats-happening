@@ -222,5 +222,25 @@
   "rebelrelic-club": {
     "lat": null,
     "lng": null
+  },
+  "savez-udruzenja-likovnih-umetnika-vojvodine": {
+    "lat": null,
+    "lng": null
+  },
+  "kulturni-centar-vojvodine-milos-crnjanski": {
+    "lat": 45.255355,
+    "lng": 19.8530307
+  },
+  "ordinacija-art-cafe": {
+    "lat": null,
+    "lng": null
+  },
+  "gerila-bar": {
+    "lat": 45.2570291,
+    "lng": 19.843874
+  },
+  "plesna-skola-azar": {
+    "lat": null,
+    "lng": null
   }
 }
