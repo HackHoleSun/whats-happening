@@ -1,66 +1,6 @@
 {
-  "scraped_at": "2026-06-27T08:41:08Z",
+  "scraped_at": "2026-06-28T09:16:14Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-subotu-11",
-      "title": "Arena Cineplex – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-06-27",
-      "time": "10:30",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-subotu-11/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-2-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-subotu-12",
-      "title": "Cineplexx Novi Sad – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-06-27",
-      "time": "13:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-12/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Minions-3-Uncomfortable-James-za-web-209x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "detox-pop-up",
-      "title": "Detox pop-up",
-      "category": "Šoping vodič",
-      "date": "2026-06-27",
-      "time": "15:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/detox-pop-up/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1-8-300x262.jpg",
-      "lat": 45.2531419,
-      "lng": 19.855133
-    },
-    {
-      "id": "17-nocni-maraton",
-      "title": "17. Noćni maraton",
-      "category": "Sport",
-      "date": "2026-06-27",
-      "time": "20:00",
-      "location": "Kej Žrtava Racije",
-      "url": "https://www.mojnovisad.com/navigator/17-nocni-maraton/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/627978677_1485698093564069_7296520761835259257_n-300x112.jpg",
-      "lat": 45.2502707,
-      "lng": 19.8556968
-    },
-    {
-      "id": "poetarium",
-      "title": "Poetarium",
-      "category": "Knjiga",
-      "date": "2026-06-27",
-      "time": "20:00",
-      "location": "Ordinacija Art Cafe",
-      "url": "https://www.mojnovisad.com/navigator/poetarium/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/726440490_1024344450247272_8805934884166402277_n-300x169.jpg",
-      "lat": null,
-      "lng": null
-    },
     {
       "id": "arena-cineplex-repertoar-za-nedelju-11",
       "title": "Arena Cineplex – repertoar za nedelju",
@@ -146,6 +86,18 @@
       "lng": 19.842786
     },
     {
+      "id": "otvaranje-izlozbe-i-promocija-knjige-more-ili-odmor",
+      "title": "Otvaranje izložbe i promocija knjige “More ili odmor”",
+      "category": "Izložba",
+      "date": "2026-06-29",
+      "time": "19:00",
+      "location": "Galerija Prometej",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-i-promocija-knjige-more-ili-odmor/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/2-10-300x179.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
       "id": "pinokio-istinita-prica-sinh",
       "title": "Pinokio: Istinita priča – sinh",
       "category": "Film",
@@ -156,6 +108,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/710799474_1646239193596663_5348762151559372010_n-300x132.jpg",
       "lat": null,
       "lng": null
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-utorak-11",
+      "title": "Arena Cineplex – repertoar za utorak",
+      "category": "Film",
+      "date": "2026-06-30",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-11/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-2-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
     },
     {
       "id": "cineplexx-novi-sad-repertoar-za-utorak-12",
@@ -182,6 +146,30 @@
       "lng": null
     },
     {
+      "id": "izgubljeno-naslede-novog-sada-predstavljanje-projekta-posvecenog-ulici-pap-pavla",
+      "title": "Izgubljeno nasleđe Novog Sada: Predstavljanje projekta posvećenog Ulici Pap Pavla",
+      "category": "Predavanje",
+      "date": "2026-06-30",
+      "time": "19:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/izgubljeno-naslede-novog-sada-predstavljanje-projekta-posvecenog-ulici-pap-pavla/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/IMG_0490-300x169.jpeg",
+      "lat": 45.26553,
+      "lng": 19.8293059
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-sredu-11",
+      "title": "Arena Cineplex – repertoar za sredu",
+      "category": "Film",
+      "date": "2026-07-01",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-11/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-2-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
       "id": "cineplexx-novi-sad-repertoar-za-sredu-10",
       "title": "Cineplexx Novi Sad – repertoar za sredu",
       "category": "Film",
@@ -206,6 +194,18 @@
       "lng": 19.839698
     },
     {
+      "id": "beo-leto",
+      "title": "Beo Leto",
+      "category": "Festival",
+      "date": "2026-07-01",
+      "time": "21:00",
+      "location": "Beočin",
+      "url": "https://www.mojnovisad.com/navigator/beo-leto/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/ПЛАКАТ-1-205x300.jpg",
+      "lat": 45.220138,
+      "lng": 19.8313212
+    },
+    {
       "id": "3d-malci-i-monstrumi-sinh",
       "title": "3D Malci i monstrumi – sinh",
       "category": "Film",
@@ -226,6 +226,18 @@
       "location": "Rebelrelic Club",
       "url": "https://www.mojnovisad.com/navigator/vojvodjanski-blues-band/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/moj-novi-sad-com-300x198.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas",
+      "title": "Besplatna radionica za mlade – Osnove marketinga koje moraš da znaš",
+      "category": "Radionica",
+      "date": "2026-07-03",
+      "time": "18:00",
+      "location": "Novosadski omladinski prostor (NOF)",
+      "url": "https://www.mojnovisad.com/navigator/besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Radionica-SET-jul-239x300.jpg",
       "lat": null,
       "lng": null
     },
@@ -276,6 +288,30 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/road_820-300x114.jpg",
       "lat": 45.2375526,
       "lng": 19.8421486
+    },
+    {
+      "id": "radionica-interview-cheat-code-level-3",
+      "title": "Radionica – Interview Cheat Code – LEVEL 3",
+      "category": "Radionica",
+      "date": "2026-07-05",
+      "time": "18:00",
+      "location": "Novosadski omladinski prostor (NOF)",
+      "url": "https://www.mojnovisad.com/navigator/radionica-interview-cheat-code-level-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Karijerni-centra-Biljana-3-DM-240x300.png",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "irmovo-sunset-bici-tura",
+      "title": "IRMOVO Sunset / bici tura",
+      "category": "Sport",
+      "date": "2026-07-05",
+      "time": "18:30",
+      "location": "Železnički park",
+      "url": "https://www.mojnovisad.com/navigator/irmovo-sunset-bici-tura/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/IMG_7547_SnapseedCopy-225x300.jpeg",
+      "lat": 45.2645698,
+      "lng": 19.8248208
     },
     {
       "id": "peter-and-the-test-tube-babies",

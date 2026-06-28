@@ -242,5 +242,9 @@
   "plesna-skola-azar": {
     "lat": null,
     "lng": null
+  },
+  "zeleznicki-park": {
+    "lat": 45.2645698,
+    "lng": 19.8248208
   }
 }
