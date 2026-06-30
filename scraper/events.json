@@ -1,102 +1,6 @@
 {
-  "scraped_at": "2026-06-28T09:16:14Z",
+  "scraped_at": "2026-06-30T09:45:37Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-nedelju-11",
-      "title": "Arena Cineplex – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-06-28",
-      "time": "10:30",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-11/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-2-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-nedelju-11",
-      "title": "Cineplexx Novi Sad – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-06-28",
-      "time": "13:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-11/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/De-Gol-U-senci-otpora-206x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "milonga-querida-dj-margot",
-      "title": "Milonga Querida – DJ Margot",
-      "category": "Noćni provod",
-      "date": "2026-06-28",
-      "time": "15:00",
-      "location": "Gerila Bar",
-      "url": "https://www.mojnovisad.com/navigator/milonga-querida-dj-margot/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/724472814_976909471907594_6407365204651310191_n-300x169.jpg",
-      "lat": 45.2570291,
-      "lng": 19.843874
-    },
-    {
-      "id": "filosetnje-filozofske-setnje",
-      "title": "Filošetnje (Filozofske šetnje)",
-      "category": "Radionica",
-      "date": "2026-06-28",
-      "time": "16:00",
-      "location": "Fruška gora",
-      "url": "https://www.mojnovisad.com/navigator/filosetnje-filozofske-setnje/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Filosetnje-240x300.jpg",
-      "lat": 45.1720057,
-      "lng": 19.8282553
-    },
-    {
-      "id": "stand-up-duo-show-srdana-dincica-i-nebojse-potkrajca-mnogo-je-problema",
-      "title": "Stand up duo show Srđana Dinčića i Nebojše Potkrajca “Mnogo je problema”",
-      "category": "Predstava",
-      "date": "2026-06-28",
-      "time": "20:00",
-      "location": "Radnički dom \"Svetozar marković\"",
-      "url": "https://www.mojnovisad.com/navigator/stand-up-duo-show-srdana-dincica-i-nebojse-potkrajca-mnogo-je-problema/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/mnogo_je_problema_820-300x114.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-ponedeljak-12",
-      "title": "Arena Cineplex – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-06-29",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-12/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/arena-cineplex-2-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-13",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-06-29",
-      "time": "17:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-13/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/1080X1920_BACKROOMS_cxx_D_SRB-2-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "otvaranje-izlozbe-i-promocija-knjige-more-ili-odmor",
-      "title": "Otvaranje izložbe i promocija knjige “More ili odmor”",
-      "category": "Izložba",
-      "date": "2026-06-29",
-      "time": "19:00",
-      "location": "Galerija Prometej",
-      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-i-promocija-knjige-more-ili-odmor/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/2-10-300x179.jpg",
-      "lat": null,
-      "lng": null
-    },
     {
       "id": "pinokio-istinita-prica-sinh",
       "title": "Pinokio: Istinita priča – sinh",
@@ -106,6 +10,18 @@
       "location": "KC \"Mladost\"",
       "url": "https://www.mojnovisad.com/navigator/pinokio-istinita-prica-sinh/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/710799474_1646239193596663_5348762151559372010_n-300x132.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "novosadsko-decije-leto",
+      "title": "NOVOSADSKO DEČIJE LETO – Impresije u kolažu",
+      "category": "Radionica",
+      "date": "2026-06-30",
+      "time": "11:00",
+      "location": "Spomen-zbirka Pavla Beljanskog",
+      "url": "https://www.mojnovisad.com/navigator/novosadsko-decije-leto/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Baner-NSDL-300x158.jpg",
       "lat": null,
       "lng": null
     },
@@ -146,6 +62,18 @@
       "lng": null
     },
     {
+      "id": "book-club-with-andrew-5",
+      "title": "Book Club with Andrew",
+      "category": "Knjiga",
+      "date": "2026-06-30",
+      "time": "18:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/book-club-with-andrew-5/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-6-240x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
       "id": "izgubljeno-naslede-novog-sada-predstavljanje-projekta-posvecenog-ulici-pap-pavla",
       "title": "Izgubljeno nasleđe Novog Sada: Predstavljanje projekta posvećenog Ulici Pap Pavla",
       "category": "Predavanje",
@@ -156,6 +84,54 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/IMG_0490-300x169.jpeg",
       "lat": 45.26553,
       "lng": 19.8293059
+    },
+    {
+      "id": "fifa-world-cup-watch-party-obala-slonovace-protiv-norveske",
+      "title": "FIFA World Cup Watch Party – Obala Slonovače protiv Norveške",
+      "category": "Sport",
+      "date": "2026-06-30",
+      "time": "19:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/fifa-world-cup-watch-party-obala-slonovace-protiv-norveske/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/geibral-soccer-10330366_1920-300x169.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "predstavljanje-knjige-penelopa-i-ostali-lazara-bukumirovica",
+      "title": "Predstavljanje knjige “Penelopa i ostali ” Lazara Bukumirovića",
+      "category": "Knjiga",
+      "date": "2026-06-30",
+      "time": "19:00",
+      "location": "Gradska biblioteka u Novom Sadu",
+      "url": "https://www.mojnovisad.com/navigator/predstavljanje-knjige-penelopa-i-ostali-lazara-bukumirovica/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/732018885_1478167814341046_276309163716254710_n-300x169.jpg",
+      "lat": 45.25689,
+      "lng": 19.8484335
+    },
+    {
+      "id": "fifa-world-cup-watch-party-holandija-protiv-maroka-repriza",
+      "title": "FIFA World Cup Watch Party – Holandija protiv Maroka (repriza)",
+      "category": "Sport",
+      "date": "2026-06-30",
+      "time": "21:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/fifa-world-cup-watch-party-holandija-protiv-maroka-repriza/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/geibral-soccer-10330366_1920-300x169.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "novosadsko-decije-leto-pricam-ti-pricu",
+      "title": "NOVOSADSKO DEČIJE LETO – Pričam ti priču…",
+      "category": "Radionica",
+      "date": "2026-07-01",
+      "time": "11:00",
+      "location": "Spomen-zbirka Pavla Beljanskog",
+      "url": "https://www.mojnovisad.com/navigator/novosadsko-decije-leto-pricam-ti-pricu/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Baner-NSDL-300x158.jpg",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "arena-cineplex-repertoar-za-sredu-11",
@@ -194,6 +170,30 @@
       "lng": 19.839698
     },
     {
+      "id": "fifa-world-cup-watch-party-engleska-protiv-konga",
+      "title": "FIFA World Cup Watch Party – Engleska protiv Konga",
+      "category": "Sport",
+      "date": "2026-07-01",
+      "time": "18:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/fifa-world-cup-watch-party-engleska-protiv-konga/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/geibral-soccer-10330366_1920-300x169.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "from-pamphlets-to-podcasts-voices-of-freedom-4",
+      "title": "From Pamphlets to Podcasts: Voices of Freedom",
+      "category": "Predavanje",
+      "date": "2026-07-01",
+      "time": "18:30",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/from-pamphlets-to-podcasts-voices-of-freedom-4/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-1-4-240x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
       "id": "beo-leto",
       "title": "Beo Leto",
       "category": "Festival",
@@ -204,6 +204,42 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/ПЛАКАТ-1-205x300.jpg",
       "lat": 45.220138,
       "lng": 19.8313212
+    },
+    {
+      "id": "fifa-world-cup-watch-party-belgija-protiv-senegala",
+      "title": "FIFA World Cup Watch Party – Belgija protiv Senegala",
+      "category": "Sport",
+      "date": "2026-07-01",
+      "time": "22:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/fifa-world-cup-watch-party-belgija-protiv-senegala/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/geibral-soccer-10330366_1920-300x169.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "novosadsko-decije-leto-buket-iz-kolekcije",
+      "title": "NOVOSADSKO DEČIJE LETO – Buket iz kolekcije",
+      "category": "Radionica",
+      "date": "2026-07-02",
+      "time": "11:00",
+      "location": "Spomen-zbirka Pavla Beljanskog",
+      "url": "https://www.mojnovisad.com/navigator/novosadsko-decije-leto-buket-iz-kolekcije/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Baner-NSDL-300x158.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "diplomski-koncert-katarine-katic",
+      "title": "Diplomski koncert Katarine Katić",
+      "category": "Koncert",
+      "date": "2026-07-02",
+      "time": "18:00",
+      "location": "Spomen-zbirka Pavla Beljanskog",
+      "url": "https://www.mojnovisad.com/navigator/diplomski-koncert-katarine-katic/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Plakat-koncert-Katarine-Katanic-212x300.png",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "3d-malci-i-monstrumi-sinh",
@@ -230,6 +266,30 @@
       "lng": null
     },
     {
+      "id": "fifa-world-cup-watch-party-spanija-protiv-austrije",
+      "title": "FIFA World Cup Watch Party – Španija protiv Austrije",
+      "category": "Sport",
+      "date": "2026-07-02",
+      "time": "21:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/fifa-world-cup-watch-party-spanija-protiv-austrije/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/geibral-soccer-10330366_1920-300x169.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "vece-austrijskog-filma-spavati-sa-tigrom-2024",
+      "title": "Veče austrijskog filma – Spavati sa tigrom (2024)",
+      "category": "Film",
+      "date": "2026-07-02",
+      "time": "21:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/vece-austrijskog-filma-spavati-sa-tigrom-2024/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Leto-na-trgu-EL-pozivnice_2-JUL-300x212.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
       "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas",
       "title": "Besplatna radionica za mlade – Osnove marketinga koje moraš da znaš",
       "category": "Radionica",
@@ -240,6 +300,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Radionica-SET-jul-239x300.jpg",
       "lat": null,
       "lng": null
+    },
+    {
+      "id": "89-novosadski-nocni-bazar",
+      "title": "91. Novosadski noćni bazar",
+      "category": "Šoping vodič",
+      "date": "2026-07-03",
+      "time": "18:00",
+      "location": "Riblja pijaca",
+      "url": "https://www.mojnovisad.com/navigator/89-novosadski-nocni-bazar/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/729973779_1354826496515479_3636309831249517509_n-300x157.jpg",
+      "lat": 45.2574643,
+      "lng": 19.8510831
     },
     {
       "id": "casovi-orijentalnog-plesa",
@@ -254,6 +326,54 @@
       "lng": null
     },
     {
+      "id": "otvaranje-izlozbe-acid-folk-nikole-bradonjica",
+      "title": "Otvaranje izložbe “ACID FOLK” Nikole Bradonjića",
+      "category": "Izložba",
+      "date": "2026-07-03",
+      "time": "19:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-acid-folk-nikole-bradonjica/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/unnamed-5-4-300x300.jpg",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "izbori-karlovackih-arhiepiskopa-u-18-veku",
+      "title": "Izbori karlovačkih arhiepiskopa u 18. veku",
+      "category": "Predavanje",
+      "date": "2026-07-03",
+      "time": "19:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/izbori-karlovackih-arhiepiskopa-u-18-veku/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Sveti-Maksim-Brankovic-arhiepiskop-srpski-kopija-prema-zidnoj-slici-Jova-Vasilijevica-manastir-Krusedol-1750-177x300.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "svecano-otvaranje-nove-sezone-nase-biblioteke-na-strandu",
+      "title": "Svečano otvaranje nove sezone naše Biblioteke na Štrandu",
+      "category": "Knjiga",
+      "date": "2026-07-03",
+      "time": "19:30",
+      "location": "Štrand",
+      "url": "https://www.mojnovisad.com/navigator/svecano-otvaranje-nove-sezone-nase-biblioteke-na-strandu/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/733157477_1480565704101257_7535189191434200420_n-300x169.jpg",
+      "lat": 45.2363112,
+      "lng": 19.8465411
+    },
+    {
+      "id": "fifa-world-cup-watch-party-australija-protiv-egipta",
+      "title": "FIFA World Cup Watch Party – Australija protiv Egipta",
+      "category": "Sport",
+      "date": "2026-07-03",
+      "time": "20:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/fifa-world-cup-watch-party-australija-protiv-egipta/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/geibral-soccer-10330366_1920-300x169.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
       "id": "novosadski-jazz-festival",
       "title": "Novosadski jazz festival",
       "category": "Festival",
@@ -264,6 +384,30 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/ns-dzez-820-300x114.jpg",
       "lat": 45.26553,
       "lng": 19.8293059
+    },
+    {
+      "id": "autorsko-vodenje-kroz-aktuelnu-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije",
+      "title": "Autorsko vođenje kroz aktuelnu izložbu “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-07-04",
+      "time": "13:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/autorsko-vodenje-kroz-aktuelnu-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Stevan-Aleksic-Golgota-II-1921-300x172.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "autorsko-vodenje-kroz-aktuelnu-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-2",
+      "title": "Autorsko vođenje kroz aktuelnu izložbu “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-07-04",
+      "time": "17:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/autorsko-vodenje-kroz-aktuelnu-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Zograf-Jovan-Bogorodica-Odigitrija-1660-Srpski-crkveni-muzej-u-Sentandreji-1-236x300.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
     },
     {
       "id": "blokstok-festival-2026",
@@ -290,6 +434,42 @@
       "lng": 19.8421486
     },
     {
+      "id": "fifa-world-cup-watch-party-kolumbija-protiv-gane-repriza",
+      "title": "FIFA World Cup Watch Party – Kolumbija protiv Gane (repriza)",
+      "category": "Sport",
+      "date": "2026-07-04",
+      "time": "21:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/fifa-world-cup-watch-party-kolumbija-protiv-gane-repriza/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/geibral-soccer-10330366_1920-300x169.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "strucno-vodenje-kroz-aktuelnu-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-2",
+      "title": "Stručno vođenje kroz aktuelnu izložbu “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-07-05",
+      "time": "13:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-vodenje-kroz-aktuelnu-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Stevan-Aleksic-Golgota-II-1921-300x172.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "strucno-vodenje-kroz-aktuelnu-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije",
+      "title": "Stručno vođenje kroz aktuelnu izložbu “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-07-05",
+      "time": "17:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-vodenje-kroz-aktuelnu-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Zograf-Jovan-Bogorodica-Odigitrija-1660-Srpski-crkveni-muzej-u-Sentandreji-1-236x300.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
       "id": "radionica-interview-cheat-code-level-3",
       "title": "Radionica – Interview Cheat Code – LEVEL 3",
       "category": "Radionica",
@@ -314,6 +494,30 @@
       "lng": 19.8248208
     },
     {
+      "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-2",
+      "title": "Besplatna radionica za mlade – Osnove marketinga koje moraš da znaš",
+      "category": "Radionica",
+      "date": "2026-07-10",
+      "time": "18:00",
+      "location": "Novosadski omladinski prostor (NOF)",
+      "url": "https://www.mojnovisad.com/navigator/besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Radionica-SET-jul-1-239x300.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-3",
+      "title": "Besplatna radionica za mlade – Osnove marketinga koje moraš da znaš",
+      "category": "Radionica",
+      "date": "2026-07-17",
+      "time": "18:00",
+      "location": "Novosadski omladinski prostor (NOF)",
+      "url": "https://www.mojnovisad.com/navigator/besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Radionica-SET-jul-2-239x300.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
       "id": "peter-and-the-test-tube-babies",
       "title": "Peter and the Test Tube Babies",
       "category": "Koncert",
@@ -324,6 +528,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/719970022_1445803924244087_5429824617544433246_n-300x169.jpg",
       "lat": 45.2375526,
       "lng": 19.8421486
+    },
+    {
+      "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-4",
+      "title": "Besplatna radionica za mlade – Osnove marketinga koje moraš da znaš",
+      "category": "Radionica",
+      "date": "2026-07-24",
+      "time": "18:00",
+      "location": "Novosadski omladinski prostor (NOF)",
+      "url": "https://www.mojnovisad.com/navigator/besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-4/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Radionica-SET-jul-3-239x300.jpg",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "biohazard-death-angel-sworn-enemy",
