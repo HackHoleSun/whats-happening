@@ -246,5 +246,13 @@
   "zeleznicki-park": {
     "lat": 45.2645698,
     "lng": 19.8248208
+  },
+  "dandy-club": {
+    "lat": null,
+    "lng": null
+  },
+  "discont": {
+    "lat": 45.2421084,
+    "lng": 19.8250079
   }
 }
