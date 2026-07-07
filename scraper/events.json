@@ -1,66 +1,6 @@
 {
-  "scraped_at": "2026-07-06T10:57:31Z",
+  "scraped_at": "2026-07-07T09:49:23Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-ponedeljak-13",
-      "title": "Arena Cineplex – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-07-06",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-13/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-14",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-07-06",
-      "time": "16:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-14/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/1080X1920_BACKROOMS_cxx_D_SRB-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "koraci-ka-ravnotezi-2",
-      "title": "Koraci ka ravnoteži",
-      "category": "Radionica",
-      "date": "2026-07-06",
-      "time": "18:00",
-      "location": "Fruška gora",
-      "url": "https://www.mojnovisad.com/navigator/koraci-ka-ravnotezi-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/woman-865021_1920-300x200.jpg",
-      "lat": 45.1720057,
-      "lng": 19.8282553
-    },
-    {
-      "id": "cetvrta-nedelja-novosadskog-big-decijeg-leta-16",
-      "title": "Četvrta nedelja “Novosadskog BIG dečijeg leta 16”",
-      "category": "Festival",
-      "date": "2026-07-06",
-      "time": "18:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/cetvrta-nedelja-novosadskog-big-decijeg-leta-16/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/NDL-16-baner-2-300x300.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "world-cup-viewing",
-      "title": "World Cup Viewing",
-      "category": "Sport",
-      "date": "2026-07-06",
-      "time": "21:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/world-cup-viewing/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/unnamed-300x152.png",
-      "lat": 45.2531419,
-      "lng": 19.855133
-    },
     {
       "id": "arena-cineplex-repertoar-za-utorak-12",
       "title": "Arena Cineplex – repertoar za utorak",
