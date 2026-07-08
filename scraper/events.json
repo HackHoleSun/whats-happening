@@ -1,42 +1,6 @@
 {
-  "scraped_at": "2026-07-07T09:49:23Z",
+  "scraped_at": "2026-07-08T08:34:55Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-utorak-12",
-      "title": "Arena Cineplex – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-07-07",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-12/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-utorak-13",
-      "title": "Cineplexx Novi Sad – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-07-07",
-      "time": "16:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-13/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Poziv-206x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "skolovanje-u-inostranstvu-iz-prve-ruke",
-      "title": "Školovanje u inostranstvu – iz prve ruke",
-      "category": "Predavanje",
-      "date": "2026-07-07",
-      "time": "18:30",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/skolovanje-u-inostranstvu-iz-prve-ruke/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Skolovanje-u-inostranstvu-Vizual-240x300.png",
-      "lat": 45.2531419,
-      "lng": 19.855133
-    },
     {
       "id": "arena-cineplex-repertoar-za-sredu-12",
       "title": "Arena Cineplex – repertoar za sredu",
