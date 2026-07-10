@@ -1,53 +1,29 @@
 {
-  "scraped_at": "2026-07-08T08:34:55Z",
+  "scraped_at": "2026-07-10T09:41:37Z",
   "events": [
     {
-      "id": "arena-cineplex-repertoar-za-sredu-12",
-      "title": "Arena Cineplex – repertoar za sredu",
+      "id": "cineplexx-novi-sad-repertoar-za-petak-12",
+      "title": "Cineplexx Novi Sad – repertoar za petak",
       "category": "Film",
-      "date": "2026-07-08",
+      "date": "2026-07-10",
       "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-12/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-sredu-11",
-      "title": "Cineplexx Novi Sad – repertoar za sredu",
-      "category": "Film",
-      "date": "2026-07-08",
-      "time": "16:00",
       "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-sredu-11/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Vajana-2026-203x300.jpg",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-petak-12/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/EDB_Cineplexx_1080x1920-169x300.jpg",
       "lat": 45.245598,
       "lng": 19.842786
     },
     {
-      "id": "from-pamphlets-to-podcasts-voices-of-freedom-5",
-      "title": "From Pamphlets to Podcasts: Voices of Freedom",
-      "category": "Predavanje",
-      "date": "2026-07-08",
-      "time": "18:30",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/from-pamphlets-to-podcasts-voices-of-freedom-5/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/unnamed-1-240x300.png",
-      "lat": 45.2531419,
-      "lng": 19.855133
-    },
-    {
-      "id": "book-club-with-andrew-6",
-      "title": "Book Club with Andrew",
-      "category": "Knjiga",
-      "date": "2026-07-09",
-      "time": "18:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/book-club-with-andrew-6/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/unnamed-2-240x300.png",
-      "lat": 45.2531419,
-      "lng": 19.855133
+      "id": "arena-cineplex-repertoar-za-petak-12",
+      "title": "Arena Cineplex – repertoar za petak",
+      "category": "Film",
+      "date": "2026-07-10",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-petak-12/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
     },
     {
       "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-2",
@@ -62,6 +38,42 @@
       "lng": null
     },
     {
+      "id": "otvaranje-izlozbe-radova-trace-amounts",
+      "title": "Otvaranje izložbe radova “Trace Amounts”",
+      "category": "Izložba",
+      "date": "2026-07-10",
+      "time": "19:30",
+      "location": "PROSTOR",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-radova-trace-amounts/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/AHE_PATIO2_plakat_Trace_amount-210x300.jpg",
+      "lat": 45.2390442,
+      "lng": 19.8346348
+    },
+    {
+      "id": "svecano-otvaranje-nove-sezone-nase-biblioteke-na-strandu",
+      "title": "Vokalna tradicionalna praksa grada Sombora u savremenim muzičkim okvirima",
+      "category": "Predavanje",
+      "date": "2026-07-10",
+      "time": "20:00",
+      "location": "Štrand",
+      "url": "https://www.mojnovisad.com/navigator/svecano-otvaranje-nove-sezone-nase-biblioteke-na-strandu/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/knjiga-pixa-300x201.jpg",
+      "lat": 45.2363112,
+      "lng": 19.8465411
+    },
+    {
+      "id": "zenitov-julski-zur-oskar-vajld-the-art-of-temptation",
+      "title": "Zenitov julski žur – Oskar Vajld: The Art of Temptation",
+      "category": "Noćni provod",
+      "date": "2026-07-10",
+      "time": "21:00",
+      "location": "Zenit",
+      "url": "https://www.mojnovisad.com/navigator/zenitov-julski-zur-oskar-vajld-the-art-of-temptation/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Zurka-Vajld-FB-300x157.png",
+      "lat": 45.2569986,
+      "lng": 19.8426561
+    },
+    {
       "id": "berza-vinila-kompakt-diskova-kaseta-stripova-i-knjiga-3",
       "title": "Berza vinila, kompakt diskova, kaseta, stripova i knjiga",
       "category": "Šoping vodič",
@@ -72,6 +84,30 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/738040694_1465773358913810_8466164554259514364_n-300x200.jpg",
       "lat": 45.2375526,
       "lng": 19.8421486
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-subotu-13",
+      "title": "Arena Cineplex – repertoar za subotu",
+      "category": "Film",
+      "date": "2026-07-11",
+      "time": "10:30",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-subotu-13/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-subotu-13",
+      "title": "Cineplexx Novi Sad – repertoar za subotu",
+      "category": "Film",
+      "date": "2026-07-11",
+      "time": "12:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-13/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Smrt-Robina-Huda-1-209x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
     },
     {
       "id": "jugoslovenka-3",
@@ -98,6 +134,54 @@
       "lng": 19.839698
     },
     {
+      "id": "humanitarni-kviz-sapoznalica",
+      "title": "Humanitarni kviz “ŠapoZnalica”",
+      "category": "Noćni provod",
+      "date": "2026-07-11",
+      "time": "20:00",
+      "location": "Radio Cafe",
+      "url": "https://www.mojnovisad.com/navigator/humanitarni-kviz-sapoznalica/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/image-300x263.png",
+      "lat": 45.2576943,
+      "lng": 19.8431025
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-nedelju-13",
+      "title": "Arena Cineplex – repertoar za nedelju",
+      "category": "Film",
+      "date": "2026-07-12",
+      "time": "10:30",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-13/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-nedelju-13",
+      "title": "Cineplexx Novi Sad – repertoar za nedelju",
+      "category": "Film",
+      "date": "2026-07-12",
+      "time": "12:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-13/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Prica-o-igrackama-5-1080-x-1920-1-169x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
+    },
+    {
+      "id": "ko-ce-bajsom-u-rumenku-na-slavu",
+      "title": "Ko će bajsom u Rumenku na slavu?",
+      "category": "Festival",
+      "date": "2026-07-12",
+      "time": "16:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/ko-ce-bajsom-u-rumenku-na-slavu/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Untitled-design-300x295.jpeg",
+      "lat": 45.26553,
+      "lng": 19.8293059
+    },
+    {
       "id": "kurs-flamenko-tehnike-primenjene-na-klasicnu-i-savremenu-gitaru",
       "title": "Kurs Flamenko tehnike primenjene na klasičnu i savremenu gitaru",
       "category": "Radionica",
@@ -110,6 +194,66 @@
       "lng": null
     },
     {
+      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-15",
+      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
+      "category": "Film",
+      "date": "2026-07-13",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-15/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/EDB_Cineplexx_1080x1920-169x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-ponedeljak-14",
+      "title": "Arena Cineplex – repertoar za ponedeljak",
+      "category": "Film",
+      "date": "2026-07-13",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-14/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
+      "id": "otvaranje-izlozba-gostujucih-umetnika-iz-madarske-negy-kor-uv-four-ages-ns",
+      "title": "Otvaranje  izložba gostujućih umetnika iz Mađarske “Négy-kor UV / Four Ages NS”",
+      "category": "Izložba",
+      "date": "2026-07-13",
+      "time": "20:00",
+      "location": "Savez udruženja likovnih umetnika Vojvodine",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozba-gostujucih-umetnika-iz-madarske-negy-kor-uv-four-ages-ns/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Otvaranje-izlozbe-SULUV-2026-Fabian-Nemes-Heritesz-Nagami-Negy-kor-UV-Four-Ages-NS-300x169.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-utorak-14",
+      "title": "Cineplexx Novi Sad – repertoar za utorak",
+      "category": "Film",
+      "date": "2026-07-14",
+      "time": "11:30",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-14/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Poziv-1-206x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-utorak-13",
+      "title": "Arena Cineplex – repertoar za utorak",
+      "category": "Film",
+      "date": "2026-07-14",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-13/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
       "id": "klabing-264-satrapi-vezenje",
       "title": "Klabing #264 / Satrapi – Vezenje",
       "category": "Knjiga",
@@ -120,6 +264,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/735761386_1323423043237593_7143931045341677915_n-300x157.jpg",
       "lat": 45.258309,
       "lng": 19.839698
+    },
+    {
+      "id": "volontiraj-na-fiba-3x3-novi-sad-challenger-2026",
+      "title": "Volontiraj na FIBA 3×3 Novi Sad Challenger 2026",
+      "category": "Sport",
+      "date": "2026-07-16",
+      "time": "18:00",
+      "location": "SPENS - Sportski i poslovni centar Vojvodina",
+      "url": "https://www.mojnovisad.com/navigator/volontiraj-na-fiba-3x3-novi-sad-challenger-2026/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/14-1024x683-1-300x200.jpg",
+      "lat": 45.2471273,
+      "lng": 19.8454852
     },
     {
       "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-3",
@@ -156,6 +312,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/719970022_1445803924244087_5429824617544433246_n-300x169.jpg",
       "lat": 45.2375526,
       "lng": 19.8421486
+    },
+    {
+      "id": "radionica-japanske-kaligrafije-za-pocetnike",
+      "title": "Radionica japanske kaligrafije za početnike",
+      "category": "Radionica",
+      "date": "2026-07-18",
+      "time": "17:30",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/radionica-japanske-kaligrafije-za-pocetnike/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/instagram-post-225x300.jpg",
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-4",

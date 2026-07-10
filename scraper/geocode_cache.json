@@ -262,5 +262,9 @@
   "hala-2": {
     "lat": null,
     "lng": null
+  },
+  "prostor": {
+    "lat": 45.2390442,
+    "lng": 19.8346348
   }
 }
