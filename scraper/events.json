@@ -1,78 +1,6 @@
 {
-  "scraped_at": "2026-07-11T08:01:58Z",
+  "scraped_at": "2026-07-12T08:22:55Z",
   "events": [
-    {
-      "id": "berza-vinila-kompakt-diskova-kaseta-stripova-i-knjiga-3",
-      "title": "Berza vinila, kompakt diskova, kaseta, stripova i knjiga",
-      "category": "Šoping vodič",
-      "date": "2026-07-11",
-      "time": "10:00",
-      "location": "SKCNS Fabrika",
-      "url": "https://www.mojnovisad.com/navigator/berza-vinila-kompakt-diskova-kaseta-stripova-i-knjiga-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/738040694_1465773358913810_8466164554259514364_n-300x200.jpg",
-      "lat": 45.2375526,
-      "lng": 19.8421486
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-subotu-13",
-      "title": "Arena Cineplex – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-07-11",
-      "time": "10:30",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-subotu-13/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-subotu-13",
-      "title": "Cineplexx Novi Sad – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-07-11",
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-13/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Smrt-Robina-Huda-1-209x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "jugoslovenka-3",
-      "title": "Jugoslovenka",
-      "category": "Noćni provod",
-      "date": "2026-07-11",
-      "time": "20:00",
-      "location": "Štrand",
-      "url": "https://www.mojnovisad.com/navigator/jugoslovenka-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/jugoslo-820-300x114.jpg",
-      "lat": 45.2363112,
-      "lng": 19.8465411
-    },
-    {
-      "id": "korka-%d1%85%d0%b0%d1%98%d0%ba%d0%b0",
-      "title": "KORKA / ХАЈКА",
-      "category": "Koncert",
-      "date": "2026-07-11",
-      "time": "20:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/korka-%d1%85%d0%b0%d1%98%d0%ba%d0%b0/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/733590191_1470706508435169_9169900855872668670_n-234x300.jpg",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
-    {
-      "id": "humanitarni-kviz-sapoznalica",
-      "title": "Humanitarni kviz “ŠapoZnalica”",
-      "category": "Noćni provod",
-      "date": "2026-07-11",
-      "time": "20:00",
-      "location": "Radio Cafe",
-      "url": "https://www.mojnovisad.com/navigator/humanitarni-kviz-sapoznalica/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/image-300x263.png",
-      "lat": 45.2576943,
-      "lng": 19.8431025
-    },
     {
       "id": "arena-cineplex-repertoar-za-nedelju-13",
       "title": "Arena Cineplex – repertoar za nedelju",
@@ -192,6 +120,30 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/735761386_1323423043237593_7143931045341677915_n-300x157.jpg",
       "lat": 45.258309,
       "lng": 19.839698
+    },
+    {
+      "id": "%d0%be%d0%b1%d1%83%d0%ba%d0%b5-%d1%80%d0%be%d0%b4%d0%bd%d0%b0-%d1%80%d0%b0%d0%b2%d0%bd%d0%be%d0%bf%d1%80%d0%b0%d0%b2%d0%bd%d0%be%d1%81%d1%82-%d0%bf%d0%be%d1%87%d0%b8%d1%9a%d0%b5-%d0%ba%d0%be",
+      "title": "Обуке „Родна равноправност почиње код куће: мале рутине – велике промене“",
+      "category": "Predavanje",
+      "date": "2026-07-15",
+      "time": "18:00",
+      "location": "Onlajn",
+      "url": "https://www.mojnovisad.com/navigator/%d0%be%d0%b1%d1%83%d0%ba%d0%b5-%d1%80%d0%be%d0%b4%d0%bd%d0%b0-%d1%80%d0%b0%d0%b2%d0%bd%d0%be%d0%bf%d1%80%d0%b0%d0%b2%d0%bd%d0%be%d1%81%d1%82-%d0%bf%d0%be%d1%87%d0%b8%d1%9a%d0%b5-%d0%ba%d0%be/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Mali-koraci-najava1_edited-240x300.png",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "predavanje-sveta-dolina-inka",
+      "title": "Predavanje: Sveta dolina Inka",
+      "category": "Predavanje",
+      "date": "2026-07-15",
+      "time": "19:00",
+      "location": "Omladinski klub - OPENS",
+      "url": "https://www.mojnovisad.com/navigator/predavanje-sveta-dolina-inka/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-5-2026-09_07_40-PM-300x300.png",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "volontiraj-na-fiba-3x3-novi-sad-challenger-2026",
