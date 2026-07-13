@@ -1,42 +1,6 @@
 {
-  "scraped_at": "2026-07-12T08:22:55Z",
+  "scraped_at": "2026-07-13T09:57:11Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-nedelju-13",
-      "title": "Arena Cineplex – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-07-12",
-      "time": "10:30",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-13/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-nedelju-13",
-      "title": "Cineplexx Novi Sad – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-07-12",
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-13/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Prica-o-igrackama-5-1080-x-1920-1-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "ko-ce-bajsom-u-rumenku-na-slavu",
-      "title": "Ko će bajsom u Rumenku na slavu?",
-      "category": "Festival",
-      "date": "2026-07-12",
-      "time": "16:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/ko-ce-bajsom-u-rumenku-na-slavu/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Untitled-design-300x295.jpeg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
     {
       "id": "kurs-flamenko-tehnike-primenjene-na-klasicnu-i-savremenu-gitaru",
       "title": "Kurs Flamenko tehnike primenjene na klasičnu i savremenu gitaru",
@@ -180,6 +144,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/734685119_1464906895667123_4533794259687999910_n-300x212.jpg",
       "lat": null,
       "lng": null
+    },
+    {
+      "id": "filozofska-praksa-i-egzistencijalizam",
+      "title": "Filozofska praksa i egzistencijalizam",
+      "category": "Predavanje",
+      "date": "2026-07-17",
+      "time": "19:00",
+      "location": "Zenit",
+      "url": "https://www.mojnovisad.com/navigator/filozofska-praksa-i-egzistencijalizam/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Ciklus-predavanja-A3-212x300.jpg",
+      "lat": 45.2569986,
+      "lng": 19.8426561
     },
     {
       "id": "peter-and-the-test-tube-babies",
