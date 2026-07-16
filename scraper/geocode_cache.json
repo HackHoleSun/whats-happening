@@ -270,5 +270,13 @@
   "onlajn": {
     "lat": null,
     "lng": null
+  },
+  "arhiv-vojvodine": {
+    "lat": 45.2568948,
+    "lng": 19.8519638
+  },
+  "oficirac": {
+    "lat": null,
+    "lng": null
   }
 }

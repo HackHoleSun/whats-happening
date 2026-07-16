@@ -1,66 +1,6 @@
 {
-  "scraped_at": "2026-07-14T08:13:27Z",
+  "scraped_at": "2026-07-16T08:19:35Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-utorak-14",
-      "title": "Cineplexx Novi Sad – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-07-14",
-      "time": "11:30",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-14/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Poziv-1-206x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-utorak-13",
-      "title": "Arena Cineplex – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-07-14",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-13/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "klabing-264-satrapi-vezenje",
-      "title": "Klabing #264 / Satrapi – Vezenje",
-      "category": "Knjiga",
-      "date": "2026-07-15",
-      "time": "18:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/klabing-264-satrapi-vezenje/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/735761386_1323423043237593_7143931045341677915_n-300x157.jpg",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
-    {
-      "id": "%d0%be%d0%b1%d1%83%d0%ba%d0%b5-%d1%80%d0%be%d0%b4%d0%bd%d0%b0-%d1%80%d0%b0%d0%b2%d0%bd%d0%be%d0%bf%d1%80%d0%b0%d0%b2%d0%bd%d0%be%d1%81%d1%82-%d0%bf%d0%be%d1%87%d0%b8%d1%9a%d0%b5-%d0%ba%d0%be",
-      "title": "Обуке „Родна равноправност почиње код куће: мале рутине – велике промене“",
-      "category": "Predavanje",
-      "date": "2026-07-15",
-      "time": "18:00",
-      "location": "Onlajn",
-      "url": "https://www.mojnovisad.com/navigator/%d0%be%d0%b1%d1%83%d0%ba%d0%b5-%d1%80%d0%be%d0%b4%d0%bd%d0%b0-%d1%80%d0%b0%d0%b2%d0%bd%d0%be%d0%bf%d1%80%d0%b0%d0%b2%d0%bd%d0%be%d1%81%d1%82-%d0%bf%d0%be%d1%87%d0%b8%d1%9a%d0%b5-%d0%ba%d0%be/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Mali-koraci-najava1_edited-240x300.png",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "predavanje-sveta-dolina-inka",
-      "title": "Predavanje: Sveta dolina Inka",
-      "category": "Predavanje",
-      "date": "2026-07-15",
-      "time": "19:00",
-      "location": "Omladinski klub - OPENS",
-      "url": "https://www.mojnovisad.com/navigator/predavanje-sveta-dolina-inka/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-5-2026-09_07_40-PM-300x300.png",
-      "lat": null,
-      "lng": null
-    },
     {
       "id": "volontiraj-na-fiba-3x3-novi-sad-challenger-2026",
       "title": "Volontiraj na FIBA 3×3 Novi Sad Challenger 2026",
@@ -72,6 +12,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/14-1024x683-1-300x200.jpg",
       "lat": 45.2471273,
       "lng": 19.8454852
+    },
+    {
+      "id": "promocija-knjige-joy-of-completing-yourself",
+      "title": "PROMOCIJA KNJIGE ” JOY OF COMPLETING YOURSELF “",
+      "category": "Knjiga",
+      "date": "2026-07-16",
+      "time": "19:30",
+      "location": "Arhiv Vojvodine",
+      "url": "https://www.mojnovisad.com/navigator/promocija-knjige-joy-of-completing-yourself/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/1000038529-209x300.jpg",
+      "lat": 45.2568948,
+      "lng": 19.8519638
     },
     {
       "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-3",
@@ -122,6 +74,18 @@
       "lng": 19.8421486
     },
     {
+      "id": "fiesta-mexicana",
+      "title": "FIESTA MEXICANA",
+      "category": "Festival",
+      "date": "2026-07-18",
+      "time": "16:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/fiesta-mexicana/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/90d6ba9b-1a68-438f-87f5-b5e426230ab8_92F43F52-B93C-415B-BD67-099055BA7336-240x300.jpeg",
+      "lat": 45.26553,
+      "lng": 19.8293059
+    },
+    {
       "id": "radionica-japanske-kaligrafije-za-pocetnike",
       "title": "Radionica japanske kaligrafije za početnike",
       "category": "Radionica",
@@ -132,6 +96,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/instagram-post-225x300.jpg",
       "lat": 45.26553,
       "lng": 19.8293059
+    },
+    {
+      "id": "drum-bass-beach-party-by-night-head",
+      "title": "Drum & Bass Beach Party by Night Head",
+      "category": "Noćni provod",
+      "date": "2026-07-18",
+      "time": "20:00",
+      "location": "Oficirac",
+      "url": "https://www.mojnovisad.com/navigator/drum-bass-beach-party-by-night-head/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/3-2-1-zurka-300x200.png",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-4",
@@ -204,6 +180,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/735597620_1323429473236950_949804129021629625_n-300x157.jpg",
       "lat": 45.258309,
       "lng": 19.839698
+    },
+    {
+      "id": "vojvodjanski-blues-band-2",
+      "title": "Vojvodjanski Blues Band",
+      "category": "Koncert",
+      "date": "2026-08-21",
+      "time": "20:00",
+      "location": "Riblja pijaca",
+      "url": "https://www.mojnovisad.com/navigator/vojvodjanski-blues-band-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/21-avgust-300x157.jpg",
+      "lat": 45.2574643,
+      "lng": 19.8510831
     },
     {
       "id": "music-reactions-outdoor-rave-august",
