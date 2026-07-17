@@ -1,29 +1,29 @@
 {
-  "scraped_at": "2026-07-16T08:19:35Z",
+  "scraped_at": "2026-07-17T08:15:45Z",
   "events": [
     {
-      "id": "volontiraj-na-fiba-3x3-novi-sad-challenger-2026",
-      "title": "Volontiraj na FIBA 3×3 Novi Sad Challenger 2026",
-      "category": "Sport",
-      "date": "2026-07-16",
-      "time": "18:00",
-      "location": "SPENS - Sportski i poslovni centar Vojvodina",
-      "url": "https://www.mojnovisad.com/navigator/volontiraj-na-fiba-3x3-novi-sad-challenger-2026/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/14-1024x683-1-300x200.jpg",
-      "lat": 45.2471273,
-      "lng": 19.8454852
+      "id": "arena-cineplex-repertoar-za-petak-13",
+      "title": "Arena Cineplex – repertoar za petak",
+      "category": "Film",
+      "date": "2026-07-17",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-petak-13/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
     },
     {
-      "id": "promocija-knjige-joy-of-completing-yourself",
-      "title": "PROMOCIJA KNJIGE ” JOY OF COMPLETING YOURSELF “",
-      "category": "Knjiga",
-      "date": "2026-07-16",
-      "time": "19:30",
-      "location": "Arhiv Vojvodine",
-      "url": "https://www.mojnovisad.com/navigator/promocija-knjige-joy-of-completing-yourself/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/1000038529-209x300.jpg",
-      "lat": 45.2568948,
-      "lng": 19.8519638
+      "id": "cineplexx-novi-sad-repertoar-za-petak-13",
+      "title": "Cineplexx Novi Sad – repertoar za petak",
+      "category": "Film",
+      "date": "2026-07-17",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-petak-13/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Prica-o-igrackama-5-1080-x-1920-2-169x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
     },
     {
       "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-3",
@@ -74,6 +74,30 @@
       "lng": 19.8421486
     },
     {
+      "id": "arena-cineplex-repertoar-za-subotu-14",
+      "title": "Arena Cineplex – repertoar za subotu",
+      "category": "Film",
+      "date": "2026-07-18",
+      "time": "11:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-subotu-14/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-subotu-14",
+      "title": "Cineplexx Novi Sad – repertoar za subotu",
+      "category": "Film",
+      "date": "2026-07-18",
+      "time": "12:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-14/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/EDB_Cineplexx_1080x1920-1-169x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
+    },
+    {
       "id": "fiesta-mexicana",
       "title": "FIESTA MEXICANA",
       "category": "Festival",
@@ -108,6 +132,90 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/3-2-1-zurka-300x200.png",
       "lat": null,
       "lng": null
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-nedelju-14",
+      "title": "Arena Cineplex – repertoar za nedelju",
+      "category": "Film",
+      "date": "2026-07-19",
+      "time": "11:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-14/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-nedelju-14",
+      "title": "Cineplexx Novi Sad – repertoar za nedelju",
+      "category": "Film",
+      "date": "2026-07-19",
+      "time": "12:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-14/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Vajana-1080-x-1920-1-169x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-ponedeljak-15",
+      "title": "Arena Cineplex – repertoar za ponedeljak",
+      "category": "Film",
+      "date": "2026-07-20",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-15/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-16",
+      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
+      "category": "Film",
+      "date": "2026-07-20",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-16/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Prica-o-igrackama-5-1080-x-1920-2-169x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-utorak-15",
+      "title": "Cineplexx Novi Sad – repertoar za utorak",
+      "category": "Film",
+      "date": "2026-07-21",
+      "time": "11:30",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-15/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Poziv-2-206x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-utorak-14",
+      "title": "Arena Cineplex – repertoar za utorak",
+      "category": "Film",
+      "date": "2026-07-21",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-14/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-sredu-12",
+      "title": "Cineplexx Novi Sad – repertoar za sredu",
+      "category": "Film",
+      "date": "2026-07-22",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-sredu-12/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/1080X1920_DEEP_WATER_CXX_SRB-169x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
     },
     {
       "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-4",
@@ -230,6 +338,30 @@
       "lng": 19.8412391
     },
     {
+      "id": "filmovi-na-putu-dragi-tomase",
+      "title": "Filmovi na putu – Dragi Tomase",
+      "category": "Film",
+      "date": "2026-09-08",
+      "time": "20:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/filmovi-na-putu-dragi-tomase/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/IG-Karusel-post-1-Dragi-Tomase-1080x1350-1-240x300.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "filmovi-na-putu-rabije-kurnaz-protiv-dzordza-busa",
+      "title": "Filmovi na putu – Rabije Kurnaz protiv Džordža Buša",
+      "category": "Film",
+      "date": "2026-09-15",
+      "time": "20:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/filmovi-na-putu-rabije-kurnaz-protiv-dzordza-busa/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/IG-post-karusel-1-Rabije-Kurnaz-protiv-Dzordza-Busa-1080x1350-1-240x300.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
       "id": "lavina",
       "title": "Lavina",
       "category": "Koncert",
@@ -238,6 +370,18 @@
       "location": "SKCNS nova zgrada",
       "url": "https://www.mojnovisad.com/navigator/lavina/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/lav_820-300x114.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "filmovi-na-putu-undine",
+      "title": "Filmovi na putu – Undine",
+      "category": "Film",
+      "date": "2026-09-22",
+      "time": "20:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/filmovi-na-putu-undine/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/IG-Post-karusel-1-Undine-1080x1350-1-240x300.jpg",
       "lat": null,
       "lng": null
     },
@@ -288,6 +432,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/neoplanta-nspz-300x211.jpg",
       "lat": 45.2577191,
       "lng": 19.8415872
+    },
+    {
+      "id": "filmovi-na-putu-the-trouble-with-being-born",
+      "title": "Filmovi na putu – The Trouble with Being Born",
+      "category": "Film",
+      "date": "2026-09-29",
+      "time": "20:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/filmovi-na-putu-the-trouble-with-being-born/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/IG-Post-karusel-1-The-trouble-with-being-born-1080x1350-1-240x300.jpg",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "slomosa",
