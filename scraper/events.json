@@ -1,78 +1,6 @@
 {
-  "scraped_at": "2026-07-17T08:15:45Z",
+  "scraped_at": "2026-07-18T07:57:50Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-petak-13",
-      "title": "Arena Cineplex – repertoar za petak",
-      "category": "Film",
-      "date": "2026-07-17",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-petak-13/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-petak-13",
-      "title": "Cineplexx Novi Sad – repertoar za petak",
-      "category": "Film",
-      "date": "2026-07-17",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-petak-13/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Prica-o-igrackama-5-1080-x-1920-2-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-3",
-      "title": "Besplatna radionica za mlade – Osnove marketinga koje moraš da znaš",
-      "category": "Radionica",
-      "date": "2026-07-17",
-      "time": "18:00",
-      "location": "Novosadski omladinski prostor (NOF)",
-      "url": "https://www.mojnovisad.com/navigator/besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Radionica-SET-jul-2-239x300.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "bas-prijatna-izlozba",
-      "title": "Baš prijatna izložba",
-      "category": "Izložba",
-      "date": "2026-07-17",
-      "time": "19:00",
-      "location": "SKCNS nova zgrada",
-      "url": "https://www.mojnovisad.com/navigator/bas-prijatna-izlozba/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/734685119_1464906895667123_4533794259687999910_n-300x212.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "filozofska-praksa-i-egzistencijalizam",
-      "title": "Filozofska praksa i egzistencijalizam",
-      "category": "Predavanje",
-      "date": "2026-07-17",
-      "time": "19:00",
-      "location": "Zenit",
-      "url": "https://www.mojnovisad.com/navigator/filozofska-praksa-i-egzistencijalizam/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Ciklus-predavanja-A3-212x300.jpg",
-      "lat": 45.2569986,
-      "lng": 19.8426561
-    },
-    {
-      "id": "peter-and-the-test-tube-babies",
-      "title": "Peter and the Test Tube Babies",
-      "category": "Koncert",
-      "date": "2026-07-17",
-      "time": "21:00",
-      "location": "SKCNS Fabrika",
-      "url": "https://www.mojnovisad.com/navigator/peter-and-the-test-tube-babies/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/719970022_1445803924244087_5429824617544433246_n-300x169.jpg",
-      "lat": 45.2375526,
-      "lng": 19.8421486
-    },
     {
       "id": "arena-cineplex-repertoar-za-subotu-14",
       "title": "Arena Cineplex – repertoar za subotu",
@@ -118,6 +46,18 @@
       "location": "Novi Sad",
       "url": "https://www.mojnovisad.com/navigator/radionica-japanske-kaligrafije-za-pocetnike/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/instagram-post-225x300.jpg",
+      "lat": 45.26553,
+      "lng": 19.8293059
+    },
+    {
+      "id": "%d0%b3%d0%be%d1%80%d0%b8-night-sputnik-anderb%d1%91rd-prijateljska-vatra-lunatika",
+      "title": "ГОРИ NIGHT: SPUTNIK | ANDERBЁRD | PRIJATELJSKA VATRA | LUNATIKA",
+      "category": "Koncert",
+      "date": "2026-07-18",
+      "time": "19:30",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/%d0%b3%d0%be%d1%80%d0%b8-night-sputnik-anderb%d1%91rd-prijateljska-vatra-lunatika/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/gori-night-2026-kikpub-ns-300x168.png",
       "lat": 45.26553,
       "lng": 19.8293059
     },
@@ -216,6 +156,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/1080X1920_DEEP_WATER_CXX_SRB-169x300.jpg",
       "lat": 45.245598,
       "lng": 19.842786
+    },
+    {
+      "id": "koraci-ka-ravnotezi-3",
+      "title": "Koraci ka ravnoteži",
+      "category": "Radionica",
+      "date": "2026-07-22",
+      "time": "18:00",
+      "location": "Fruška gora",
+      "url": "https://www.mojnovisad.com/navigator/koraci-ka-ravnotezi-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/To-je-proces-postepenog-osvescivanja-i-vracanja-unutrasnje-ravnoteze-–-temelja-na-kojem-se-grade-zdravlje-vitalnost-i-kvalitetniji-zivot-169x300.png",
+      "lat": 45.1720057,
+      "lng": 19.8282553
     },
     {
       "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-4",
