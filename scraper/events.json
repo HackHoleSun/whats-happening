@@ -1,30 +1,6 @@
 {
-  "scraped_at": "2026-07-20T09:21:29Z",
+  "scraped_at": "2026-07-21T08:34:30Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-ponedeljak-15",
-      "title": "Arena Cineplex – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-07-20",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-15/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-16",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-07-20",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-16/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Prica-o-igrackama-5-1080-x-1920-2-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-utorak-15",
       "title": "Cineplexx Novi Sad – repertoar za utorak",
@@ -50,6 +26,42 @@
       "lng": 19.8454491
     },
     {
+      "id": "conversation-club-with-stella",
+      "title": "Conversation Club with Stella",
+      "category": "Radionica",
+      "date": "2026-07-21",
+      "time": "18:30",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/conversation-club-with-stella/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/unnamed-3-240x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "festival-novih-energija-2026",
+      "title": "Festival novih energija 2026",
+      "category": "Festival",
+      "date": "2026-07-21",
+      "time": "19:30",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/festival-novih-energija-2026/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/24-JUL-212x300.jpg",
+      "lat": 45.26553,
+      "lng": 19.8293059
+    },
+    {
+      "id": "otvaranje-izlozbe-akvarela-dodir-vode-ljiljane-fijat",
+      "title": "Otvaranje izložbe akvarela “Dodir vode” Ljiljane Fijat",
+      "category": "Izložba",
+      "date": "2026-07-21",
+      "time": "20:00",
+      "location": "Štrand",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-akvarela-dodir-vode-ljiljane-fijat/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/niekverlaan-violin-374096_1920-300x200.jpg",
+      "lat": 45.2363112,
+      "lng": 19.8465411
+    },
+    {
       "id": "cineplexx-novi-sad-repertoar-za-sredu-12",
       "title": "Cineplexx Novi Sad – repertoar za sredu",
       "category": "Film",
@@ -60,6 +72,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/1080X1920_DEEP_WATER_CXX_SRB-169x300.jpg",
       "lat": 45.245598,
       "lng": 19.842786
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-sredu-13",
+      "title": "Arena Cineplex – repertoar za sredu",
+      "category": "Film",
+      "date": "2026-07-22",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-13/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
     },
     {
       "id": "koraci-ka-ravnotezi-3",
@@ -74,6 +98,54 @@
       "lng": 19.8282553
     },
     {
+      "id": "from-pamphlets-to-podcasts",
+      "title": "From Pamphlets to Podcasts",
+      "category": "Radionica",
+      "date": "2026-07-22",
+      "time": "18:30",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/from-pamphlets-to-podcasts/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/unnamed-1-1-240x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "svet-digitalne-umetnosti-video-umetnost-kaspara-de-gelmanija",
+      "title": "Svet Digitalne Umetnosti – Video umetnost Kaspara de Gelmanija",
+      "category": "Film",
+      "date": "2026-07-23",
+      "time": "16:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/svet-digitalne-umetnosti-video-umetnost-kaspara-de-gelmanija/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/unnamed-2-1-300x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "staza-licnog-razvoja",
+      "title": "STAZA LIČNOG RAZVOJA",
+      "category": "Predavanje",
+      "date": "2026-07-23",
+      "time": "18:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/staza-licnog-razvoja/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/77522-300x145.jpg",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "aktivno-leto-2026-u-americkom-kutku",
+      "title": "InterArt Aktivno Leto 2026. u Američkom kutku",
+      "category": "Radionica",
+      "date": "2026-07-23",
+      "time": "18:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/aktivno-leto-2026-u-americkom-kutku/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Aktivno-Leto-Vizual-240x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
       "id": "besplatna-radionica-za-mlade-osnove-marketinga-koje-moras-da-znas-4",
       "title": "Besplatna radionica za mlade – Osnove marketinga koje moraš da znaš",
       "category": "Radionica",
@@ -84,6 +156,66 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/Radionica-SET-jul-3-239x300.jpg",
       "lat": null,
       "lng": null
+    },
+    {
+      "id": "kalendar-praznika-u-karlovackoj-mitropoliji",
+      "title": "Kalendar praznika u Karlovačkoj mitropoliji",
+      "category": "Predavanje",
+      "date": "2026-07-24",
+      "time": "19:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/kalendar-praznika-u-karlovackoj-mitropoliji/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Aksentije-Marodic-Krunisanje-Bogorodice-1862-215x300.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-5",
+      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-07-25",
+      "time": "13:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-5/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/e7c538fe-300x200.jpeg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-6",
+      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-07-25",
+      "time": "17:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-6/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/e7c538fe-300x200.jpeg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-8",
+      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-07-26",
+      "time": "13:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-8/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/e7c538fe-300x200.jpeg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-7",
+      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-07-26",
+      "time": "17:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-7/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/e7c538fe-300x200.jpeg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
     },
     {
       "id": "biohazard-death-angel-sworn-enemy",
@@ -134,6 +266,18 @@
       "lng": 19.839698
     },
     {
+      "id": "scream-shoplifters",
+      "title": "Scream + Shoplifters",
+      "category": "Koncert",
+      "date": "2026-08-02",
+      "time": "20:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/scream-shoplifters/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/738638692_2016334875643676_7198672046688276131_n-212x300.jpg",
+      "lat": 45.258309,
+      "lng": 19.839698
+    },
+    {
       "id": "klabing-265-satrapi-egerske-zvezde",
       "title": "Klabing #265 / Satrapi – Egerske zvezde",
       "category": "Knjiga",
@@ -144,6 +288,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/735597620_1323429473236950_949804129021629625_n-300x157.jpg",
       "lat": 45.258309,
       "lng": 19.839698
+    },
+    {
+      "id": "kultura-x-fam",
+      "title": "Kultura x FAM",
+      "category": "Noćni provod",
+      "date": "2026-08-15",
+      "time": "22:00",
+      "location": "Borisov atelje",
+      "url": "https://www.mojnovisad.com/navigator/kultura-x-fam/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/fam-820-300x114.jpg",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "vojvodjanski-blues-band-2",
@@ -168,6 +324,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/673361562_1404097721750105_6327483855469497588_n-300x158.jpg",
       "lat": 45.2515421,
       "lng": 19.8630972
+    },
+    {
+      "id": "klabing-266-egerske-zvezde-geze-gardonjija",
+      "title": "Klabing #266 // “Egerske zvezde” Geze Gardonjija",
+      "category": "Knjiga",
+      "date": "2026-08-26",
+      "time": "18:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/klabing-266-egerske-zvezde-geze-gardonjija/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/749133214_1335147965398434_9093251062439214807_n-300x157.jpg",
+      "lat": 45.258309,
+      "lng": 19.839698
     },
     {
       "id": "auto-moto-berza-8",
@@ -324,6 +492,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/balkanski-spijun-novosadsko-300x200.jpg",
       "lat": 45.2577191,
       "lng": 19.8415872
+    },
+    {
+      "id": "filmovi-na-putu-poslednje-pogubljenje",
+      "title": "Filmovi na putu – Poslednje pogubljenje",
+      "category": "Film",
+      "date": "2026-09-30",
+      "time": "20:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/filmovi-na-putu-poslednje-pogubljenje/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/IG-Post-karusel-1-Poslednje-pogubljenje-1080x1350-1-240x300.jpg",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "naxatras",
