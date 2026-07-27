@@ -1,54 +1,6 @@
 {
-  "scraped_at": "2026-07-26T08:31:29Z",
+  "scraped_at": "2026-07-27T09:57:49Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-nedelju-15",
-      "title": "Arena Cineplex – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-07-26",
-      "time": "10:30",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-15/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-nedelju-15",
-      "title": "Cineplexx Novi Sad – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-07-26",
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-15/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Odyssey-1080x1920px-cnplxx-1-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-8",
-      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
-      "category": "Izložba",
-      "date": "2026-07-26",
-      "time": "13:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-8/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/e7c538fe-300x200.jpeg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-7",
-      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
-      "category": "Izložba",
-      "date": "2026-07-26",
-      "time": "17:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-7/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/e7c538fe-300x200.jpeg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-17",
       "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
