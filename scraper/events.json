@@ -1,42 +1,6 @@
 {
-  "scraped_at": "2026-07-27T09:57:49Z",
+  "scraped_at": "2026-07-28T08:40:16Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-17",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-07-27",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-17/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/1080x1920_KAYARA_cxx_23jul_SRB-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-ponedeljak-16",
-      "title": "Arena Cineplex – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-07-27",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-16/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "poezija-za-kraj-sveta-od-njujorka-do-novog-sada",
-      "title": "Poezija za kraj sveta: od Njujorka do Novog Sada",
-      "category": "Knjiga",
-      "date": "2026-07-27",
-      "time": "19:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/poezija-za-kraj-sveta-od-njujorka-do-novog-sada/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/UglyAnimalExhibitionACNS-240x300.png",
-      "lat": 45.2531419,
-      "lng": 19.855133
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-utorak-16",
       "title": "Cineplexx Novi Sad – repertoar za utorak",
@@ -110,6 +74,18 @@
       "lng": 19.8454491
     },
     {
+      "id": "kino-leti-s01-ep02",
+      "title": "KINO LETI, s01, ep02",
+      "category": "Film",
+      "date": "2026-07-29",
+      "time": "20:00",
+      "location": "Petrovaradin",
+      "url": "https://www.mojnovisad.com/navigator/kino-leti-s01-ep02/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-27-at-09.36.18-200x300.jpeg",
+      "lat": 45.2426175,
+      "lng": 19.8820073
+    },
+    {
       "id": "stand-up-nebojse-grujica-kriza-srednjih-godina",
       "title": "Stand up Nebojše Grujića “Kriza srednjih godina”",
       "category": "Predstava",
@@ -120,6 +96,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/kriza-820-1-300x114.jpg",
       "lat": 45.2539853,
       "lng": 19.8454491
+    },
+    {
+      "id": "after-work-u-komuni-dj-tixx",
+      "title": "After Work u Komuni | DJ Tixx",
+      "category": "Koncert",
+      "date": "2026-07-30",
+      "time": "18:00",
+      "location": "Petrovaradin",
+      "url": "https://www.mojnovisad.com/navigator/after-work-u-komuni-dj-tixx/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/After-work-02-212x300.jpg",
+      "lat": 45.2426175,
+      "lng": 19.8820073
     },
     {
       "id": "book-clubbing-6-brave-new-world",
@@ -154,6 +142,18 @@
       "location": "Omladinski centar CK13 (Crna kuća)",
       "url": "https://www.mojnovisad.com/navigator/scream-shoplifters/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/738638692_2016334875643676_7198672046688276131_n-212x300.jpg",
+      "lat": 45.258309,
+      "lng": 19.839698
+    },
+    {
+      "id": "dunyha-doom-folk-jazz-skoric-belorukov",
+      "title": "DUNYHA (doom folk jazz) + Škorić/Belorukov",
+      "category": "Koncert",
+      "date": "2026-08-04",
+      "time": "20:30",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/dunyha-doom-folk-jazz-skoric-belorukov/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/dunyha-fb-300x169.jpg",
       "lat": 45.258309,
       "lng": 19.839698
     },
@@ -204,6 +204,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/673361562_1404097721750105_6327483855469497588_n-300x158.jpg",
       "lat": 45.2515421,
       "lng": 19.8630972
+    },
+    {
+      "id": "duhovna-skola-skola-zivota-3",
+      "title": "DUHOVNA ŠKOLA – ŠKOLA ŽIVOTA",
+      "category": "Predavanje",
+      "date": "2026-08-23",
+      "time": "15:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/duhovna-skola-skola-zivota-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/730cc42e-a235-45a9-9a0e-fc4ce269a90a-300x199.jpg",
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "klabing-266-egerske-zvezde-geze-gardonjija",
