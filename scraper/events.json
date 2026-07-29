@@ -1,54 +1,6 @@
 {
-  "scraped_at": "2026-07-28T08:40:16Z",
+  "scraped_at": "2026-07-29T08:46:18Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-utorak-16",
-      "title": "Cineplexx Novi Sad – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-07-28",
-      "time": "11:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-16/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Andeosko-jaje-240x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-utorak-15",
-      "title": "Arena Cineplex – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-07-28",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-15/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "%d0%b4%d1%80%d1%83%d0%b3%d0%b0-%d0%bf%d1%80%d0%b8%d1%80%d0%be%d0%b4%d0%bd%d0%b0-%d0%b1%d0%be%d0%b3%d0%b0%d1%81%d1%82%d0%b2%d0%b0-%d0%b2%d0%be%d1%98%d0%b2%d0%be%d0%b4%d0%b8%d0%bd%d0%b5-%d1%83",
-      "title": "Druga “Prirodna bogastva Vojvodine” na Štrandu",
-      "category": "Predavanje",
-      "date": "2026-07-28",
-      "time": "20:00",
-      "location": "Gradska biblioteka u Novom Sadu",
-      "url": "https://www.mojnovisad.com/navigator/%d0%b4%d1%80%d1%83%d0%b3%d0%b0-%d0%bf%d1%80%d0%b8%d1%80%d0%be%d0%b4%d0%bd%d0%b0-%d0%b1%d0%be%d0%b3%d0%b0%d1%81%d1%82%d0%b2%d0%b0-%d0%b2%d0%be%d1%98%d0%b2%d0%be%d0%b4%d0%b8%d0%bd%d0%b5-%d1%83/",
-      "image_url": "https://placehold.co/1200x600?text=No+Image&font=roboto",
-      "lat": 45.25689,
-      "lng": 19.8484335
-    },
-    {
-      "id": "biohazard-death-angel-sworn-enemy",
-      "title": "Biohazard – Death Angel – Sworn Enemy",
-      "category": "Koncert",
-      "date": "2026-07-28",
-      "time": "21:00",
-      "location": "SKCNS Fabrika",
-      "url": "https://www.mojnovisad.com/navigator/biohazard-death-angel-sworn-enemy/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/biohazard-820-300x114.jpg",
-      "lat": 45.2375526,
-      "lng": 19.8421486
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-sredu-13",
       "title": "Cineplexx Novi Sad – repertoar za sredu",
@@ -72,6 +24,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
       "lat": 45.2539853,
       "lng": 19.8454491
+    },
+    {
+      "id": "from-pamphlets-to-podcasts-2",
+      "title": "From Pamphlets to Podcasts",
+      "category": "Radionica",
+      "date": "2026-07-29",
+      "time": "18:30",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/from-pamphlets-to-podcasts-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/unnamed-4-240x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
     },
     {
       "id": "kino-leti-s01-ep02",
@@ -110,6 +74,18 @@
       "lng": 19.8820073
     },
     {
+      "id": "poslasticarnica-slatki-valcer-na-lepom-plavom-dunavu",
+      "title": "Poslastičarnica: slatki valcer na lepom plavom Dunavu",
+      "category": "Predavanje",
+      "date": "2026-07-30",
+      "time": "21:00",
+      "location": "Spomen-zbirka Pavla Beljanskog",
+      "url": "https://www.mojnovisad.com/navigator/poslasticarnica-slatki-valcer-na-lepom-plavom-dunavu/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/30.-7.-Josef-Maria-Auchentaller_Plakat-Seebad-Grado_Leopold-Museum_1906-300x157.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
       "id": "book-clubbing-6-brave-new-world",
       "title": "Book Clubbing #6 / Brave New World",
       "category": "Knjiga",
@@ -122,6 +98,30 @@
       "lng": 19.839698
     },
     {
+      "id": "psychology-in-english-4",
+      "title": "Psychology in English",
+      "category": "Radionica",
+      "date": "2026-07-31",
+      "time": "18:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/psychology-in-english-4/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/unnamed-5-300x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "materija-i-iluzija-umetnicki-zanati-u-dekoraciji-baroknih-enterijera",
+      "title": "Materija i iluzija – umetnički zanati u dekoraciji baroknih enterijera",
+      "category": "Predavanje",
+      "date": "2026-07-31",
+      "time": "19:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/materija-i-iluzija-umetnicki-zanati-u-dekoraciji-baroknih-enterijera/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/e7c538fe-1-300x200.jpeg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
       "id": "anal-vomit",
       "title": "ANAL VOMIT",
       "category": "Koncert",
@@ -132,6 +132,114 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/652806365_1416093830553005_5814593376575546859_n-240x300.jpg",
       "lat": 45.258309,
       "lng": 19.839698
+    },
+    {
+      "id": "jazz-night-adam-klemm-band",
+      "title": "Jazz Night – Adam Klemm Band",
+      "category": "Koncert",
+      "date": "2026-07-31",
+      "time": "21:00",
+      "location": "Zenit",
+      "url": "https://www.mojnovisad.com/navigator/jazz-night-adam-klemm-band/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Adam-Klemm-2026-300x160.png",
+      "lat": 45.2569986,
+      "lng": 19.8426561
+    },
+    {
+      "id": "milanko-trifuncevic",
+      "title": "Milanko Trifunčević",
+      "category": "Noćni provod",
+      "date": "2026-07-31",
+      "time": "21:00",
+      "location": "PUBeraj",
+      "url": "https://www.mojnovisad.com/navigator/milanko-trifuncevic/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/759308970_18549328351074374_3169108620710199329_n-225x300.jpg",
+      "lat": 45.2566933,
+      "lng": 19.8456416
+    },
+    {
+      "id": "butterfly-band",
+      "title": "Butterfly Band",
+      "category": "Noćni provod",
+      "date": "2026-07-31",
+      "time": "21:00",
+      "location": "The Pub",
+      "url": "https://www.mojnovisad.com/navigator/butterfly-band/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/755878788_18203373730363407_236532893931510325_n-240x300.jpg",
+      "lat": 45.255259,
+      "lng": 19.8490275
+    },
+    {
+      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-9",
+      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-08-01",
+      "time": "13:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-9/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/e7c538fe-1-300x200.jpeg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-10",
+      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-08-01",
+      "time": "17:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-10/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Putir-1692-iz-manastira-Vrdnika-Muzej-SPC-u-Beogradu-212x300.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "lipovan",
+      "title": "LIPOVAN",
+      "category": "Noćni provod",
+      "date": "2026-08-01",
+      "time": "21:00",
+      "location": "PUBeraj",
+      "url": "https://www.mojnovisad.com/navigator/lipovan/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/759233016_18549328357074374_955231310571745829_n-225x300.jpg",
+      "lat": 45.2566933,
+      "lng": 19.8456416
+    },
+    {
+      "id": "party-music-mix",
+      "title": "Dj Kokan Maestro",
+      "category": "Noćni provod",
+      "date": "2026-08-01",
+      "time": "21:00",
+      "location": "The Pub",
+      "url": "https://www.mojnovisad.com/navigator/party-music-mix/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/754202605_18203374573363407_4720015417778906676_n-240x300.jpg",
+      "lat": 45.255259,
+      "lng": 19.8490275
+    },
+    {
+      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-11",
+      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-08-02",
+      "time": "13:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-11/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/e7c538fe-1-300x200.jpeg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-12",
+      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-08-02",
+      "time": "17:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-12/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Putir-1692-iz-manastira-Vrdnika-Muzej-SPC-u-Beogradu-212x300.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
     },
     {
       "id": "scream-shoplifters",
@@ -158,6 +266,18 @@
       "lng": 19.839698
     },
     {
+      "id": "deveti-karlovci-film-festival",
+      "title": "Deveti Karlovci Film Festival",
+      "category": "Festival",
+      "date": "2026-08-07",
+      "time": "20:45",
+      "location": "Sremski Karlovci",
+      "url": "https://www.mojnovisad.com/navigator/deveti-karlovci-film-festival/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/752708334_18551257066076711_3480419672461740179_n-1-225x300.jpg",
+      "lat": 45.2150476,
+      "lng": 19.9114126
+    },
+    {
       "id": "klabing-265-satrapi-egerske-zvezde",
       "title": "Klabing #265 / Satrapi – Egerske zvezde",
       "category": "Knjiga",
@@ -168,6 +288,42 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/735597620_1323429473236950_949804129021629625_n-300x157.jpg",
       "lat": 45.258309,
       "lng": 19.839698
+    },
+    {
+      "id": "electrop%d0%bep",
+      "title": "ELECTROPОP",
+      "category": "Noćni provod",
+      "date": "2026-08-14",
+      "time": "22:00",
+      "location": "Borisov atelje",
+      "url": "https://www.mojnovisad.com/navigator/electrop%d0%bep/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/elektropop-bday-820-300x114.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "jugoslovenka-4",
+      "title": "Jugoslovenka",
+      "category": "Noćni provod",
+      "date": "2026-08-15",
+      "time": "20:00",
+      "location": "Štrand",
+      "url": "https://www.mojnovisad.com/navigator/jugoslovenka-4/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/jugoslovenka_15_820-300x114.jpg",
+      "lat": 45.2363112,
+      "lng": 19.8465411
+    },
+    {
+      "id": "best-of-srdan-olman",
+      "title": "Best of Srđan Olman",
+      "category": "Predstava",
+      "date": "2026-08-15",
+      "time": "21:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/best-of-srdan-olman/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/olman_promenada_820-300x114.jpg",
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "kultura-x-fam",
@@ -228,6 +384,30 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/749133214_1335147965398434_9093251062439214807_n-300x157.jpg",
       "lat": 45.258309,
       "lng": 19.839698
+    },
+    {
+      "id": "fantom",
+      "title": "Fantom",
+      "category": "Koncert",
+      "date": "2026-08-28",
+      "time": "20:00",
+      "location": "Borisov atelje",
+      "url": "https://www.mojnovisad.com/navigator/fantom/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/fantom_820_avgust-300x114.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "king-automatic",
+      "title": "King Automatic",
+      "category": "Koncert",
+      "date": "2026-09-03",
+      "time": "20:00",
+      "location": "Foxtrot",
+      "url": "https://www.mojnovisad.com/navigator/king-automatic/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/738691660_1703917161381299_5407875548309748340_n-300x200.jpg",
+      "lat": 45.2495777,
+      "lng": 19.8332323
     },
     {
       "id": "auto-moto-berza-8",
