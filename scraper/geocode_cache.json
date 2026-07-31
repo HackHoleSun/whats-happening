@@ -294,5 +294,17 @@
   "foxtrot": {
     "lat": 45.2495777,
     "lng": 19.8332323
+  },
+  "piknik": {
+    "lat": 45.2300777,
+    "lng": 19.8348497
+  },
+  "cortanovci": {
+    "lat": null,
+    "lng": null
+  },
+  "carda-liman": {
+    "lat": 45.233279,
+    "lng": 19.8417787
   }
 }
