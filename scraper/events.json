@@ -1,54 +1,6 @@
 {
-  "scraped_at": "2026-08-03T09:52:41Z",
+  "scraped_at": "2026-08-04T08:43:00Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-18",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-08-03",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-18/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Spiderman_SRB_1080x1920px-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "otvaranje-izlozbe-makaze-menjaju-svet",
-      "title": "Otvaranje izložbe “Makaze menjaju svet”",
-      "category": "Izložba",
-      "date": "2026-08-03",
-      "time": "19:00",
-      "location": "Kulturni centar Vojvodine „Miloš Crnjanski”",
-      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-makaze-menjaju-svet/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Naslovna-177-214x300.jpg",
-      "lat": 45.255355,
-      "lng": 19.8530307
-    },
-    {
-      "id": "biljka-kao-zacin-u-carstvu-boja-mirisa-i-ukusa",
-      "title": "Biljka kao začin. U carstvu boja, mirisa i ukusa",
-      "category": "Izložba",
-      "date": "2026-08-03",
-      "time": "19:00",
-      "location": "Muzej Vojvodine",
-      "url": "https://www.mojnovisad.com/navigator/biljka-kao-zacin-u-carstvu-boja-mirisa-i-ukusa/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/unnamed-5-240x300.jpg",
-      "lat": 45.2564709,
-      "lng": 19.8514492
-    },
-    {
-      "id": "utorak-19-30",
-      "title": "Utorak 19.30",
-      "category": "Predstava",
-      "date": "2026-08-03",
-      "time": "19:30",
-      "location": "Zenit",
-      "url": "https://www.mojnovisad.com/navigator/utorak-19-30/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Utorak-19.30-FOTO-Luka-Vuksa-300x200.jpg",
-      "lat": 45.2569986,
-      "lng": 19.8426561
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-utorak-17",
       "title": "Cineplexx Novi Sad – repertoar za utorak",
@@ -60,6 +12,30 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/1080x1920_KAYARA_cxx_23jul_SRB-1-169x300.jpg",
       "lat": 45.245598,
       "lng": 19.842786
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-utorak-16",
+      "title": "Arena Cineplex – repertoar za utorak",
+      "category": "Film",
+      "date": "2026-08-04",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-16/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
+      "id": "conversation-club-with-stella-3",
+      "title": "Conversation Club with Stella",
+      "category": "Radionica",
+      "date": "2026-08-04",
+      "time": "18:30",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/conversation-club-with-stella-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/unnamed-240x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
     },
     {
       "id": "utorak-19-30-2",
@@ -98,6 +74,30 @@
       "lng": 19.842786
     },
     {
+      "id": "arena-cineplex-repertoar-za-sredu-15",
+      "title": "Arena Cineplex – repertoar za sredu",
+      "category": "Film",
+      "date": "2026-08-05",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-15/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
+      "id": "from-pamphlets-to-podcasts-3",
+      "title": "From Pamphlets to Podcasts",
+      "category": "Radionica",
+      "date": "2026-08-05",
+      "time": "18:30",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/from-pamphlets-to-podcasts-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/unnamed-1-240x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
       "id": "humanitarna-izlozba-bljesak-u-oku-zene",
       "title": "Humanitarna izložba „Bljesak u oku žene“",
       "category": "Izložba",
@@ -120,6 +120,30 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Utorak-19.30-FOTO-Luka-Vuksa-300x200.jpg",
       "lat": 45.2569986,
       "lng": 19.8426561
+    },
+    {
+      "id": "projekcija-filma-sanjani",
+      "title": "Projekcija filma “Sanjani”",
+      "category": "Film",
+      "date": "2026-08-06",
+      "time": "21:00",
+      "location": "Galerija lik. umetnosti poklon zbirka Rajka Mamuzića",
+      "url": "https://www.mojnovisad.com/navigator/projekcija-filma-sanjani/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Leto-na-trgu-EL-pozivnice_6-AVGUST-300x212.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "psihoterapija-i-kapitalizam-filozofska-radionica",
+      "title": "Psihoterapija i kapitalizam – Filozofska radionica",
+      "category": "Radionica",
+      "date": "2026-08-07",
+      "time": "19:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/psihoterapija-i-kapitalizam-filozofska-radionica/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/760671357_974291785620889_1573962846798715820_n-240x300.jpg",
+      "lat": 45.258309,
+      "lng": 19.839698
     },
     {
       "id": "deveti-karlovci-film-festival",
@@ -182,6 +206,18 @@
       "lng": 19.8417787
     },
     {
+      "id": "grncarska-radionica-soljiranje",
+      "title": "Grnčarska radionica- Šoljiranje",
+      "category": "Radionica",
+      "date": "2026-08-09",
+      "time": "19:00",
+      "location": "Petrovaradin",
+      "url": "https://www.mojnovisad.com/navigator/grncarska-radionica-soljiranje/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/17299-200x300.jpg",
+      "lat": 45.2426175,
+      "lng": 19.8820073
+    },
+    {
       "id": "klabing-265-satrapi-egerske-zvezde",
       "title": "Klabing #265 / Satrapi – Egerske zvezde",
       "category": "Knjiga",
@@ -194,18 +230,6 @@
       "lng": 19.839698
     },
     {
-      "id": "bazar-by-komuna-concept",
-      "title": "Bazar by Komuna Concept",
-      "category": "Festival",
-      "date": "2026-08-13",
-      "time": "18:00",
-      "location": "Petrovaradin",
-      "url": "https://www.mojnovisad.com/navigator/bazar-by-komuna-concept/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Bazar-by-Komuna-1-225x300.jpg",
-      "lat": 45.2426175,
-      "lng": 19.8820073
-    },
-    {
       "id": "bazar-by-komuna",
       "title": "BAZAR by Komuna",
       "category": "Šoping vodič",
@@ -214,6 +238,18 @@
       "location": "Petrovaradin",
       "url": "https://www.mojnovisad.com/navigator/bazar-by-komuna/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/2-6-244x300.jpg",
+      "lat": 45.2426175,
+      "lng": 19.8820073
+    },
+    {
+      "id": "bazar-by-komuna-concept",
+      "title": "Bazar by Komuna Concept",
+      "category": "Festival",
+      "date": "2026-08-13",
+      "time": "18:00",
+      "location": "Petrovaradin",
+      "url": "https://www.mojnovisad.com/navigator/bazar-by-komuna-concept/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Bazar-by-Komuna-1-225x300.jpg",
       "lat": 45.2426175,
       "lng": 19.8820073
     },
