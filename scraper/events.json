@@ -1,90 +1,6 @@
 {
-  "scraped_at": "2026-08-06T08:42:17Z",
+  "scraped_at": "2026-08-07T07:21:18Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-cetvrtak-14",
-      "title": "Cineplexx Novi Sad – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-08-06",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-cetvrtak-14/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/9x16_GET_OUT_FA_SRB-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-cetvrtak-15",
-      "title": "Arena Cineplex – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-08-06",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-cetvrtak-15/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "tribina-sta-srbija-pamti-a-sta-zaboravlja",
-      "title": "Tribina: Šta Srbija pamti, a šta zaboravlja?",
-      "category": "Konferencija",
-      "date": "2026-08-06",
-      "time": "19:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/tribina-sta-srbija-pamti-a-sta-zaboravlja/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/ck13_tribina_3_fb-300x169.jpg",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
-    {
-      "id": "after-work-vol-03-komuna-concept",
-      "title": "AFTER WORK vol.03 / KOMUNA CONCEPT",
-      "category": "Koncert",
-      "date": "2026-08-06",
-      "time": "19:00",
-      "location": "Petrovaradin",
-      "url": "https://www.mojnovisad.com/navigator/after-work-vol-03-komuna-concept/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/after-work-03-212x300.jpeg",
-      "lat": 45.2426175,
-      "lng": 19.8820073
-    },
-    {
-      "id": "samo-u-snu-2",
-      "title": "SAMO U SNU",
-      "category": "Noćni provod",
-      "date": "2026-08-06",
-      "time": "20:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/samo-u-snu-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/6-259x300.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "fudbal-na-dlanu-mucho-betis-komuna-concept",
-      "title": "Fudbal na dlanu: Mucho Betis / Komuna Concept",
-      "category": "Film",
-      "date": "2026-08-06",
-      "time": "21:00",
-      "location": "Petrovaradin",
-      "url": "https://www.mojnovisad.com/navigator/fudbal-na-dlanu-mucho-betis-komuna-concept/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Betis-06.08-300x300.jpeg",
-      "lat": 45.2426175,
-      "lng": 19.8820073
-    },
-    {
-      "id": "projekcija-filma-sanjani",
-      "title": "Projekcija filma “Sanjani”",
-      "category": "Film",
-      "date": "2026-08-06",
-      "time": "21:00",
-      "location": "Galerija lik. umetnosti poklon zbirka Rajka Mamuzića",
-      "url": "https://www.mojnovisad.com/navigator/projekcija-filma-sanjani/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Leto-na-trgu-EL-pozivnice_6-AVGUST-300x212.jpg",
-      "lat": null,
-      "lng": null
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-petak-16",
       "title": "Cineplexx Novi Sad – repertoar za petak",
@@ -456,6 +372,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/elektropop-bday-820-300x114.jpg",
       "lat": null,
       "lng": null
+    },
+    {
+      "id": "muzika-u-muzeju-il-tenoro",
+      "title": "Muzika u Muzeju “IL TENORO”",
+      "category": "Koncert",
+      "date": "2026-08-15",
+      "time": "20:00",
+      "location": "Muzej Vojvodine",
+      "url": "https://www.mojnovisad.com/navigator/muzika-u-muzeju-il-tenoro/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/IMG_6671-220x300.jpeg",
+      "lat": 45.2564709,
+      "lng": 19.8514492
     },
     {
       "id": "jugoslovenka-4",
