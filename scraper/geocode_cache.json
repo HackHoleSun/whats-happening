@@ -314,5 +314,9 @@
   "crni-ovan": {
     "lat": 45.2561883,
     "lng": 19.8483053
+  },
+  "petrovaradinska-tvrdava": {
+    "lat": 45.2521551,
+    "lng": 19.8638279
   }
 }
