@@ -1,102 +1,6 @@
 {
-  "scraped_at": "2026-08-16T06:44:44Z",
+  "scraped_at": "2026-08-18T06:49:26Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-nedelju-17",
-      "title": "Arena Cineplex – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-08-16",
-      "time": "10:30",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-17/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-nedelju-18",
-      "title": "Cineplexx Novi Sad – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-08-16",
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-18/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/9x16_GET_OUT_FA_SRB-1-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-15",
-      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
-      "category": "Izložba",
-      "date": "2026-08-16",
-      "time": "13:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-15/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/e7c538fe-1-300x200.jpeg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-16",
-      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
-      "category": "Izložba",
-      "date": "2026-08-16",
-      "time": "17:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-16/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Putir-1692-iz-manastira-Vrdnika-Muzej-SPC-u-Beogradu-212x300.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "easy-vinyl-sunday-komuna-concept",
-      "title": "EASY VINYL SUNDAY // Komuna Concept",
-      "category": "Koncert",
-      "date": "2026-08-16",
-      "time": "19:00",
-      "location": "Petrovaradin",
-      "url": "https://www.mojnovisad.com/navigator/easy-vinyl-sunday-komuna-concept/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/LUFT-225x300.jpg",
-      "lat": 45.2426175,
-      "lng": 19.8820073
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-20",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-08-17",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-20/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1080X1920_END_OF_OAK_STREET_CXX_SRB-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-ponedeljak-19",
-      "title": "Arena Cineplex – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-08-17",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-19/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "conversation-club-with-scott-borah",
-      "title": "Conversation Club with Scott Borah",
-      "category": "Radionica",
-      "date": "2026-08-17",
-      "time": "18:30",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/conversation-club-with-scott-borah/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/unnamed-5-240x300.png",
-      "lat": 45.2531419,
-      "lng": 19.855133
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-utorak-19",
       "title": "Cineplexx Novi Sad – repertoar za utorak",
@@ -194,6 +98,18 @@
       "lng": 19.855133
     },
     {
+      "id": "bioskop-ispod-mosta-duga",
+      "title": "BIOSKOP (ISPOD MOSTA DUGA)",
+      "category": "Film",
+      "date": "2026-08-20",
+      "time": "21:00",
+      "location": "Beogradski kej",
+      "url": "https://www.mojnovisad.com/navigator/bioskop-ispod-mosta-duga/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/958b1f7546b63ef5be9f51333443a3b9caed51c50d9da7733b9c766b7ec82324._SX1080_FMjpg_-300x169.jpg",
+      "lat": 45.2644426,
+      "lng": 19.8592247
+    },
+    {
       "id": "vojvodjanski-blues-band-2",
       "title": "Vojvodjanski Blues Band",
       "category": "Koncert",
@@ -216,6 +132,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Riverside-Cinema-2026-program-240x300.png",
       "lat": 45.2531419,
       "lng": 19.855133
+    },
+    {
+      "id": "kontakt-humanitarna-zurka-za-branku-komuna-concept",
+      "title": "KONTAKT. Humanitarna žurka za Branku / Komuna Concept",
+      "category": "Koncert",
+      "date": "2026-08-22",
+      "time": "21:00",
+      "location": "Petrovaradin",
+      "url": "https://www.mojnovisad.com/navigator/kontakt-humanitarna-zurka-za-branku-komuna-concept/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/KONTAKT-240x300.jpeg",
+      "lat": 45.2426175,
+      "lng": 19.8820073
     },
     {
       "id": "music-reactions-outdoor-rave-august",
@@ -300,6 +228,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/djava-fest-820-300x114.jpg",
       "lat": 45.2521551,
       "lng": 19.8638279
+    },
+    {
+      "id": "nu-metal-open-air-party-by-riff-archives-komuna-concept",
+      "title": "Nu Metal Open Air Party by Riff Archives / Komuna Concept",
+      "category": "Koncert",
+      "date": "2026-08-28",
+      "time": "19:00",
+      "location": "Petrovaradin",
+      "url": "https://www.mojnovisad.com/navigator/nu-metal-open-air-party-by-riff-archives-komuna-concept/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/RIFF-ARCHIVES-28.08-240x300.jpeg",
+      "lat": 45.2426175,
+      "lng": 19.8820073
     },
     {
       "id": "fantom",

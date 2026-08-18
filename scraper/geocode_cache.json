@@ -318,5 +318,9 @@
   "petrovaradinska-tvrdava": {
     "lat": 45.2521551,
     "lng": 19.8638279
+  },
+  "beogradski-kej": {
+    "lat": 45.2644426,
+    "lng": 19.8592247
   }
 }
