@@ -1,53 +1,29 @@
 {
-  "scraped_at": "2026-08-19T06:49:46Z",
+  "scraped_at": "2026-08-20T06:52:03Z",
   "events": [
     {
-      "id": "cineplexx-novi-sad-repertoar-za-sredu-16",
-      "title": "Cineplexx Novi Sad – repertoar za sredu",
+      "id": "cineplexx-novi-sad-repertoar-za-cetvrtak-16",
+      "title": "Cineplexx Novi Sad – repertoar za četvrtak",
       "category": "Film",
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "time": "15:00",
       "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-sredu-16/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Blue-Lock-Cpxx-1080-x-1920-169x300.jpg",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-cetvrtak-16/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1080X1920_END_OF_OAK_STREET_CXX_SRB-1-169x300.jpg",
       "lat": 45.245598,
       "lng": 19.842786
     },
     {
-      "id": "arena-cineplex-repertoar-za-sredu-17",
-      "title": "Arena Cineplex – repertoar za sredu",
+      "id": "arena-cineplex-repertoar-za-cetvrtak-16",
+      "title": "Arena Cineplex – repertoar za četvrtak",
       "category": "Film",
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "time": "15:00",
       "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-17/",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-cetvrtak-16/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
       "lat": 45.2539853,
       "lng": 19.8454491
-    },
-    {
-      "id": "svet-digitalne-umetnosti-video-radovi-zan-pol-deven-rua",
-      "title": "Svet Digitalne Umetnosti – Video radovi Žan-Pol Deven-Rua",
-      "category": "Film",
-      "date": "2026-08-19",
-      "time": "16:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/svet-digitalne-umetnosti-video-radovi-zan-pol-deven-rua/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/unnamed-2-1-300x300.png",
-      "lat": 45.2531419,
-      "lng": 19.855133
-    },
-    {
-      "id": "conversation-club-with-anna-8",
-      "title": "Conversation Club with Anna",
-      "category": "Radionica",
-      "date": "2026-08-19",
-      "time": "18:30",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/conversation-club-with-anna-8/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/unnamed-3-1-240x300.png",
-      "lat": 45.2531419,
-      "lng": 19.855133
     },
     {
       "id": "autorsko-vodenje-kroz-izlozbu-ekslibrisi-u-knjigama-biblioteke-matice-srpske-2",
@@ -72,6 +48,42 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/958b1f7546b63ef5be9f51333443a3b9caed51c50d9da7733b9c766b7ec82324._SX1080_FMjpg_-300x169.jpg",
       "lat": 45.2644426,
       "lng": 19.8592247
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-petak-18",
+      "title": "Cineplexx Novi Sad – repertoar za petak",
+      "category": "Film",
+      "date": "2026-08-21",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-petak-18/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/KATSEYE-1080x1920-English-1-169x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-petak-18",
+      "title": "Arena Cineplex – repertoar za petak",
+      "category": "Film",
+      "date": "2026-08-21",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-petak-18/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
+      "id": "novi-kodovi-versko-politicke-reprezentacije-grbovi-karlovacke-mitropolije-u-xviii-stolecu",
+      "title": "Novi kodovi versko-političke reprezentacije: grbovi Karlovačke mitropolije u XVIII stoleću",
+      "category": "Predavanje",
+      "date": "2026-08-21",
+      "time": "19:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/novi-kodovi-versko-politicke-reprezentacije-grbovi-karlovacke-mitropolije-u-xviii-stolecu/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/e7c538fe-300x200.jpeg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
     },
     {
       "id": "vojvodjanski-blues-band-2",
@@ -110,6 +122,18 @@
       "lng": 19.855133
     },
     {
+      "id": "dj-kole",
+      "title": "Dj Kole",
+      "category": "Noćni provod",
+      "date": "2026-08-21",
+      "time": "21:00",
+      "location": "Bulevar Books",
+      "url": "https://www.mojnovisad.com/navigator/dj-kole/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/779323314_1565891084981786_4577422764697544743_n-240x300.jpg",
+      "lat": 45.25322,
+      "lng": 19.8454445
+    },
+    {
       "id": "danijel-cehranov",
       "title": "Danijel Čehranov",
       "category": "Noćni provod",
@@ -120,6 +144,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/8-1-254x300.jpg",
       "lat": 45.2566933,
       "lng": 19.8456416
+    },
+    {
+      "id": "little-miss-memphis-live-bend-komuna-concept",
+      "title": "LITTLE MISS MEMPHIS – LIVE BEND / Komuna Concept",
+      "category": "Koncert",
+      "date": "2026-08-21",
+      "time": "21:30",
+      "location": "Petrovaradin",
+      "url": "https://www.mojnovisad.com/navigator/little-miss-memphis-live-bend-komuna-concept/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/2Najava-bend-225x300.jpg",
+      "lat": 45.2426175,
+      "lng": 19.8820073
     },
     {
       "id": "antibo-open-er-specijal",
@@ -146,6 +182,54 @@
       "lng": 19.8250079
     },
     {
+      "id": "arena-cineplex-repertoar-za-subotu-18",
+      "title": "Arena Cineplex – repertoar za subotu",
+      "category": "Film",
+      "date": "2026-08-22",
+      "time": "10:30",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-subotu-18/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
+      "id": "family-day",
+      "title": "FAMILY DAY",
+      "category": "Festival",
+      "date": "2026-08-22",
+      "time": "12:00",
+      "location": "Petrovaradin",
+      "url": "https://www.mojnovisad.com/navigator/family-day/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/18695-200x300.jpg",
+      "lat": 45.2426175,
+      "lng": 19.8820073
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-subotu-19",
+      "title": "Cineplexx Novi Sad – repertoar za subotu",
+      "category": "Film",
+      "date": "2026-08-22",
+      "time": "12:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-19/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Odyssey-1080x1920px-cnplxx-1-169x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
+    },
+    {
+      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-17",
+      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-08-22",
+      "time": "13:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-17/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Putir-1692-iz-manastira-Vrdnika-Muzej-SPC-u-Beogradu-212x300.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
       "id": "vinski-salon-u-sremskim-karlovcima",
       "title": "Vinski salon u Sremskim Karlovcima",
       "category": "Festival",
@@ -156,6 +240,30 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/2-3-247x300.jpg",
       "lat": 45.2150476,
       "lng": 19.9114126
+    },
+    {
+      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-18",
+      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-08-22",
+      "time": "17:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-18/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Joakim-Markovic-Srbi-primaju-privilegije-od-cara-Rudolfa-II-1612.-godine-1750-Muzej-SPC-u-Zagrebu-300x229.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "dobrovoljno-davanje-krvi-u-komuna-concept-u",
+      "title": "Dobrovoljno davanje krvi u Komuna Concept-u",
+      "category": "Predavanje",
+      "date": "2026-08-22",
+      "time": "19:00",
+      "location": "Petrovaradin",
+      "url": "https://www.mojnovisad.com/navigator/dobrovoljno-davanje-krvi-u-komuna-concept-u/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Davanje-krvi-225x300.jpg",
+      "lat": 45.2426175,
+      "lng": 19.8820073
     },
     {
       "id": "cola-x-ceca-night",
@@ -242,6 +350,42 @@
       "lng": 19.8250079
     },
     {
+      "id": "arena-cineplex-repertoar-za-nedelju-18",
+      "title": "Arena Cineplex – repertoar za nedelju",
+      "category": "Film",
+      "date": "2026-08-23",
+      "time": "10:30",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-18/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-nedelju-19",
+      "title": "Cineplexx Novi Sad – repertoar za nedelju",
+      "category": "Film",
+      "date": "2026-08-23",
+      "time": "12:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-19/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Spiderman_SRB_1080x1920px-169x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
+    },
+    {
+      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-20",
+      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-08-23",
+      "time": "13:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-20/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Putir-1692-iz-manastira-Vrdnika-Muzej-SPC-u-Beogradu-212x300.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
       "id": "duhovna-skola-skola-zivota-3",
       "title": "DUHOVNA ŠKOLA – ŠKOLA ŽIVOTA",
       "category": "Predavanje",
@@ -254,6 +398,18 @@
       "lng": 19.8293059
     },
     {
+      "id": "formula-1-u-komuni-dutch-grand-prix-komuna-concept",
+      "title": "Formula 1 u Komuni – Dutch Grand prix / Komuna Concept",
+      "category": "Sport",
+      "date": "2026-08-23",
+      "time": "15:00",
+      "location": "Petrovaradin",
+      "url": "https://www.mojnovisad.com/navigator/formula-1-u-komuni-dutch-grand-prix-komuna-concept/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Black-Modern-Car-Racing-News-Youtube-Thumbnail_20260817_174842_0000-300x169.png",
+      "lat": 45.2426175,
+      "lng": 19.8820073
+    },
+    {
       "id": "buvljak-by-komuna-komuna-concept",
       "title": "BUVLJAK BY KOMUNA / Komuna Concept",
       "category": "Festival",
@@ -264,6 +420,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Buvljak-225x300.jpg",
       "lat": 45.2426175,
       "lng": 19.8820073
+    },
+    {
+      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-19",
+      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
+      "category": "Izložba",
+      "date": "2026-08-23",
+      "time": "17:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-19/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Joakim-Markovic-Srbi-primaju-privilegije-od-cara-Rudolfa-II-1612.-godine-1750-Muzej-SPC-u-Zagrebu-300x229.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
     },
     {
       "id": "minus-plus",
@@ -290,16 +458,64 @@
       "lng": 19.8250079
     },
     {
-      "id": "%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%b5-%d1%80%d0%b0%d0%b4%d0%b8%d0%be%d0%bd%d0%b8%d1%86%d0%b5-%d0%b8%d0%b7%d0%bb%d0%b0%d0%b7-%d0%b8%d0%b7-%d0%b7%d0%be%d0%bd%d0%b5-%d0%ba%d0%be%d0%bc",
-      "title": "Бесплатне радионице: Излаз из зоне комфора и могућности ван зоне комфора",
-      "category": "Radionica",
+      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-21",
+      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
+      "category": "Film",
+      "date": "2026-08-24",
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-21/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Vajana-1080-x-1920-1-169x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-ponedeljak-20",
+      "title": "Arena Cineplex – repertoar za ponedeljak",
+      "category": "Film",
+      "date": "2026-08-24",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-20/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-utorak-20",
+      "title": "Cineplexx Novi Sad – repertoar za utorak",
+      "category": "Film",
+      "date": "2026-08-25",
+      "time": "11:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-20/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Minions-3-Uncomfortable-James-za-web-209x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
+    },
+    {
+      "id": "cineplexx-novi-sad-repertoar-za-sredu-17",
+      "title": "Cineplexx Novi Sad – repertoar za sredu",
+      "category": "Film",
       "date": "2026-08-26",
-      "time": "18:00",
-      "location": "Novosadski omladinski prostor (NOF)",
-      "url": "https://www.mojnovisad.com/navigator/%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%b5-%d1%80%d0%b0%d0%b4%d0%b8%d0%be%d0%bd%d0%b8%d1%86%d0%b5-%d0%b8%d0%b7%d0%bb%d0%b0%d0%b7-%d0%b8%d0%b7-%d0%b7%d0%be%d0%bd%d0%b5-%d0%ba%d0%be%d0%bc/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Najava-Teodora-240x300.png",
-      "lat": null,
-      "lng": null
+      "time": "15:00",
+      "location": "Cineplexx Promenada",
+      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-sredu-17/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Spiderman_SRB_1080x1920px-1-169x300.jpg",
+      "lat": 45.245598,
+      "lng": 19.842786
+    },
+    {
+      "id": "arena-cineplex-repertoar-za-sredu-18",
+      "title": "Arena Cineplex – repertoar za sredu",
+      "category": "Film",
+      "date": "2026-08-26",
+      "time": "15:00",
+      "location": "Arena Cineplex",
+      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-sredu-18/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
+      "lat": 45.2539853,
+      "lng": 19.8454491
     },
     {
       "id": "klabing-266-egerske-zvezde-geze-gardonjija",
@@ -312,6 +528,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/749133214_1335147965398434_9093251062439214807_n-300x157.jpg",
       "lat": 45.258309,
       "lng": 19.839698
+    },
+    {
+      "id": "%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%b5-%d1%80%d0%b0%d0%b4%d0%b8%d0%be%d0%bd%d0%b8%d1%86%d0%b5-%d0%b8%d0%b7%d0%bb%d0%b0%d0%b7-%d0%b8%d0%b7-%d0%b7%d0%be%d0%bd%d0%b5-%d0%ba%d0%be%d0%bc",
+      "title": "Бесплатне радионице: Излаз из зоне комфора и могућности ван зоне комфора",
+      "category": "Radionica",
+      "date": "2026-08-26",
+      "time": "18:00",
+      "location": "Novosadski omladinski prostor (NOF)",
+      "url": "https://www.mojnovisad.com/navigator/%d0%b1%d0%b5%d1%81%d0%bf%d0%bb%d0%b0%d1%82%d0%bd%d0%b5-%d1%80%d0%b0%d0%b4%d0%b8%d0%be%d0%bd%d0%b8%d1%86%d0%b5-%d0%b8%d0%b7%d0%bb%d0%b0%d0%b7-%d0%b8%d0%b7-%d0%b7%d0%be%d0%bd%d0%b5-%d0%ba%d0%be%d0%bc/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Najava-Teodora-240x300.png",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "humanitarno-filmsko-vece-u-komuni",
@@ -410,6 +638,18 @@
       "lng": null
     },
     {
+      "id": "filosetnje-vezbe-za-um-i-telo",
+      "title": "Filošetnje Vežbe za um i telo",
+      "category": "Radionica",
+      "date": "2026-08-30",
+      "time": "16:00",
+      "location": "Fruška gora",
+      "url": "https://www.mojnovisad.com/navigator/filosetnje-vezbe-za-um-i-telo/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Filosetnje-2-240x300.jpg",
+      "lat": 45.1720057,
+      "lng": 19.8282553
+    },
+    {
       "id": "duo-nautilusi",
       "title": "Duo Nautilusi",
       "category": "Noćni provod",
@@ -456,6 +696,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/soultherapywinefest2026_baner820-300x114.jpg",
       "lat": 45.26553,
       "lng": 19.8293059
+    },
+    {
+      "id": "promocija-biografije-i-cd-a-sidnija-barnsa",
+      "title": "Promocija biografije i CD-a Sidnija Barnsa",
+      "category": "Knjiga",
+      "date": "2026-09-04",
+      "time": "19:00",
+      "location": "SKCNS Fabrika",
+      "url": "https://www.mojnovisad.com/navigator/promocija-biografije-i-cd-a-sidnija-barnsa/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Визуал-Сидни-Барнс-300x169.jpg",
+      "lat": 45.2375526,
+      "lng": 19.8421486
     },
     {
       "id": "wine-fest-na-salasu-moljac",
@@ -528,6 +780,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/zlo-fest-820-300x114.jpg",
       "lat": 45.2658433,
       "lng": 19.8327104
+    },
+    {
+      "id": "najlepse-francuske-i-domace-sansone-loran",
+      "title": "Najlepše francuske i domaće šansone – Loran",
+      "category": "Koncert",
+      "date": "2026-09-12",
+      "time": "21:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/najlepse-francuske-i-domace-sansone-loran/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/loran_kod_fazana_820-1-300x114.jpg",
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "don-kihot-3",
@@ -696,270 +960,6 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/thumb_65955_2000_2000_0_0_auto-300x200.jpg",
       "lat": 45.2577191,
       "lng": 19.8415872
-    },
-    {
-      "id": "istina",
-      "title": "Istina",
-      "category": "Predstava",
-      "date": "2026-09-24",
-      "time": "20:00",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/istina/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/istina-820-300x114.jpg",
-      "lat": 45.2419788,
-      "lng": 19.8412391
-    },
-    {
-      "id": "monodrama-nasi-dani",
-      "title": "Monodrama “Naši dani”",
-      "category": "Predstava",
-      "date": "2026-09-24",
-      "time": "20:00",
-      "location": "Radnički dom \"Svetozar marković\"",
-      "url": "https://www.mojnovisad.com/navigator/monodrama-nasi-dani/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/nasi-dani-24.09.-820-300x114.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "1981-4",
-      "title": "1981",
-      "category": "Predstava",
-      "date": "2026-09-25",
-      "time": "18:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/1981-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/thumb_65973_2000_2000_0_0_auto-300x200.jpg",
-      "lat": 45.2577191,
-      "lng": 19.8415872
-    },
-    {
-      "id": "uspavana-lepotica",
-      "title": "Uspavana lepotica",
-      "category": "Predstava",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/uspavana-lepotica/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1412941258uspavana-lepotica-196x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "stand-up-komedija-nebojse-grujica-kriza-srednjih-godina",
-      "title": "Stand up komedija Nebojše Grujića “Kriza srednjih godina”",
-      "category": "Predstava",
-      "date": "2026-09-25",
-      "time": "20:00",
-      "location": "Radnički dom \"Svetozar marković\"",
-      "url": "https://www.mojnovisad.com/navigator/stand-up-komedija-nebojse-grujica-kriza-srednjih-godina/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/kriza-25.9-820-300x114.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "1981-5",
-      "title": "1981",
-      "category": "Predstava",
-      "date": "2026-09-26",
-      "time": "18:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/1981-5/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/thumb_65950_2000_2000_0_0_auto-1-300x200.jpg",
-      "lat": 45.2577191,
-      "lng": 19.8415872
-    },
-    {
-      "id": "uspavana-lepotica-2",
-      "title": "Uspavana lepotica",
-      "category": "Predstava",
-      "date": "2026-09-26",
-      "time": "19:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/uspavana-lepotica-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1412941258uspavana-lepotica-196x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "stand-up-gorana-vincica-komedija-je-ozbiljna-stvar",
-      "title": "Stand-up Gorana Vinčića “Komedija je ozbiljna stvar”",
-      "category": "Predstava",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/stand-up-gorana-vincica-komedija-je-ozbiljna-stvar/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/komedija_vinca_820_septembar-300x114.jpg",
-      "lat": 45.2419788,
-      "lng": 19.8412391
-    },
-    {
-      "id": "basta-sljezove-boje-3",
-      "title": "Bašta sljezove boje",
-      "category": "Predstava",
-      "date": "2026-09-27",
-      "time": "20:00",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/basta-sljezove-boje-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/basta-27-sept-820-300x114.jpg",
-      "lat": 45.2419788,
-      "lng": 19.8412391
-    },
-    {
-      "id": "neoplanta",
-      "title": "Neoplanta",
-      "category": "Predstava",
-      "date": "2026-09-28",
-      "time": "19:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/neoplanta/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/neoplanta-nspz-300x211.jpg",
-      "lat": 45.2577191,
-      "lng": 19.8415872
-    },
-    {
-      "id": "uspavana-lepotica-3",
-      "title": "Uspavana lepotica",
-      "category": "Predstava",
-      "date": "2026-09-28",
-      "time": "19:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/uspavana-lepotica-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1412941258uspavana-lepotica-196x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "violinista-na-krovu",
-      "title": "Violinista na krovu",
-      "category": "Predstava",
-      "date": "2026-09-29",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/violinista-na-krovu/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1430384507Violinista-na-krovu-PLAKAT-196x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "filmovi-na-putu-the-trouble-with-being-born",
-      "title": "Filmovi na putu – The Trouble with Being Born",
-      "category": "Film",
-      "date": "2026-09-29",
-      "time": "20:00",
-      "location": "KC \"Mladost\"",
-      "url": "https://www.mojnovisad.com/navigator/filmovi-na-putu-the-trouble-with-being-born/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/IG-Post-karusel-1-The-trouble-with-being-born-1080x1350-1-240x300.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "slomosa",
-      "title": "Slomosa",
-      "category": "Koncert",
-      "date": "2026-09-29",
-      "time": "21:00",
-      "location": "SKCNS Fabrika",
-      "url": "https://www.mojnovisad.com/navigator/slomosa/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/slo_820-300x114.jpg",
-      "lat": 45.2375526,
-      "lng": 19.8421486
-    },
-    {
-      "id": "balkanski-spijun-4",
-      "title": "Balkanski špijun",
-      "category": "Predstava",
-      "date": "2026-09-30",
-      "time": "19:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/balkanski-spijun-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/balkanski-spijun-novosadsko-300x200.jpg",
-      "lat": 45.2577191,
-      "lng": 19.8415872
-    },
-    {
-      "id": "filmovi-na-putu-poslednje-pogubljenje",
-      "title": "Filmovi na putu – Poslednje pogubljenje",
-      "category": "Film",
-      "date": "2026-09-30",
-      "time": "20:00",
-      "location": "KC \"Mladost\"",
-      "url": "https://www.mojnovisad.com/navigator/filmovi-na-putu-poslednje-pogubljenje/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/IG-Post-karusel-1-Poslednje-pogubljenje-1080x1350-1-240x300.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "totovi-4",
-      "title": "Totovi",
-      "category": "Predstava",
-      "date": "2026-09-30",
-      "time": "21:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/totovi-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1776931563plakat-208x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "naxatras",
-      "title": "Naxatras",
-      "category": "Koncert",
-      "date": "2026-10-02",
-      "time": "21:00",
-      "location": "SKCNS Fabrika",
-      "url": "https://www.mojnovisad.com/navigator/naxatras/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/naxatras-820-300x114.jpg",
-      "lat": 45.2375526,
-      "lng": 19.8421486
-    },
-    {
-      "id": "mikri-maus-promocija-albuma-romski-vijenac",
-      "title": "Mikri Maus – promocija albuma Romski Vijenac",
-      "category": "Koncert",
-      "date": "2026-10-03",
-      "time": "22:00",
-      "location": "Gerila Bar",
-      "url": "https://www.mojnovisad.com/navigator/mikri-maus-promocija-albuma-romski-vijenac/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/mikri_maus_820-300x114.jpg",
-      "lat": 45.2570291,
-      "lng": 19.843874
-    },
-    {
-      "id": "zasto-magarci-stoje-na-promaji-4",
-      "title": "3 SESTRE",
-      "category": "Predstava",
-      "date": "2026-10-06",
-      "time": "19:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/zasto-magarci-stoje-na-promaji-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/3-sestre-nspz-300x200.jpg",
-      "lat": 45.2577191,
-      "lng": 19.8415872
-    },
-    {
-      "id": "kabare-pikolo-grande-utopija-3",
-      "title": "Kabare Pikolo Grande – Utopija",
-      "category": "Predstava",
-      "date": "2026-10-08",
-      "time": "19:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/kabare-pikolo-grande-utopija-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/kabare-pikolo-grande-utopija-nspz-300x200.jpg",
-      "lat": 45.2577191,
-      "lng": 19.8415872
-    },
-    {
-      "id": "kakva-ti-je-zena-takav-ti-je-zivot",
-      "title": "Kakva ti je žena, takav ti je život",
-      "category": "Predstava",
-      "date": "2026-10-10",
-      "time": "20:00",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/kakva-ti-je-zena-takav-ti-je-zivot/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/ktjz-ttjz-10.10-820-300x114.jpg",
-      "lat": 45.2419788,
-      "lng": 19.8412391
     }
   ]
 }
