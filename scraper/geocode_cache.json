@@ -326,5 +326,9 @@
   "muzej-savremene-umetnosti-vojvodine": {
     "lat": 45.2566273,
     "lng": 19.8533624
+  },
+  "barka-kulturna-stanica": {
+    "lat": null,
+    "lng": null
   }
 }
