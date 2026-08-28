@@ -330,5 +330,9 @@
   "barka-kulturna-stanica": {
     "lat": null,
     "lng": null
+  },
+  "the-end-cafe": {
+    "lat": 45.2541347,
+    "lng": 19.8456606
   }
 }

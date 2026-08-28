@@ -1,78 +1,6 @@
 {
-  "scraped_at": "2026-08-27T17:28:18Z",
+  "scraped_at": "2026-08-28T18:22:09Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-cetvrtak-17",
-      "title": "Cineplexx Novi Sad – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-08-27",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-cetvrtak-17/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1080X1920_END_OF_OAK_STREET_CXX_SRB-1-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-cetvrtak-17",
-      "title": "Arena Cineplex – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-08-27",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-cetvrtak-17/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "karaoke-night-u-komuna-conceptu",
-      "title": "Karaoke night u Komuna Conceptu",
-      "category": "Noćni provod",
-      "date": "2026-08-27",
-      "time": "19:00",
-      "location": "Petrovaradin",
-      "url": "https://www.mojnovisad.com/navigator/karaoke-night-u-komuna-conceptu/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-26-at-14.55.27-300x300.jpeg",
-      "lat": 45.2426175,
-      "lng": 19.8820073
-    },
-    {
-      "id": "dava-fest",
-      "title": "Đava Fest",
-      "category": "Festival",
-      "date": "2026-08-27",
-      "time": "20:00",
-      "location": "Petrovaradinska tvrđava",
-      "url": "https://www.mojnovisad.com/navigator/dava-fest/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/djava-fest-820-300x114.jpg",
-      "lat": 45.2521551,
-      "lng": 19.8638279
-    },
-    {
-      "id": "dance-session-hip-hop-and-commercial",
-      "title": "Dance session – hip-hop and commercial",
-      "category": "Radionica",
-      "date": "2026-08-27",
-      "time": "20:00",
-      "location": "Petrovaradin",
-      "url": "https://www.mojnovisad.com/navigator/dance-session-hip-hop-and-commercial/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/19347-300x227.jpg",
-      "lat": 45.2426175,
-      "lng": 19.8820073
-    },
-    {
-      "id": "svrati-na-bioskop-ispod-mosta-duga",
-      "title": "Svrati na Bioskop – Ispod mosta DUGA",
-      "category": "Film",
-      "date": "2026-08-27",
-      "time": "21:00",
-      "location": "Beogradski kej",
-      "url": "https://www.mojnovisad.com/navigator/svrati-na-bioskop-ispod-mosta-duga/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/beavers-300x169.jpg",
-      "lat": 45.2644426,
-      "lng": 19.8592247
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-petak-19",
       "title": "Cineplexx Novi Sad – repertoar za petak",
@@ -480,6 +408,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-21-at-20.16.24-240x300.jpeg",
       "lat": 45.2426175,
       "lng": 19.8820073
+    },
+    {
+      "id": "speed-dating",
+      "title": "Speed Dating",
+      "category": "Noćni provod",
+      "date": "2026-09-02",
+      "time": "20:00",
+      "location": "The End Cafe",
+      "url": "https://www.mojnovisad.com/navigator/speed-dating/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/viber_image_2026-08-27_11-41-12-919-200x300.jpg",
+      "lat": 45.2541347,
+      "lng": 19.8456606
     },
     {
       "id": "svrati-na-bioskop-ispod-mosta-duga-2",
@@ -960,6 +900,66 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/istina-820-300x114.jpg",
       "lat": 45.2419788,
       "lng": 19.8412391
+    },
+    {
+      "id": "monodrama-nasi-dani",
+      "title": "Monodrama “Naši dani”",
+      "category": "Predstava",
+      "date": "2026-09-24",
+      "time": "20:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/monodrama-nasi-dani/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/nasi-dani-24.09.-820-300x114.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "1981-4",
+      "title": "1981",
+      "category": "Predstava",
+      "date": "2026-09-25",
+      "time": "18:00",
+      "location": "Novosadsko pozorište",
+      "url": "https://www.mojnovisad.com/navigator/1981-4/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/thumb_65973_2000_2000_0_0_auto-300x200.jpg",
+      "lat": 45.2577191,
+      "lng": 19.8415872
+    },
+    {
+      "id": "uspavana-lepotica",
+      "title": "Uspavana lepotica",
+      "category": "Predstava",
+      "date": "2026-09-25",
+      "time": "19:00",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/uspavana-lepotica/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1412941258uspavana-lepotica-196x300.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "stand-up-komedija-nebojse-grujica-kriza-srednjih-godina",
+      "title": "Stand up komedija Nebojše Grujića “Kriza srednjih godina”",
+      "category": "Predstava",
+      "date": "2026-09-25",
+      "time": "20:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/stand-up-komedija-nebojse-grujica-kriza-srednjih-godina/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/kriza-25.9-820-300x114.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "fruskogorska-vinska-setnja-fruska-walk-wine",
+      "title": "Fruškogorska vinska šetnja – Fruška Walk & Wine",
+      "category": "Radionica",
+      "date": "2026-09-26",
+      "time": "10:30",
+      "location": "Fruška gora",
+      "url": "https://www.mojnovisad.com/navigator/fruskogorska-vinska-setnja-fruska-walk-wine/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/vinska-setnja-820-300x114.jpg",
+      "lat": 45.1720057,
+      "lng": 19.8282553
     }
   ]
 }
