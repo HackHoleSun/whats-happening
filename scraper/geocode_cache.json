@@ -338,5 +338,9 @@
   "digitalni-omladinski-centar": {
     "lat": 45.2556408,
     "lng": 19.8531514
+  },
+  "limanski-park": {
+    "lat": 45.2393265,
+    "lng": 19.8411613
   }
 }
