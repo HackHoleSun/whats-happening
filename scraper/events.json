@@ -1,66 +1,6 @@
 {
-  "scraped_at": "2026-09-06T10:35:13Z",
+  "scraped_at": "2026-09-07T11:59:37Z",
   "events": [
-    {
-      "id": "arena-cineplex-repertoar-za-nedelju-20",
-      "title": "Arena Cineplex – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-09-06",
-      "time": "10:30",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-nedelju-20/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-nedelju-21",
-      "title": "Cineplexx Novi Sad – repertoar za nedelju",
-      "category": "Film",
-      "date": "2026-09-06",
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-nedelju-21/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/1080X1920_END_OF_OAK_STREET_CXX_SRB-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-24",
-      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
-      "category": "Izložba",
-      "date": "2026-09-06",
-      "time": "13:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-24/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/Putir-1692-iz-manastira-Vrdnika-Muzej-SPC-u-Beogradu-212x300.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-23",
-      "title": "Stručno tumačenje izložbe “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
-      "category": "Izložba",
-      "date": "2026-09-06",
-      "time": "17:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/strucno-tumacenje-izlozbe-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije-23/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Nepoznati-autor-Kruna-sa-mostiju-Svetog-Stefana-Stiljanovica-1760-Muzej-SPC-u-Beogradu-240x300.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "loft-river-filmsko-vece-nebeska-udica",
-      "title": "Loft River filmsko veče – Nebeska udica",
-      "category": "Film",
-      "date": "2026-09-06",
-      "time": "21:00",
-      "location": "Štrand",
-      "url": "https://www.mojnovisad.com/navigator/loft-river-filmsko-vece-nebeska-udica/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/3-1-239x300.jpg",
-      "lat": 45.2363112,
-      "lng": 19.8465411
-    },
     {
       "id": "vreme-zvuk-fagot",
       "title": "Vreme, zvuk, fagot",
@@ -960,6 +900,66 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/baci-nesto_lepo_820-300x114.jpg",
       "lat": 45.1720057,
       "lng": 19.8282553
+    },
+    {
+      "id": "magcni-put-oko-sveta-za-80-minuta",
+      "title": "Magčni put oko sveta za 80 minuta",
+      "category": "Predstava",
+      "date": "2026-10-04",
+      "time": "17:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/magcni-put-oko-sveta-za-80-minuta/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/madjionicar_strahinja_820_oktobar-300x114.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "platonick-dive-elektro-post-rok-it",
+      "title": "Platonick dive (elektro, post-rok, IT)",
+      "category": "Koncert",
+      "date": "2026-10-05",
+      "time": "20:30",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/platonick-dive-elektro-post-rok-it/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/terrace71000-768x576-1-300x225.jpg",
+      "lat": 45.258309,
+      "lng": 19.839698
+    },
+    {
+      "id": "besplatna-radionica-digitalni-zanat-od-sadrzaja-do-klijenta-3",
+      "title": "Besplatna radionica – Digitalni zanat: od sadržaja do klijenta",
+      "category": "Radionica",
+      "date": "2026-10-06",
+      "time": "18:00",
+      "location": "Novosadski omladinski prostor (NOF)",
+      "url": "https://www.mojnovisad.com/navigator/besplatna-radionica-digitalni-zanat-od-sadrzaja-do-klijenta-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Sanja-Rajic-Marketing-znanje-3-240x300.png",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "zasto-magarci-stoje-na-promaji-4",
+      "title": "3 SESTRE",
+      "category": "Predstava",
+      "date": "2026-10-06",
+      "time": "19:00",
+      "location": "Novosadsko pozorište",
+      "url": "https://www.mojnovisad.com/navigator/zasto-magarci-stoje-na-promaji-4/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/3-sestre-nspz-300x200.jpg",
+      "lat": 45.2577191,
+      "lng": 19.8415872
+    },
+    {
+      "id": "kabare-pikolo-grande-utopija-3",
+      "title": "Kabare Pikolo Grande – Utopija",
+      "category": "Predstava",
+      "date": "2026-10-08",
+      "time": "19:00",
+      "location": "Novosadsko pozorište",
+      "url": "https://www.mojnovisad.com/navigator/kabare-pikolo-grande-utopija-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/kabare-pikolo-grande-utopija-nspz-300x200.jpg",
+      "lat": 45.2577191,
+      "lng": 19.8415872
     }
   ]
 }
