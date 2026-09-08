@@ -1,66 +1,6 @@
 {
-  "scraped_at": "2026-09-07T11:59:37Z",
+  "scraped_at": "2026-09-08T10:54:41Z",
   "events": [
-    {
-      "id": "vreme-zvuk-fagot",
-      "title": "Vreme, zvuk, fagot",
-      "category": "Koncert",
-      "date": "2026-09-07",
-      "time": "08:00",
-      "location": "Svilara - kulturna stanica",
-      "url": "https://www.mojnovisad.com/navigator/vreme-zvuk-fagot/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/1000045846-210x300.jpg",
-      "lat": 45.2625631,
-      "lng": 19.8496524
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-23",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-09-07",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-23/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/One-Night-Only-1080x1920px-cnplxx-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-ponedeljak-22",
-      "title": "Arena Cineplex – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-09-07",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-22/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "privatna-proslava-3",
-      "title": "Privatna proslava",
-      "category": "Predstava",
-      "date": "2026-09-07",
-      "time": "19:30",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/privatna-proslava-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/proslava-820-1-300x114.jpg",
-      "lat": 45.2419788,
-      "lng": 19.8412391
-    },
-    {
-      "id": "aleksandar-skoric-solo-nastup",
-      "title": "Aleksandar Škorić – solo nastup",
-      "category": "Koncert",
-      "date": "2026-09-07",
-      "time": "21:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/aleksandar-skoric-solo-nastup/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/791015094_1421079156544295_8056608162426248793_n-300x200.jpg",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-utorak-22",
       "title": "Cineplexx Novi Sad – repertoar za utorak",
@@ -958,6 +898,66 @@
       "location": "Novosadsko pozorište",
       "url": "https://www.mojnovisad.com/navigator/kabare-pikolo-grande-utopija-3/",
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/kabare-pikolo-grande-utopija-nspz-300x200.jpg",
+      "lat": 45.2577191,
+      "lng": 19.8415872
+    },
+    {
+      "id": "rejting-tajm",
+      "title": "Rejting Tajm",
+      "category": "Predstava",
+      "date": "2026-10-08",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/rejting-tajm/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/rejting_tajm_820-300x114.jpg",
+      "lat": 45.2419788,
+      "lng": 19.8412391
+    },
+    {
+      "id": "zenski-razgovori-2",
+      "title": "Ženski razgovori",
+      "category": "Predstava",
+      "date": "2026-10-09",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/zenski-razgovori-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/1-300x170.jpg",
+      "lat": 45.2419788,
+      "lng": 19.8412391
+    },
+    {
+      "id": "kakva-ti-je-zena-takav-ti-je-zivot",
+      "title": "Kakva ti je žena, takav ti je život",
+      "category": "Predstava",
+      "date": "2026-10-10",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/kakva-ti-je-zena-takav-ti-je-zivot/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/ktjz-ttjz-10.10-820-300x114.jpg",
+      "lat": 45.2419788,
+      "lng": 19.8412391
+    },
+    {
+      "id": "artan-lili",
+      "title": "Artan Lili",
+      "category": "Koncert",
+      "date": "2026-10-10",
+      "time": "21:00",
+      "location": "Novosadski sajam",
+      "url": "https://www.mojnovisad.com/navigator/artan-lili/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/artan-820-300x114.jpg",
+      "lat": 45.2546092,
+      "lng": 19.8206778
+    },
+    {
+      "id": "majka-hrabrost-i-njena-deca-3",
+      "title": "Majka Hrabrost i njena deca",
+      "category": "Predstava",
+      "date": "2026-10-13",
+      "time": "19:00",
+      "location": "Novosadsko pozorište",
+      "url": "https://www.mojnovisad.com/navigator/majka-hrabrost-i-njena-deca-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/majka-hrabrost-i-njena-deca-300x200.jpg",
       "lat": 45.2577191,
       "lng": 19.8415872
     }
