@@ -1,66 +1,6 @@
 {
-  "scraped_at": "2026-09-14T12:15:32Z",
+  "scraped_at": "2026-09-15T11:23:41Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-24",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-09-14",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-24/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/Cuvar-ikone-Sv.-Dorda-web-poster-212x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-ponedeljak-23",
-      "title": "Arena Cineplex – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-09-14",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-23/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "don-kihot-3",
-      "title": "Don Kihot",
-      "category": "Predstava",
-      "date": "2026-09-14",
-      "time": "19:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/don-kihot-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1412938477don-kihot-196x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "otvaranje-izlozbe-impletio",
-      "title": "Otvaranje izložbe “IMPLETIO”",
-      "category": "Izložba",
-      "date": "2026-09-14",
-      "time": "19:00",
-      "location": "Savez udruženja likovnih umetnika Vojvodine",
-      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-impletio/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/Leo-Pavlovic-Impletio-serija-crteza-1500mm-x-1000mm-2024.-Svijetli-detalj-200x300.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "druga-sezona-slobode-uzivo-prvi-gost-je-katarina-jovanovic",
-      "title": "Druga sezona “Slobode uživo”: Prvi gost je Katarina Jovanović",
-      "category": "Predavanje",
-      "date": "2026-09-14",
-      "time": "19:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/druga-sezona-slobode-uzivo-prvi-gost-je-katarina-jovanovic/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/unnamed-5-1-240x300.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-utorak-23",
       "title": "Cineplexx Novi Sad – repertoar za utorak",
@@ -518,6 +458,18 @@
       "lng": null
     },
     {
+      "id": "filokafe-egzistencijalna-kriza",
+      "title": "Filokafe: Egzistencijalna kriza",
+      "category": "Radionica",
+      "date": "2026-09-23",
+      "time": "19:00",
+      "location": "Zenit",
+      "url": "https://www.mojnovisad.com/navigator/filokafe-egzistencijalna-kriza/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/Egzistencijalna-kriza-240x300.png",
+      "lat": 45.2569986,
+      "lng": 19.8426561
+    },
+    {
       "id": "arsenik-i-stare-cipke-3",
       "title": "Arsenik i stare čipke",
       "category": "Predstava",
@@ -960,6 +912,54 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/madjionicar_strahinja_820_oktobar-300x114.jpg",
       "lat": null,
       "lng": null
+    },
+    {
+      "id": "platonick-dive-elektro-post-rok-it",
+      "title": "Platonick dive (elektro, post-rok, IT)",
+      "category": "Koncert",
+      "date": "2026-10-05",
+      "time": "20:30",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/platonick-dive-elektro-post-rok-it/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/terrace71000-768x576-1-300x225.jpg",
+      "lat": 45.258309,
+      "lng": 19.839698
+    },
+    {
+      "id": "besplatna-radionica-digitalni-zanat-od-sadrzaja-do-klijenta-3",
+      "title": "Besplatna radionica – Digitalni zanat: od sadržaja do klijenta",
+      "category": "Radionica",
+      "date": "2026-10-06",
+      "time": "18:00",
+      "location": "Novosadski omladinski prostor (NOF)",
+      "url": "https://www.mojnovisad.com/navigator/besplatna-radionica-digitalni-zanat-od-sadrzaja-do-klijenta-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Sanja-Rajic-Marketing-znanje-3-240x300.png",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "zasto-magarci-stoje-na-promaji-4",
+      "title": "3 SESTRE",
+      "category": "Predstava",
+      "date": "2026-10-06",
+      "time": "19:00",
+      "location": "Novosadsko pozorište",
+      "url": "https://www.mojnovisad.com/navigator/zasto-magarci-stoje-na-promaji-4/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/3-sestre-nspz-300x200.jpg",
+      "lat": 45.2577191,
+      "lng": 19.8415872
+    },
+    {
+      "id": "kabare-pikolo-grande-utopija-3",
+      "title": "Kabare Pikolo Grande – Utopija",
+      "category": "Predstava",
+      "date": "2026-10-08",
+      "time": "19:00",
+      "location": "Novosadsko pozorište",
+      "url": "https://www.mojnovisad.com/navigator/kabare-pikolo-grande-utopija-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/kabare-pikolo-grande-utopija-nspz-300x200.jpg",
+      "lat": 45.2577191,
+      "lng": 19.8415872
     }
   ]
 }
