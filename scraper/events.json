@@ -1,138 +1,6 @@
 {
-  "scraped_at": "2026-09-24T11:22:58Z",
+  "scraped_at": "2026-09-25T11:28:48Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-cetvrtak-21",
-      "title": "Cineplexx Novi Sad – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-09-24",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-cetvrtak-21/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/HOTB-1080x1920px-cnplxx-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-cetvrtak-21",
-      "title": "Arena Cineplex – repertoar za četvrtak",
-      "category": "Film",
-      "date": "2026-09-24",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-cetvrtak-21/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "evropska-noc-istrazivaca",
-      "title": "Evropska noć istraživača",
-      "category": "Festival",
-      "date": "2026-09-24",
-      "time": "16:00",
-      "location": "Svilara - kulturna stanica",
-      "url": "https://www.mojnovisad.com/navigator/evropska-noc-istrazivaca/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/820x360-300x132.png",
-      "lat": 45.2625631,
-      "lng": 19.8496524
-    },
-    {
-      "id": "bazar-by-komuna-concept",
-      "title": "Bazar by Komuna Concept",
-      "category": "Festival",
-      "date": "2026-09-24",
-      "time": "18:00",
-      "location": "Petrovaradin",
-      "url": "https://www.mojnovisad.com/navigator/bazar-by-komuna-concept/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/Plakat-Bazar-by-Komuna_septembar-2026-225x300.jpg",
-      "lat": 45.2426175,
-      "lng": 19.8820073
-    },
-    {
-      "id": "1981-3",
-      "title": "1981",
-      "category": "Predstava",
-      "date": "2026-09-24",
-      "time": "18:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/1981-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/thumb_65955_2000_2000_0_0_auto-300x200.jpg",
-      "lat": 45.2577191,
-      "lng": 19.8415872
-    },
-    {
-      "id": "vestacka-inteligencija-u-nastavi-prakticni-alati-i-odgovorna-primena",
-      "title": "Veštačka inteligencija u nastavi:  praktični alati i odgovorna primena",
-      "category": "Predavanje",
-      "date": "2026-09-24",
-      "time": "18:00",
-      "location": "Američki kutak Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/vestacka-inteligencija-u-nastavi-prakticni-alati-i-odgovorna-primena/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/AI-EDU-240x300.png",
-      "lat": 45.2531419,
-      "lng": 19.855133
-    },
-    {
-      "id": "promocija-zbirke-homo-climaticum-balkan-2026",
-      "title": "Promocija zbirke Homo Climaticum: Balkan 2026",
-      "category": "Knjiga",
-      "date": "2026-09-24",
-      "time": "19:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/promocija-zbirke-homo-climaticum-balkan-2026/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/HC_promocija_fb-810x456-1-300x169.jpg",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
-    {
-      "id": "tribina-kul-tura-sa-mladima",
-      "title": "Tribina “Kul/Tura sa mladima”",
-      "category": "Predavanje",
-      "date": "2026-09-24",
-      "time": "19:00",
-      "location": "Spomen-zbirka Pavla Beljanskog",
-      "url": "https://www.mojnovisad.com/navigator/tribina-kul-tura-sa-mladima/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/image003-300x143.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "istina",
-      "title": "Istina",
-      "category": "Predstava",
-      "date": "2026-09-24",
-      "time": "20:00",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/istina/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/istina-820-300x114.jpg",
-      "lat": 45.2419788,
-      "lng": 19.8412391
-    },
-    {
-      "id": "monodrama-nasi-dani",
-      "title": "Monodrama “Naši dani”",
-      "category": "Predstava",
-      "date": "2026-09-24",
-      "time": "20:00",
-      "location": "Radnički dom \"Svetozar marković\"",
-      "url": "https://www.mojnovisad.com/navigator/monodrama-nasi-dani/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/nasi-dani-24.09.-820-300x114.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "besplatni-bioskop-toxic-friends",
-      "title": "Besplatni Bioskop –– TOXIC FRIENDS ––",
-      "category": "Film",
-      "date": "2026-09-24",
-      "time": "21:00",
-      "location": "Salon u Radničkoj",
-      "url": "https://www.mojnovisad.com/navigator/besplatni-bioskop-toxic-friends/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/heavenly-creatures-300x203.jpg",
-      "lat": null,
-      "lng": null
-    },
     {
       "id": "septembarski-vinyl-fest",
       "title": "Septembarski Vinyl Fest",
@@ -230,18 +98,6 @@
       "lng": 19.855133
     },
     {
-      "id": "%d0%bf%d1%80%d0%b5%d0%b4%d1%81%d1%82%d0%b0%d0%b2%d1%99%d0%b0%d1%9a%d0%b5-%d1%80%d0%be%d0%bc%d0%b0%d0%bd%d0%b0-%d0%bf%d1%82%d0%b8%d1%86%d0%b0-%d0%ba%d0%be%d1%98%d0%b0-%d0%bf%d0%b0%d0%bc%d1%82%d0%b8",
-      "title": "ПРЕДСТАВЉАЊЕ РОМАНА Птица која памти небо",
-      "category": "Knjiga",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "location": "Gradska biblioteka u Novom Sadu",
-      "url": "https://www.mojnovisad.com/navigator/%d0%bf%d1%80%d0%b5%d0%b4%d1%81%d1%82%d0%b0%d0%b2%d1%99%d0%b0%d1%9a%d0%b5-%d1%80%d0%be%d0%bc%d0%b0%d0%bd%d0%b0-%d0%bf%d1%82%d0%b8%d1%86%d0%b0-%d0%ba%d0%be%d1%98%d0%b0-%d0%bf%d0%b0%d0%bc%d1%82%d0%b8/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/800842048_1727775211625960_7035056055886065978_n-300x169.jpg",
-      "lat": 45.25689,
-      "lng": 19.8484335
-    },
-    {
       "id": "uspavana-lepotica",
       "title": "Uspavana lepotica",
       "category": "Predstava",
@@ -254,6 +110,18 @@
       "lng": 19.8430384
     },
     {
+      "id": "%d0%bf%d1%80%d0%b5%d0%b4%d1%81%d1%82%d0%b0%d0%b2%d1%99%d0%b0%d1%9a%d0%b5-%d1%80%d0%be%d0%bc%d0%b0%d0%bd%d0%b0-%d0%bf%d1%82%d0%b8%d1%86%d0%b0-%d0%ba%d0%be%d1%98%d0%b0-%d0%bf%d0%b0%d0%bc%d1%82%d0%b8",
+      "title": "ПРЕДСТАВЉАЊЕ РОМАНА Птица која памти небо",
+      "category": "Knjiga",
+      "date": "2026-09-25",
+      "time": "19:00",
+      "location": "Gradska biblioteka u Novom Sadu",
+      "url": "https://www.mojnovisad.com/navigator/%d0%bf%d1%80%d0%b5%d0%b4%d1%81%d1%82%d0%b0%d0%b2%d1%99%d0%b0%d1%9a%d0%b5-%d1%80%d0%be%d0%bc%d0%b0%d0%bd%d0%b0-%d0%bf%d1%82%d0%b8%d1%86%d0%b0-%d0%ba%d0%be%d1%98%d0%b0-%d0%bf%d0%b0%d0%bc%d1%82%d0%b8/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/800842048_1727775211625960_7035056055886065978_n-300x169.jpg",
+      "lat": 45.25689,
+      "lng": 19.8484335
+    },
+    {
       "id": "autorsko-vodenje-kroz-izlozbu-umetnost-u-sluzbi-vere-sjaj-i-slava-karlovacke-mitropolije",
       "title": "Autorsko vođenje kroz izložbu “Umetnost u službi vere: sjaj i slava Karlovačke mitropolije”",
       "category": "Izložba",
@@ -264,6 +132,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/Poster_online_SR-212x300.jpg",
       "lat": 45.2525077,
       "lng": 19.8457366
+    },
+    {
+      "id": "svecano-otvaranje-izlozbe-ljubav-sa-mirisom-terpentina",
+      "title": "Svečano otvaranje izložbe “Ljubav sa mirisom terpentina”",
+      "category": "Izložba",
+      "date": "2026-09-25",
+      "time": "19:00",
+      "location": "Galerija lik. umetnosti poklon zbirka Rajka Mamuzića",
+      "url": "https://www.mojnovisad.com/navigator/svecano-otvaranje-izlozbe-ljubav-sa-mirisom-terpentina/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/Ljubav-sa-mirisom-terpentina-pozivnica-1-158x300.jpg",
+      "lat": null,
+      "lng": null
     },
     {
       "id": "vice-jutro",
@@ -458,18 +338,6 @@
       "lng": 19.8457366
     },
     {
-      "id": "upoznaj-kuhinju-solidarnosti-novi-sad",
-      "title": "Upoznaj Kuhinju solidarnosti Novi Sad",
-      "category": "Noćni provod",
-      "date": "2026-09-26",
-      "time": "18:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/upoznaj-kuhinju-solidarnosti-novi-sad/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/1000000757-810x456-1-300x169.png",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
-    {
       "id": "1981-5",
       "title": "1981 RASPRODATO",
       "category": "Predstava",
@@ -480,6 +348,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/thumb_65950_2000_2000_0_0_auto-1-300x200.jpg",
       "lat": 45.2577191,
       "lng": 19.8415872
+    },
+    {
+      "id": "upoznaj-kuhinju-solidarnosti-novi-sad",
+      "title": "Upoznaj Kuhinju solidarnosti Novi Sad",
+      "category": "Noćni provod",
+      "date": "2026-09-26",
+      "time": "18:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/upoznaj-kuhinju-solidarnosti-novi-sad/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/1000000757-810x456-1-300x169.png",
+      "lat": 45.258309,
+      "lng": 19.839698
     },
     {
       "id": "nova-razmena-knjiga-i-open-mic-u-americkom-kutku",
@@ -504,6 +384,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1412941258uspavana-lepotica-196x300.jpg",
       "lat": 45.2553613,
       "lng": 19.8430384
+    },
+    {
+      "id": "koncert-zenskog-hora-gizela-iz-madarske",
+      "title": "KONCERT ŽENSKOG HORA “GIZELA” iz Mađarske",
+      "category": "Koncert",
+      "date": "2026-09-26",
+      "time": "19:00",
+      "location": "Novosadska sinagoga",
+      "url": "https://www.mojnovisad.com/navigator/koncert-zenskog-hora-gizela-iz-madarske/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/1000036475-210x300.jpg",
+      "lat": 45.2530606,
+      "lng": 19.840798
     },
     {
       "id": "stand-up-gorana-vincica-komedija-je-ozbiljna-stvar",
@@ -542,6 +434,18 @@
       "lng": 19.8490275
     },
     {
+      "id": "vladimir-samardzic-trio-sutra-u-novosadskom-jazz-klubu-s-o-m",
+      "title": "Vladimir Samardžić Trio sutra u novosadskom jazz klubu S.O.M.",
+      "category": "Koncert",
+      "date": "2026-09-26",
+      "time": "21:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/vladimir-samardzic-trio-sutra-u-novosadskom-jazz-klubu-s-o-m/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/VS-TRIO-Novi-Sad-26.09.2026-300x225.png",
+      "lat": 45.26553,
+      "lng": 19.8293059
+    },
+    {
       "id": "duda-burzujka",
       "title": "Duda Buržujka",
       "category": "Koncert",
@@ -564,6 +468,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/6-2-238x300.jpg",
       "lat": 45.2566933,
       "lng": 19.8456416
+    },
+    {
+      "id": "idimidodjimi",
+      "title": "IdiMiDodjiMi",
+      "category": "Koncert",
+      "date": "2026-09-26",
+      "time": "22:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/idimidodjimi/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/IMG_3279-225x300.jpeg",
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "book-club",
@@ -806,6 +722,18 @@
       "lng": 19.8514492
     },
     {
+      "id": "otvaranje-izlozbe-lea-vukelica-a-moglo-je-da-budeiti-drugacije",
+      "title": "Otvaranje izložbe Lea Vukelića “A moglo je DA bUDEiti drugačije”",
+      "category": "Izložba",
+      "date": "2026-09-28",
+      "time": "19:00",
+      "location": "Savez udruženja likovnih umetnika Vojvodine",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-lea-vukelica-a-moglo-je-da-budeiti-drugacije/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/sest-zastava-300x171.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
       "id": "kvizancija",
       "title": "Kvizancija",
       "category": "Radionica",
@@ -960,6 +888,78 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1776931563plakat-208x300.jpg",
       "lat": 45.2553613,
       "lng": 19.8430384
+    },
+    {
+      "id": "novi-ciklus-besplatnih-radionica-3d-stampe-u-americkom-kutku",
+      "title": "Novi ciklus besplatnih radionica 3D štampe u Američkom kutku",
+      "category": "Radionica",
+      "date": "2026-10-01",
+      "time": "10:00",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/novi-ciklus-besplatnih-radionica-3d-stampe-u-americkom-kutku/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/AC-NS-3D-Print-New-Cycle-240x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
+    },
+    {
+      "id": "xix-festival-biserna-grana",
+      "title": "XIX Festival Biserna grana",
+      "category": "Festival",
+      "date": "2026-10-01",
+      "time": "19:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/xix-festival-biserna-grana/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/1-6-300x190.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "prah",
+      "title": "Prah",
+      "category": "Predstava",
+      "date": "2026-10-01",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/prah/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/prah_oktobar_820-300x114.jpg",
+      "lat": 45.2419788,
+      "lng": 19.8412391
+    },
+    {
+      "id": "kengur-se-vraca-kuci",
+      "title": "Kengur se vraća kući",
+      "category": "Film",
+      "date": "2026-10-01",
+      "time": "20:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/kengur-se-vraca-kuci/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/01.10.-Kengur-se-vraca-kuci-213x300.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "diy-or-die",
+      "title": "DIY OR DIE",
+      "category": "Koncert",
+      "date": "2026-10-02",
+      "time": "20:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/diy-or-die/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/813672982_1736730918456820_3074684475967821474_n-300x132.jpg",
+      "lat": 45.258309,
+      "lng": 19.839698
+    },
+    {
+      "id": "dani-barokne-muzike-muzika-iz-vremena-servantesa",
+      "title": "Dani barokne muzike – Muzika iz vremena Servantesa",
+      "category": "Koncert",
+      "date": "2026-10-02",
+      "time": "20:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/dani-barokne-muzike-muzika-iz-vremena-servantesa/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/barok_ns_820-300x114.jpg",
+      "lat": 45.26553,
+      "lng": 19.8293059
     }
   ]
 }
