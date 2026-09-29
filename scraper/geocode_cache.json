@@ -350,5 +350,13 @@
   "pero-bar": {
     "lat": 45.2562714,
     "lng": 19.8460069
+  },
+  "temerin": {
+    "lat": null,
+    "lng": null
+  },
+  "labar": {
+    "lat": null,
+    "lng": null
   }
 }
