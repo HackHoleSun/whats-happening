@@ -1,102 +1,6 @@
 {
-  "scraped_at": "2026-09-29T12:25:55Z",
+  "scraped_at": "2026-09-30T12:11:00Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-utorak-25",
-      "title": "Cineplexx Novi Sad – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-09-29",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-25/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/Kengur-se-vraca-kuci-1080-x-1920-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-utorak-23",
-      "title": "Arena Cineplex – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-09-29",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-23/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "srcem-i-muzikom-za-detelinaru",
-      "title": "Srcem i muzikom za Detelinaru",
-      "category": "Koncert",
-      "date": "2026-09-29",
-      "time": "17:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/srcem-i-muzikom-za-detelinaru/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/PLAKAT-212x300.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "besplatna-radionica-digitalni-zanat-od-sadrzaja-do-klijenta",
-      "title": "Besplatna radionica – Digitalni zanat: od sadržaja do klijenta",
-      "category": "Radionica",
-      "date": "2026-09-29",
-      "time": "18:00",
-      "location": "Novosadski omladinski prostor (NOF)",
-      "url": "https://www.mojnovisad.com/navigator/besplatna-radionica-digitalni-zanat-od-sadrzaja-do-klijenta/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Sanja-Rajic-Marketing-znanje-2-240x300.png",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "violinista-na-krovu",
-      "title": "Violinista na krovu",
-      "category": "Predstava",
-      "date": "2026-09-29",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/violinista-na-krovu/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1430384507Violinista-na-krovu-PLAKAT-196x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "filmovi-na-putu-the-trouble-with-being-born",
-      "title": "Filmovi na putu – The Trouble with Being Born",
-      "category": "Film",
-      "date": "2026-09-29",
-      "time": "20:00",
-      "location": "KC \"Mladost\"",
-      "url": "https://www.mojnovisad.com/navigator/filmovi-na-putu-the-trouble-with-being-born/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/IG-Post-karusel-1-The-trouble-with-being-born-1080x1350-1-240x300.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "drz-ne-daj-6",
-      "title": "Drž’ ne daj",
-      "category": "Predstava",
-      "date": "2026-09-29",
-      "time": "20:00",
-      "location": "Radnički dom \"Svetozar marković\"",
-      "url": "https://www.mojnovisad.com/navigator/drz-ne-daj-6/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/05/DRZ-NE-DAJ-820x312-1-300x114.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "slomosa",
-      "title": "Slomosa OTKAZANO",
-      "category": "Koncert",
-      "date": "2026-09-29",
-      "time": "21:00",
-      "location": "SKCNS Fabrika",
-      "url": "https://www.mojnovisad.com/navigator/slomosa/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/slo_820-300x114.jpg",
-      "lat": 45.2375526,
-      "lng": 19.8421486
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-sredu-22",
       "title": "Cineplexx Novi Sad – repertoar za sredu",
@@ -960,6 +864,102 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/ktjz-ttjz-10.10-820-300x114.jpg",
       "lat": 45.2419788,
       "lng": 19.8412391
+    },
+    {
+      "id": "fujcinela-bojs-komuna-concept",
+      "title": "FUJČINELA BOJS // Komuna Concept",
+      "category": "Koncert",
+      "date": "2026-10-10",
+      "time": "20:00",
+      "location": "Petrovaradin",
+      "url": "https://www.mojnovisad.com/navigator/fujcinela-bojs-komuna-concept/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-19-at-14.37.26-240x300.jpeg",
+      "lat": 45.2426175,
+      "lng": 19.8820073
+    },
+    {
+      "id": "artan-lili-u-novom-sadu",
+      "title": "Artan Lili u Novom Sadu",
+      "category": "Koncert",
+      "date": "2026-10-10",
+      "time": "21:00",
+      "location": "Hala 2",
+      "url": "https://www.mojnovisad.com/navigator/artan-lili-u-novom-sadu/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/ARTAN-LILI-PROMO-2-300x209.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "nezaboravak-potocnica-zmijske-oci-3",
+      "title": "Nezaboravak, potočnica, zmijske oči",
+      "category": "Predstava",
+      "date": "2026-10-10",
+      "time": "21:00",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/nezaboravak-potocnica-zmijske-oci-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/nezaboravak-potocnica-i-zmijske-oci-2-snp-300x200.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "muhi-all-night-long-cage-rage",
+      "title": "Muhi | All Night Long | Cage Rage",
+      "category": "Noćni provod",
+      "date": "2026-10-10",
+      "time": "23:00",
+      "location": "K9 Station",
+      "url": "https://www.mojnovisad.com/navigator/muhi-all-night-long-cage-rage/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/muhi_all_night_820_1010-300x114.jpg",
+      "lat": 45.2658433,
+      "lng": 19.8327104
+    },
+    {
+      "id": "hod-po-zaru-drevni-ritual-vatre",
+      "title": "HOD PO ŽARU – DREVNI RITUAL VATRE",
+      "category": "Radionica",
+      "date": "2026-10-11",
+      "time": "10:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/hod-po-zaru-drevni-ritual-vatre/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/11-300x151.jpg",
+      "lat": 45.26553,
+      "lng": 19.8293059
+    },
+    {
+      "id": "crvenkapa-4",
+      "title": "Crvenkapa",
+      "category": "Predstava",
+      "date": "2026-10-11",
+      "time": "11:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/crvenkapa-4/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/06/crvenkapa-2-pozml-300x200.jpg",
+      "lat": 45.2552685,
+      "lng": 19.8488543
+    },
+    {
+      "id": "bar-gorilla-street-workout-takmicenje",
+      "title": "Bar Gorilla Street Workout takmičenje",
+      "category": "Sport",
+      "date": "2026-10-11",
+      "time": "12:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/bar-gorilla-street-workout-takmicenje/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/FC0689BD-98CC-4CDF-96DD-131DC1E250A8-169x300.png",
+      "lat": 45.26553,
+      "lng": 19.8293059
+    },
+    {
+      "id": "39-stepenika",
+      "title": "39 Stepenika",
+      "category": "Predstava",
+      "date": "2026-10-11",
+      "time": "20:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/39-stepenika/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/39-stepenika-pozml-300x234.jpg",
+      "lat": 45.2552685,
+      "lng": 19.8488543
     }
   ]
 }
