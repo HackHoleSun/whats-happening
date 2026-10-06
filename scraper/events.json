@@ -1,66 +1,6 @@
 {
-  "scraped_at": "2026-10-05T14:03:12Z",
+  "scraped_at": "2026-10-06T13:02:13Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-27",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-10-05",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-27/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/HOTB-1080x1920px-cnplxx-1-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-ponedeljak-26",
-      "title": "Arena Cineplex – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-10-05",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-26/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "negde-izvan-planeta-2",
-      "title": "Negde izvan planeta",
-      "category": "Predstava",
-      "date": "2026-10-05",
-      "time": "20:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/negde-izvan-planeta-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/1777898229plakat-214x300.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "platonick-dive-elektro-post-rok-it",
-      "title": "Platonick dive (elektro, post-rok, IT)",
-      "category": "Koncert",
-      "date": "2026-10-05",
-      "time": "20:30",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/platonick-dive-elektro-post-rok-it/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/terrace71000-768x576-1-300x225.jpg",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
-    {
-      "id": "bila-jednom-jedna-zemlja-2",
-      "title": "Bila jednom jedna zemlja",
-      "category": "Predstava",
-      "date": "2026-10-05",
-      "time": "20:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/bila-jednom-jedna-zemlja-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/bila-jednom-jedna-zemlja-snp-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-utorak-26",
       "title": "Cineplexx Novi Sad – repertoar za utorak",
@@ -960,6 +900,66 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/Arsenik-i-stare-cipke2-300x200.jpg",
       "lat": 45.2553613,
       "lng": 19.8430384
+    },
+    {
+      "id": "jerma-3",
+      "title": "Jerma",
+      "category": "Predstava",
+      "date": "2026-10-21",
+      "time": "20:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/jerma-3/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/59090-jerma-300x212.jpg",
+      "lat": 45.2552685,
+      "lng": 19.8488543
+    },
+    {
+      "id": "roditelj-prvih-sest-godina-5",
+      "title": "Roditelj: prvih šest godina",
+      "category": "Predstava",
+      "date": "2026-10-21",
+      "time": "20:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/roditelj-prvih-sest-godina-5/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/roditelj-p6g-snp2-300x200.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "dohvati-mi-plavog-medu-6",
+      "title": "Dohvati mi plavog medu",
+      "category": "Predstava",
+      "date": "2026-10-22",
+      "time": "18:00",
+      "location": "Pozorište mladih",
+      "url": "https://www.mojnovisad.com/navigator/dohvati-mi-plavog-medu-6/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/1-2-252x300.jpg",
+      "lat": 45.2552685,
+      "lng": 19.8488543
+    },
+    {
+      "id": "gospa-nola-4",
+      "title": "Gospa Nola",
+      "category": "Predstava",
+      "date": "2026-10-22",
+      "time": "19:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/gospa-nola-4/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/gospa-nola-snp-300x200.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "phony-job-blaazh",
+      "title": "Phony Job + Blaazh",
+      "category": "Koncert",
+      "date": "2026-10-22",
+      "time": "20:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/phony-job-blaazh/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/Vizual-Facebook-event-Website-300x157.png",
+      "lat": 45.258309,
+      "lng": 19.839698
     }
   ]
 }
