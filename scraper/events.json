@@ -1,90 +1,6 @@
 {
-  "scraped_at": "2026-10-06T13:02:13Z",
+  "scraped_at": "2026-10-07T12:56:33Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-utorak-26",
-      "title": "Cineplexx Novi Sad – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-10-06",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-26/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/Osvetnici-kraj-igre-prodzena-verzija-1-213x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-utorak-24",
-      "title": "Arena Cineplex – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-10-06",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-24/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "edukacija-i-predstavljanje-edukativnog-programa-za-decu-predskolskog-i-osnovnoskolskog-uzrasta-putokaz-kroz-svet-umetnosti",
-      "title": "Edukacija i predstavljanje edukativnog programa za decu predškolskog i osnovnoškolskog uzrasta “Putokaz kroz svet umetnosti”",
-      "category": "Predavanje",
-      "date": "2026-10-06",
-      "time": "17:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/edukacija-i-predstavljanje-edukativnog-programa-za-decu-predskolskog-i-osnovnoskolskog-uzrasta-putokaz-kroz-svet-umetnosti/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/e7c538fe-300x200.jpeg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "besplatna-radionica-digitalni-zanat-od-sadrzaja-do-klijenta-3",
-      "title": "Besplatna radionica – Digitalni zanat: od sadržaja do klijenta",
-      "category": "Radionica",
-      "date": "2026-10-06",
-      "time": "18:00",
-      "location": "Novosadski omladinski prostor (NOF)",
-      "url": "https://www.mojnovisad.com/navigator/besplatna-radionica-digitalni-zanat-od-sadrzaja-do-klijenta-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/Sanja-Rajic-Marketing-znanje-3-240x300.png",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "zasto-magarci-stoje-na-promaji-4",
-      "title": "3 SESTRE",
-      "category": "Predstava",
-      "date": "2026-10-06",
-      "time": "19:00",
-      "location": "Novosadsko pozorište",
-      "url": "https://www.mojnovisad.com/navigator/zasto-magarci-stoje-na-promaji-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/3-sestre-nspz-300x200.jpg",
-      "lat": 45.2577191,
-      "lng": 19.8415872
-    },
-    {
-      "id": "revizor-3",
-      "title": "Revizor",
-      "category": "Predstava",
-      "date": "2026-10-06",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/revizor-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/revizor-snp-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "misja-groznica-3",
-      "title": "Mišja groznica",
-      "category": "Predstava",
-      "date": "2026-10-06",
-      "time": "21:00",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/misja-groznica-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/misja-groznica-snp-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-sredu-23",
       "title": "Cineplexx Novi Sad – repertoar za sredu",
@@ -960,6 +876,90 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/Vizual-Facebook-event-Website-300x157.png",
       "lat": 45.258309,
       "lng": 19.839698
+    },
+    {
+      "id": "edo-maajka-2",
+      "title": "Edo Maajka",
+      "category": "Koncert",
+      "date": "2026-10-22",
+      "time": "21:00",
+      "location": "The Pub",
+      "url": "https://www.mojnovisad.com/navigator/edo-maajka-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/edo_820-300x114.jpg",
+      "lat": 45.255259,
+      "lng": 19.8490275
+    },
+    {
+      "id": "rock-ko-fol-2",
+      "title": "ROCK KO FOL",
+      "category": "Koncert",
+      "date": "2026-10-22",
+      "time": "21:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/rock-ko-fol-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/rock-ko-fol-22.okt-820-300x114.jpg",
+      "lat": 45.26553,
+      "lng": 19.8293059
+    },
+    {
+      "id": "svet-mogucnosti",
+      "title": "Svet mogućnosti",
+      "category": "Predstava",
+      "date": "2026-10-23",
+      "time": "19:30",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/svet-mogucnosti/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/svet-mogucnosti-300x200.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "monodrama-nasi-dani",
+      "title": "Monodrama “Naši dani”",
+      "category": "Predstava",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/monodrama-nasi-dani/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/nasi_dani_2310_820-300x114.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "nomus-natasa-penezic-klavir",
+      "title": "NOMUS: Novosadski big bend. Brodvej u Novom Sadu",
+      "category": "Koncert",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "location": "Srpsko narodno pozorište",
+      "url": "https://www.mojnovisad.com/navigator/nomus-natasa-penezic-klavir/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/web-2026-1-copy-1-WEB-BIG-BEND-FINAL-1536x622-1-300x121.jpg",
+      "lat": 45.2553613,
+      "lng": 19.8430384
+    },
+    {
+      "id": "ako-sam-zena-nisam-konj",
+      "title": "Ako sam žena nisam konj",
+      "category": "Predstava",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/ako-sam-zena-nisam-konj/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/ako_sam_zena_oktobar_820-300x114.jpg",
+      "lat": 45.2419788,
+      "lng": 19.8412391
+    },
+    {
+      "id": "oxajo-23-oktobar-komuna-concept",
+      "title": "OXAJO 23. OKTOBAR // KOMUNA CONCEPT",
+      "category": "Koncert",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "location": "Petrovaradin",
+      "url": "https://www.mojnovisad.com/navigator/oxajo-23-oktobar-komuna-concept/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-12.37.40-240x300.jpeg",
+      "lat": 45.2426175,
+      "lng": 19.8820073
     }
   ]
 }
