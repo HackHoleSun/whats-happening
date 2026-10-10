@@ -358,5 +358,9 @@
   "labar": {
     "lat": null,
     "lng": null
+  },
+  "trg-republike": {
+    "lat": 45.2576587,
+    "lng": 19.8493083
   }
 }
