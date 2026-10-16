@@ -374,5 +374,9 @@
   "lazino-tele": {
     "lat": 45.256873,
     "lng": 19.8451709
+  },
+  "centar-kuda-org": {
+    "lat": null,
+    "lng": null
   }
 }
