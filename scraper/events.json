@@ -1,90 +1,6 @@
 {
-  "scraped_at": "2026-10-20T11:09:32Z",
+  "scraped_at": "2026-10-21T11:25:32Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-utorak-28",
-      "title": "Cineplexx Novi Sad – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-10-20",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-28/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Sense-Sensibility-1080x1920px-cnplxx-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "kolektivne-prakse-i-digitalne-infrastrukture-u-kulturi",
-      "title": "Kolektivne prakse i digitalne infrastrukture u kulturi",
-      "category": "Radionica",
-      "date": "2026-10-20",
-      "time": "15:00",
-      "location": "Savez udruženja likovnih umetnika Vojvodine",
-      "url": "https://www.mojnovisad.com/navigator/kolektivne-prakse-i-digitalne-infrastrukture-u-kulturi/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/SV-MC2026-300x157.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "edukativni-kviz-siz-kviz",
-      "title": "Edukativni kviz: “Šiz kviz”",
-      "category": "Radionica",
-      "date": "2026-10-20",
-      "time": "19:00",
-      "location": "Omladinski klub - OPENS",
-      "url": "https://www.mojnovisad.com/navigator/edukativni-kviz-siz-kviz/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/4-2-264x300.jpg",
-      "lat": null,
-      "lng": null
-    },
-    {
-      "id": "arsenik-i-stare-cipke-4",
-      "title": "Arsenik i stare čipke",
-      "category": "Predstava",
-      "date": "2026-10-20",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/arsenik-i-stare-cipke-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/Arsenik-i-stare-cipke-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "crnogorac-u-krevetu",
-      "title": "Crnogorac u krevetu",
-      "category": "Predstava",
-      "date": "2026-10-20",
-      "time": "20:00",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/crnogorac-u-krevetu/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/08/crnogorac_oktobar_2026_820-300x114.jpg",
-      "lat": 45.2419788,
-      "lng": 19.8412391
-    },
-    {
-      "id": "sladoled",
-      "title": "Sladoled",
-      "category": "Predstava",
-      "date": "2026-10-20",
-      "time": "20:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/sladoled/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/1790760834SLADOLED_FOTO-212x300.jpg",
-      "lat": 45.2552685,
-      "lng": 19.8488543
-    },
-    {
-      "id": "roditelj-prvih-sest-godina-4",
-      "title": "Roditelj: prvih šest godina",
-      "category": "Predstava",
-      "date": "2026-10-20",
-      "time": "20:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/roditelj-prvih-sest-godina-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/roditelj-p6g-snp-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-sredu-25",
       "title": "Cineplexx Novi Sad – repertoar za sredu",
@@ -960,6 +876,90 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/822865868_2145835249476696_4926821547410615392_n-200x300.jpg",
       "lat": 45.1720057,
       "lng": 19.8282553
+    },
+    {
+      "id": "reform-marina-khudykh-and-string-ensemble",
+      "title": "RE:FORM: Marina Khudykh and String Ensemble",
+      "category": "Koncert",
+      "date": "2026-11-08",
+      "time": "19:00",
+      "location": "Novosadska sinagoga",
+      "url": "https://www.mojnovisad.com/navigator/reform-marina-khudykh-and-string-ensemble/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Marina_Khudykh_Novi_Sad_Horizontal_RE-FORM_1920x1080-2-300x169.png",
+      "lat": 45.2530606,
+      "lng": 19.840798
+    },
+    {
+      "id": "stand-up-duo-show-srdana-dincica-i-nebojse-potkrajca-mnogo-je-problema-2",
+      "title": "Stand up duo show Srđana Dinčića i Nebojše Potkrajca “Mnogo je problema”",
+      "category": "Predstava",
+      "date": "2026-11-10",
+      "time": "20:00",
+      "location": "Radnički dom \"Svetozar marković\"",
+      "url": "https://www.mojnovisad.com/navigator/stand-up-duo-show-srdana-dincica-i-nebojse-potkrajca-mnogo-je-problema-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/duo_1011_820-300x114.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "obecao-si-mi-2",
+      "title": "Obećao si mi",
+      "category": "Predstava",
+      "date": "2026-11-12",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/obecao-si-mi-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/obecao-si-mi-12.11-820-300x114.jpg",
+      "lat": 45.2419788,
+      "lng": 19.8412391
+    },
+    {
+      "id": "to-be-punk-festival",
+      "title": "To Be Punk festival",
+      "category": "Festival",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "location": "SKCNS Fabrika",
+      "url": "https://www.mojnovisad.com/navigator/to-be-punk-festival/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/to_be_punk_820_novembar-300x114.jpg",
+      "lat": 45.2375526,
+      "lng": 19.8421486
+    },
+    {
+      "id": "festival-90s-vs-00s",
+      "title": "Festival „90s vs 00s“",
+      "category": "Koncert",
+      "date": "2026-11-14",
+      "time": "19:00",
+      "location": "SPENS - Sportski i poslovni centar Vojvodina",
+      "url": "https://www.mojnovisad.com/navigator/festival-90s-vs-00s/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/IMG_4515-169x300.jpeg",
+      "lat": 45.2471273,
+      "lng": 19.8454852
+    },
+    {
+      "id": "mrki-nisam-ti-ispricao-2",
+      "title": "Mrki – Nisam ti ispričao",
+      "category": "Predstava",
+      "date": "2026-11-15",
+      "time": "20:00",
+      "location": "Naftna industrija Srbije",
+      "url": "https://www.mojnovisad.com/navigator/mrki-nisam-ti-ispricao-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/mrki_820_1511-300x114.jpg",
+      "lat": 45.2419788,
+      "lng": 19.8412391
+    },
+    {
+      "id": "suma-covjek",
+      "title": "Šuma Čovjek",
+      "category": "Koncert",
+      "date": "2026-11-15",
+      "time": "21:00",
+      "location": "Gerila Bar",
+      "url": "https://www.mojnovisad.com/navigator/suma-covjek/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/4-1-253x300.jpg",
+      "lat": 45.2570291,
+      "lng": 19.843874
     }
   ]
 }
