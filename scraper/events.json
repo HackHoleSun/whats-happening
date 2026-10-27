@@ -1,42 +1,6 @@
 {
-  "scraped_at": "2026-10-26T12:31:54Z",
+  "scraped_at": "2026-10-27T11:49:41Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-ponedeljak-30",
-      "title": "Cineplexx Novi Sad – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-10-26",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-ponedeljak-30/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/U-dubinama-1080-x-1920-1-1-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-ponedeljak-29",
-      "title": "Arena Cineplex – repertoar za ponedeljak",
-      "category": "Film",
-      "date": "2026-10-26",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-ponedeljak-29/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "stand-up-show-nezavisan-andrije-dabanovica-2",
-      "title": "Stand up Show “Nezavisan” Andrije Dabanovića",
-      "category": "Predstava",
-      "date": "2026-10-26",
-      "time": "20:00",
-      "location": "Radnički dom \"Svetozar marković\"",
-      "url": "https://www.mojnovisad.com/navigator/stand-up-show-nezavisan-andrije-dabanovica-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/nezavisan_2610_820-300x114.jpg",
-      "lat": null,
-      "lng": null
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-utorak-29",
       "title": "Cineplexx Novi Sad – repertoar za utorak",
@@ -588,6 +552,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Marina_Khudykh_Novi_Sad_Horizontal_RE-FORM_1920x1080-2-300x169.png",
       "lat": 45.2530606,
       "lng": 19.840798
+    },
+    {
+      "id": "scena-za-toleranciju-forum-teatar-u-prevenciji-nasilja",
+      "title": "Scena za toleranciju – forum teatar u prevenciji nasilja",
+      "category": "Konferencija",
+      "date": "2026-11-09",
+      "time": "13:30",
+      "location": "Američki kutak Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/scena-za-toleranciju-forum-teatar-u-prevenciji-nasilja/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/plakat-212x300.png",
+      "lat": 45.2531419,
+      "lng": 19.855133
     },
     {
       "id": "stand-up-komedija-nemanje-cvijetica-tour-de-munem",
