@@ -1,150 +1,6 @@
 {
-  "scraped_at": "2026-10-31T11:55:01Z",
+  "scraped_at": "2026-11-01T12:54:16Z",
   "events": [
-    {
-      "id": "kos-i-lisica-6",
-      "title": "Kos i lisica",
-      "category": "Predstava",
-      "date": "2026-10-31",
-      "time": "11:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/kos-i-lisica-6/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/kos-i-lisica-pozml-300x200.jpg",
-      "lat": 45.2552685,
-      "lng": 19.8488543
-    },
-    {
-      "id": "koncert-za-decu-mali-princ-3",
-      "title": "Koncert za decu “Mali princ”",
-      "category": "Koncert",
-      "date": "2026-10-31",
-      "time": "11:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/koncert-za-decu-mali-princ-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Plakat-flajer-204x300.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "koncert-za-decu-mali-princ-4",
-      "title": "Koncert za decu “Mali princ”",
-      "category": "Koncert",
-      "date": "2026-10-31",
-      "time": "12:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/koncert-za-decu-mali-princ-4/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Plakat-flajer-204x300.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-subotu-29",
-      "title": "Cineplexx Novi Sad – repertoar za subotu",
-      "category": "Film",
-      "date": "2026-10-31",
-      "time": "12:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-subotu-29/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Najezda_1080x1350_-240x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "kustosko-vodenje-kroz-izlozbu-aksentije-marodic-u-potrazi-za-vecnom-lepotom-5",
-      "title": "Kustosko vođenje kroz izložbu “Aksentije Marodić. U potrazi za večnom lepotom”",
-      "category": "Izložba",
-      "date": "2026-10-31",
-      "time": "13:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/kustosko-vodenje-kroz-izlozbu-aksentije-marodic-u-potrazi-za-vecnom-lepotom-5/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Aksentije-Marodic-Sveti-arhangel-Gavrilo-1870-1890-200x300.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "kreativna-radionica-za-decu-i-roditelje-sta-nam-govore-deciji-crtezi",
-      "title": "Kreativna radionica za decu i roditelje “Šta nam govore dečiji crteži”",
-      "category": "Radionica",
-      "date": "2026-10-31",
-      "time": "16:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/kreativna-radionica-za-decu-i-roditelje-sta-nam-govore-deciji-crtezi/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Radionica-crtanja-za-decu-post-240x300.png",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "kustosko-vodenje-kroz-izlozbu-aksentije-marodic-u-potrazi-za-vecnom-lepotom-6",
-      "title": "Kustosko vođenje kroz izložbu “Aksentije Marodić. U potrazi za večnom lepotom”",
-      "category": "Izložba",
-      "date": "2026-10-31",
-      "time": "17:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/kustosko-vodenje-kroz-izlozbu-aksentije-marodic-u-potrazi-za-vecnom-lepotom-6/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Aksentije-Marodic-Ljubav-Vera-Nada-1876-200x300.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "pricaj-mi-nesto",
-      "title": "Pričaj mi nešto",
-      "category": "Predstava",
-      "date": "2026-10-31",
-      "time": "19:00",
-      "location": "Akademija umetnosti Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/pricaj-mi-nesto/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/pricaj-mi-31.10-820-300x114.jpg",
-      "lat": 45.2586774,
-      "lng": 19.8437659
-    },
-    {
-      "id": "koncert-autorske-muzike-aleksandra-dujima",
-      "title": "Koncert autorske muzike Aleksandra Dujina",
-      "category": "Koncert",
-      "date": "2026-10-31",
-      "time": "19:00",
-      "location": "Galerija Matice srpske",
-      "url": "https://www.mojnovisad.com/navigator/koncert-autorske-muzike-aleksandra-dujima/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Pozivnica-234x300.jpg",
-      "lat": 45.2525077,
-      "lng": 19.8457366
-    },
-    {
-      "id": "gospa-nola-5",
-      "title": "Gospa Nola",
-      "category": "Predstava",
-      "date": "2026-10-31",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/gospa-nola-5/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/gospa-nola-snp-2-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "egzekutor-2",
-      "title": "Egzekutor",
-      "category": "Predstava",
-      "date": "2026-10-31",
-      "time": "20:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/egzekutor-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/60823-snpsan-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "svetlost-john-dikeman",
-      "title": "Svetlost + John Dikeman",
-      "category": "Koncert",
-      "date": "2026-10-31",
-      "time": "21:00",
-      "location": "Omladinski centar CK13 (Crna kuća)",
-      "url": "https://www.mojnovisad.com/navigator/svetlost-john-dikeman/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/svetlost-John-Dykmen-1-300x158.png",
-      "lat": 45.258309,
-      "lng": 19.839698
-    },
     {
       "id": "arena-cineplex-repertoar-za-subotu-28",
       "title": "Arena Cineplex – repertoar za nedelju",
@@ -326,6 +182,18 @@
       "lng": 19.8454491
     },
     {
+      "id": "predstavljanje-knjige-maja-ima-kamen-andree-popov-miletic-u-bulevar-booksu",
+      "title": "Predstavljanje knjige „Maja ima kamen“ Andree Popov Miletić u Bulevar Booksu",
+      "category": "Knjiga",
+      "date": "2026-11-04",
+      "time": "19:00",
+      "location": "Bulevar Books",
+      "url": "https://www.mojnovisad.com/navigator/predstavljanje-knjige-maja-ima-kamen-andree-popov-miletic-u-bulevar-booksu/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Naslovna-25-2-300x158.jpg",
+      "lat": 45.25322,
+      "lng": 19.8454445
+    },
+    {
       "id": "stand-up-gorana-vincica-komedija-je-ozbiljna-stvar-2",
       "title": "Stand-up Gorana Vinčića “Komedija je ozbiljna stvar”",
       "category": "Predstava",
@@ -348,6 +216,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/2025-10-300x204.jpg",
       "lat": 45.26553,
       "lng": 19.8293059
+    },
+    {
+      "id": "current-jesss",
+      "title": "Current + Jesss",
+      "category": "Koncert",
+      "date": "2026-11-05",
+      "time": "20:00",
+      "location": "Omladinski centar CK13 (Crna kuća)",
+      "url": "https://www.mojnovisad.com/navigator/current-jesss/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Novi-Sad_textured_page-0001-212x300.jpg",
+      "lat": 45.258309,
+      "lng": 19.839698
     },
     {
       "id": "stand-up-show-the-best-of-vlatka-stampara",
@@ -566,6 +446,18 @@
       "lng": null
     },
     {
+      "id": "macak-u-sesiru-sinh",
+      "title": "Mačak u šeširu – sinh",
+      "category": "Film",
+      "date": "2026-11-10",
+      "time": "18:00",
+      "location": "KC \"Mladost\"",
+      "url": "https://www.mojnovisad.com/navigator/macak-u-sesiru-sinh/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/macak-u-sesiru-b60a_hu1b83f9de85bf2123409de8f94d5748e4_905894_0x700_resize_q75_box-300x169.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
       "id": "stand-up-duo-show-srdana-dincica-i-nebojse-potkrajca-mnogo-je-problema-2",
       "title": "Stand up duo show Srđana Dinčića i Nebojše Potkrajca “Mnogo je problema”",
       "category": "Predstava",
@@ -624,6 +516,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/IMG_4515-169x300.jpeg",
       "lat": 45.2471273,
       "lng": 19.8454852
+    },
+    {
+      "id": "duhovna-skola-skola-zivota-5",
+      "title": "DUHOVNA ŠKOLA – ŠKOLA ŽIVOTA",
+      "category": "Radionica",
+      "date": "2026-11-15",
+      "time": "15:00",
+      "location": "Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/duhovna-skola-skola-zivota-5/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/1-DUHOVNA-SKOLA-300x174.jpg",
+      "lat": 45.26553,
+      "lng": 19.8293059
     },
     {
       "id": "mrki-nisam-ti-ispricao-2",
