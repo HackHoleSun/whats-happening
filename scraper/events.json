@@ -1,78 +1,6 @@
 {
-  "scraped_at": "2026-11-03T13:52:10Z",
+  "scraped_at": "2026-11-04T13:59:31Z",
   "events": [
-    {
-      "id": "cineplexx-novi-sad-repertoar-za-utorak-30",
-      "title": "Cineplexx Novi Sad – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-11-03",
-      "time": "15:00",
-      "location": "Cineplexx Promenada",
-      "url": "https://www.mojnovisad.com/navigator/cineplexx-novi-sad-repertoar-za-utorak-30/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Godzilla-Minus-Zero_Banner-9x16_RS_Tickets-169x300.jpg",
-      "lat": 45.245598,
-      "lng": 19.842786
-    },
-    {
-      "id": "arena-cineplex-repertoar-za-utorak-26",
-      "title": "Arena Cineplex – repertoar za utorak",
-      "category": "Film",
-      "date": "2026-11-03",
-      "time": "15:00",
-      "location": "Arena Cineplex",
-      "url": "https://www.mojnovisad.com/navigator/arena-cineplex-repertoar-za-utorak-26/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/07/arena-cineplex-300x200.jpg",
-      "lat": 45.2539853,
-      "lng": 19.8454491
-    },
-    {
-      "id": "kljuc-zastite-od-stresa",
-      "title": "Ključ zaštite od stresa",
-      "category": "Predavanje",
-      "date": "2026-11-03",
-      "time": "19:00",
-      "location": "Gradska biblioteka u Novom Sadu",
-      "url": "https://www.mojnovisad.com/navigator/kljuc-zastite-od-stresa/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/863610719_4643607309202567_4509623697559674972_n-300x169.jpg",
-      "lat": 45.25689,
-      "lng": 19.8484335
-    },
-    {
-      "id": "cudo-u-sarganu",
-      "title": "Čudo u Šarganu",
-      "category": "Predstava",
-      "date": "2026-11-03",
-      "time": "19:00",
-      "location": "Akademija umetnosti Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/cudo-u-sarganu/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/cudo-u-sarganu-3.11-820-300x114.jpg",
-      "lat": 45.2586774,
-      "lng": 19.8437659
-    },
-    {
-      "id": "stand-up-kriza-srednjih-godina-nebojse-grujica",
-      "title": "Stand up “Kriza srednjih godina” Nebojše Grujića",
-      "category": "Predstava",
-      "date": "2026-11-03",
-      "time": "20:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/stand-up-kriza-srednjih-godina-nebojse-grujica/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/kriza-3.11-820-300x114.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "selo-moje-lepse-od-pariza",
-      "title": "Selo moje lepše od Pariza",
-      "category": "Predstava",
-      "date": "2026-11-03",
-      "time": "20:00",
-      "location": "Radnički dom \"Svetozar marković\"",
-      "url": "https://www.mojnovisad.com/navigator/selo-moje-lepse-od-pariza/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/selo_moje_novembar_820-300x114.jpg",
-      "lat": null,
-      "lng": null
-    },
     {
       "id": "cineplexx-novi-sad-repertoar-za-sredu-27",
       "title": "Cineplexx Novi Sad – repertoar za sredu",
@@ -170,6 +98,18 @@
       "lng": 19.8488543
     },
     {
+      "id": "grupno-samoisceljenje-celoga-tela-po-grabavoju",
+      "title": "GRUPNO SAMOISCELJENJE CELOGA TELA PO GRABAVOJU",
+      "category": "Predavanje",
+      "date": "2026-11-05",
+      "time": "19:00",
+      "location": "Trg Galerija",
+      "url": "https://www.mojnovisad.com/navigator/grupno-samoisceljenje-celoga-tela-po-grabavoju/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/VRELO-znak-300x193.jpg",
+      "lat": 45.252656,
+      "lng": 19.8449091
+    },
+    {
       "id": "violinista-na-krovu-4",
       "title": "Violinista na krovu",
       "category": "Predstava",
@@ -254,6 +194,18 @@
       "lng": 19.8206778
     },
     {
+      "id": "97-novosadski-nocni-bazar",
+      "title": "97. Novosadski noćni bazar",
+      "category": "Šoping vodič",
+      "date": "2026-11-06",
+      "time": "17:00",
+      "location": "Riblja pijaca",
+      "url": "https://www.mojnovisad.com/navigator/97-novosadski-nocni-bazar/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/97nnb-04-1-300x300.png",
+      "lat": 45.2574643,
+      "lng": 19.8510831
+    },
+    {
       "id": "promocija-knjige-revolucija-in-vivo",
       "title": "PROMOCIJA KNJIGE “REVOLUCIJA IN VIVO”",
       "category": "Knjiga",
@@ -264,6 +216,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/IMG-2097152d787331998229253bab4bd1aa-V-300x207.jpg",
       "lat": 45.26553,
       "lng": 19.8293059
+    },
+    {
+      "id": "filokafe-da-nas-izrabljuju-ili-se-izrabljujemo",
+      "title": "Filokafe: Da nas izrabljuju ili se izrabljujemo?",
+      "category": "Radionica",
+      "date": "2026-11-06",
+      "time": "19:00",
+      "location": "Zenit",
+      "url": "https://www.mojnovisad.com/navigator/filokafe-da-nas-izrabljuju-ili-se-izrabljujemo/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/Filokafe-Izrabljivanje-240x300.png",
+      "lat": 45.2569986,
+      "lng": 19.8426561
     },
     {
       "id": "festival-srpskog-dzeza",
@@ -300,6 +264,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/novosadsko-pozoriste-300x200.jpg",
       "lat": 45.2577191,
       "lng": 19.8415872
+    },
+    {
+      "id": "putovanja-po-italiji-itenerari-zapisi-slike",
+      "title": "Putovanja po Italiji: itenerari, zapisi, slike",
+      "category": "Predavanje",
+      "date": "2026-11-06",
+      "time": "19:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/putovanja-po-italiji-itenerari-zapisi-slike/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/Aksentije-Marodic-Studija-muske-glave-1866-248x300.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
     },
     {
       "id": "violinista-na-krovu-5",
@@ -398,6 +374,42 @@
       "lng": 19.8412391
     },
     {
+      "id": "kustosko-vodenje-kroz-izlozbu-aksentije-marodic-u-potrazi-za-vecnom-lepotom-9",
+      "title": "Kustosko vođenje kroz izložbu “Aksentije Marodić. U potrazi za večnom lepotom”",
+      "category": "Izložba",
+      "date": "2026-11-07",
+      "time": "13:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/kustosko-vodenje-kroz-izlozbu-aksentije-marodic-u-potrazi-za-vecnom-lepotom-9/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Aksentije-Marodic-Sveti-arhangel-Gavrilo-1870-1890-200x300.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "kustosko-vodenje-kroz-izlozbu-aksentije-marodic-u-potrazi-za-vecnom-lepotom-12",
+      "title": "Kustosko vođenje kroz izložbu “Aksentije Marodić. U potrazi za večnom lepotom”",
+      "category": "Izložba",
+      "date": "2026-11-07",
+      "time": "17:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/kustosko-vodenje-kroz-izlozbu-aksentije-marodic-u-potrazi-za-vecnom-lepotom-12/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/Aksentije-Marodic-Studija-muske-glave-1866-248x300.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "festival-muzejskog-teatra-i-filma",
+      "title": "Festival muzejskog teatra i filma",
+      "category": "Festival",
+      "date": "2026-11-07",
+      "time": "17:00",
+      "location": "Spomen-zbirka Pavla Beljanskog",
+      "url": "https://www.mojnovisad.com/navigator/festival-muzejskog-teatra-i-filma/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/1-festival-240x300.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
       "id": "the-cyclist-conspiracy-u-zenitu",
       "title": "THE CYCLIST CONSPIRACY u ZENITU.",
       "category": "Koncert",
@@ -432,6 +444,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/862551444_1584918877013931_3069974759148988561_n-300x157.jpg",
       "lat": 45.258309,
       "lng": 19.839698
+    },
+    {
+      "id": "aj-karmela-2",
+      "title": "Aj, Karmela",
+      "category": "Predstava",
+      "date": "2026-11-07",
+      "time": "20:00",
+      "location": "Akademija umetnosti Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/aj-karmela-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/aj-karmela-0711-820-300x114.jpg",
+      "lat": 45.2586774,
+      "lng": 19.8437659
     },
     {
       "id": "zak-ili-pokornost-2",
@@ -471,7 +495,7 @@
     },
     {
       "id": "huba-buba-white-girl-summer",
-      "title": "Huba Buba – White Girl Summer",
+      "title": "Huba Buba – Late Bday Halloween",
       "category": "Noćni provod",
       "date": "2026-11-07",
       "time": "22:00",
@@ -542,6 +566,30 @@
       "lng": 19.8430384
     },
     {
+      "id": "kustosko-vodenje-kroz-izlozbu-aksentije-marodic-u-potrazi-za-vecnom-lepotom-10",
+      "title": "Kustosko vođenje kroz izložbu “Aksentije Marodić. U potrazi za večnom lepotom”",
+      "category": "Izložba",
+      "date": "2026-11-08",
+      "time": "13:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/kustosko-vodenje-kroz-izlozbu-aksentije-marodic-u-potrazi-za-vecnom-lepotom-10/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/Aksentije-Marodic-Sveti-arhangel-Gavrilo-1870-1890-200x300.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
+      "id": "kustosko-vodenje-kroz-izlozbu-aksentije-marodic-u-potrazi-za-vecnom-lepotom-11",
+      "title": "Kustosko vođenje kroz izložbu “Aksentije Marodić. U potrazi za večnom lepotom”",
+      "category": "Izložba",
+      "date": "2026-11-08",
+      "time": "17:00",
+      "location": "Galerija Matice srpske",
+      "url": "https://www.mojnovisad.com/navigator/kustosko-vodenje-kroz-izlozbu-aksentije-marodic-u-potrazi-za-vecnom-lepotom-11/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/Aksentije-Marodic-Studija-muske-glave-1866-248x300.jpg",
+      "lat": 45.2525077,
+      "lng": 19.8457366
+    },
+    {
       "id": "reform-marina-khudykh-and-string-ensemble",
       "title": "RE:FORM: Marina Khudykh and String Ensemble",
       "category": "Koncert",
@@ -588,6 +636,30 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/04/kabare-pikolo-grande-utopija-nspz-300x200.jpg",
       "lat": 45.2577191,
       "lng": 19.8415872
+    },
+    {
+      "id": "otvaranje-izlozbe-meta-morphis-aleksandra-adzica",
+      "title": "Otvaranje izložbe “Meta Morphis” Aleksandra Adžića",
+      "category": "Izložba",
+      "date": "2026-11-09",
+      "time": "19:00",
+      "location": "Mali likovni salon KCNS",
+      "url": "https://www.mojnovisad.com/navigator/otvaranje-izlozbe-meta-morphis-aleksandra-adzica/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/Meta-Morphis-Invitation-mail-300x191.jpg",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "putujuce-pozoriste-sopalovic-2",
+      "title": "Putujuće pozorište Šopalović",
+      "category": "Predstava",
+      "date": "2026-11-09",
+      "time": "19:00",
+      "location": "Akademija umetnosti Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/putujuce-pozoriste-sopalovic-2/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/sopalovic-0911-820-300x114.jpg",
+      "lat": 45.2586774,
+      "lng": 19.8437659
     },
     {
       "id": "stand-up-komedija-nemanje-cvijetica-tour-de-munem",
@@ -672,6 +744,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/1793609574Predstava_o_predstavi_org-216x300.jpg",
       "lat": 45.2552685,
       "lng": 19.8488543
+    },
+    {
+      "id": "desilo-mi-se",
+      "title": "Desilo mi se",
+      "category": "Predstava",
+      "date": "2026-11-10",
+      "time": "20:00",
+      "location": "Akademija umetnosti Novi Sad",
+      "url": "https://www.mojnovisad.com/navigator/desilo-mi-se/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/desilo-mi-se-1011-820-300x114.jpg",
+      "lat": 45.2586774,
+      "lng": 19.8437659
     },
     {
       "id": "lutka-sa-kreveta-broj-21-3",
@@ -818,6 +902,18 @@
       "lng": 19.8488543
     },
     {
+      "id": "marko-louis-komuna-concept",
+      "title": "Marko Louis / Komuna Concept",
+      "category": "Koncert",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "location": "Petrovaradin",
+      "url": "https://www.mojnovisad.com/navigator/marko-louis-komuna-concept/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/louis_1311_820-300x114.jpg",
+      "lat": 45.2426175,
+      "lng": 19.8820073
+    },
+    {
       "id": "ivica-i-marica-8",
       "title": "Ivica i Marica",
       "category": "Predstava",
@@ -828,6 +924,18 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/176053204420251015_143905-214x300.jpg",
       "lat": 45.2552685,
       "lng": 19.8488543
+    },
+    {
+      "id": "sumadija-wine-fest",
+      "title": "Šumadija WINE FEST",
+      "category": "Festival",
+      "date": "2026-11-14",
+      "time": "15:00",
+      "location": "Hotel Sheraton",
+      "url": "https://www.mojnovisad.com/navigator/sumadija-wine-fest/",
+      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/sumadija-wine-820-300x114.jpg",
+      "lat": 45.2481339,
+      "lng": 19.8163313
     },
     {
       "id": "festival-90s-vs-00s",
@@ -852,114 +960,6 @@
       "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/1791811061thumbnail-297x300.jpg",
       "lat": 45.2553613,
       "lng": 19.8430384
-    },
-    {
-      "id": "arsenik-i-stare-cipke-6",
-      "title": "Arsenik i stare čipke",
-      "category": "Predstava",
-      "date": "2026-11-14",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/arsenik-i-stare-cipke-6/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/Arsenik-i-stare-cipke2-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "jezic-zozo-6",
-      "title": "Ježić Žožo",
-      "category": "Predstava",
-      "date": "2026-11-15",
-      "time": "11:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/jezic-zozo-6/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/1788517027jezic_zozo-300x200.jpg",
-      "lat": 45.2552685,
-      "lng": 19.8488543
-    },
-    {
-      "id": "duhovna-skola-skola-zivota-5",
-      "title": "DUHOVNA ŠKOLA – ŠKOLA ŽIVOTA",
-      "category": "Radionica",
-      "date": "2026-11-15",
-      "time": "15:00",
-      "location": "Novi Sad",
-      "url": "https://www.mojnovisad.com/navigator/duhovna-skola-skola-zivota-5/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/1-DUHOVNA-SKOLA-300x174.jpg",
-      "lat": 45.26553,
-      "lng": 19.8293059
-    },
-    {
-      "id": "mrki-nisam-ti-ispricao-2",
-      "title": "Mrki – Nisam ti ispričao",
-      "category": "Predstava",
-      "date": "2026-11-15",
-      "time": "20:00",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/mrki-nisam-ti-ispricao-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/mrki_820_1511-300x114.jpg",
-      "lat": 45.2419788,
-      "lng": 19.8412391
-    },
-    {
-      "id": "39-stepenika-2",
-      "title": "39 Stepenika",
-      "category": "Predstava",
-      "date": "2026-11-15",
-      "time": "20:00",
-      "location": "Pozorište mladih",
-      "url": "https://www.mojnovisad.com/navigator/39-stepenika-2/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/09/39-stepenika-pozml-300x234.jpg",
-      "lat": 45.2552685,
-      "lng": 19.8488543
-    },
-    {
-      "id": "suma-covjek",
-      "title": "Šuma Čovjek",
-      "category": "Koncert",
-      "date": "2026-11-15",
-      "time": "21:00",
-      "location": "Gerila Bar",
-      "url": "https://www.mojnovisad.com/navigator/suma-covjek/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/4-1-253x300.jpg",
-      "lat": 45.2570291,
-      "lng": 19.843874
-    },
-    {
-      "id": "arsenik-i-stare-cipke-7",
-      "title": "Arsenik i stare čipke",
-      "category": "Predstava",
-      "date": "2026-11-16",
-      "time": "19:30",
-      "location": "Srpsko narodno pozorište",
-      "url": "https://www.mojnovisad.com/navigator/arsenik-i-stare-cipke-7/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/11/Arsenik-i-stare-cipke-300x200.jpg",
-      "lat": 45.2553613,
-      "lng": 19.8430384
-    },
-    {
-      "id": "mrki-nisam-ti-ispricao-3",
-      "title": "Mrki – Nisam ti ispričao",
-      "category": "Predstava",
-      "date": "2026-11-16",
-      "time": "20:00",
-      "location": "Naftna industrija Srbije",
-      "url": "https://www.mojnovisad.com/navigator/mrki-nisam-ti-ispricao-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/mrki_1611_820-300x114.jpg",
-      "lat": 45.2419788,
-      "lng": 19.8412391
-    },
-    {
-      "id": "stand-up-srdana-olmana-strucnjak-3",
-      "title": "Stand up Srđana Olmana “Stručnjak”",
-      "category": "Predstava",
-      "date": "2026-11-16",
-      "time": "20:00",
-      "location": "Radnički dom \"Svetozar marković\"",
-      "url": "https://www.mojnovisad.com/navigator/stand-up-srdana-olmana-strucnjak-3/",
-      "image_url": "https://www.mojnovisad.com/wp-content/uploads/2026/10/olman_1611_820-300x114.jpg",
-      "lat": null,
-      "lng": null
     }
   ]
 }

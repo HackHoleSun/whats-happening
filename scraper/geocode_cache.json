@@ -382,5 +382,9 @@
   "planinarski-dom-jedinstvo-iriski-venac": {
     "lat": null,
     "lng": null
+  },
+  "hotel-sheraton": {
+    "lat": 45.2481339,
+    "lng": 19.8163313
   }
 }
