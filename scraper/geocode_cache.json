@@ -386,5 +386,13 @@
   "hotel-sheraton": {
     "lat": 45.2481339,
     "lng": 19.8163313
+  },
+  "hotel-novi-sad": {
+    "lat": 45.2633879,
+    "lng": 19.8290783
+  },
+  "francuski-institut-ogranak-u-novom-sadu": {
+    "lat": null,
+    "lng": null
   }
 }
